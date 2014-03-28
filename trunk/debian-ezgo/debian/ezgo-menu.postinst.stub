@@ -1,0 +1,14 @@
+#! /bin/sh
+
+set -e
+
+#DEBHELPER#
+
+case "$1" in
+  configure)
+    chmod +x /usr/share/ezgo/ezgo-menu/ezgomenu/desktop_maker.py
+    chmod +x /usr/share/ezgo/ezgo-menu/update-desktop.sh
+    /usr/share/ezgo/ezgo-menu/update-desktop.sh
+    ;;
+esac
+

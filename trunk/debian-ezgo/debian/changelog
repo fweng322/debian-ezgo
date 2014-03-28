@@ -1,0 +1,51 @@
+ezgo (11.0-1) UNRELEASED; urgency=low
+
+  [ Andreas Tille ]
+  * Versioned Build-Depends blends-dev >= 0.6.91
+  * ezgo-artwork is no task with dependencies - so remove it
+    from the tasks dir and add long description to contro.stub.
+
+  [ Franklin Weng ]
+  * Change the version of debian ezgo to 11.0.
+
+ -- Franklin Weng <franklin@ip-server.everfocus.com.tw>  Fri, 28 Mar 2014 14:18:01 +0800
+
+ezgo (0.8.0) unstable; urgency=low
+
+  [ Yang,Wei (楊威) ]
+  * Del gnucash
+
+  [ Andrew Lee (李健秋) ]
+  * Removing splashy.
+  * Refine tasks common to make EzGo desktop independent.
+
+  [ Vincent Chiou (邱文盛) ]
+  * Added ppdfshuffler
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Fri, 18 Nov 2011 20:54:33 +0800
+
+ezgo (0.7.2) unstable; urgency=low
+
+  * Added ezgo-artwork
+  * Added ezgo-artwork-splashy
+    Thanks the author Medical Wei <medicalwei@gmail.com>
+  * Added ezgo-common
+  * Make description clearly to mention it's a pure blends. (Closes:#566682)
+  * Network task:
+    - Added amsn by 萬祥傑 <norman56@gmail.com>
+  * Game task:
+    - Added atomix by 孫正華 <frank.suan@gmail.com>
+    - Added numptyphysics by 孫正華 <frank.suan@gmail.com>
+  * Office Task:
+    - added openoffice.org-ogltrans by 孫正華 <frank.suan@gmail.com>
+  * Multimedia task:
+    - Added mscore Thanks 江明勳 <glglace@gmail.com>
+    - Added imagination 村仔 <tw.chi.ming@gmail.com>
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 24 Jun 2010 22:03:21 +0800
+
+ezgo (0.7.1) unstable; urgency=low
+
+  * Initial release
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Fri, 20 Nov 2009 11:38:01 +0800

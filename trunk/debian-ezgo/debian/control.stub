@@ -1,0 +1,43 @@
+Source: ezgo
+Section: misc
+Priority: extra
+Maintainer: Debain EzGo Packaging Team <debian-ezgo-packaging@lists.alioth.debian.org>
+Uploaders: Andrew Lee (李健秋) <ajqlee@debian.org>,
+ Andreas Tille <tille@debian.org>
+Build-Depends: debhelper (>= 7), blends-dev (>= 0.6.91)
+Standards-Version: 3.9.3
+Dm-Upload-Allowed: yes
+Homepage: http://wiki.debian.org/DebianEzGo
+Vcs-Browser: http://svn.debian.org/wsvn/blends/projects/ezgo/trunk/debian-ezgo/
+Vcs-Svn: svn://svn.debian.org/blends/projects/ezgo/trunk/debian-ezgo/
+
+Package: ezgo-artwork
+Architecture: all
+Description: Artwork for ezgo11
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and self-learning.
+ .
+ This package contains artwork for ezgo.
+
+Package: ezgo-menu
+Architecture: all
+Description: ezgo menu style
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and self-learning.
+ .
+ This package will replace your XDG menu into ezgo style.
+Depends: python3, python3-minimal
+
+Package: ezgo-tasks
+Architecture: all
+Depends: tasksel
+Description: ezgo tasks for tasksel
+ This package provides ezgo tasks in tasksel.
+ .
+ These tasks are described in detail at
+ http://blends.alioth.debian.org/ezgo/tasks
+

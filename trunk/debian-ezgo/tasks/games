@@ -1,0 +1,46 @@
+Task: Games
+Description: EzGo Games
+ The EzGo is a Debian Pure Blends project which collects a set of free
+ software and aims to promote the usage of free software on teaching and
+ self-learning.
+ .
+ It is a set of free software collection aims to promote the usage of
+ free software on teaching and self-learning.
+ .
+ This is the selection of games.
+
+Depends: ktuberling
+
+Depends: tuxmath
+
+Depends: tuxtype
+
+Depends: gnome-games
+
+Depends: knetwalk
+
+Depends: pinball
+
+Depends: lbreakout2
+
+Depends: frozen-bubble
+
+Depends: kblocks
+
+Depends: kolf
+
+Depends: tuxpuck
+
+Depends: supertux
+
+Depends: planetpenguin-racer
+
+Depends: pingus
+
+Depends: supertuxkart
+
+Depends: torcs
+
+Depends: atomix
+
+Depends: numptyphysics

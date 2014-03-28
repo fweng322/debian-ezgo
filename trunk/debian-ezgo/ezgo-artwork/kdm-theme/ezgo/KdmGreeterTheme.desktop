@@ -1,0 +1,12 @@
+# This is not really a .desktop file like the rest, but it is useful to treat
+# it as such
+# See http://docs.kde.org/stable/en/kdebase-workspace/kdm/kdm-themes.html
+# for information about the KDM theme format.
+
+[KdmGreeterTheme]
+Greeter=ezgo.xml
+Name=ezgo
+Description=KDM theme for ezgo
+Author=Bing-run Jiang
+Copyright=(c) 2013, Bing-run Jiang
+Screenshot=screenshot.png

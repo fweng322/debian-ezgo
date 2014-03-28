@@ -1,0 +1,47 @@
+Task: Network
+Description: EzGo network
+ The EzGo is a Debian Pure Blends project which collects a set of free
+ software and aims to promote the usage of free software on teaching and
+ self-learning.
+ .
+ This is the selection of networking related packages.
+
+Depends: iceweasel
+
+Depends: kompozer
+
+Depends: icedove
+
+Depends: evolution
+
+Depends: pidgin
+
+Depends: kopete
+
+Depends: emesene
+
+Depends: ekiga
+
+Depends: pcmanx-gtk2
+
+Depends: gftp
+
+Depends: filezilla
+
+Depends: vinagre
+
+Depends: tsclient
+
+Depends: transmission
+
+Depends: exe
+WNPP: #501895
+License: GPL
+Homepage: http://sourceforge.net/apps/trac/exe/wiki
+Pkg-URL: http://eduforge.org/frs/download.php/842/python2.5-exe_1.04.0.3532-ubuntu1_i386.deb
+Pkg-Description: the eLearning XHTML editor
+ The eXe project is an authoring environment to enable teachers to publish
+ web content without the need to become proficient in HTML or XML markup.
+ Content generated using eXe can be used by any Learning Management System.
+
+Depends: amsn

@@ -1,0 +1,59 @@
+Task: Imaging
+Description: EzGo imaging
+ The EzGo is a Debian Pure Blends project which collects a set of free
+ software and aims to promote the usage of free software on teaching and
+ self-learning.
+ .
+ It is a set of free software collection aims to promote the usage of
+ free software on teaching and self-learning.
+ .
+ This is the selection of image tools.
+
+Depends: gpaint
+
+Depends: kolourpaint4
+
+Depends: tuxpaint
+
+Depends: inkscape
+
+Depends: gimp
+
+Depends: scribus
+
+Depends: digikam
+
+Depends: f-spot
+
+Depends: eog
+
+Depends: gwenview
+
+Depends: cheese
+
+Depends: qcad
+
+Depends: ktoon
+
+Depends: pencil
+Homepage: http://www.pencil-animation.org/
+License: free
+WNPP: #490702
+Pkg-Description: drawing traditional hand-drawn animations
+ Pencil is an animation/drawing software which lets you create
+ traditional hand-drawn animation (cartoon) using both bitmap and vector
+ graphics.
+
+Depends: blender
+
+Depends: ballview
+
+Depends: ardesia
+
+Depends: fotowall
+
+Depends: shotwell
+
+Depends: sweethome3d
+
+Depends: hugin

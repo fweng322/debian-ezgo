@@ -1,0 +1,1 @@
+DPkg::Post-Invoke {"if [ -x /usr/share/ezgo/ezgo-menu/update-desktop.sh ]; then /usr/share/ezgo/ezgo-menu/update-desktop.sh; fi; ";};

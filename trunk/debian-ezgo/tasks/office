@@ -1,0 +1,53 @@
+Task: Office
+Description: EzGo Office
+ The EzGo is a Debian Pure Blends project which collects a set of free
+ software and aims to promote the usage of free software on teaching and
+ self-learning.
+ .
+ This is the selection of office tools.
+
+Depends: openclipart
+
+Depends: openoffice.org-writer, openoffice.org-calc, openoffice.org-impress, openoffice.org-base, openoffice.org-draw, openoffice.org-ogltrans
+
+Depends: xmind
+Homepage: http://www.xmind.net/
+License: free
+Responsible: Andrew Lee <ajqlee@debian.org>
+Pkg-Description: brainstorming and mind mapping software
+ XMind, combined with online sharing service, provides a revolutionary
+ way to enable both team brainstorming and personal mind mapping. With
+ this major upgrade, we bring Web 2.0 concepts on community sharing into
+ a popular desktop application. New Gantt view allows project managers to
+ easily track project tasks and schedules. You'll find many more useful
+ and time-saving functions in XMind product family.
+
+Depends: dia
+
+Depends: okular
+
+Depends: pdfedit
+
+Depends: planner
+
+Depends: ganttproject
+Homepage: http://www.ganttproject.biz/
+License: free
+WNPP: #436792
+Pkg-Description: Gantt chart based project scheduling and management tool
+ GanttProject is a cross-platform desktop tool for project scheduling and management.
+ Major feature include:
+ .
+  * Task hierarchy and dependencies
+  * Gantt chart
+  * Resource load chart
+  * Generation of PERT chart
+  * PDF and HTML reports
+  * MS Project import/export
+  * WebDAV based groupwork
+
+Depends: ppdfshuffler
+
+Depends: scribus
+
+

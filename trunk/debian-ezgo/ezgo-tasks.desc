@@ -1,0 +1,253 @@
+Task: ezgo-accessories
+Section: ezgo
+Description: EzGo Accessories
+ The EzGo is a Debian Pure Blends project which collects a set of free
+ software and aims to promote the usage of free software on teaching and
+ self-learning.
+ .
+ This is the selection of Accessories.
+Relevance: 10
+Key: 
+ ezgo-accessories
+Packages: list
+ lxterminal
+ gedit
+ gcalctool
+ convertall
+ tomboy
+ stardict
+ xournal
+ python-whiteboard
+
+Task: ezgo-common
+Section: ezgo
+Description: ezgo common
+ The ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and self-learning.
+ .
+ This is the common set of packages needed by ezgo.
+Relevance: 10
+Key: 
+ ezgo-common
+Packages: list
+ xserver-xorg-video-all
+ xserver-xorg-input-all
+ xorg
+ libgl1-mesa-dri
+ bash-completion
+ openssh-client
+ task-kde-desktop
+
+Task: ezgo-education
+Section: ezgo
+Description: EzGo Education
+ The EzGo is a Debian Pure Blends project which collects a set of free
+ software and aims to promote the usage of free software on teaching and
+ self-learning.
+ .
+ It is a set of free software collection aims to promote the usage of
+ free software on teaching and self-learning.
+ .
+ This is the selection of education tools.
+Relevance: 10
+Key: 
+ ezgo-education
+Packages: list
+ drgeo
+ kig
+ kmplot
+ kbruch
+ kalgebra
+ wxmaxima
+ kalzium
+ ghemical
+ avogadro
+ gchempaint
+ gcu-bin
+ bkchem
+ pymol
+ step
+ kstars
+ stellarium
+ celestia
+ kgeography
+ marble
+ klettres
+ khangman
+ kanagram
+ kwordquiz
+ parley
+ gcompris
+ ktouch
+ kturtle
+ scratch
+
+Task: ezgo-games
+Section: ezgo
+Description: EzGo Games
+ The EzGo is a Debian Pure Blends project which collects a set of free
+ software and aims to promote the usage of free software on teaching and
+ self-learning.
+ .
+ It is a set of free software collection aims to promote the usage of
+ free software on teaching and self-learning.
+ .
+ This is the selection of games.
+Relevance: 10
+Key: 
+ ezgo-games
+Packages: list
+ ktuberling
+ tuxmath
+ tuxtype
+ gnome-games
+ knetwalk
+ pinball
+ lbreakout2
+ frozen-bubble
+ kblocks
+ kolf
+ tuxpuck
+ supertux
+ planetpenguin-racer
+ pingus
+ supertuxkart
+ torcs
+ atomix
+ numptyphysics
+
+Task: ezgo-imaging
+Section: ezgo
+Description: EzGo imaging
+ The EzGo is a Debian Pure Blends project which collects a set of free
+ software and aims to promote the usage of free software on teaching and
+ self-learning.
+ .
+ It is a set of free software collection aims to promote the usage of
+ free software on teaching and self-learning.
+ .
+ This is the selection of image tools.
+Relevance: 10
+Key: 
+ ezgo-imaging
+Packages: list
+ gpaint
+ kolourpaint4
+ tuxpaint
+ inkscape
+ gimp
+ scribus
+ digikam
+ f-spot
+ eog
+ gwenview
+ cheese
+ blender
+ ballview
+ ardesia
+ fotowall
+ shotwell
+ sweethome3d
+ hugin
+
+Task: ezgo-lang-vi_VN-desktop
+Section: ezgo
+Description: Vietnamese support for Debian EzGo Desktop
+ This metapackage depends on various office and desktop applications
+ that are useful for teachers and their students.
+Relevance: 10
+Packages: list
+ scim-unikey
+ ibus-unikey
+
+Task: ezgo-lang-zh_TW-desktop
+Section: ezgo
+Description: Traditional Chinese support for Debian EzGo Desktop
+ This metapackage depends on various office and desktop applications
+ that are useful for teachers and their students.
+Relevance: 10
+Packages: list
+ ttf-wqy-zenhei
+ ttf-wqy-microhei
+ hime
+ kde-l10n-zhtw
+
+Task: ezgo-multimedia
+Section: ezgo
+Description: EzGo multimedia
+ The EzGo is a Debian Pure Blends project which collects a set of free
+ software and aims to promote the usage of free software on teaching and
+ self-learning.
+ .
+ This is the selection of multimedia packages.
+Relevance: 10
+Key: 
+ ezgo-multimedia
+Packages: list
+ audacious
+ rhythmbox
+ amarok
+ vlc
+ totem
+ smplayer
+ mplayer
+ audacity
+ tuxguitar
+ rosegarden
+ gnome-media
+ sound-juicer
+ gtk-recordmydesktop
+ kino
+ kdenlive
+ oggconvert
+ k3b
+ brasero
+ mscore
+ imagination
+
+Task: ezgo-network
+Section: ezgo
+Description: EzGo network
+ The EzGo is a Debian Pure Blends project which collects a set of free
+ software and aims to promote the usage of free software on teaching and
+ self-learning.
+ .
+ This is the selection of networking related packages.
+Relevance: 10
+Key: 
+ ezgo-network
+Packages: list
+ iceweasel
+ icedove
+ evolution
+ pidgin
+ kopete
+ emesene
+ ekiga
+ pcmanx-gtk2
+ gftp
+ filezilla
+ vinagre
+ transmission
+ amsn
+
+Task: ezgo-office
+Section: ezgo
+Description: EzGo Office
+ The EzGo is a Debian Pure Blends project which collects a set of free
+ software and aims to promote the usage of free software on teaching and
+ self-learning.
+ .
+ This is the selection of office tools.
+Relevance: 10
+Key: 
+ ezgo-office
+Packages: list
+ openclipart
+ dia
+ okular
+ planner
+ scribus
+

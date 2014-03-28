@@ -1,0 +1,29 @@
+Task: Accessories
+Description: EzGo Accessories
+ The EzGo is a Debian Pure Blends project which collects a set of free
+ software and aims to promote the usage of free software on teaching and
+ self-learning.
+ .
+ This is the selection of Accessories.
+
+Depends: lxterminal
+
+Depends: gedit
+
+Depends: gnome-utils
+
+Depends: gcalctool
+
+Depends: convertall
+
+Depends: tomboy
+
+Depends: stardict
+
+Depends: gtkwhiteboard
+
+Depends: xournal
+
+Depends: python-whiteboard
+
+Depends: wiican

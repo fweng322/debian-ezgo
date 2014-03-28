@@ -1,0 +1,56 @@
+Task: Traditional Chinese Desktop
+Architecture: any
+Metapackage: false
+Description: Traditional Chinese support for Debian EzGo Desktop
+ This metapackage depends on various office and desktop applications
+ that are useful for teachers and their students.
+
+Depends:     openoffice.org-help-zh-tw, \
+             openoffice.org-l10n-zh-tw
+Why:         Traditional Chinese packages for OpenOffice.org
+Responsible: ?
+NeedConfig:  ?
+
+Depends:     ttf-arphic-uming, ttf-arphic-ukai, ttf-wqy-zenhei, ttf-wqy-microhei
+Why:	     Chinese fonts
+
+Depends: ttf-tw-kai
+Homepage: http://www.cns11643.gov.tw/AIDB/download.do?name=字型下載
+License: non-free
+Responsible: Andrew Lee <ajqlee@debian.org>
+Pkg-Description: CNS11643 fonts from Taiwanese government
+ TW-Sung and TW-Kai fonts are created by Directorage-General of Budget,
+ Accounting and Statistics, Executive Yuan, (R.O.C.) Taiwan and under
+ CNS11643 national standard and includes mapping to UNICODE.
+
+Depends: ttf-tw-sung
+Homepage: http://www.cns11643.gov.tw/AIDB/download.do?name=字型下載
+License: non-free
+Responsible: Andrew Lee <ajqlee@debian.org>
+Pkg-Description: CNS11643 fonts from Taiwanese government
+ TW-Sung and TW-Kai fonts are created by Directorage-General of Budget,
+ Accounting and Statistics, Executive Yuan, (R.O.C.) Taiwan and under
+ CNS11643 national standard and includes mapping to UNICODE.
+
+Depends: ttf-cwtex
+Homepage: http://cle.linux.org.tw/fonts/cwttf/center/
+License: GPL2
+WNPP: #469480
+Pkg-Description: cwTex TrueType Fonts
+ cwTex TrueType Fonts was orientate from cwTeX's Type 1 fonts and includes
+ Alexej Kryukov's CM-LGC fonts and Koanughi Un's Korean fonts.
+ .
+ It provides five TrueType Fonts in different styles/family names:
+  * cwming.ttf		MingTi Style		cwTeXMing
+  * cwkai.ttf		KaiShuTi Style		cwTeXKai
+  * cwfs.ttf		FangSungTi Style	cwTeXFangSong
+  * cwheib.ttf		CuHeiTi Style		cwTeXHeiBold
+  * cwyen.ttf		YuanTi Style		cwTeXYen
+
+Depends:     im-switch, hime
+Why:         input method support
+Responsible: Andrew Lee
+NeedConfig:  no
+
+Depends: kde-l10n-zhtw
+

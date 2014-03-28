@@ -1,0 +1,9 @@
+[KSplash Theme: Default]
+Name = ezgo
+Description = Splash Screen for ezgo 11
+Version = 11.0
+Author = Jiang Bing-Run <nickb771223@gmail.com>
+Homepage = http://ezgo.westart.tw/
+
+# Theme behaviour settings.
+Engine = KSplashX

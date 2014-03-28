@@ -1,0 +1,13 @@
+#! /bin/sh
+
+set -e
+
+#DEBHELPER#
+
+case "$1" in
+  configure)
+    chmod +x /usr/share/ezgo/ezgo-artwork/update-artwork
+    /usr/share/ezgo/ezgo-artwork/update-artwork configure
+    ;;
+esac
+

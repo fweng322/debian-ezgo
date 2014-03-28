@@ -1,0 +1,28 @@
+Task: Common
+Description: ezgo common
+ The ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and self-learning.
+ .
+ This is the common set of packages needed by ezgo.
+
+Depends: ezgo-menu
+
+Depends: ezgo-artwork
+
+Depends: xserver-xorg-video-all
+
+Depends: xserver-xorg-input-all
+
+Depends: xorg
+
+Depends: libgl1-mesa-dri
+
+Depends: bash-completion
+
+Depends: dhcp3-client
+
+Depends: openssh-client
+
+Depends: task-kde-desktop
