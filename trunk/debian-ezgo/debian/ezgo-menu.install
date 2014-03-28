@@ -1,7 +1,7 @@
-desktop-directories/* usr/share/ezgo/ezgo-menu/desktop-directories
-ezgomenu/* usr/share/ezgo/ezgo-menu/ezgomenu
-system/33ezgo-menu etc/X11/Xsession.d
-system/80update-ezgomenu etc/apt/apt.conf.d
-system/update-desktop.sh usr/share/ezgo/ezgo-menu
-xdg/ezgomenu_* etc/xdg/ezgo
-xdg/ezgo-applications.menu etc/xdg/menus
+ezgo-menu/desktop-directories/* usr/share/ezgo/ezgo-menu/desktop-directories
+ezgo-menu/ezgomenu/* usr/share/ezgo/ezgo-menu/ezgomenu
+ezgo-menu/system/33ezgo-menu etc/X11/Xsession.d
+ezgo-menu/system/80update-ezgomenu etc/apt/apt.conf.d
+ezgo-menu/system/update-desktop.sh usr/share/ezgo/ezgo-menu
+ezgo-menu/xdg/ezgomenu_* etc/xdg/ezgo
+ezgo-menu/xdg/ezgo-applications.menu etc/xdg/menus
