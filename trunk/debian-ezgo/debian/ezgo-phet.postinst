@@ -1,0 +1,26 @@
+#!/bin/sh
+
+PHET_VERSION=2013
+PHET_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-phet/PhET${PHET_VERSION}.tar.gz
+OUTPUT_FILE=/usr/share/ezgo/ezgo-prt/PhET${PHET_VERSION}.tar.gz
+
+mkdir -p /usr/share/ezgo/ezgo-prt/
+
+echo "Downloading PhET${PHET_VERSION}"
+
+exit_with_error()
+{
+	echo $1
+	exit 1
+}
+
+wget --continue -O $OUTPUT_FILE $PHET_URL || exit_with_error "Download failed: $?"
+
+cd /usr/share/ezgo/ezgo-prt
+tar xfz $OUTPUT_FILE
+rm -f PhET
+ln -s PhET${PHET_VERSION} PhET
+
+#DEBHELPER#
+
+exit 0

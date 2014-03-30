@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[zh_TW]=動畫模擬教學_PhET
+Comment=PhET
+Exec=x-www-browser /usr/share/ezgo/ezgo-prt/PhET/index.html
+GenericName[zh_TW]=PhET包含了物理生物化學地球科學數學等100多個動畫模擬教學範例
+GenericName=PhET
+Icon=/usr/share/ezgo/ezgo-prt/PhET/phet-logo-48x48.png
+Name[zh_TW]=動畫模擬教學_PhET
+Name=PhET
+StartupNotify=true
+Terminal=false
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+Categories=Education;X-Opencontent;
