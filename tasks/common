@@ -16,14 +16,12 @@ Depends: xserver-xorg-video-all
 
 Depends: xserver-xorg-input-all
 
-Depends: xorg
+Recommends: xorg
 
 Depends: libgl1-mesa-dri
 
 Depends: bash-completion
 
-Depends: dhcp3-client
-
 Depends: openssh-client
 
-Depends: task-kde-desktop
+Depends: openssh-server

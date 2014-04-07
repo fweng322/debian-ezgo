@@ -6,24 +6,14 @@ Description: EzGo Accessories
  .
  This is the selection of Accessories.
 
-Depends: lxterminal
-
-Depends: gedit
-
-Depends: gnome-utils
-
-Depends: gcalctool
-
 Depends: convertall
 
-Depends: tomboy
-
-Depends: stardict
-
-Depends: gtkwhiteboard
-
-Depends: xournal
-
-Depends: python-whiteboard
-
 Depends: wiican
+
+Depends: kate
+
+Depends: vim-gtk
+
+Depends: kcalc
+
+Depends: kmag

@@ -9,38 +9,20 @@ Description: EzGo Games
  .
  This is the selection of games.
 
-Depends: ktuberling
-
 Depends: tuxmath
 
 Depends: tuxtype
 
 Depends: gnome-games
 
-Depends: knetwalk
-
-Depends: pinball
-
-Depends: lbreakout2
-
-Depends: frozen-bubble
+Depends: kdegames
 
 Depends: kblocks
 
-Depends: kolf
-
-Depends: tuxpuck
-
 Depends: supertux
-
-Depends: planetpenguin-racer
 
 Depends: pingus
 
 Depends: supertuxkart
 
-Depends: torcs
-
 Depends: atomix
-
-Depends: numptyphysics

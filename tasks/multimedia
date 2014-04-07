@@ -26,13 +26,7 @@ Depends: tuxguitar
 
 Depends: rosegarden
 
-Depends: gnome-media
-
 Depends: sound-juicer
-
-Depends: gtk-recordmydesktop
-
-Depends: kino
 
 Depends: kdenlive
 

@@ -9,19 +9,11 @@ Description: EzGo Education
  .
  This is the selection of education tools.
 
+Depends: kdeedu
+
 Depends: drgeo
 
-Depends: kig
-
-Depends: kmplot
-
-Depends: kbruch
-
-Depends: kalgebra
-
 Depends: wxmaxima
-
-Depends: kalzium
 
 Depends: ghemical
 
@@ -29,39 +21,15 @@ Depends: avogadro
 
 Depends: gchempaint
 
-Depends: gcu-bin
-
 Depends: bkchem
 
 Depends: pymol
-
-Depends: step
-
-Depends: kstars
 
 Depends: stellarium
 
 Depends: celestia
 
-Depends: kgeography
-
-Depends: marble
-
-Depends: klettres
-
-Depends: khangman
-
-Depends: kanagram
-
-Depends: kwordquiz
-
-Depends: parley
-
 Depends: gcompris
-
-Depends: ktouch
-
-Depends: kturtle
 
 Depends: kayali
 Homepage: http://kayali.sourceforge.net/

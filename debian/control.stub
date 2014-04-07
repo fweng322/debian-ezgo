@@ -21,6 +21,7 @@ Description: Artwork for ezgo11
  self-learning.
  .
  This package contains artwork for ezgo.
+Conflicts: kubuntu-settings-desktop, kubuntu-settings-netbook
 
 Package: ezgo-menu
 Architecture: all
