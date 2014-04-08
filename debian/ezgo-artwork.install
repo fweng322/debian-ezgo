@@ -15,4 +15,5 @@ ezgo-artwork/wallpaper/30-desktop-base-ezgo.js usr/share/kde4/apps/plasma-deskto
 ezgo-artwork/kde/30ezgo-artwork etc/X11/Xsession.d
 ezgo-artwork/kde/layout.js usr/share/ezgo/kde-profile/share/apps/plasma/layout-templates/org.kde.plasma-desktop.defaultPanel/contents/
 ezgo-artwork/kde/update-artwork usr/share/ezgo/ezgo-artwork
-ezgo-artwork/grub/ezgo-splash-grub.png usr/share/ezgo/grub
+ezgo-artwork/grub/*.png usr/share/ezgo/grub
+ezgo-artwork/gnome/50_ezgo-gnome-settings.gschema.override usr/share/glib-2.0/schemas
