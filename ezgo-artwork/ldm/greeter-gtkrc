@@ -1,0 +1,90 @@
+# LTSP theme for LDM
+#
+# based on, though significantly gutted:
+#
+# Ubuntu Human Colorscheme
+#
+# Authors:
+# Richard Stellingwerff <remenic@gmail.com>
+# Daniel Borgmann <daniel.borgmann@gmail.com>
+# Billy Cantrell <bvcmdk@yahoo.com>
+#
+# Feel free to modify and share!
+
+style "clearlooks-default"
+{
+    font_name="Sans 10"
+    GtkButton      ::default_border    = { 0, 0, 0, 0 }
+    GtkRange       ::trough_border     = 0
+
+    GtkCheckButton ::indicator_size    = 14
+    GtkExpander    ::expander_size     = 16
+
+    GtkButton      ::child-displacement-x = 1
+    GtkButton      ::child-displacement-y = 1
+
+    bg[PRELIGHT]      = "#9baada"
+    bg[SELECTED]      = "#637a9a"
+
+    engine "clearlooks"
+    {
+        menubarstyle      = 0       # 0 = flat, 1 = sunken, 2 = flat gradient
+        menuitemstyle     = 0       # 0 = flat, 1 = 3d-ish (gradient), 2 = 3d-ish (button)
+        listviewitemstyle = 0       # 0 = flat, 1 = 3d-ish (gradient)
+        progressbarstyle  = 0       # 0 = candy bar, 1 = fancy candy bar, 2 = flat
+        animation         = FALSE
+    }
+}
+
+style "clearlooks-wide" = "clearlooks-default"
+{
+    xthickness = 2
+    ythickness = 2
+}
+
+style "clearlooks-wider" = "clearlooks-default"
+{
+    xthickness = 3
+    ythickness = 3
+    font_name="Sans 9"
+}
+
+style "clearlooks-tasklist" = "clearlooks-default"
+{
+    xthickness = 5
+    ythickness = 3
+}
+
+style "clearlooks-menu" = "clearlooks-default"
+{
+    xthickness = 2
+    ythickness = 1
+}
+
+style "clearlooks-menu-item" = "clearlooks-default"
+{
+    xthickness = 2
+    ythickness = 3
+}
+
+style "clearlooks-tooltips" = "clearlooks-default"
+{
+    xthickness = 4
+    ythickness = 4
+    bg[NORMAL] = { 1.0,1.0,0.75 }
+}
+
+# widget styles
+class "GtkWidget"      style "clearlooks-default"
+class "GtkCombo"       style "clearlooks-button"
+class "GtkRange"       style "clearlooks-wide"
+class "GtkFrame"       style "clearlooks-wide"
+class "GtkMenu"        style "clearlooks-menu"
+class "GtkEntry"       style "clearlooks-wider"
+class "GtkMenuItem"    style "clearlooks-menu-item"
+
+widget_class "*MenuItem.*" style "clearlooks-menu-item"
+
+# tooltips stuff
+widget_class "*.tooltips.*.GtkToggleButton" style "clearlooks-tasklist"
+widget "gtk-tooltips" style "clearlooks-tooltips"

@@ -1,17 +1,16 @@
 #! /bin/sh
 set -e
 
-#  change_ldm_background() {
-#      update-alternatives --install /usr/share/ldm/themes/default \
-#          ldm-theme /usr/share/ldm/themes/debian-edu 85
-#  }
-#  
-#  restore_ldm_background() {
-#      update-alternatives --remove ldm-theme /usr/share/ldm/themes/debian-edu
-#  }
-#  
-#  
-#  ## GRUB
+change_ldm_background() {
+    update-alternatives --install /usr/share/ldm/themes/default \
+        ldm-theme /usr/share/ldm/themes/ezgo 90
+}
+
+restore_ldm_background() {
+    update-alternatives --remove ldm-theme /usr/share/ldm/themes/ezgo
+}
+ 
+## GRUB
 change_grub_background() {
     priority=60 # value higher than 50 used for debian-edu-splash-grub.png in desktop-base
     update-alternatives --install \
@@ -89,14 +88,14 @@ restore_ksplash() {
 
 case "$1" in
   configure)
-#      change_ldm_background
+    change_ldm_background
     change_grub_background
     change_desktop_background
     change_ksplash
 #      compile_gschemas
     ;;
   remove)
-#      restore_ldm_background
+    restore_ldm_background
     restore_grub_background
     restore_desktop_background
     restore_ksplash
