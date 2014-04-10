@@ -1,6 +1,23 @@
 #! /bin/sh
 set -e
 
+# Lightdm-kde-greeter
+change_lightdm_kde_theme() {
+	if [ -f /etc/lightdm/lightdm-kde-greeter.conf ]; then
+		mv /etc/lightdm/lightdm-kde-greeter.conf /etc/lightdm/lightdm-kde-greeter.conf.ezgo-bak
+		cp -f /usr/share/kde4/apps/lightdm-kde-greeter/themes/ezgo/lightdm-kde-greeter.conf /etc/lightdm/lightdm-kde-greeter.conf.ezgo
+		ln -s /etc/lightdm/lightdm-kde-greeter.conf.ezgo /etc/lightdm/lightdm-kde-greeter.conf
+	fi
+}
+
+restore_lightdm_kde_theme() {
+	if [ -f /etc/lightdm/lightdm-kde-greeter.conf.ezgo-bak ]; then
+		rm -f /etc/lightdm/lightdm-kde-greeter.conf
+		mv /etc/lightdm/lightdm-kde-greeter.conf.ezgo-bak /etc/lightdm/lightdm-kde-greeter.conf
+	fi
+}
+
+# LDM
 change_ldm_background() {
     update-alternatives --install /usr/share/ldm/themes/default \
         ldm-theme /usr/share/ldm/themes/ezgo 90
@@ -82,23 +99,25 @@ restore_ksplash() {
 	/usr/share/kde4/apps/kdm/themes/ezgo/background.png
 }
 
-#  compile_gschemas() {
-#      glib-compile-schemas /usr/share/glib-2.0/schemas/
-#  }
+compile_gschemas() {
+    glib-compile-schemas /usr/share/glib-2.0/schemas/
+}
 
 case "$1" in
   configure)
+    change_lightdm_kde_theme
     change_ldm_background
     change_grub_background
     change_desktop_background
     change_ksplash
-#      compile_gschemas
+    compile_gschemas
     ;;
   remove)
+    restore_lightdm_kde_theme
     restore_ldm_background
     restore_grub_background
     restore_desktop_background
     restore_ksplash
-#      compile_gschemas
+    compile_gschemas
     ;;
 esac

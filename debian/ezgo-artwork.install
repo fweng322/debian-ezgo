@@ -18,3 +18,5 @@ ezgo-artwork/kde/update-artwork usr/share/ezgo/ezgo-artwork
 ezgo-artwork/grub/*.png usr/share/ezgo/grub
 ezgo-artwork/gnome/50_ezgo-gnome-settings.gschema.override usr/share/glib-2.0/schemas
 ezgo-artwork/ldm/* usr/share/ldm/themes/ezgo
+ezgo-artwork/lightdm-kde-greeter/* usr/share/kde4/apps/lightdm-kde-greeter/themes/ezgo
+ezgo-artwork/lightdm-kde-greeter/private/* usr/share/kde4/apps/lightdm-kde-greeter/themes/ezgo/private
