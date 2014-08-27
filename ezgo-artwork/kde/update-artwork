@@ -3,28 +3,36 @@ set -e
 
 # Lightdm-kde-greeter
 change_lightdm_kde_theme() {
-	if [ -f /etc/lightdm/lightdm-kde-greeter.conf ]; then
-		mv /etc/lightdm/lightdm-kde-greeter.conf /etc/lightdm/lightdm-kde-greeter.conf.ezgo-bak
+    if [ -d /etc/lightdm ]; then
+		if [ -f /etc/lightdm/lightdm-kde-greeter.conf ]; then
+			mv /etc/lightdm/lightdm-kde-greeter.conf /etc/lightdm/lightdm-kde-greeter.conf.ezgo-bak
+		fi
+		cp -f /usr/share/kde4/apps/lightdm-kde-greeter/themes/ezgo/lightdm-kde-greeter.conf /etc/lightdm/lightdm-kde-greeter.conf.ezgo
+		ln -s /etc/lightdm/lightdm-kde-greeter.conf.ezgo /etc/lightdm/lightdm-kde-greeter.conf
 	fi
-	cp -f /usr/share/kde4/apps/lightdm-kde-greeter/themes/ezgo/lightdm-kde-greeter.conf /etc/lightdm/lightdm-kde-greeter.conf.ezgo
-	ln -s /etc/lightdm/lightdm-kde-greeter.conf.ezgo /etc/lightdm/lightdm-kde-greeter.conf
 }
 
 restore_lightdm_kde_theme() {
-	if [ -f /etc/lightdm/lightdm-kde-greeter.conf.ezgo-bak ]; then
-		rm -f /etc/lightdm/lightdm-kde-greeter.conf
-		mv /etc/lightdm/lightdm-kde-greeter.conf.ezgo-bak /etc/lightdm/lightdm-kde-greeter.conf
+    if [ -d /etc/lightdm ]; then
+		if [ -f /etc/lightdm/lightdm-kde-greeter.conf.ezgo-bak ]; then
+			rm -f /etc/lightdm/lightdm-kde-greeter.conf
+			mv /etc/lightdm/lightdm-kde-greeter.conf.ezgo-bak /etc/lightdm/lightdm-kde-greeter.conf
+		fi
 	fi
 }
 
 # LDM
 change_ldm_background() {
-    update-alternatives --install /usr/share/ldm/themes/default \
-        ldm-theme /usr/share/ldm/themes/ezgo 90
+	if [ -d /usr/share/ldm ]; then
+   	 update-alternatives --install /usr/share/ldm/themes/default \
+   	     ldm-theme /usr/share/ldm/themes/ezgo 90
+	fi
 }
 
 restore_ldm_background() {
-    update-alternatives --remove ldm-theme /usr/share/ldm/themes/ezgo
+	if [ -d /usr/share/ldm ]; then
+    	update-alternatives --remove ldm-theme /usr/share/ldm/themes/ezgo
+	fi
 }
  
 ## GRUB
