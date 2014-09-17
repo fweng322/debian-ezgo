@@ -1,4 +1,4 @@
-ezgo (11.0) UNRELEASED; urgency=low
+ezgo (11.1) UNRELEASED; urgency=low
 
   [ Andreas Tille ]
   * Versioned Build-Depends blends-dev >= 0.6.91
@@ -6,9 +6,13 @@ ezgo (11.0) UNRELEASED; urgency=low
     from the tasks dir and add long description to contro.stub.
 
   [ Franklin Weng ]
-  * Change the version of debian ezgo to 11.0.
+  * Change the version of debian ezgo to 11.1.
+  * Fix bugs in ezgo-artwork
+  * Add zh_CN support in ezgo-menu
+  * Sync the dependencies in meta packages and tasks
+  * -
 
- -- Franklin Weng <franklin@ip-server.everfocus.com.tw>  Fri, 28 Mar 2014 14:18:01 +0800
+ -- Franklin Weng <franklin@teabbs.goodhorse.idv.tw>  Thu, 28 Aug 2014 10:36:24 +0800
 
 ezgo (0.8.0) unstable; urgency=low
 

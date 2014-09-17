@@ -1,6 +1,6 @@
 Task: Games
-Description: ezgo Games
- The EzGo is a Debian Pure Blends project which collects a set of free
+Description: debian ezgo Games
+ ezgo is a Debian Pure Blends project which collects a set of free
  software and aims to promote the usage of free software on teaching and
  self-learning.
  .
@@ -16,8 +16,6 @@ Depends: tuxtype
 Depends: gnome-games
 
 Depends: kdegames
-
-Depends: kblocks
 
 Depends: supertux
 

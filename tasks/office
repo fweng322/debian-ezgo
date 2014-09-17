@@ -1,14 +1,12 @@
 Task: Office
-Description: ezgo Office
- The EzGo is a Debian Pure Blends project which collects a set of free
+Description: debian ezgo Office
+ ezgo is a Debian Pure Blends project which collects a set of free
  software and aims to promote the usage of free software on teaching and
  self-learning.
  .
  This is the selection of office tools.
 
 Depends: openclipart
-
-Depends: openoffice.org-writer, openoffice.org-calc, openoffice.org-impress, openoffice.org-base, openoffice.org-draw, openoffice.org-ogltrans
 
 Depends: xmind
 Homepage: http://www.xmind.net/
@@ -25,8 +23,6 @@ Pkg-Description: brainstorming and mind mapping software
 Depends: dia
 
 Depends: okular
-
-Depends: pdfedit
 
 Depends: planner
 
@@ -46,7 +42,7 @@ Pkg-Description: Gantt chart based project scheduling and management tool
   * MS Project import/export
   * WebDAV based groupwork
 
-Depends: ppdfshuffler
+Depends: pdfshuffler
 
 Depends: scribus
 

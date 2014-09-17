@@ -1,6 +1,6 @@
 Task: Multimedia
-Description: ezgo Multimedia
- The EzGo is a Debian Pure Blends project which collects a set of free
+Description: debian ezgo Multimedia
+ ezgo is a Debian Pure Blends project which collects a set of free
  software and aims to promote the usage of free software on teaching and
  self-learning.
  .
@@ -8,15 +8,11 @@ Description: ezgo Multimedia
 
 Depends: audacious
 
-Depends: rhythmbox
-
 Depends: amarok
 
 Depends: vlc
 
 Depends: totem
-
-Depends: smplayer
 
 Depends: mplayer
 
@@ -35,18 +31,6 @@ Depends: oggconvert
 Depends: k3b
 
 Depends: brasero
-
-Depends: xvidcap
-Homepage: http://xvidcap.sourceforge.net/
-License: non-free
-Pkg-URL: http://debian-multimedia.org/dists/unstable/main/binary-i386/package/xvidcap.php
-Responsible: Christian Marillat <marillat@debian.org>
-Pkg-Description: Screen video capture for X
- A screen capture enabling you to capture videos off your X-Window desktop
- for illustration or documentation purposes. It is intended to be a
- standards-based alternative to tools like Lotus ScreenCam.
- .
- Video can be saved in MPEG or AVI files format.
 
 Depends: mscore
 

@@ -1,12 +1,14 @@
 Task: Network
-Description: ezgo Network
- The EzGo is a Debian Pure Blends project which collects a set of free
+Description: debian ezgo Network
+ ezgo is a Debian Pure Blends project which collects a set of free
  software and aims to promote the usage of free software on teaching and
  self-learning.
  .
  This is the selection of networking related packages.
 
-Depends: iceweasel
+Depends: firefox
+
+Depends: chromium-browser
 
 Depends: pidgin
 
@@ -20,4 +22,3 @@ Depends: filezilla
 
 Depends: krdc
 
-Depends: ekiga

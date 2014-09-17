@@ -1,6 +1,6 @@
 Task: Graphics
-Description: ezgo Graphics
- The EzGo is a Debian Pure Blends project which collects a set of free
+Description: debian ezgo Graphics
+ ezgo is a Debian Pure Blends project which collects a set of free
  software and aims to promote the usage of free software on teaching and
  self-learning.
  .
@@ -38,7 +38,5 @@ Depends: ardesia
 Depends: fotowall
 
 Depends: shotwell
-
-Depends: sweethome3d
 
 Depends: hugin

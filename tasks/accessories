@@ -1,14 +1,12 @@
 Task: Accessories
-Description: ezgo Accessories
- The EzGo is a Debian Pure Blends project which collects a set of free
+Description: debian ezgo Accessories
+ ezgo is a Debian Pure Blends project which collects a set of free
  software and aims to promote the usage of free software on teaching and
  self-learning.
  .
  This is the selection of Accessories.
 
 Depends: convertall
-
-Depends: wiican
 
 Depends: kate
 

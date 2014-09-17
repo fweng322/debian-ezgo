@@ -15,4 +15,7 @@ NeedConfig:  no
 
 Depends:     kde-l10n-zhtw
 
-Depends:     openoffice.org-l10n-zh-tw
+Depends:     chromium-browser-l10n
+
+Depends:     firefox-locale-zh-hant
+
