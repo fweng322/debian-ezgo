@@ -8,7 +8,7 @@
 <!--	<DefaultMergeDirs/> -->
 	<DefaultDirectoryDirs/>
 	<AppDir>/usr/share/ezgo/ezgo-menu/applications</AppDir>
-	<DirectoryDir>/usr/share/ezgo/desktop-directories</DirectoryDir>
+	<DirectoryDir>/usr/share/ezgo/ezgo-menu/desktop-directories</DirectoryDir>
 	<DefaultLayout>
 		<Merge type="menus"/>
 		<Merge type="files"/>
