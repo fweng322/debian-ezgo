@@ -1,0 +1,13 @@
+#! /bin/sh
+
+set -e
+
+#DEBHELPER#
+
+case "$1" in
+  configure)
+    chmod +x /usr/share/ezgo/ezgo-unity/update-unity
+    /usr/share/ezgo/ezgo-unity/update-unity configure
+    ;;
+esac
+

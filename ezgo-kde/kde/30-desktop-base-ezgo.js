@@ -10,8 +10,8 @@ for (var i = 0; i < screenCount; ++i) {
     desktop.currentConfigGroup = Array('Wallpaper', 'image')
     desktop.writeConfig('slidepaths', '/usr/share/ezgo/wallpaper/')
     desktop.writeConfig("slideTimer", 360)
-    desktop.writeConfig("userswallpapers", "/usr/share/ezgo/wallpaper/blue_1440_d.png,/usr/share/ezgo/wallpaper/blue_1024_d.png")
-    desktop.writeConfig("wallpaper", "/usr/share/ezgo/wallpaper/blue_1440_d.png")
+    desktop.writeConfig("userswallpapers", "/usr/share/ezgo/wallpaper/ezgo12-wallpapaer-1366x768.png,/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1920x1080.png")
+    desktop.writeConfig("wallpaper", "/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png")
 
     rssnow = desktop.addWidget("rssnow")
     rssnow.writeConfig("feeds", "http://ezgo-tw.blogspot.tw/feeds/posts/default");
@@ -30,8 +30,8 @@ for (var i = 0; i < screenCount; ++i) {
     sal.currentConfigGroup = Array('Wallpaper', 'image')
     sal.writeConfig('slidepaths', '/usr/share/ezgo/wallpaper/')
     sal.writeConfig("slideTimer", 60)
-    sal.writeConfig("userswallpapers", "/usr/share/ezgo/wallpaper/blue_1440_blur.png,/usr/share/ezgo/wallpaper/blue_1024_blur.png")
-    sal.writeConfig("wallpaper", "/usr/share/ezgo/wallpaper/blue_1440_blur.png")
+    sal.writeConfig("userswallpapers", "/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png,/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1920x1080.png")
+    sal.writeConfig("wallpaper", "/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png")
 
     sal.currentConfigGroup = Array('stripwidget', 'favourite-0')
     sal.writeConfig('url', '/usr/share/applications/firefox.desktop')

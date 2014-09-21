@@ -5,3 +5,4 @@ ezgo-menu/system/80update-ezgomenu etc/apt/apt.conf.d
 ezgo-menu/system/update-desktop.sh usr/share/ezgo/ezgo-menu
 ezgo-menu/xdg/ezgomenu_* etc/xdg/ezgo
 ezgo-menu/xdg/ezgo-applications.menu etc/xdg/menus
+ezgo-menu/icons/* usr/share/ezgo/icons

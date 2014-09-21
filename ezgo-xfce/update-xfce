@@ -1,0 +1,24 @@
+#! /bin/sh
+set -e
+
+## wallpaper
+change_wallpaper() {
+    update-alternatives --install \
+	/usr/share/xfce4/backdrops/xubuntu-wallpaper.png \
+	xubuntu-wallpaper.png \
+	/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png 80
+}
+
+restore_wallpaper() {
+    update-alternatives --remove xubuntu-wallpaper.png \
+	/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png
+}
+
+case "$1" in
+  configure)
+    change_wallpaper
+    ;;
+  remove)
+    restore_wallpaper
+    ;;
+esac

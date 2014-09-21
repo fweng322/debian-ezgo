@@ -1,6 +1,0 @@
-[org.gnome.desktop.background]
-show-desktop-icons=true
-picture-uri='file:///usr/share/ezgo/wallpaper/blue_1440_d.png'
-
-[com.canonical.unity-greeter]
-background='/usr/share/ezgo/wallpaper/blue_1440_blur.png'

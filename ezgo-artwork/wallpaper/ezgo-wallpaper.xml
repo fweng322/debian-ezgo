@@ -2,8 +2,8 @@
   <static>
     <duration>8640000.0</duration>
     <file>
-      <size width="1024" height="768">/usr/share/images/desktop-base/ezgo-wallpaper-1024x768.png</size>
-      <size width="1440" height="900">/usr/share/images/desktop-base/ezgo-wallpaper-1440x900.png</size>
+      <size width="1366" height="768">/usr/share/images/desktop-base/ezgo12-wallpaper-1366x768.png</size>
+      <size width="1920" height="1080">/usr/share/images/desktop-base/ezgo12-wallpaper-1920x1080.png</size>
     </file>
   </static>
 </background>

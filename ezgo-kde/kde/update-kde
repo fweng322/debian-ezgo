@@ -1,0 +1,46 @@
+#! /bin/sh
+set -e
+
+# Lightdm-kde-greeter
+change_lightdm_kde_theme() {
+    if [ -d /etc/lightdm ]; then
+		if [ -f /etc/lightdm/lightdm-kde-greeter.conf ]; then
+			mv /etc/lightdm/lightdm-kde-greeter.conf /etc/lightdm/lightdm-kde-greeter.conf.ezgo-bak
+		fi
+		cp -f /usr/share/kde4/apps/lightdm-kde-greeter/themes/ezgo/lightdm-kde-greeter.conf /etc/lightdm/lightdm-kde-greeter.conf.ezgo
+		ln -s /etc/lightdm/lightdm-kde-greeter.conf.ezgo /etc/lightdm/lightdm-kde-greeter.conf
+	fi
+}
+
+restore_lightdm_kde_theme() {
+    if [ -d /etc/lightdm ]; then
+		if [ -f /etc/lightdm/lightdm-kde-greeter.conf.ezgo-bak ]; then
+			rm -f /etc/lightdm/lightdm-kde-greeter.conf
+			mv /etc/lightdm/lightdm-kde-greeter.conf.ezgo-bak /etc/lightdm/lightdm-kde-greeter.conf
+		fi
+	fi
+}
+
+## ksplash
+change_ksplash() {
+    update-alternatives --install \
+	/usr/share/images/desktop-base/desktop-splash \
+	desktop-splash \
+	/usr/share/kde4/apps/kdm/themes/ezgo/background.png 65
+}
+
+restore_ksplash() {
+    update-alternatives --remove desktop-splash \
+	/usr/share/kde4/apps/kdm/themes/ezgo/background.png
+}
+
+case "$1" in
+  configure)
+    change_lightdm_kde_theme
+    change_ksplash
+    ;;
+  remove)
+    restore_lightdm_kde_theme
+    restore_ksplash
+    ;;
+esac

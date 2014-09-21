@@ -1,0 +1,33 @@
+[PreviewSettings]
+UseFileThumbnails=true
+
+[Toolbar style]
+ToolButtonStyle=TextBesideIcon
+
+[Emoticons]
+emoticonsTheme=Oxygen
+
+[Notification Messages]
+:confirmNewSession=false
+
+[General]
+BrowserApplication[$e]=!firefox
+XftHintStyle=hintmedium
+font=文泉驛微米黑,12,-1,5,50,0,0,0,0,0
+menuFont=文泉驛微米黑,12,-1,5,50,0,0,0,0,0
+desktopFont=文泉驛微米黑,12,-1,5,50,0,0,0,0,0
+toolBarFont=文泉驛微米黑,11,-1,5,50,0,0,0,0,0
+smallestReadableFont=文泉驛微米黑,11,-1,5,50,0,0,0,0,0
+taskbarFont=文泉驛微米黑,12,-1,5,50,0,0,0,0,0
+fixed=DejaVu Sans Mono,12,-1,5,50,0,0,0,0,0
+
+[KDE]
+SingleClick=false
+
+[Locale]
+Country=tw
+DateFormat=%Y 年 %n 月 %e 日 %A
+
+[WM]
+activeFont=文泉驛微米黑,11,-1,5,50,0,0,0,0,0
+

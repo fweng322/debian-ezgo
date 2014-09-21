@@ -1,0 +1,17 @@
+[$Version]
+update_info=ksmserver_shortcuts.upd:kde45,plasma-to-plasmadesktop-shortcuts.upd:4.3plasma-desktop-shortcuts,kwin_window_shortcuts.upd:kde414,kscreenlocker_locksession-shortcut.upd:4.9-locksession-shortcut,ksmserver_shortcuts.upd:kde4.10,ksmserver_shortcuts.upd:kde4.10-remove-group-kscreenlocker
+
+[krunner]
+Show System Activity=Ctrl+Alt+Del,Ctrl+Esc,顯示系統活動
+
+[ksmserver]
+Log Out=none,Ctrl+Alt+Del,登出
+
+[khotkeys]
+{868e16e2-d059-4d1b-9f07-90cfdc70d6c4}=Ctrl+Print,none,擷取視窗
+{a6df46d5-c987-43ad-ad26-4249ddb2a44e}=Print,none,擷取螢幕
+{b6180017-d525-4ac0-9989-4514f499d304}=Ctrl+Alt+T,none,叫出終端機Konsole
+{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=Search,none,搜尋
+
+[kwin]
+Show Desktop=Meta+D,none,顯示桌面

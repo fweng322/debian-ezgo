@@ -1,0 +1,6 @@
+[org.gnome.desktop.background]
+show-desktop-icons=true
+picture-uri='file:///usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png'
+
+[com.canonical.unity-greeter]
+background='/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png'

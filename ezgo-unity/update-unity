@@ -1,0 +1,15 @@
+#! /bin/sh
+set -e
+
+compile_gschemas() {
+    glib-compile-schemas /usr/share/glib-2.0/schemas/
+}
+
+case "$1" in
+  configure)
+    compile_gschemas
+    ;;
+  remove)
+    compile_gschemas
+    ;;
+esac
