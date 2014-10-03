@@ -82,12 +82,23 @@ Key:
 Packages: list
  tuxmath
  tuxtype
- gnome-games
- kdegames
  supertux
  pingus
  supertuxkart
  atomix
+ ksudoku
+ picmi
+ kblocks
+ palapeli
+ kubrick
+ ksquares
+ knetwalk
+ kblackbox
+ ksnake
+ kigo
+ kreversi
+ kfourinline
+ bovo
 
 Task: ezgo-graphics
 Section: ezgo

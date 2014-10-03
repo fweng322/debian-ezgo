@@ -13,10 +13,6 @@ Depends: tuxmath
 
 Depends: tuxtype
 
-Depends: gnome-games
-
-Depends: kdegames
-
 Depends: supertux
 
 Depends: pingus
@@ -24,3 +20,29 @@ Depends: pingus
 Depends: supertuxkart
 
 Depends: atomix
+
+Depends: ksudoku
+
+Depends: picmi
+
+Depends: kblocks
+
+Depends: palapeli
+
+Depends: kubrick
+
+Depends: ksquares
+
+Depends: knetwalk
+
+Depends: kblackbox
+
+Depends: ksnake
+
+Depends: kigo
+
+Depends: kreversi
+
+Depends: kfourinline
+
+Depends: bovo
