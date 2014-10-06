@@ -1,0 +1,6 @@
+ezgo-menu (20141006) UNRELEASED; urgency=low
+
+  * Initial release
+  * Split from ezgo-tasks
+
+ -- Franklin Weng <franklin@goodhorse.idv.tw>  Mon, 06 Oct 2014 13:40:00 +0800
