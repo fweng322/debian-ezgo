@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[zh_TW]=化學構造資料庫_Chemical Structure
+Comment=Chemical Structure
+Exec=x-www-browser /usr/share/ezgo/ezgo-prt/chemical_structures/index_tw.html
+GenericName[zh_TW]=化學構造資料庫依照官能基將有機分子分類，適合高中及大學化學生物等課程
+GenericName=Chemical Structure
+Icon=/usr/share/ezgo/ezgo-prt/chemical_structures/images/favicon.ico
+Name[zh_TW]=化學構造資料庫_Chemical Structure
+Name=Chemical Structure
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=chemical_struct.desktop
+Categories=Opencontent;
+

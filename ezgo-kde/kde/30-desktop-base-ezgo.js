@@ -12,13 +12,20 @@ for (var i = 0; i < screenCount; ++i) {
     desktop.writeConfig("slideTimer", 360)
     desktop.writeConfig("userswallpapers", "/usr/share/ezgo/wallpaper/ezgo12-wallpapaer-1366x768.png,/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1920x1080.png")
     desktop.writeConfig("wallpaper", "/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png")
+    desktop.writeConfig("immutability", 2)
 
     rssnow = desktop.addWidget("rssnow")
     rssnow.writeConfig("feeds", "http://ezgo-tw.blogspot.tw/feeds/posts/default");
     rssnow.writeConfig("interval", 5)
     rssnow.writeConfig("switchInterval", 30)
-    rssnow.writeConfig("immutability", 1)
+    rssnow.writeConfig("immutability", 2)
     rssnow.geometry = QRectF(700,66,300,300)
+
+    trash = desktop.addWidget("trash")
+    trash.geometry = QRectF(892,450,174,104)
+    trash.writeConfig("immutability", 2)
+    trash.writeConfig("zvalue", 0)
+
 
     var sal = new Activity("sal")
     sal.name = i18n("Netbook\u684c\u9762")

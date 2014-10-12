@@ -37,8 +37,6 @@ Depends: knetwalk
 
 Depends: kblackbox
 
-Depends: ksnake
-
 Depends: kigo
 
 Depends: kreversi

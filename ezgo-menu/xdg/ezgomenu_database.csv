@@ -12,6 +12,7 @@ libreoffice-impress.desktop,簡報_Impress,類似 Microsoft PowerPoint 的簡報
 libreoffice-draw.desktop,繪圖_Draw,利用 Office 軟體的使用思維即可輕鬆的繪製向量圖,繪圖_Draw,绘图_Draw,利用Office软件的使用思维即可轻松的绘制向量图,绘图_Draw,Office;
 libreoffice-base.desktop,資料庫_Base,類似 Microsoft Access 的資料庫軟體，特別的是可以跨平台使用，並且符合 ODF 國際標準格式,資料庫_Base,数据库_Base,类似MicrosoftAccess的数据库软件，特别的是可以跨平台使用，并且符合ODF国际标准格式,数据库_Base,Office;
 libreoffice-startcenter.desktop,整合應用_LibreOffice,LibreOffice 的入口,整合應用_LibreOffice,整合应用_LibreOffice,LibreOffice的入口,整合应用_LibreOffice,Office;
+libreoffice-math.desktop,公式編輯_Math,Libreoffice上可用來編輯數學公式的應用程式,公式編輯_Math,公式编辑_Math,Libreoffice上可用来编辑数学公式的应用程序,公式编辑_Math,Office;
 scribus.desktop,排版軟體_Scribus,適合用於雜誌，報紙等印刷品編輯設計的出版軟體,排版軟體_Scribus,排版软件_Scribus,适合用于杂志，报纸等印刷品编辑设计的出版软件,排版软件_Scribus,Office;
 dia-common.desktop,辧公室製圖_Dia,Dia 提供模組化的設計工具來製圖，如流程圖、網路圖、電路圖等，都可以利用 Dia 輕鬆繪製,辧公室製圖_Dia,辧公室制图_Dia,Dia提供模块化的设计工具来制图，如流程图、网络图、电路图等，都可以利用Dia轻松绘制,辧公室制图_Dia,Office;
 dia.desktop,圖表繪製_Dia,Dia 提供模組化的設計工具來製圖，如流程圖、網路圖、電路圖等，都可以利用 Dia 輕鬆繪製,圖表繪製_Dia,图表绘制_Dia,Dia提供模块化的设计工具来制图，如流程图、网络图、电路图等，都可以利用Dia轻松绘制,图表绘制_Dia,Office;
@@ -37,6 +38,7 @@ gnucash.desktop,金融管理_GnuCash,一套複式簿記系統的記帳軟體，�
 sigil.desktop,電子書編輯_Sigil,一套可見即所得的電子書編輯軟體,電子書編輯_Sigil,电子书编辑_Sigil,一套可见即所得的电子书编辑软件,电子书编辑_Sigil,Office;
 qtqr.desktop,QR Code產生器_QtQR,QR Code 的產生器,QR Code產生器_QtQR,QRCode产生器_QtQR,QRCode的产生器,QRCode产生器_QtQR,Office;
 #美工,,,,,,,
+Pinta.desktop,小畫家_Pinta,簡單但強大的繪圖軟體,小畫家_Pinta,画图_Pinta,简单但强大的画图软件,画图_Pinta,Graphics;
 krita.desktop,筆刷繪圖_Krita,類似 OpenOffice Draw，功能強大的繪圖軟體,筆刷繪圖_Krita,笔刷绘图_Krita,类似OpenOfficeDraw，功能强大的绘图软件,笔刷绘图_Krita,Graphics;
 kamoso.desktop,影像擷取_Kamoso,從您的網路攝影機中擷取圖片,影像擷取_Kamoso,影像捕获_Kamoso,从您的网络摄影机中捕获图片,影像捕获_Kamoso,Graphics;
 display.im6.desktop,影像編輯_ImageMagick,影像編輯軟體,影像編輯_ImageMagick,影像编辑_ImageMagick,影像编辑软件,影像编辑_ImageMagick,Graphics;
@@ -116,6 +118,7 @@ qdvdauthor.desktop,光碟製作_QDVDAuthor,DVD 光碟及選單製作工具 ,光�
 devede.desktop,影音轉檔_DeVeDe,能將任何格式的影片轉為 DVD 影片,影音轉檔_DeVeDe,影音转档_DeVeDe,能将任何格式的影片转为DVD影片,影音转档_DeVeDe,AudioVideo;
 oggconvert.desktop,影音轉檔_OggConvert,小巧實用的多媒體影音轉換工具,影音轉檔_OggConvert,影音转档_OggConvert,小巧实用的多媒体影音转换工具,影音转档_OggConvert,AudioVideo;
 furiusisomount.desktop,虛擬光碟_Furius ISO Mount,簡單好用的光碟映像檔掛載工具 ,虛擬光碟_Furius ISO Mount,虚拟光盘_FuriusISOMount,简单好用的光盘映像档挂载工具,虚拟光盘_FuriusISOMount,AudioVideo;
+minitube.desktop,YouTube播放_Minitube,可以搜尋並播放YouTube影片的應用程式,YouTube播放_Minitube,YouTube播放_Minitube,可以搜寻并播放YouTube影片的应用程序,YouTube播放_Minitube,AudioVideo;
 #網路,,,,,,,
 nixnote.desktop,筆記本_Nixnote,EverNote 的 Linux 客戶端軟體,筆記本_Nixnote,笔记本_Nixnote,EverNote的Linux客户端软件,笔记本_Nixnote,Network;
 exe.desktop,網頁設計_eXe,輔助老師們編寫網路課程的軟體,網頁設計_eXe,网页设计_eXe,辅助老师们编写网络课程的软件,网页设计_eXe,Network;

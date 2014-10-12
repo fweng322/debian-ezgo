@@ -1,0 +1,33 @@
+#!/bin/sh
+
+NPA_VERSION=ezgo12
+NPA_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-npa/npa_${NPA_VERSION}.tar.gz
+MD5_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-npa/npa.md5
+OUTPUT_FILE=/usr/share/ezgo/ezgo-prt/npa_${NPA_VERSION}.tar.gz
+MD5_FILE=/usr/share/ezgo/ezgo-prt/npa.md5
+
+mkdir -p /usr/share/ezgo/ezgo-prt/
+
+echo "Downloading npa_${NPA_VERSION}..."
+
+exit_with_error()
+{
+	echo $1
+	exit 1
+}
+
+wget --continue -O $OUTPUT_FILE $NPA_URL || exit_with_error "Download npa file failed: $?"
+wget --continue -O $MD5_FILE $MD5_URL || exit_with_error "Download md5 file failed: $?"
+
+cd /usr/share/ezgo/ezgo-prt
+md5sum -c $MD5_FILE || exit_with_error "md5 checksum error!"
+
+tar xfz $OUTPUT_FILE
+rm -f npa
+ln -s npa_${NPA_VERSION} npa
+rm -f $MD5_FILE
+rm -f $OUTPUT_FILE
+
+#DEBHELPER#
+
+exit 0

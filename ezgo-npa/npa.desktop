@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[zh_TW]=物理動畫教學_Flash Animations for Physics
+Comment=NPA
+Exec=x-www-browser /usr/share/ezgo/ezgo-prt/npa/index.html
+GenericName[zh_TW]=物理動畫教學適合國高中以上的物理課程，例如向量波力學等教學動畫
+GenericName=NPA
+Icon=/usr/share/ezgo/icons/physics.png
+Name[zh_TW]=物理動畫教學_Flash Animations for Physics
+Name=NPA
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=npa.desktop
+Categories=Opencontent;
+

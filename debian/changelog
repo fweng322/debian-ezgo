@@ -1,4 +1,4 @@
-ezgo (12.0~alpha1) UNRELEASED; urgency=low
+ezgo (12.0~alpha4) UNRELEASED; urgency=low
 
   [ Andreas Tille ]
   * Versioned Build-Depends blends-dev >= 0.6.91
@@ -13,10 +13,14 @@ ezgo (12.0~alpha1) UNRELEASED; urgency=low
   * Fix bugs in ezgo-applications.menu
   * Split KDE/Unity/LXDE artwork from ezgo-artwork, add ezgo-kde and
     ezgo-unity packages.
+  * Add open content tutorials: ezgo-phet, ezgo-usgs, ezgo-chem and
+    ezgo-npa
+  * Add kim4 into ezgo-kde
+  * Lock Plasma desktop in ezgo-kde and add trashcan on desktop
   * -
   * 
 
- -- Franklin Weng <franklin@teabbs.goodhorse.idv.tw>  Sun, 21 Sep 2014 16:41:22 +0800
+ -- Franklin Weng <franklin@teabbs.goodhorse.idv.tw>  Fri, 24 Oct 2014 14:09:26 +0800
 
 ezgo (0.8.0) unstable; urgency=low
 

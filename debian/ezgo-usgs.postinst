@@ -1,0 +1,14 @@
+#!/bin/sh
+
+USGS_VERSION=ezgo12
+OUTPUT_FILE=/usr/share/ezgo/ezgo-prt/usgs_${USGS_VERSION}.tar.gz
+
+cd /usr/share/ezgo/ezgo-prt
+tar xfz $OUTPUT_FILE
+rm -f usgs
+ln -s usgs_${USGS_VERSION} usgs
+rm -f $OUTPUT_FILE
+
+#DEBHELPER#
+
+exit 0

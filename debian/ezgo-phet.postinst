@@ -2,7 +2,9 @@
 
 PHET_VERSION=2013
 PHET_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-phet/PhET${PHET_VERSION}.tar.gz
+MD5_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-phet/phet.md5
 OUTPUT_FILE=/usr/share/ezgo/ezgo-prt/PhET${PHET_VERSION}.tar.gz
+MD5_FILE=/usr/share/ezgo/ezgo-prt/phet.md5
 
 mkdir -p /usr/share/ezgo/ezgo-prt/
 
@@ -14,12 +16,17 @@ exit_with_error()
 	exit 1
 }
 
-wget --continue -O $OUTPUT_FILE $PHET_URL || exit_with_error "Download failed: $?"
+wget --continue -O $OUTPUT_FILE $PHET_URL || exit_with_error "Download phet file failed: $?"
+wget --continue -O $MD5_FILE $MD5_URL || exit_with_error "Download md5 file failed: $?"
 
 cd /usr/share/ezgo/ezgo-prt
+md5sum -c $MD5_FILE || exit_with_error "md5 checksum error!"
+
 tar xfz $OUTPUT_FILE
 rm -f PhET
 ln -s PhET${PHET_VERSION} PhET
+rm -f $MD5_FILE
+rm -f $OUTPUT_FILE
 
 #DEBHELPER#
 

@@ -131,6 +131,7 @@
 		<Name>Graphics</Name>
 		<Directory>ezgo-graphics.directory</Directory>
 		<Include>
+			<Filename>pinta.desktop</Filename>
 			<Filename>shutter.desktop</Filename>
 			<Filename>display.im6.desktop</Filename>
 			<Filename>kde4-kamoso.desktop</Filename>
@@ -180,6 +181,7 @@
 			<Filename>kde4-kolourpaint.desktop</Filename>
 			<Filename>tuxpaint.desktop</Filename>
 			<Filename>gpaint.desktop</Filename>
+			<Filename>pinta.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-krita.desktop</Filename>			
 			<Filename>mypaint.desktop</Filename>			
@@ -231,6 +233,7 @@
 		<Name>AudioVideo</Name>
 		<Directory>ezgo-soundvideo.directory</Directory>
 		<Include>
+			<Filename>minitube.desktop</Filename>
 			<Filename>smplayer.desktop</Filename>
 			<Filename>xbmc.desktop</Filename>
 			<Filename>vlc.desktop</Filename>
@@ -296,11 +299,12 @@
 		<Layout>
 			<Filename>xbmc.desktop</Filename>
 			<Separator/>			
-			<Filename>vlc.desktop</Filename>						
+			<Filename>vlc.desktop</Filename>
 			<Filename>totem.desktop</Filename>
 			<Filename>xine.desktop</Filename>
 			<Filename>smplayer.desktop</Filename>
-			<Filename>kde4-dragonplayer.desktop</Filename>			
+			<Filename>kde4-dragonplayer.desktop</Filename>
+			<Filename>minitube.desktop</Filename>
 			<Separator/>			
 			<Filename>Kino.desktop</Filename>
 			<Filename>avidemux2.6-qt.desktop</Filename>
@@ -311,7 +315,7 @@
 			<Separator/>
 			<Filename>kazam.desktop</Filename>
 			<Filename>xvidcap.desktop</Filename>
-			<Filename>sound-juicer.desktop</Filename>			
+			<Filename>sound-juicer.desktop</Filename>
 			<Filename>cheese.desktop</Filename>
 			<Filename>guvcview.desktop</Filename>
 			<Filename>gnome-sound-recorder.desktop</Filename>
@@ -319,7 +323,6 @@
 			<Filename>qstopmotion.desktop</Filename>
 			<Filename>imagination.desktop</Filename>
 			<Filename>ffDiaporama.desktop</Filename>
-
 			<Filename>photofilmstrip.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-k3b.desktop</Filename>
@@ -327,7 +330,7 @@
 			<Filename>acidrip.desktop</Filename>
 			<Filename>dvdstyler.desktop</Filename>			
 			<Filename>dvdisaster.desktop</Filename>
-			<Filename>furiusisomount.desktop</Filename>			
+			<Filename>furiusisomount.desktop</Filename>
 			<Filename>qdvdauthor.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-amarok.desktop</Filename>
@@ -354,7 +357,6 @@
 			<Menuname>More</Menuname>
 		</Layout>
 	</Menu>
-	
 	
 	<Menu>
 		<Name>Network</Name>

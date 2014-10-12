@@ -17,3 +17,11 @@ ezgo-kde/kde-profile/kglobalshortcutsrc etc/skel/.kde/share/config
 ezgo-kde/kde-profile/* /usr/share/kde4/config
 ezgo-kde/lightdm-kde-greeter/* usr/share/kde4/apps/lightdm-kde-greeter/themes/ezgo
 ezgo-kde/lightdm-kde-greeter/private/* usr/share/kde4/apps/lightdm-kde-greeter/themes/ezgo/private
+ezgo-kde/kim4/src/kim_*.desktop usr/share/kde4/services/ServiceMenus/
+ezgo-kde/kim4/src/bin/kim_* usr/bin/
+ezgo-kde/kim4/COPYING usr/share/kde4/apps/kim/
+ezgo-kde/kim4/AUTHORS usr/share/kde4/apps/kim/
+ezgo-kde/kim4/README usr/share/kde4/apps/kim/
+ezgo-kde/kim4/src/slideshow/* usr/share/kde4/apps/kim/slideshow/
+ezgo-kde/kim4/src/gallery/* usr/share/kde4/apps/kim/gallery/
+ezgo-kde/kim4/manual/* usr/share/kde4/apps/kim/manual

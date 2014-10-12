@@ -72,7 +72,41 @@ Description: PhET offline version in ezgo
  self-learning.
  .
  This package contains PhET offline version.
+
+Package: ezgo-npa
+Architecture: all
+Description: Physics Flash Animations in ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains npa web pages.
  
+Package: ezgo-usgs
+Architecture: all
+Description: Animations for Earthquake Terms and Concept packages in ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains the earthquake terms and concept web pages from
+ USGS.
+
+Package: ezgo-chem
+Architecture: all
+Description: Chemical structures in ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains the chemical structures files.
+
 Package: ezgo-tasks
 Architecture: all
 Depends: tasksel
