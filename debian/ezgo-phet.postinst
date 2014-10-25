@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -e
 
 PHET_VERSION=2013
 PHET_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-phet/PhET${PHET_VERSION}.tar.gz
