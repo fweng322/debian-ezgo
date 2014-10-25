@@ -111,7 +111,7 @@ Package: ezgo-tasks
 Architecture: all
 Depends: tasksel
 Description: ezgo tasks for tasksel
- This package provides ezgo tasks in tasksel.
+ This is a metapackage which provides ezgo tasks in tasksel.
  .
  These tasks are described in detail at
  http://blends.alioth.debian.org/ezgo/tasks
