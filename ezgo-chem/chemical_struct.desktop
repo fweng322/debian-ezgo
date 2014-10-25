@@ -9,12 +9,10 @@ Name[zh_TW]=化學構造資料庫_Chemical Structure
 Name=Chemical Structure
 StartupNotify=true
 Terminal=false
-TerminalOptions=
 Type=Application
 X-DBUS-ServiceName=
 X-DBUS-StartupType=
 X-KDE-SubstituteUID=false
 X-KDE-Username=
-desktop=chemical_struct.desktop
-Categories=Opencontent;
+Categories=Education;X-Opencontent;
 
