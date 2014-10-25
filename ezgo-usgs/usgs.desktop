@@ -9,12 +9,10 @@ Name[zh_TW]=地震動畫教學_USGS
 Name=USGS
 StartupNotify=true
 Terminal=false
-TerminalOptions=
 Type=Application
 X-DBUS-ServiceName=
 X-DBUS-StartupType=
 X-KDE-SubstituteUID=false
 X-KDE-Username=
-desktop=usgs.desktop
-Categories=Opencontent;
+Categories=Education;X-Opencontent;
 
