@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -e
 
 CHEM_VERSION=ezgo12
 CHEM_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-chem/chemstru_${CHEM_VERSION}.tar.gz
