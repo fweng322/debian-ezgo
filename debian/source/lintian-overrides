@@ -1,0 +1,10 @@
+
+# These open content packages use default web browser by calling x-www-browser
+# in /etc/alternatives, therefore not in package.
+
+ezgo-chem binary: desktop-command-not-in-package usr/share/applications/chemical_struct.desktop x-www-browser
+ezgo-npa binary: desktop-command-not-in-package usr/share/applications/npa.desktop x-www-browser
+ezgo-phet binary: desktop-command-not-in-package usr/share/applications/phet.desktop x-www-browser
+ezgo-usgs binary: desktop-command-not-in-package usr/share/applications/usgs.desktop x-www-browser
+
+ezgo-kde binary: binary-without-manpage *
