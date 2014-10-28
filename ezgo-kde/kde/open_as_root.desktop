@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Service
+Actions=OpenAsRoot
+Icon=exec
+ServiceTypes=KonqPopupMenu/Plugin,inode/directory,inode/directory-locked
+
+[Desktop Action OpenAsRoot]
+Exec=kdesu dolphin %U
+Name[zh_TW]=以管理員身份開啟
+Name[zh_CN]=以管理员身份打开
+Name=Open as root
+GenericName[zh_TW]=以管理員身份開啟
+GenericName[zh_CN]=以管理员身份打开
+GenericName=Open folder as root
+Comment[zh_CN]=以 root 身份打开资料夹
+Comment[zh_TW]=以 root 身份開啟資料夾
+Comment=Open folder as root
+Icon=exec
