@@ -1,0 +1,17 @@
+[Desktop Entry]
+Comment[zh_TW]=查看您的磁碟目錄
+Comment=Look at your disk drive
+Exec=dolphin
+GenericName[zh_TW]=查看您的磁碟目錄
+GenericName=Look at your disk drive
+Icon=/usr/share/ezgo/icons/myezgo11.png
+Name[zh_TW]=我的電腦
+Name=My computer
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

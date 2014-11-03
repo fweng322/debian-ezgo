@@ -1,0 +1,12 @@
+[Added Associations]
+application/x-7z-compressed=7zip.desktop;kde4-ark.desktop;
+application/x-bzip=7zip.desktop;kde4-ark.desktop;
+application/x-bzip-compressed-tar=7zip.desktop;kde4-ark.desktop;mount-archive.desktop;
+application/x-compressed-tar=7zip.desktop;kde4-ark.desktop;mount-archive.desktop;
+application/x-gzip=7zip.desktop;kde4-ark.desktop;
+application/zip=7zip.desktop;kde4-ark.desktop;mount-archive.desktop;
+image/x-xcf=gimp.desktop;kde4-kolourpaint.desktop;kde4-okularApplication_kimgio.desktop;
+text/html=firefox.desktop;
+text/plain=kde4-kate.desktop;gvim.desktop;
+image/svg+xml=inkscape.desktop;shutter.desktop;kde4-kolourpaint.desktop;gimp.desktop;bkchem.desktop;kde4-kate.desktop;gvim.desktop;kde4-rekonq.desktop;libreoffice-writer.desktop;firefox.desktop;chromium-browser.desktop;hydrogen.desktop;kayali.desktop;
+application/x-java-jnlp-file=JB-javaws-jdk8.desktop;icedtea-netx-javaws.desktop;kde4-kate.desktop;gvim.desktop;kde4-kfmclient_html.desktop;libreoffice-writer.desktop;firefox.desktop;chromium-browser.desktop;hydrogen.desktop;kayali.desktop;

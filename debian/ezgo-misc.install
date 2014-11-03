@@ -1,0 +1,3 @@
+ezgo-misc/my_computer.desktop usr/share/ezgo/desktop-files
+ezgo-misc/my_ezgo.desktop usr/share/ezgo/desktop-files
+ezgo-misc/mimeapps.list etc/skel/.local/share/applications

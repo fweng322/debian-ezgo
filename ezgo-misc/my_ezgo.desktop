@@ -1,0 +1,23 @@
+Name[zh_TW]=我的 ezgo
+GenericName[zh_TW]=可清楚的看到硬體、網路、可移除裝置及系統等相關資訊
+Comment[zh_TW]=我的 ezgo
+Categories=myezgo;
+[Desktop Entry]
+Comment[zh_TW]=我的 ezgo
+Comment=ezgo system information
+Exec=konqueror sysinfo://
+GenericName[zh_TW]=可清楚的看到硬體、網路、可移除裝置及系統等相關資訊
+GenericName=ezgo system information
+Icon=/usr/share/icons/ezgo/myezgo11.png
+Name[zh_TW]=我的 ezgo
+Name=My ezgo
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=my_ezgo.desktop
+Categories=myezgo;
