@@ -34,10 +34,23 @@ restore_ksplash() {
 	/usr/share/kde4/apps/kdm/themes/ezgo/background.png
 }
 
+change_ezgo_font_config() {
+    if [ -f /usr/local/share/fonts/s/SourceHanSans-Normal.otf ]; then
+	    sed -i 's/^\(font=\)[^,]\+/\1Source Han Sans/g' /usr/share/ezgo/ezgo-kde/kde-profile/share/config/kdeglobals /etc/skel/.kde/share/config/kdeglobals
+	    sed -i 's/^\(menuFont=\)[^,]\+/\1Source Han Sans/g' /usr/share/ezgo/ezgo-kde/kde-profile/share/config/kdeglobals /etc/skel/.kde/share/config/kdeglobals
+	    sed -i 's/^\(desktopFont=\)[^,]\+/\1Source Han Sans/g' /usr/share/ezgo/ezgo-kde/kde-profile/share/config/kdeglobals /etc/skel/.kde/share/config/kdeglobals
+	    sed -i 's/^\(toolBarFont=\)[^,]\+/\1Source Han Sans/g' /usr/share/ezgo/ezgo-kde/kde-profile/share/config/kdeglobals /etc/skel/.kde/share/config/kdeglobals
+	    sed -i 's/^\(smallestReadableFont=\)[^,]\+/\1Source Han Sans/g' /usr/share/ezgo/ezgo-kde/kde-profile/share/config/kdeglobals /etc/skel/.kde/share/config/kdeglobals
+	    sed -i 's/^\(taskbarFont=\)[^,]\+/\1Source Han Sans/g' /usr/share/ezgo/ezgo-kde/kde-profile/share/config/kdeglobals /etc/skel/.kde/share/config/kdeglobals
+	    sed -i 's/^\(activeFont=\)[^,]\+/\1Source Han Sans/g' /usr/share/ezgo/ezgo-kde/kde-profile/share/config/kdeglobals /etc/skel/.kde/share/config/kdeglobals
+    fi
+}
+
 case "$1" in
   configure)
     change_lightdm_kde_theme
     change_ksplash
+    change_ezgo_font_config
     ;;
   remove)
     restore_lightdm_kde_theme
