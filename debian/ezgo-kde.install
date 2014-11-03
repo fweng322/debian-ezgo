@@ -15,7 +15,8 @@ ezgo-kde/kde/update-kde usr/share/ezgo/ezgo-kde
 ezgo-kde/kde/kde4rc etc/
 ezgo-kde/kde/open_as_root.desktop usr/share/kde4/services/ServiceMenus
 ezgo-kde/kde-profile/kglobalshortcutsrc etc/skel/.kde/share/config
-ezgo-kde/kde-profile/* /usr/share/kde4/config
+ezgo-kde/kde-profile/* usr/share/ezgo/ezgo-kde/kde-profile/share/config
+ezgo-kde/kde-profile/* etc/skel/.kde/share/config
 ezgo-kde/lightdm-kde-greeter/* usr/share/kde4/apps/lightdm-kde-greeter/themes/ezgo
 ezgo-kde/lightdm-kde-greeter/private/* usr/share/kde4/apps/lightdm-kde-greeter/themes/ezgo/private
 ezgo-kde/kim4/src/kim_*.desktop usr/share/kde4/services/ServiceMenus/
