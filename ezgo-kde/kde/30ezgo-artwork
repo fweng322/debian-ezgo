@@ -1,2 +1,2 @@
-KDEDIRS="/usr/share/ezgo/kde-profile:$KDEDIRS"
+KDEDIRS="/usr/share/ezgo/ezgo-kde/kde-profile:$KDEDIRS"
 export KDEDIRS
