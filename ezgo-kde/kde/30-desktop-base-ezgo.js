@@ -12,6 +12,7 @@ for (var i = 0; i < screenCount; ++i) {
     desktop.writeConfig("slideTimer", 360)
     desktop.writeConfig("userswallpapers", "/usr/share/ezgo/wallpaper/ezgo12-wallpapaer-1366x768.png,/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1920x1080.png")
     desktop.writeConfig("wallpaper", "/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png")
+    desktop.writeConfig("wallpaperposition", 2)
     desktop.writeConfig("immutability", 2)
 
     rssnow = desktop.addWidget("rssnow")
@@ -19,10 +20,10 @@ for (var i = 0; i < screenCount; ++i) {
     rssnow.writeConfig("interval", 5)
     rssnow.writeConfig("switchInterval", 30)
     rssnow.writeConfig("immutability", 1)
-    rssnow.geometry = QRectF(700,66,300,300)
+    rssnow.geometry = QRectF(screenGeometry(desktop.screen).width - 400,66,300,300)
 
     trash = desktop.addWidget("trash")
-    trash.geometry = QRectF(892,450,174,104)
+    trash.geometry = QRectF(screenGeometry(desktop.screen).width - 200,450,174,104)
     trash.writeConfig("immutability", 1)
     trash.writeConfig("zvalue", 0)
 
