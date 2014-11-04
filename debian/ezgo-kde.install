@@ -13,6 +13,8 @@ ezgo-kde/kde/30ezgo-artwork etc/X11/Xsession.d
 ezgo-kde/kde/layout.js usr/share/ezgo/ezgo-kde/kde-profile/share/apps/plasma/layout-templates/org.kde.plasma-desktop.defaultPanel/contents/
 ezgo-kde/kde/update-kde usr/share/ezgo/ezgo-kde
 ezgo-kde/kde/kde4rc etc/
+ezgo-kde/kde/bookmarks.xml etc/skel/.kde/share/apps/kfileplaces/
+ezgo-kde/kde/.directory etc/skel/.kde/share/apps/dolphin/view_properties/global/
 ezgo-kde/kde/open_as_root.desktop usr/share/kde4/services/ServiceMenus
 ezgo-kde/kde-profile/kglobalshortcutsrc etc/skel/.kde/share/config
 ezgo-kde/kde-profile/* usr/share/ezgo/ezgo-kde/kde-profile/share/config
