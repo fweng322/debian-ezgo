@@ -18,12 +18,12 @@ for (var i = 0; i < screenCount; ++i) {
     rssnow.writeConfig("feeds", "http://ezgo-tw.blogspot.tw/feeds/posts/default");
     rssnow.writeConfig("interval", 5)
     rssnow.writeConfig("switchInterval", 30)
-    rssnow.writeConfig("immutability", 2)
+    rssnow.writeConfig("immutability", 1)
     rssnow.geometry = QRectF(700,66,300,300)
 
     trash = desktop.addWidget("trash")
     trash.geometry = QRectF(892,450,174,104)
-    trash.writeConfig("immutability", 2)
+    trash.writeConfig("immutability", 1)
     trash.writeConfig("zvalue", 0)
 
 
