@@ -811,12 +811,15 @@
 			<Filename>kde4-ktimetracker.desktop</Filename>
 			<Filename>kde4-klipper.desktop</Filename>
 			<Filename>kde4-akonaditray.desktop</Filename>
-			<Filename>kde4-kvkbd.deskto</Filename>p
 			<Filename>kde4-kmag.desktop</Filename>
 			<Filename>kde4-kmousetool.desktop</Filename>
 			<Filename>kde4-synaptiks.desktop</Filename>
 			<Filename>7zip.desktop</Filename>
 			<Filename>kde4-kvkbd.desktop</Filename>			
+			<Filename>galculator.desktop</Filename>
+			<Filename>file-roller.desktop</Filename>
+			<Filename>leafpad.desktop</Filename>
+			<Filename>xpad.desktop</Filename>
 				<Category>Utility</Category>
 		</Include>
 		<Menu>
@@ -830,10 +833,13 @@
 		<Layout>
 			<Filename>kde4-kate.desktop</Filename>
 			<Filename>gvim.desktop</Filename>
+			<Filename>leafpad.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-knotes.desktop</Filename>
+			<Filename>xpad.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-kcalc.desktop</Filename>
+			<Filename>galculator.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-kmag.desktop</Filename>
 			<Filename>kde4-kvkbd.desktop</Filename>
@@ -842,7 +848,7 @@
 			<Separator/>
 			<Filename>kde4-ark.desktop</Filename>
 			<Filename>7zip.desktop</Filename>
-			<Filename>kvkbd.desktop</Filename>
+			<Filename>file-roller.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-ktimetracker.desktop</Filename>
 			<Filename>kde4-klipper.desktop</Filename>
@@ -928,7 +934,7 @@
         </Menu>
 	<Menu>
 		<Name>System</Name>
-		<Directory>kde-system.directory</Directory>
+		<Directory>ezgo-system.directory</Directory>
 		<Include>
 			<Filename>kde4-partitionmanager.desktop</Filename>
 			<Filename>kde4-kinfocenter.desktop</Filename>
@@ -947,6 +953,8 @@
 			<Filename>jockey-kde.desktop</Filename>			
 			<Filename>freefilesync.desktop</Filename>
 			<Filename>realtimesync.desktop</Filename>
+			<Filename>pcmanfm.desktop</Filename>
+			<Filename>gnome-disks.desktop</Filename>
 				<Category>System</Category>
 		</Include>
 		<Menu>
@@ -965,9 +973,11 @@
 			<Filename>unetbootin.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-partitionmanager.desktop</Filename>
+			<Filename>gnome-disks.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-konsole.desktop</Filename>
 			<Filename>kde4-dolphin.desktop</Filename>
+			<Filename>pcmanfm.desktop</Filename>
 			<Filename>freefilesync.desktop</Filename>
 			<Filename>realtimesync.desktop</Filename>
 			<Separator/>
