@@ -54,8 +54,8 @@ restore_desktop_background() {
 change_grub_background() {
     priority=60 # value higher than 50 used for debian-edu-splash-grub.png in desktop-base
     update-alternatives --install \
-        /usr/share/images/desktop-base/desktop-grub.png \
-        desktop-grub \
+        /usr/share/images/desktop-base/ezgo-splash-grub.png \
+        ezgo-splash-grub.png \
         /usr/share/ezgo/grub/ezgo-splash-grub.png $priority
 
     if which update-grub2 > /dev/null ; then
@@ -65,7 +65,7 @@ change_grub_background() {
 }
  
 restore_grub_background() {
-    update-alternatives --remove desktop-grub \
+    update-alternatives --remove ezgo-splash-grub.png \
 	/usr/share/ezgo/grub/ezgo-splash-grub.png
 
     if which update-grub2 > /dev/null ; then
