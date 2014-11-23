@@ -11,7 +11,7 @@ for (var i = 0; i < screenCount; ++i) {
     desktop.writeConfig('slidepaths', '/usr/share/ezgo/wallpaper/')
     desktop.writeConfig("slideTimer", 360)
     desktop.writeConfig("userswallpapers", "/usr/share/ezgo/wallpaper/ezgo12-wallpapaer-1366x768.png,/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1920x1080.png")
-    desktop.writeConfig("wallpaper", "/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png")
+    desktop.writeConfig("wallpaper", "/etc/alternatives/desktop-background")
     desktop.writeConfig("wallpaperposition", 2)
     desktop.writeConfig("immutability", 2)
 
@@ -39,7 +39,7 @@ for (var i = 0; i < screenCount; ++i) {
     sal.writeConfig('slidepaths', '/usr/share/ezgo/wallpaper/')
     sal.writeConfig("slideTimer", 60)
     sal.writeConfig("userswallpapers", "/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png,/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1920x1080.png")
-    sal.writeConfig("wallpaper", "/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png")
+    sal.writeConfig("wallpaper", "/etc/alternatives/desktop-background")
 
     sal.currentConfigGroup = Array('stripwidget', 'favourite-0')
     sal.writeConfig('url', '/usr/share/applications/firefox.desktop')

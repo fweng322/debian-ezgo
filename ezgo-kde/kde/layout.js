@@ -27,8 +27,9 @@ dolphin = panel.addWidget("icon")
 dolphin.writeConfig("Url", "file:///usr/share/applications/kde4/dolphin.desktop")
 dolphin.writeConfig("immutability", 2)
 
-trash = panel.addWidget("trash")
-trash.writeConfig("immutability", 2)
+showdesktop = panel.addWidget("showdesktop")
+showdesktop.globalShortcut = "Meta+D"
+showdesktop.writeConfig("immutability", 2)
 
 tasks = panel.addWidget("tasks")
 tasks.writeConfig("immutability", 2)
@@ -40,9 +41,8 @@ systemtray.writeConfig("immutability", 2)
 dc = panel.addWidget("digital-clock")
 dc.writeConfig("immutability", 2)
 
-showdesktop = panel.addWidget("showdesktop")
-showdesktop.globalShortcut = "Meta+D"
-showdesktop.writeConfig("immutability", 2)
+trash = panel.addWidget("trash")
+trash.writeConfig("immutability", 2)
 
 panel.writeConfig("immutability", 2)
 
