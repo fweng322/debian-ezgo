@@ -11,6 +11,7 @@ libreoffice-calc.desktop,試算表_Calc,類似 Microsoft Excel 的試算表軟�
 libreoffice-impress.desktop,簡報_Impress,類似 Microsoft PowerPoint 的簡報軟體，特別的是可以跨平台使用，並且符合 ODF 國際標準格式,簡報_Impress,演示幻灯片_Impress,类似MicrosoftPowerPoint的演示幻灯片软件，特别的是可以跨平台使用，并且符合ODF国际标准格式,演示幻灯片_Impress,Office;
 libreoffice-draw.desktop,繪圖_Draw,利用 Office 軟體的使用思維即可輕鬆的繪製向量圖,繪圖_Draw,画图_Draw,利用Office软件的使用思维即可轻松的绘制向量图,画图_Draw,Office;
 libreoffice-base.desktop,資料庫_Base,類似 Microsoft Access 的資料庫軟體，特別的是可以跨平台使用，並且符合 ODF 國際標準格式,資料庫_Base,数据库_Base,类似MicrosoftAccess的数据库软件，特别的是可以跨平台使用，并且符合ODF国际标准格式,数据库_Base,Office;
+libreoffice-math.desktop,公式編輯_Math,LibreOffice 上可以做數學公式編輯的軟體,公式編輯_Math,公式编辑_Math,LibreOffice 上可以做数学公式编辑的软件,公式编辑_Math,Office;
 libreoffice-startcenter.desktop,整合應用_LibreOffice,LibreOffice 的入口,整合應用_LibreOffice,整合应用_LibreOffice,LibreOffice的入口,整合应用_LibreOffice,Office;
 # abiword.desktop: 20141107 added by Franklin
 abiword.desktop,文書處理_Abiword,簡易的文書處理軟體,文書處理_Abiword,文书处理_Abiword,简易的文书处理软件,文书处理_Abiword,Office;
@@ -150,7 +151,7 @@ Kppp.desktop,網路連線_KPPP,數據機和網路撥號程式,網路連線_KPPP,
 bluedevil-monolithic.desktop,藍芽連線_BlueDevil,KDE 內建的藍芽傳輸軟體,藍芽連線_BlueDevil,蓝牙连接_BlueDevil,KDE内置的蓝芽传输软件,蓝牙连接_BlueDevil,Network;
 extras-nitroshare.desktop,連線分享_Nitroshare,跨平台區域網路檔案分享軟體,連線分享_Nitroshare,连接分享_Nitroshare,跨平台局域网文件分享软件,连接分享_Nitroshare,Network;
 remmina.desktop,遠端連線_Remmina,遠端桌面的連線軟體，功能類似 TeamViewer,遠端連線_Remmina,远程连接_Remmina,远程桌面的连接软件，功能类似TeamViewer,远程连接_Remmina,Network;
-skype.desktop,免費軟體_Skype,知名的網路語音通話軟體,免費軟體_Skype,免费软件_Skype,知名的网络语音通话软件,免费软件_Skype,Network;
+skype.desktop,即時通訊_Skype,知名的網路語音通話軟體,即時通訊_Skype,即时通讯_Skype,知名的网络语音通话软件,即时通讯_Skype,Network;
 evolution.desktop,郵件管理_Evolution,集合電子郵件，行事曆與工作排程等功能的郵件管理軟體,郵件管理_Evolution,邮件管理_Evolution,集合电子邮件，行事历与工作调度等功能的邮件管理软件,邮件管理_Evolution,Network;
 gftp.desktop,檔案傳輸_gFTP,FTP檔案傳輸軟體 ,檔案傳輸_gFTP,文件传输_gFTP,FTP文件传输软件,文件传输_gFTP,Network;
 meiga.desktop,檔案分享_Meiga,透過 Meiga 可以輕易做到類似網路上的芳鄰來分享檔案,檔案分享_Meiga,文件分享_Meiga,通过Meiga可以轻易做到类似网络上的芳邻来分享文件,文件分享_Meiga,Network;

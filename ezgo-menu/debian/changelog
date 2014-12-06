@@ -1,10 +1,12 @@
-ezgo-menu (20141107) UNRELEASED; urgency=low
+ezgo-menu (20141125) UNRELEASED; urgency=low
 
   * Initial release
   * Split from ezgo-tasks
   * Remove USGS.png and physics.png since they will be put in different
     ezgo packages
   * Add some entries in database and applications menu file
+  * Fix simplified Chinese items by bootingmen
+  * Fix the Chinese name of skype
   *
 
- -- Franklin Weng <franklin@teabbs.goodhorse.idv.tw>  Fri, 24 Oct 2014 14:33:42 +0800
+ -- Franklin Weng <franklin@teabbs.goodhorse.idv.tw>  Fri, 21 Nov 2014 14:55:39 +0800
