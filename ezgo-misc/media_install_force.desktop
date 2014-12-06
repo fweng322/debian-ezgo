@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=myezgo;
+Comment[zh_TW]=安裝多媒體套件
+Comment=Install multimedia packages
+Exec=/usr/share/ezgo/media_pak_install/media_pak_install.py -f
+Path=/usr/share/ezgo/media_pak_install
+GenericName[zh_TW]=安裝常用的多媒體套件，例如 Adobe Flash Player 等
+GenericName=Install multimedia packages
+Icon=/usr/share/icons/ezgo/complete.png
+Name[zh_TW]=安裝多媒體套件
+Name=Install multimedia packages
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=media_install_force.desktop
+Categories;=myezgo;
+
