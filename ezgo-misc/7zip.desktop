@@ -1,0 +1,18 @@
+[Desktop Entry]
+GenericName=Archiving Tool
+GenericName[zh_TW]=跨平台壓縮和解壓縮的軟體，可以避免在解壓縮時，因為不同平台而出現中文檔名亂碼的問題
+Name=7zip
+Name[zh_TW]=壓縮工具_7zip
+Exec=wine /usr/local/7-Zip/7zFM.exe
+Path=/usr/local/7-Zip
+Icon=ark
+X-DocPath=ark/index.html
+Type=Application
+Terminal=false
+X-DBUS-StartupType=Unique
+X-KDE-HasTempFileOption=true
+Categories=Utility;
+InitialPreference=3
+desktop=7zip.desktop
+Comment[zh_TW]=壓縮工具_7zip
+
