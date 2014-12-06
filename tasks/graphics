@@ -40,3 +40,23 @@ Depends: fotowall
 Depends: shotwell
 
 Depends: hugin
+
+Depends: krita
+
+Depends: mypaint
+
+Depends: shutter
+
+Depends: freecad
+
+Depends: fritzing
+
+Depends: sweethome3d
+
+Depends: kruler
+
+Depends: kcolorchooser
+
+Depends: kamoso
+
+Depends: librecad
