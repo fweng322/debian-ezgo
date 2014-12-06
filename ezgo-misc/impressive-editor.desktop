@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Impressive Editor
+Name[zh_TW]=PDF簡報播放_Impressive
+Comment=Editor for Impressive presentation tool
+Comment[zh_TW]=PDF簡報播放_Impressive
+TryExec=impressive-editor
+Exec=impressive-editor %f
+Terminal=false
+Type=Application
+Categories=Office;
+Icon=impressive-editor
+MimeType=application/pdf;
+desktop=impressive-editor.desktop
+GenericName[zh_TW]=可以將 PDF 檔案當成簡報一樣播放的PDF簡報播放軟體
+
