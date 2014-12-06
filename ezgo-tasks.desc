@@ -15,6 +15,7 @@ Packages: list
  vim-gtk
  kcalc
  kmag
+ kvkbd
 
 Task: ezgo-common
 Section: ezgo
@@ -64,6 +65,11 @@ Packages: list
  celestia
  gcompris
  scratch
+ ktuberling
+ klavaro
+ anki
+ gnumeric
+ ballview
 
 Task: ezgo-games
 Section: ezgo
@@ -121,7 +127,6 @@ Packages: list
  gimp
  scribus
  digikam
- f-spot
  gwenview
  cheese
  blender
@@ -130,6 +135,16 @@ Packages: list
  fotowall
  shotwell
  hugin
+ krita
+ mypaint
+ shutter
+ freecad
+ fritzing
+ sweethome3d
+ kruler
+ kcolorchooser
+ kamoso
+ librecad
 
 Task: ezgo-lang-zh_TW-desktop
 Section: ezgo
@@ -168,6 +183,18 @@ Packages: list
  brasero
  mscore
  imagination
+ xbmc
+ openshot
+ lmms
+ kazam
+ guvcview
+ ffdiaporama
+ dvdisaster
+ furiusisomount
+ hydrogen
+ winff
+ ardour
+ timidity
 
 Task: ezgo-network
 Section: ezgo
@@ -206,4 +233,8 @@ Packages: list
  planner
  pdfshuffler
  scribus
+ impressive
+ qtqr
+ gnucash
+ calibre
 
