@@ -35,3 +35,27 @@ Depends: brasero
 Depends: mscore
 
 Depends: imagination
+
+Depends: xbmc
+
+Depends: openshot
+
+Depends: lmms
+
+Depends: kazam
+
+Depends: guvcview
+
+Depends: ffdiaporama
+
+Depends: dvdisaster
+
+Depends: furiusisomount
+
+Depends: hydrogen
+
+Depends: winff
+
+Depends: ardour
+
+Depends: timidity
