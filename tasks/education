@@ -55,3 +55,16 @@ Pkg-Description: easy programming environment designed for kids
  learn important mathematical and computational ideas, while also gaining
  a deeper understanding of the process of design.
 
+Depends: ktuberling
+
+Depends: klavaro
+
+Depends: anki
+
+Depends: kayali
+
+Depends: gnumeric
+
+Depends: gchempaint
+
+Depends: ballview
