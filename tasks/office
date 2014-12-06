@@ -46,4 +46,10 @@ Depends: pdfshuffler
 
 Depends: scribus
 
+Depends: impressive
 
+Depends: qtqr
+
+Depends: Gnucash
+
+Depends: Calibre
