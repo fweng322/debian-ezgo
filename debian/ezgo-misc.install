@@ -1,3 +1,5 @@
-ezgo-misc/my_computer.desktop usr/share/ezgo/desktop-files
-ezgo-misc/my_ezgo.desktop usr/share/ezgo/desktop-files
+ezgo-misc/*.desktop usr/share/ezgo/desktop-files
 ezgo-misc/mimeapps.list etc/skel/.local/share/applications
+ezgo-misc/media_pak_install/* usr/share/ezgo/media_pak_install
+ezgo-misc/update-ezgo-misc usr/share/ezgo/ezgo-misc
+ezgo-misc/7zip.tar.gz usr/share/ezgo/ezgo-misc
