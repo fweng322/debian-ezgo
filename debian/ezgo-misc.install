@@ -1,6 +1,10 @@
 ezgo-misc/*.desktop usr/share/ezgo/desktop-files
 ezgo-misc/mimeapps.list etc/skel/.local/share/applications
 ezgo-misc/media_pak_install/* usr/share/ezgo/media_pak_install
+ezgo-misc/media_pak_install/po/* usr/share/ezgo/media_pak_install/po
+ezgo-misc/media_pak_install/locales/* usr/share/ezgo/media_pak_install/po/locales
+ezgo-misc/media_pak_install/locales/zh_TW/* usr/share/ezgo/media_pak_install/po/locales/zh_TW
+ezgo-misc/media_pak_install/locales/zh_TW/LC_MESSAGES/* usr/share/ezgo/media_pak_install/po/locales/zh_TW/LC_MESSAGES
 ezgo-misc/media_install.desktop etc/xdg/autostart
 ezgo-misc/update-ezgo-misc usr/share/ezgo/ezgo-misc
 ezgo-misc/7zip.tar.gz usr/share/ezgo/ezgo-misc
