@@ -7,6 +7,7 @@ import gtk
 import os
 import getpass
 import sys
+import gettext
 username = getpass.getuser()
 
 WELCOME_SIZE = 13000
@@ -19,8 +20,13 @@ BG_COLOR = '#7AD9F6'
 
 MY_PATH = '/usr/share/ezgo/media_pak_install/'
 EZGO_VERSION = 'ezgo12'
+
+gettext.textdomain('media_pak_install')
+gettext.bindtextdomain('media_pak_install', MY_PATH+'locales')
+_ = gettext.gettext
+
 third_party_software = [ 'ubuntu-restricted-extras', 'pepperflashplugin-nonfree', 'skype', 'oracle-java7-installer' ]
-third_party_sw_desc = [ '一些影音多媒體必要之工具，如 flash 與編解碼器等，\n讓您可以看 youtube 線上影片及多種影音檔案', 'Google Chrome 與 Chromium 瀏覽器所使用的 Flash 外掛程式。\n如果您喜歡使用 Google Chrome 做為瀏覽器，\n則安裝此套件才能使用 Flash', '一套知名的即時文字/語音/視訊軟體', 'Oracle Java 執行環境，PhET 等套件需要' ]
+third_party_sw_desc = [ _('Necessary tools for multimedia, like flash and codecs.\nWith this you can watch youtube video or many other video format files.'), _('Flash plugin for Google Chrome and Chromium.\nIf you are using Google chrome or Chromium, you need to\ninstall this to use Flash.'), _('A famous instant messages and voice communication software.'), _('Oracle Java Runtime environment, necessary for PhET and other Java applets.') ]
 third_party_icon = [ MY_PATH+'ubuntu.png', MY_PATH+'flash.png', MY_PATH+'skype.png', MY_PATH+'Java.jpg' ]
 
 current_check_button = 0
@@ -79,7 +85,7 @@ def newImageBox( image_path, title, msg, pak_name ):
 	installed_image.set_from_pixbuf(scaled_buf)
 	installed_image.show()
 	#installed msg
-	installed_label = gtk.Label('<span size="12000">'+'已安裝'+'</span>')
+	installed_label = gtk.Label('<span size="12000">'+_('Installed')+'</span>')
 	installed_label.set_use_markup(True)
 	installed_label.show()
 	
@@ -161,44 +167,41 @@ class FlashInstall:
 		
 		
 		#[確認能連上網路，才繼續往下]
-		bash_to_exe = """
-		ping -c 1 8.8.8.8 > /dev/null
-		if [ $? != 0 ]; then
-			#zenity --info --text 安裝失敗：無法連上網路
-			kdialog --error 安裝失敗：無法連上網路
-			exit 1
-		fi
-		exit 0
-		"""
+                bash_to_exe = ". "+MY_PATH+"media_pak_install.func\n"
+		bash_to_exe += "ping -c 1 8.8.8.8 > /dev/null\n"
+		bash_to_exe += "if [ $? != 0 ]; then\n"
+                bash_to_exe += "show_error_message '"+_("Installation failed: Network unreachable.")+"'"
+		bash_to_exe += "exit 1\nfi\nexit 0\n"
 		rev = os.system( bash_to_exe )
 		if rev != 0 :
 			gtk.main_quit()
 			return
 		
 		bash_to_exe ='#!/bin/bash\n'
+                bash_to_exe += ". "+MY_PATH+"media_pak_install.func\n"
 		
 		# [ Franklin.20141124: try to use /usr/bin/qdbus ]
-		bash_to_exe += "third_party_sw["+str(len(third_party_software))+"]=("
+		bash_to_exe += "third_party_sw=("
 		for j in range(len(third_party_software)):
-			bash_to_exe += "'"+third_party_software[j]+"',"
+			bash_to_exe += "'"+third_party_software[j]+"' "
 		bash_to_exe += ")\n"
 
 		bash_to_exe += "prog=\"/usr/bin/qdbus\"\n"
 
-		bash_to_exe += "installed["+str(len(third_party_software))+"]=("
+		bash_to_exe += "installed=("
 		for j in range(len(third_party_software)):
-			bash_to_exe += "-1,"
+			bash_to_exe += "-1 "
 		bash_to_exe += ")\n"
-		bash_to_exe += 'kdialog --msgbox 請在安裝前確定連上網路，並關閉瀏覽器及影音相關軟體\n'
+		bash_to_exe += 'show_info_message "'+_('Please make sure that your network connection is available before start installation.  Also, please close all the browsers and multimedia windows.')+'"\n'
 		#[pre_install]
 		bash_to_exe += 'echo "update packages"\n'
-		bash_to_exe += 'dbusRef=`kdialog --progressbar "更新套件來源..." --title "安裝第三方軟體" ' + str(select_count) + '`\n'
+		bash_to_exe += 'dbusRef=`kdialog --progressbar "'+_("Updating repository...")+'" --title "'+_("Install third party software")+'" '+str(select_count) + '`\n'
 		bash_to_exe += 'dpkg --configure -a\n'
 		bash_to_exe += "apt-get update >&2\n"
 		now_bar_pos += 1
 		bash_to_exe += '$prog $dbusRef Set "" value '+str(now_bar_pos)+'\n'
 		
-		bash_to_exe += '$prog $dbusRef setLabelText "程式下載安裝中..."\n'
+		bash_to_exe += '$prog $dbusRef setLabelText "'+_("Installing...")+'"\n'
 		for i in range(total_check_button):
 			if check_status[i]:
 				bash_to_exe += install_command[i]
@@ -217,25 +220,24 @@ class FlashInstall:
 		bash_to_exe += "install_finish_msg=''\n"
                 for j in range(len(third_party_software)):
                     bash_to_exe += "if [ ${installed["+str(j)+"]} -eq 0 ]; then\n"
-                    bash_to_exe += "install_finish_msg=\"$install_finish_msg\"\"${third_party_sw["+str(j)+"]}:安裝成功\"$\"\\n\"\n"
+                    bash_to_exe += "install_finish_msg=\"$install_finish_msg\"\"${third_party_sw["+str(j)+"]}:"+_("Succeeded.")+"\"$\"\\n\"\n"
                     bash_to_exe += "elif [ ${installed["+str(j)+"]} -ne -1 ]; then\n"
-                    bash_to_exe += "install_finish_msg=\"$install_finish_msg\"\"${third_party_sw["+str(j)+"]}:安裝失敗\"$\"\\n\"\n"
+                    bash_to_exe += "install_finish_msg=\"$install_finish_msg\"\"${third_party_sw["+str(j)+"]}:"+_("Failed.")+"\"$\"\\n\"\n"
                     bash_to_exe += "fi\n"
 
                 bash_to_exe += "echo $install_finish_msg > log\n"
-                bash_to_exe += "kdialog --msgbox \"$install_finish_msg\"\n"
+                bash_to_exe += "show_info_message \"$install_finish_msg\"\n"
 		
 		#print bash_to_exe
 		f = open(sh_file, 'w')
 		f.write(bash_to_exe)
 		f.close()
 
-		f = open('/tmp/media.sh', 'w')
-		f.write(bash_to_exe)
-		f.close()
+                quit()
 
 		#os.system('gksu -m 請輸入您的使用者密碼，以便安裝 "gnome-terminal -x /bin/bash '+sh_file+' "')
-		os.system('gksu -m 請輸入您的使用者密碼，以便安裝 "konsole -e /bin/bash '+sh_file+' "')
+                execmsg = 'gksu -m '+_("Please input your password.")+' "konsole -e /bin/bash '+sh_file+' "'
+		os.system(execmsg)
 		gtk.main_quit()
 	
 	def __init__(self, ed):
@@ -243,7 +245,7 @@ class FlashInstall:
 		self.ed = ed
 		
 		self.window = gtk.Window(gtk.WINDOW_TOPLEVEL)
-		self.window.set_title("安裝第三方軟體")
+		self.window.set_title(_("Install third party software"))
 		self.window.set_border_width(10)
 		color = gtk.gdk.color_parse(BG_COLOR)
 		#self.window.modify_bg(gtk.STATE_NORMAL, color)
@@ -251,10 +253,9 @@ class FlashInstall:
 		box1 = gtk.VBox(False, 0)
 
 		#[top]
-		text_show = "歡迎您使用"+EZGO_VERSION+"\n"
-		text_show += "由於 "+EZGO_VERSION+ "所預先安裝的程式皆為自由軟體，有些常用的免費軟體\n"
-		text_show += "因為授權的關係，所以並沒有預先安裝。\n"
-		text_show += "為了讓您在"+EZGO_VERSION+"有更好的體驗，建議安裝下列常用的第三方軟體：\n"
+		text_show = _("Welcome to")+EZGO_VERSION+"\n"
+		text_show += _("Since ")+EZGO_VERSION+_(" contains only software that we can freely distribute,\nsome freeware can't be preinstalled due to license issue.\n")
+                text_show += _("We strongly recommend you to install the following third party software so that you can use in ")+EZGO_VERSION+":\n"
 
 		label = gtk.Label('<span size="'+str(WELCOME_SIZE)+'">' +text_show  +'</span>')
 		
@@ -284,7 +285,7 @@ class FlashInstall:
 
 
 		#[don't show again button]
-		button = gtk.CheckButton("下次不要再自動開啟這個視窗")
+		button = gtk.CheckButton(_("Don't show it again."))
 		button.connect("clicked", dontshow_button_callback, None)
 		box1.pack_start(button, padding=0)
 
@@ -315,7 +316,7 @@ class EndMessage:
 		
 	def __init__(self) :
 		self.window = gtk.Window(gtk.WINDOW_TOPLEVEL)
-		self.window.set_title("注意")
+		self.window.set_title(_("Notice"))
 		self.window.set_border_width(10)
 		color = gtk.gdk.color_parse(BG_COLOR)
 		#self.window.modify_bg(gtk.STATE_NORMAL, color)
@@ -340,7 +341,7 @@ class EndMessage:
 if __name__ == "__main__":
 	#print sys.argv
 	force_show = (len(sys.argv)>=2 and sys.argv[1]=='-f')
-	
+
 	if (not os.path.exists(dont_show_file)) or force_show :
 		os.system('rm -f '+dont_show_file)
 		ed = EndMessage()
@@ -351,4 +352,6 @@ if __name__ == "__main__":
 				exit()
 		gtk.main()
 		#os.system('zenity --info --text 日後若需安裝，請點選"應用程式選單->ezgo工具箱->安裝多媒體套件"')
-		os.system('kdialog --msgbox 日後若需安裝，請點選"應用程式選單->ezgo工具箱->安裝多媒體套件"')
+		endmsg = ". "+MY_PATH+"media_pak_install.func\n"
+                endmsg += "show_info_message '"+_("If you want to run later, choose it from the \"ezgo tools\" menu.")+"'"
+		os.system(endmsg)
