@@ -11,6 +11,7 @@ case "$1" in
     ln -sf /usr/share/ezgo/desktop-files/my_ezgo.desktop /usr/share/applications/my_ezgo.desktop
     cd /usr/share/ezgo/ezgo-misc
     tar xf 7zip.tar.gz
+    rm -rf /usr/local/7-Zip
     mv /usr/share/ezgo/ezgo-misc/7-Zip /usr/local/
     ;;
   remove)
