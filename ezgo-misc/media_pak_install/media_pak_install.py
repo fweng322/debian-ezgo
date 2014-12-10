@@ -233,8 +233,6 @@ class FlashInstall:
 		f.write(bash_to_exe)
 		f.close()
 
-                quit()
-
 		#os.system('gksu -m 請輸入您的使用者密碼，以便安裝 "gnome-terminal -x /bin/bash '+sh_file+' "')
                 execmsg = 'gksu -m '+_("Please input your password.")+' "konsole -e /bin/bash '+sh_file+' "'
 		os.system(execmsg)
