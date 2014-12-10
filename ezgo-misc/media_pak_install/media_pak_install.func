@@ -1,8 +1,4 @@
 
-
-locale=$(env |grep "LANG="|sed  s/LANG=//g|sed s/.UTF-8//g|sed s/.utf8//g)
-$locale
-
 show_info_message()
 {
 	if [ -x /usr/bin/kdialog ]; then
