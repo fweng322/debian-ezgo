@@ -1,0 +1,26 @@
+
+
+locale=$(env |grep "LANG="|sed  s/LANG=//g|sed s/.UTF-8//g|sed s/.utf8//g)
+$locale
+
+show_info_message()
+{
+	if [ -x /usr/bin/kdialog ]; then
+		kdialog --msgbox "$1"
+	elif [ -x /usr/bin/zenity ]; then
+		zenity --info --text "$1"
+	else
+		echo "info: $1" >> $HOME/media_pak_install.log
+	fi
+}
+
+show_error_message()
+{
+	if [ -x /usr/bin/kdialog ]; then
+		kdialog --error "$1"
+	elif [ -x /usr/bin/zenity ]; then
+		zenity --error --text "$1"
+	else
+		echo "error: $1" >> $HOME/media_pak_install.log
+	fi
+}
