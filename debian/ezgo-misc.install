@@ -6,5 +6,7 @@ ezgo-misc/media_pak_install/locales/* usr/share/ezgo/media_pak_install/po/locale
 ezgo-misc/media_pak_install/locales/zh_TW/* usr/share/ezgo/media_pak_install/po/locales/zh_TW
 ezgo-misc/media_pak_install/locales/zh_TW/LC_MESSAGES/* usr/share/ezgo/media_pak_install/po/locales/zh_TW/LC_MESSAGES
 ezgo-misc/media_install.desktop etc/xdg/autostart
+ezgo-misc/media_install.desktop usr/share/applications
+ezgo-misc/media_install_force.desktop usr/share/applications
 ezgo-misc/update-ezgo-misc usr/share/ezgo/ezgo-misc
 ezgo-misc/7zip.tar.gz usr/share/ezgo/ezgo-misc
