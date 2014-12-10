@@ -1,5 +1,6 @@
 [PreviewSettings]
 UseFileThumbnails=true
+MaximumRemoteSize=67108864
 
 [Toolbar style]
 ToolButtonStyle=TextBesideIcon
