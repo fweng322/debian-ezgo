@@ -50,6 +50,6 @@ Depends: impressive
 
 Depends: qtqr
 
-Depends: Gnucash
+Depends: gnucash
 
-Depends: Calibre
+Depends: calibre
