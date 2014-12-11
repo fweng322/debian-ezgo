@@ -179,7 +179,8 @@ class FlashInstall:
 		
 		bash_to_exe ='#!/bin/bash\n'
                 bash_to_exe += ". "+MY_PATH+"media_pak_install.func\n"
-		
+                bash_to_exe += "touch /tmp/result\n"
+
 		# [ Franklin.20141124: try to use /usr/bin/qdbus ]
 		bash_to_exe += "third_party_sw=("
 		for j in range(len(third_party_software)):
@@ -195,6 +196,7 @@ class FlashInstall:
 		bash_to_exe += 'show_info_message "'+_('Please make sure that your network connection is available before start installation.  Also, please close all the browsers and multimedia windows.')+'"\n'
 		#[pre_install]
 		bash_to_exe += 'echo "update packages"\n'
+                bash_to_exe += 'if [ -x /usr/bin/kdialog ]; then\n'
 		bash_to_exe += 'dbusRef=`kdialog --progressbar "'+_("Updating repository...")+'" --title "'+_("Install third party software")+'" '+str(select_count) + '`\n'
 		bash_to_exe += 'dpkg --configure -a\n'
 		bash_to_exe += "apt-get update >&2\n"
@@ -216,7 +218,7 @@ class FlashInstall:
 		#kde
 
 		bash_to_exe += '$prog $dbusRef close\n'
-		
+		bash_to_exe += 'source /tmp/result\n'
 		bash_to_exe += "install_finish_msg=''\n"
                 for j in range(len(third_party_software)):
                     bash_to_exe += "if [ ${installed["+str(j)+"]} -eq 0 ]; then\n"
@@ -227,14 +229,37 @@ class FlashInstall:
 
                 bash_to_exe += "echo $install_finish_msg > log\n"
                 bash_to_exe += "show_info_message \"$install_finish_msg\"\n"
-		
+                bash_to_exe += "elif [ -x /usr/bin/zenity ]; then\n"
+                bash_to_exe += 'dpkg --configure -a && apt-get update | tee >(zenity --progress --pulsate --width=420 --text="'+_("Updating repository...")+'" --title "'+_("Install third party software")+'" --auto-close)\n'
+                bash_to_exe += '(\n'
+                inum=1
+		for i in range(total_check_button):
+			if check_status[i]:
+                            bash_to_exe += install_command[i]
+                            bash_to_exe += 'echo '+str(inum*100/(select_count-1))+'%\n'
+			    inum = inum+1
+                bash_to_exe += ') | zenity --progress --title="'+_("Installing...")+'" --percentage=0 --auto-close\n'
+                bash_to_exe += "source /tmp/result\n"
+		bash_to_exe += "install_finish_msg=''\n"
+                for j in range(len(third_party_software)):
+                    bash_to_exe += "if [ ${installed["+str(j)+"]} -eq 0 ]; then\n"
+                    bash_to_exe += "install_finish_msg=\"$install_finish_msg\"\"${third_party_sw["+str(j)+"]}:"+_("Succeeded.")+"\"$\"\\n\"\n"
+                    bash_to_exe += "elif [ ${installed["+str(j)+"]} -ne -1 ]; then\n"
+                    bash_to_exe += "install_finish_msg=\"$install_finish_msg\"\"${third_party_sw["+str(j)+"]}:"+_("Failed.")+"\"$\"\\n\"\n"
+                    bash_to_exe += "fi\n"
+
+                bash_to_exe += "echo $install_finish_msg > log\n"
+                bash_to_exe += "show_info_message \"$install_finish_msg\"\n"
+                bash_to_exe += "fi\n"
+                bash_to_exe += "rm -f /tmp/result\n"
+
 		#print bash_to_exe
 		f = open(sh_file, 'w')
 		f.write(bash_to_exe)
 		f.close()
 
 		#os.system('gksu -m 請輸入您的使用者密碼，以便安裝 "gnome-terminal -x /bin/bash '+sh_file+' "')
-                execmsg = 'gksu -m '+_("Please input your password.")+' "konsole -e /bin/bash '+sh_file+' "'
+                execmsg = 'gksu -m '+_("Please input your password.")+' "/usr/bin/x-terminal-emulator -e /bin/bash '+sh_file+' "'
 		os.system(execmsg)
 		gtk.main_quit()
 	
@@ -270,7 +295,7 @@ class FlashInstall:
 			msg = third_party_sw_desc[t]
 			box2 = newImageBox(third_party_icon[t], title, msg, third_party_software[t])
 # [Franklin.20141124: for backup] echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections
-			install_command += ["echo \"install "+third_party_software[t]+"\"\n"+"apt-get install -y --force-yes --quiet "+third_party_software[t]+" >&2\n"+"installed["+str(t)+"]=$?\n"]
+			install_command += ["apt-get install -y --force-yes --quiet "+third_party_software[t]+" >&2\n"+"echo \"installed["+str(t)+"]=$?\" >> /tmp/result\n"]
 			box1.pack_start(box2)
 
 		box1.show()
