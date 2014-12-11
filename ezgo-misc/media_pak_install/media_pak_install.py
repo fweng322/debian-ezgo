@@ -170,7 +170,7 @@ class FlashInstall:
                 bash_to_exe = ". "+MY_PATH+"media_pak_install.func\n"
 		bash_to_exe += "ping -c 1 8.8.8.8 > /dev/null\n"
 		bash_to_exe += "if [ $? != 0 ]; then\n"
-                bash_to_exe += "show_error_message '"+_("Installation failed: Network unreachable.")+"'"
+                bash_to_exe += "show_error_message '"+_("Installation failed: Network unreachable.")+"'\n"
 		bash_to_exe += "exit 1\nfi\nexit 0\n"
 		rev = os.system( bash_to_exe )
 		if rev != 0 :
