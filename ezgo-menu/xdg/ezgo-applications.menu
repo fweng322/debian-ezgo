@@ -33,7 +33,7 @@
 		<Menuname>More</Menuname>
 		<Separator/>
 		<Menuname>System</Menuname>
-		<Menuname>Settingsmenu</Menuname>		
+		<Menuname>Settings</Menuname>		
 		<Separator/>
 		<Merge type="menus"/>
 		<Merge type="files"/>
@@ -1008,7 +1008,7 @@
 		</Menu>
 	</Menu>
 	<Menu>
-		<Name>Settingsmenu</Name>
+		<Name>Settings</Name>
 		<Directory>kde-settingsmenu.directory</Directory>
 		<Include>
 			<Filename>kde4-systemsettings.desktop</Filename>
@@ -1022,14 +1022,14 @@
 			<Filename>JB-jconsole.desktop</Filename>
 			<Filename>JB-jvisualvm.desktop</Filename>				
 			<Filename>JB-javaws.desktop</Filename>
-				<Category>Settingsmenu</Category>
+				<Category>Settings</Category>
 		</Include>
 		<Menu>
 			<Name>More</Name>
 			<Directory>kde-more.directory</Directory>
 			<OnlyUnallocated/>
 			<Include>
-				<Category>Settingsmenu</Category>
+				<Category>Settings</Category>
 			</Include>
 		</Menu>			
 		<Layout>
