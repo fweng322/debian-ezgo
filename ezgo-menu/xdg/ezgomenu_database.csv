@@ -356,8 +356,8 @@ jockey-kde.desktop,額外驅動程式_jockey-kde,可以檢視及安裝額外的�
 nepomukbackup.desktop,備份工具_Nepomuk Backup,系統備份工具,備份工具_Nepomuk Backup,备份工具_NepomukBackup,系统备份工具,备份工具_NepomukBackup,System;
 nepomukcontroller.desktop,備份工具_Nepomuk Controller,系統備份主控台,備份工具_Nepomuk Controller,备份工具_NepomukController,系统备份主控台,备份工具_NepomukController,System;
 #設定,,,,,,,
-systemsettings.desktop,系統設定_System Settings,類似 Windows 下的控制台，可以進行 ezgo 各項系統環境設定,系統設定_System Settings,系统设置_SystemSettings,类似Windows下的控制面板，可以进行ezgo各项系统环境设置,系统设置_SystemSettings,Settingsmenu;
-hime-setup.desktop,輸入法設定_hime ,中文輸入法相關設定,輸入法設定_hime ,输入法设置_hime,中文输入法相关设置,输入法设置_hime,Settingsmenu;
-qtconfig-qt4.desktop,Qt 4 設定_qtconfig-qt4,Qt 4 相關設定,Qt 4 設定_qtconfig-qt4,Qt 4 设置_qtconfig-qt4,Qt4相关设置,Qt4设置_qtconfig-qt4,Settingsmenu;
-xinput_calibrator.desktop,觸控螢幕設定_Calibrate Touchscreen,觸控螢幕相關設定,觸控螢幕設定_Calibrate Touchscreen,触控屏幕设置_CalibrateTouchscreen,触控屏幕相关设置,触控屏幕设置_CalibrateTouchscreen,Settingsmenu;
+systemsettings.desktop,系統設定_System Settings,類似 Windows 下的控制台，可以進行 ezgo 各項系統環境設定,系統設定_System Settings,系统设置_SystemSettings,类似Windows下的控制面板，可以进行ezgo各项系统环境设置,系统设置_SystemSettings,Settings;
+hime-setup.desktop,輸入法設定_hime ,中文輸入法相關設定,輸入法設定_hime ,输入法设置_hime,中文输入法相关设置,输入法设置_hime,Settings;
+qtconfig-qt4.desktop,Qt 4 設定_qtconfig-qt4,Qt 4 相關設定,Qt 4 設定_qtconfig-qt4,Qt 4 设置_qtconfig-qt4,Qt4相关设置,Qt4设置_qtconfig-qt4,Settings;
+xinput_calibrator.desktop,觸控螢幕設定_Calibrate Touchscreen,觸控螢幕相關設定,觸控螢幕設定_Calibrate Touchscreen,触控屏幕设置_CalibrateTouchscreen,触控屏幕相关设置,触控屏幕设置_CalibrateTouchscreen,Settings;
 #ezgomenu end,,,,,,,
