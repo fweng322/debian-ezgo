@@ -7,7 +7,7 @@
 
   <group name="greeter-settings">
     <entry name="Background" type="String">
-      <default>/usr/share/ezgo/wallpaper/blue_1440_blur.png</default>
+      <default>/etc/alternatives/desktop-background</default>
     </entry>
   </group>
 </kcfg>
