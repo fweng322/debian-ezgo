@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>字音字形體驗版</title>
+
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/loader.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body > <!-- dark background, temporory inline set, Jim Lai please modify it -->
+    <header>
+      <h1 class="head" align="center">字音字形體驗版</h1>
+    </header>
+    <main id="main-block">main-block</main>
+    <footer>
+	    <p class="footer" align="center">老師的話: 這個體驗版是幾位成大的大哥哥用 HTML5 寫的，大家記得給他們拍拍手喔！<br>還有，也要感謝花蓮的陳立輝老師寫的<a href="http://word.hlc.edu.tw/" target="_blank">字音字形學習網</a>。小朋友也可以上網去玩喔！</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.i18n.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script>
+      // temporary write javascript inline
+    $("#main-block").load("option.html");
+    </script>
+  </body>
+</html>

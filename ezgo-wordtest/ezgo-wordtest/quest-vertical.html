@@ -1,0 +1,66 @@
+<div class="container">
+  <div class="col-md-8">
+    <div class="row-md-8">
+      <div class="well well-small" style="background:#FFF" id="topic-placeholder">
+        <span style="font-family:Microsoft JhengHei;"><h1 align="center" id="topic" style="font-size:4.5em">題目</h1></span>
+      </div>
+      <h2 style=" font-size:1.3em" align="center" id="description">題目描述</h2>
+    </div>
+  </div>
+  <div class="col-md-4" >
+    <div class="row-md-4" style="margin-bottom:2em;">
+      <button class="btn option option-clear" type="button" id="option1" style="font-size:3.2em">選項1</button>
+    </div>
+    <div class="row-md-4 row-md-offset-1" style="margin-bottom:2em;">
+      <button class="btn option option-clear" type="button" id="option2" style="font-size:3.2em">選項1</button>
+    </div>
+    <div class="row-md-4 row-md-offset-2" style="margin-bottom:2em;">
+      <button class="btn option option-clear" type="button" id="option3" style="font-size:3.2em">選項1</button>
+    </div>
+    <div class="row-md-4 row-md-offset-3" style="margin-bottom:2em;">
+      <button class="btn option option-clear" type="button" id="option4" style="font-size:3.2em">選項1</button>
+    </div>
+  </div>
+</div>
+<script>
+  var QuestionTag = {
+    Topic : '#topic',
+    Description: '#description',
+    Options:{
+      1:'#option1',
+      2:'#option2',
+      3:'#option3',
+      4:'#option4'
+    },
+    display: function(data){
+      $(this.Topic).text(data.topic);
+      $(this.Description).text(data.description);
+      for(var key in data.option){
+        $(this.Options[key]).text(data.option[key]);
+      }
+      answer = data.answer;
+      answered = 0;
+    },
+    updateButtonStatus: function(correct, wrong){
+      /* Note: `correct` will be an integer, 0 if not yet correct.
+      `wrong` will be an array of integer */
+      $('#option1, #option2, #option3, #option4').removeClass('option-wrong');
+      $('#option1, #option2, #option3, #option4').removeClass('option-correct');
+      $('#option1, #option2, #option3, #option4').addClass('option-clear');
+      if(correct != 0){
+        $('#option' + correct).addClass('option-correct');
+        $('#option' + correct).removeClass('option-clear');
+      }
+      for(var i in wrong){
+        $('#option' + wrong[i]).addClass('option-wrong');
+        $('#option' + wrong[i]).removeClass('option-clear');
+      }
+    }
+  };
+</script>
+
+<style>
+#topic-placeholder{
+  margin-top: 50px;
+}
+</style>

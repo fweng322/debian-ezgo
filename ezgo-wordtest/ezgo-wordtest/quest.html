@@ -1,0 +1,72 @@
+<div class="container">
+  <ul id="information" class="nav nav-pills">
+    <li class="">
+      <div class="btn btn-lg btn-clear">
+        分數：<span id="score"> 0 </span>
+      </div>
+    </li>
+    <li class="">
+      <div class="btn btn-lg btn-clear">
+        正確： <span id="right"> 0 </span>
+      </div>
+    </li>
+    <li class="">
+      <div class="btn btn-lg btn-clear">
+        錯誤： <span id="wrong"> 0 </span>
+      </div>
+    </li>
+    <li class="navbar-right">
+      <i class="icon-cog icon-2x" id="option-button"></i>
+    </li>
+    <li class="">
+      <div class="btn btn-lg btn-danger" id="end-test">
+        結束測驗
+      </div>
+    </li>
+  </ul>
+  <div id="option-popup">
+  </div>
+</div>
+<div class="container">
+  <div class ="jumbotron" style="padding-top:2em; padding-bottom: 2em;">
+    <section id="question-placeholder">
+      <div class="loader">
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+        <div class="side"></div>
+      </div>
+    </section>
+    <div class="row" align="center" style="font-size:4em; margin-top: 0.4em;">
+      <a href="#">
+        <span id="question-prev" class="glyphicon glyphicon-chevron-left" style="color:#000; opacity:0.5"></span>
+      </a>
+      &nbsp;&nbsp;&nbsp;
+      <a href="#">
+        <span id="question-next" class="glyphicon glyphicon-chevron-right" style="color:#000; opacity:0.5"></span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="popup" id="popup-option">
+  <div class="popup-container">
+    <a class="mode-select btn btn-lg btn-default" data="0">
+      直向
+    </a>
+    <a class="mode-select btn btn-lg btn-default" data="1">
+      橫向-1
+    </a>
+    <a class="mode-select btn btn-lg btn-default" data="2">
+      橫向-2
+    </a>
+  </div>
+</div>
+
+<script src="js/quest.js"></script>
+
+<script> loadCSS('css/quest.css'); </script>

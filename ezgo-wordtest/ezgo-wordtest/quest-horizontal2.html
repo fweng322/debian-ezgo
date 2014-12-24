@@ -1,0 +1,136 @@
+<div class="well well-small" style="background:#FFF">
+  <span style="font-family:Microsoft JhengHei;"><h1 align="center" id="topic">題目</h1></span>
+</div>
+<h2 style=" font-size:1.3em" align="center" id="description">題目描述</h2>
+<hr>
+<div class="row">
+
+  <div class="col-md-3" onClick="" style="cursor:pointer">
+    <div id="option1" class="row hoption container">
+      <div class ="col-md-3 col-md-offset-4" style="font-size:4em; line-height:1.2" id="s1mark">
+        <br>ㄧ<br><br>
+      </div>
+      <div class ="col-md-2" style="font-size:4em" id="s1tone">
+        <br>ˇ<br>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3" onClick="" style="cursor:pointer">
+    <div id="option2" class="row hoption container">
+      <div class ="col-md-3 col-md-offset-4" style="font-size:4em; line-height:1.2" id="s2mark">
+        ㄧ<br>ㄠ
+      </div>
+      <div class ="col-md-2" style="font-size:4em" id="s2tone">
+        <br>ˋ<br>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3" onClick="" style="cursor:pointer">
+    <div id="option3" class="row hoption container">
+      <div class ="col-md-3 col-md-offset-4" style="font-size:4em; line-height:1.2" id="s3mark">
+        ㄌ<br>ㄠ
+      </div>
+      <div class ="col-md-2" style="font-size:4em" id="s3tone">
+        <br>ˋ<br>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3" onClick="" style="cursor:pointer">
+    <div id="option4" class="row hoption container">
+      <div class ="col-md-3 col-md-offset-4" style="font-size:4em; line-height:1.2" id="s4mark">
+        ㄌ<br>ㄧ<br>ㄠ
+      </div>
+      <div class ="col-md-2" style="font-size:4em" id="s4tone">
+        <br>ˇ<br>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script>
+  var mark = /[^ˋˊˇ]+/;
+  var tone = /[ˋˊˇ]/;
+  var QuestionTag = {
+    Topic : '#topic',
+    Description: '#description',
+    Options:{
+      1:'#option1','1m':'#s1mark','1t':'#s1tone',
+      2:'#option2','2m':'#s2mark','2t':'#s2tone',
+      3:'#option3','3m':'#s3mark','3t':'#s3tone',
+      4:'#option4','4m':'#s4mark','4t':'#s4tone'
+    },
+    display: function(data){
+      $(this.Topic).text(data.topic);
+      $(this.Description).text(data.description);
+      for(var key in data.option){
+        tn = tone.exec(data.option[key]);
+        mk = mark.exec(data.option[key]);
+        if(tn !== null){
+          $(this.Options[key+'t']).html('<br />' + tn[0]);
+          $(this.Options[key+'t']).removeClass('hidden');
+        }else{
+          $(this.Options[key+'t']).addClass('hidden');
+        }
+        switch(mk[0].length){
+          case 1:$(this.Options[key+'m']).html( '<br />' + mk[0] + '<br />' ); break;
+          case 2:$(this.Options[key+'m']).html( mk[0][0] + '<br /><br />' + mk[0][1]); break;
+          case 3:$(this.Options[key+'m']).html( mk[0][0] + '<br />' + mk[0][1] + '<br />' + mk[0][2]); break;
+        }
+        // Equal the height
+        height = 0;
+        for(i = 1;i <= 4;i++){
+          tmp = $(this.Options[i]).height();
+          if(tmp > height)height = tmp;
+        }
+      for(i = 1;i <= 4;i++){
+        $(this.Options[i]).height(height);
+      }
+      }
+      answer = data.answer;
+      answered = 0;
+    },
+    updateButtonStatus: function(correct, wrong){
+      /* Note: `correct` will be an integer, 0 if not yet correct.
+      `wrong` will be an array of integer */
+      $('#option1, #option2, #option3, #option4').removeClass('hoption-wrong');
+      $('#option1, #option2, #option3, #option4').removeClass('hoption-correct');
+      $('#option1, #option2, #option3, #option4').addClass('hoption-clear');
+      if(correct != 0){
+        $('#option' + correct).addClass('hoption-correct');
+        $('#option' + correct).removeClass('hoption-clear');
+      }
+      for(var i in wrong){
+        $('#option' + wrong[i]).addClass('hoption-wrong');
+        $('#option' + wrong[i]).removeClass('hoption-clear');
+      }
+    }
+  };
+</script>
+<style>
+  .hoption{
+    border: rgba(20,20,20,0.5) 1px solid;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(100%,100%,100%,0.5);
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 22px 0px rgba(20,20,20,0.5);
+    display: block;
+    width: 100%;
+  }
+  .hoption-clear {
+    background-color: rgba(255,255,255,1);
+  }
+  .hoption-wrong{
+    background-color: rgba(255,0,0,1);
+  }
+  .hoption-correct {
+    background-color: rgba(0,255,0,1);
+  }
+  .hidden{
+    display:none;
+  }
+</style>
