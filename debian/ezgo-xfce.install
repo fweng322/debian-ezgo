@@ -1,2 +1,3 @@
 ezgo-xfce/update-xfce usr/share/ezgo/ezgo-xfce
 ezgo-xfce/xfce4/xfce-perchannel-xml/* etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml
+ezgo-xfce/Thunar/* etc/skel/.config/Thunar
