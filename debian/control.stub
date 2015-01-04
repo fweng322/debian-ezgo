@@ -73,6 +73,28 @@ Description: PhET offline version in ezgo
  .
  This package contains PhET offline version.
 
+Package: ezgo-wordtest
+Architecture: all
+Description: Hualien Word Test Study Site offline version in ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains Hualien Word Test Study Site offline version.
+
+Package: ezgo-gsyan
+Architecture: all
+Description: Flash Tutorial Accessories made by G. S. Yan.
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains flash tutorial accessories made by G. S. Yan.
+
 Package: ezgo-npa
 Architecture: all
 Description: Physics Flash Animations in ezgo
