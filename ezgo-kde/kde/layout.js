@@ -10,7 +10,7 @@ launcher = panel.addWidget("simplelauncher")
 launcher.writeConfig("icon", "/usr/share/ezgo/icons/start_menu.png")
 launcher.writeConfig("format", "Name")
 launcher.writeConfig("views", "Applications,Favorites,RecentlyUsed,RunCommand,Leave")
-launcher.writeConfig("immutability", 2)
+launcher.writeConfig("immutability", 1)
 
 sam = panel.addWidget("org.kde.showActivityManager")
 sam.writeConfig("immutability", 2)
