@@ -1,0 +1,31 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>Terminal</icon>
+	<name>在此開啟終端機</name>
+	<unique-id>1419657990600674-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>自訂動作範例</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>filefind</icon>
+	<name>在這個資料夾內尋找</name>
+	<unique-id>1419657990600744-2</unique-id>
+	<command>catfish --path=%f</command>
+	<description>在此資料夾內搜尋檔案</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>preferences-desktop-user-password</icon>
+	<name>以管理員身份開啟</name>
+	<unique-id>1419658384612609-1</unique-id>
+	<command>gksu thunar %F</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+	<text-files/>
+</action>
+</actions>
