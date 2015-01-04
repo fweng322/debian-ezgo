@@ -9,27 +9,35 @@ Description: debian ezgo Education
  .
  This is the selection of education tools.
 
-Depends: kdeedu
-
-Depends: drgeo
-
-Depends: wxmaxima
-
-Depends: ghemical
+Depends: anki
 
 Depends: avogadro
 
-Depends: gchempaint
+Depends: ballview
 
 Depends: bkchem
 
-Depends: pymol
+Depends: blinken
 
-Depends: stellarium
+Depends: cantor
 
 Depends: celestia
 
+Depends: drgeo
+
+Depends: gchempaint
+
 Depends: gcompris
+
+Depends: ghemical
+
+Depends: gnumeric
+
+Depends: kalgebra
+
+Depends: kalzium
+
+Depends: kanagram
 
 Depends: kayali
 Homepage: http://kayali.sourceforge.net/
@@ -40,6 +48,34 @@ Pkg-Description: a Computer Algebra System (CAS)
  used as an advanced replacement for KDE KCalc.
  It is essentially a front end GUI for Maxima (and is easily extended
  to other CAS back-ends) and Gnuplot.
+
+Depends: kbruch
+
+Depends: kgeography
+
+Depends: kig
+
+Depends: kiten
+
+Depends: klavaro
+
+Depends: klettres
+
+Depends: kmplot
+
+Depends: ktouch
+
+Depends: ktuberling
+
+Depends: kturtle
+
+Depends: marble
+
+Depends: parley
+
+Depends: pymol
+
+Depends: rocs
 
 Depends: scratch
 WNPP: #471927
@@ -55,16 +91,7 @@ Pkg-Description: easy programming environment designed for kids
  learn important mathematical and computational ideas, while also gaining
  a deeper understanding of the process of design.
 
-Depends: ktuberling
+Depends: stellarium
 
-Depends: klavaro
+Depends: wxmaxima
 
-Depends: anki
-
-Depends: kayali
-
-Depends: gnumeric
-
-Depends: gchempaint
-
-Depends: ballview
