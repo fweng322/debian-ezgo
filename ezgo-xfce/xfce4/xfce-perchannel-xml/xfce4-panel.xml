@@ -12,6 +12,7 @@
         <value type="int" value="1"/>
         <value type="int" value="6"/>
         <value type="int" value="7"/>
+        <value type="int" value="10"/>
         <value type="int" value="8"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
@@ -46,6 +47,7 @@
         <value type="string" value="xfce-settings-manager.desktop"/>
       </property>
     </property>
+    <property name="plugin-10" type="string" value="places"/>
     <property name="plugin-8" type="string" value="showdesktop"/>
     <property name="plugin-9" type="string" value="thunar-tpa"/>
   </property>
