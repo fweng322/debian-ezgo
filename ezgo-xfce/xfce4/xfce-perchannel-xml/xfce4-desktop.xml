@@ -6,7 +6,7 @@
     <property name="file-icons" type="empty">
       <property name="show-home" type="empty"/>
       <property name="show-filesystem" type="empty"/>
-      <property name="show-removable" type="empty"/>
+      <property name="show-removable" type="bool" value="false"/>
       <property name="show-trash" type="empty"/>
     </property>
   </property>
@@ -33,5 +33,8 @@
         <property name="image-show" type="empty"/>
       </property>
     </property>
+  </property>
+  <property name="desktop-menu" type="empty">
+    <property name="show" type="bool" value="false"/>
   </property>
 </channel>
