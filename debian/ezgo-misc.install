@@ -10,3 +10,4 @@ ezgo-misc/media_install.desktop usr/share/applications
 ezgo-misc/media_install_force.desktop usr/share/applications
 ezgo-misc/update-ezgo-misc usr/share/ezgo/ezgo-misc
 ezgo-misc/7zip.tar.gz usr/share/ezgo/ezgo-misc
+ezgo-misc/exception.sites etc/skel/.java/deployment/security
