@@ -25,8 +25,10 @@ freemind.desktop,心智圖_FreeMind,可輕鬆繪製心智圖、組織圖的工�
 planner.desktop,專案管理_Planner,Planner 擁有大多數專案管理工具都有的功能，像是甘特圖。除此之外，Planner 還有其他獨特的功能，像是儲存為XML檔,專案管理_Planner,项目管理_Planner,Planner拥有大多数专案管理工具都有的功能，像是甘特图。除此之外，Planner還有其他獨特的功能，像是儲存為XML檔,项目管理_Planner,Office;
 GanttProject.desktop,專案管理_GanttProject,GanttProject 是一套跨平台的專案管理工具，可用於專案規劃與管理,專案管理_GanttProject,项目管理_GanttProject,GanttProject是一套跨平台的专案管理工具，可用于专案规划与管理,项目管理_GanttProject,Office;
 calibre.desktop,電子書_Calibre,電子書閱讀軟體,電子書_Calibre,电子书_Calibre,电子书阅读软件,电子书_Calibre,Office;
-calibre-gui.desktop,電子書_Calibre-gui,Calibre 是一套功能算齊全的電子書管理工具，支援多種文件格式，它除了提供電子書閱讀的功能以外，還有管理、轉換及同步等功能。,電子書_Calibre-gui,电子书_Calibre-gui,Calibre是一套功能算齐全的电子书管理工具，支持多种文件格式，它除了提供电子书阅读的功能以外，还有管理、转换及同步等功能。,电子书_Calibre-gui,Office;
+calibre-gui.desktop,電子書_Calibre,Calibre 是一套功能算齊全的電子書管理工具，支援多種文件格式，它除了提供電子書閱讀的功能以外，還有管理、轉換及同步等功能。,電子書_Calibre,电子书_Calibre,Calibre是一套功能算齐全的电子书管理工具，支持多种文件格式，它除了提供电子书阅读的功能以外，还有管理、转换及同步等功能。,电子书_Calibre,Office;
 calibre-ebook-viewer.desktop,電子書_E-book Viewer,提供電子書閱讀的功能,電子書_E-book Viewer,电子书_E-bookViewer,提供电子书阅读的功能,电子书_E-bookViewer,Office;
+ebook-viewer.desktop,電子書_E-book Viewer,提供電子書閱讀的功能,電子書_E-book Viewer,电子书_E-bookViewer,提供电子书阅读的功能,电子书_E-bookViewer,Office;
+calibre-lrfviewer.desktop,電子書_LRF Viewer,提供電子書閱讀的功能,電子書_LRF Viewer,电子书_LRFViewer,提供电子书阅读的功能,电子书_LRFViewer,Office;
 calibre-lrfviewer.desktop,電子書_LRF Viewer,提供電子書閱讀的功能,電子書_LRF Viewer,电子书_LRFViewer,提供电子书阅读的功能,电子书_LRFViewer,Office;
 lrfviewer.desktop,電子書_LRF Viewer,提供電子書閱讀的功能,電子書_LRF Viewer,电子书_LRFViewer,提供电子书阅读的功能,电子书_LRFViewer,Office;
 okular.desktop,PDF瀏覽_Okular,多功能文件檢視器,PDF瀏覽_Okular,PDF浏览_Okular,多功能文件查看器,PDF浏览_Okular,Office;
@@ -77,6 +79,7 @@ ksnapshot.desktop,影像擷取_KSnapshot,多功能的影像擷取工具，可直
 kcolorchooser.desktop,顏色選擇_KColorChooser,用來點選螢幕上的顏色,顏色選擇_KColorChooser,颜色选择_KColorChooser,用来点选屏幕上的颜色,颜色选择_KColorChooser,Graphics;
 dngconverter.desktop,RAW批次轉檔_dngconverter,批次將 RAW 檔案轉成 DNG 檔案的軟體,RAW批次轉檔_dngconverter,RAW批次转档_dngconverter,批次将RAW文件转成DNG文件的软件,RAW批次转档_dngconverter,Graphics;
 freecad.desktop,3D製圖_FreeCAD,電腦輔助設計軟體,3D製圖_FreeCAD,3D制图_FreeCAD,计算机辅助设计软件,3D制图_FreeCAD,Graphics;
+librecad.desktop,2D製圖_LibreCAD,電腦輔助設計軟體,2D製圖_LibreCAD,2D制图_LibreCAD,计算机辅助设计软件,2D制图_LibreCAD,Graphics;
 fritzing.desktop,電路設計_Fritzing,是一套設計PCB (Printed Circuit Board) 印刷電路板的軟體，是特別給設計師、藝術家、研究者以及業餘玩家使用的工具,電路設計_Fritzing,电路设计_Fritzing,是一套设计PCB(PrintedCircuitBoard)印刷电路板的软件，是特别给设计师、艺术家、研究者以及业余玩家使用的工具,电路设计_Fritzing,Graphics;
 shutter.desktop,影像擷取_Shutter,可截取網頁和編輯截取圖片的軟體,影像擷取_Shutter,影像撷取_Shutter,可截取网页和编辑截取图片的软件,影像撷取_Shutter,Graphics;
 #影音,,,,,,,
@@ -135,6 +138,7 @@ exe.desktop,網頁設計_eXe,輔助老師們編寫網路課程的軟體,網頁�
 quassel.desktop,IRC 通訊_Quassel,KDE 裡的 IRC 客戶端程式,IRC 通訊_Quassel,IRC通讯_Quassel,KDE里的IRC客戶端程式,IRC通讯_Quassel,Network;
 firefox.desktop,網頁瀏覽_Firefox,提供更有效率、更安全、更個人化的瀏覽體驗 ,網頁瀏覽_Firefox,网页浏览_Firefox,提供更有效率、更安全、更个人化的浏览体验,网页浏览_Firefox,Network;
 chromium-browser.desktop,網頁瀏覽_Chromium,由 Google 開發的網頁瀏覽器,網頁瀏覽_Chromium,网页浏览_Chromium,由Google开发的网页浏览器,网页浏览_Chromium,Network;
+google-chrome.desktop,網頁瀏覽_Chrome,由 Google 開發的網頁瀏覽器,網頁瀏覽_Chrome,网页浏览_Chrome,由Google开发的网页浏览器,网页浏览_Chrome,Network;
 konqbrowser.desktop,網頁瀏覽_Konqueror,可以當檔案總管以及網頁瀏覽器的軟體,網頁瀏覽_Konqueror,网页浏览_Konqueror,可以当文件总管以及网页浏览器的软件,网页浏览_Konqueror,Network;
 pcmanx.desktop,BBS連線_PCMan X BBS ,常用的 BBS 連線軟體,BBS連線_PCMan X BBS ,BBS连接_PCManXBBS,常用的BBS连接软件,BBS连接_PCManXBBS,Network;
 BlueGriffon-program.desktop,網頁設計_BlueGriffon,讓您可以快速編輯簡單的HTML或動態HTML網頁 ,網頁設計_BlueGriffon,网页设计_BlueGriffon,让您可以快速编辑简单的HTML或动态HTML网页,网页设计_BlueGriffon,Network;
@@ -246,7 +250,7 @@ kgeography.desktop,地理_KGeography,學習地理、地圖瀏覽的軟體,地理
 googleearth.desktop,地球儀_Google Earth,結合衛星、圖資與GIS的地球儀軟體,地球儀_Google Earth,地球仪_GoogleEarth,结合卫星、图资与GIS的地球仪软件,地球仪_GoogleEarth,Education;
 kstars.desktop,天文_KStars,顯示時間、天氣和地理位置的星相軟體,天文_KStars,天文_KStars,显示时间、天气和地理位置的星相软件,天文_KStars,Education;
 stellarium.desktop,天文_Stellarium,即時顯示時間和所在位置的星座軟體,天文_Stellarium,天文_Stellarium,即时显示时间和所在位置的星座软件,天文_Stellarium,Education;
-celestia.desktop,天文_Celestia_gnome,可流暢地顯示高解析度影像的天文軟體,天文_Celestia_gnome,天文_Celestia_gnome,可流畅地显示高分辨率影像的天文软件,天文_Celestia_gnome,Education;
+celestia.desktop,天文_Celestia,可流暢地顯示高解析度影像的天文軟體,天文_Celestia,天文_Celestia,可流畅地显示高分辨率影像的天文软件,天文_Celestia,Education;
 kbruch.desktop,數學_KBruch,學習計算與分數的軟體,數學_KBruch,数学_KBruch,学习计算与分数的软件,数学_KBruch,Education;
 kig.desktop,數學_Kig,用於描繪幾何結構的軟體,數學_Kig,数学_Kig,用于描绘几何结构的软件,数学_Kig,Education;
 drgeo.desktop,數學_Dr.Geo,尺規製圖的幾何數理軟體,數學_Dr.Geo,数学_Dr.Geo,尺规制图的几何数理软件,数学_Dr.Geo,Education;
@@ -254,6 +258,7 @@ kmplot.desktop,數學_KmPlot,繪製數學函數的軟體,數學_KmPlot,数学_Km
 geogebra.desktop,數學_GeoGebra,繪製幾何圖形的軟體,數學_GeoGebra,数学_GeoGebra,绘制几何图形的软件,数学_GeoGebra,Education;
 wxmaxima.desktop,數學_wxMaxima,用LISP編寫的計算機代數系統，用於公式推導和符號計算,數學_wxMaxima,数学_wxMaxima,用LISP编写的计算器代数系统，用于公式推导和符号计算,数学_wxMaxima,Education;
 kalgebra.desktop,數學_KAlgebra,圖形計算器,數學_KAlgebra,数学_KAlgebra,图形计算机,数学_KAlgebra,Education;
+cantor.desktop,數學_Cantor,KAlgebra圖形計算器的前端介面,數學_Cantor,数学_Cantor,KAlgebra图形计算机的后端界面,数学_Cantor,Education;
 kayali.desktop,數學_Kayali,圖形介面之運算 (Maxima) 及繪圖 (GNUplot) 軟體,數學_Kayali,数学_Kayali,图形界面之运算(Maxima)及绘图(GNUplot)软件,数学_Kayali,Education;
 geometria.desktop,數學_geometria,繪製幾何圖形,數學_geometria,数学_geometria,绘制几何图形,数学_geometria,Education;
 rocs.desktop,資料結構分析_Rocs,圖形理論資料結構分析工具,資料結構分析_Rocs,数据结构分析_Rocs,图形理论数据结构分析工具,数据结构分析_Rocs,Education;
@@ -262,10 +267,12 @@ bkchem.desktop,化學_BKchem,平面化學分子的繪圖軟體,化學_BKchem,化
 ghemical.desktop,化學_Ghemical,化學立體分子繪圖軟體,化學_Ghemical,化学_Ghemical,化学立体分子绘图软件,化学_Ghemical,Education;
 avogadro.desktop,化學_Avogadro,化學立體分子繪圖軟體,化學_Avogadro,化学_Avogadro,化学立体分子绘图软件,化学_Avogadro,Education;
 gchempaint-0.12.desktop,化學_GchemPaint,化學結構編輯軟體,化學_GchemPaint,化学_GchemPaint,化学结构编辑软件,化学_GchemPaint,Education;
+gchempaint-0.14.desktop,化學_GchemPaint,化學結構編輯軟體,化學_GchemPaint,化学_GchemPaint,化学结构编辑软件,化学_GchemPaint,Education;
 pymol.desktop,生化_Pymol,立體分子繪圖及看圖軟體,生化_Pymol,生化_Pymol,立体分子绘图及看图软件,生化_Pymol,Education;
 ballview.desktop,生化_BALLView,3D分子建模生化軟體,生化_BALLView,生化_BALLView,3D分子建模生化软件,生化_BALLView,Education;
 #程式開發,,,,,,,
 scratch.desktop,程式設計_Scratch,一套圖形化程式設計軟體，適合8歲以上的中小學生作為學習程式設計的入門軟體,程式設計_Scratch,编程_Scratch,一套图形化编程软件，适合8岁以上的中小学生作为学习编程的入门软件,编程_Scratch,Development;
+s4a.desktop,程式設計_S4A,结合Scratch與Arduino，讓孩子們學習程式設計的入門軟體,程式設計_S4A,编程_S4A,结合Scratch与Arduino，让孩子们学习编程的入门软件,编程_S4A,Development;
 greenfoot.desktop,程式設計_Greenfoot,一套圖形化程式設計軟體，適合學習  JAVA 程式語言設計的入門軟體,程式設計_Greenfoot,编程_Greenfoot,一套图形化编程软件，适合学习JAVA程序语言设计的入门软件,编程_Greenfoot,Development;
 alice.desktop,程式設計_Alice,圖形化 3D 動畫程式設計 ,程式設計_Alice,编程_Alice,图形化3D动画编程,编程_Alice,Development;
 kturtle.desktop,程式設計_KTurtle,適合用於小朋友學習寫程式的入門軟體,程式設計_KTurtle,编程_KTurtle,适合用于小朋友学习写程序的入门软件,编程_KTurtle,Development;

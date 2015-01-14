@@ -71,6 +71,8 @@
 			<Filename>impressive-editor.desktop</Filename>
 			<Filename>AdobeReader.desktop</Filename>
 			<Filename>calibre.desktop</Filename>
+			<Filename>calibre-gui.desktop</Filename>
+			<Filename>ebook-viewer.desktop</Filename>
 			<Filename>lrfviewer.desktop</Filename>
 			<Filename>dia.desktop</Filename>
 			<Filename>sigil.desktop</Filename>
@@ -109,6 +111,8 @@
 			<Separator/>
 			<Filename>sigil.desktop</Filename>
 			<Filename>calibre.desktop</Filename>
+			<Filename>calibre-gui.desktop</Filename>
+			<Filename>ebook-viewer.desktop</Filename>
 			<Filename>lrfviewer.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-okular.desktop</Filename>
@@ -372,6 +376,7 @@
 			<Filename>kde4-kmess.desktop</Filename>
 			<Filename>chromium-browser.desktop</Filename>
 			<Filename>chromium.desktop</Filename>
+			<Filename>google-chrome.desktop</Filename>
 			<Filename>firefox.desktop</Filename>
 			<Filename>kde4-konqbrowser.desktop</Filename>
 			<Filename>kde4-rekonq.desktop</Filename>
@@ -413,6 +418,7 @@
 			<Filename>firefox.desktop</Filename>
 			<Filename>chromium-browser.desktop</Filename>
 			<Filename>chromium.desktop</Filename>
+			<Filename>google-chrome.desktop</Filename>
 			<Filename>kde4-konqbrowser.desktop</Filename>
 			<Filename>kde4-rekonq.desktop</Filename>
 			<Filename>pcmanx.desktop</Filename>
@@ -713,6 +719,8 @@
 			<Filename>usgs.desktop</Filename>			
 			<Filename>npa.desktop</Filename>			
 			<Filename>chemical_struct.desktop</Filename>
+			<Filename>ezgo-wordtest.desktop</Filename>
+			<Filename>gsyan.desktop</Filename>
 				<Category>OpenContent</Category>
 		</Include>
 		<Menu>
@@ -730,6 +738,8 @@
 			<Filename>usgs.desktop</Filename>			
 			<Filename>npa.desktop</Filename>			
 			<Filename>chemical_struct.desktop</Filename>
+			<Filename>ezgo-wordtest.desktop</Filename>
+			<Filename>gsyan.desktop</Filename>
 			<Separator/>
 			<Merge type="files"/>			
 			<Merge type="menus"/>
