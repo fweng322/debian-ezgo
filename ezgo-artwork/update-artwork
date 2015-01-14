@@ -20,7 +20,7 @@ change_desktop_background() {
     update-alternatives --install \
         /usr/share/images/desktop-base/desktop-background \
 	desktop-background \
-	/usr/share/images/desktop-base/ezgo12-wallpaper-1366x768.png 80
+	/usr/share/images/desktop-base/ezgo12-wallpaper-1920x1080.png 80
     update-alternatives --install \
         /usr/share/images/desktop-base/desktop-background.xml \
 	desktop-background.xml \
@@ -38,7 +38,7 @@ change_desktop_background() {
 restore_desktop_background() {
     update-alternatives --remove \
 	desktop-background \
-	/usr/share/images/desktop-base/ezgo12-wallpaper-1366x768.png
+	/usr/share/images/desktop-base/ezgo12-wallpaper-1920x1080.png
     update-alternatives --remove \
 	desktop-background.xml \
 	/usr/share/images/desktop-base/ezgo-wallpaper.xml
