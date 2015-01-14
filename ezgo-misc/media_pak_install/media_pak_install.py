@@ -25,9 +25,9 @@ gettext.textdomain('media_pak_install')
 gettext.bindtextdomain('media_pak_install', MY_PATH+'locales')
 _ = gettext.gettext
 
-third_party_software = [ 'ubuntu-restricted-extras', 'pepperflashplugin-nonfree', 'skype', 'oracle-java7-installer' ]
-third_party_sw_desc = [ _('Necessary tools for multimedia, like flash and codecs.\nWith this you can watch youtube video or many other video format files.'), _('Flash plugin for Google Chrome and Chromium.\nIf you are using Google chrome or Chromium, you need to\ninstall this to use Flash.'), _('A famous instant messages and voice communication software.'), _('Oracle Java Runtime environment, necessary for PhET and other Java applets.') ]
-third_party_icon = [ MY_PATH+'ubuntu.png', MY_PATH+'flash.png', MY_PATH+'skype.png', MY_PATH+'Java.jpg' ]
+third_party_software = [ 'ubuntu-restricted-extras', 'pepperflashplugin-nonfree', 'skype', 'google-chrome-stable' ]
+third_party_sw_desc = [ _('Necessary tools for multimedia, like flash and codecs.\nWith this you can watch youtube video or many other video format files.'), _('Flash plugin for Google Chrome and Chromium.\nIf you are using Google chrome or Chromium, you need to\ninstall this to use Flash.'), _('A famous instant messages and voice communication software.'), _('Google chrome browser') ]
+third_party_icon = [ MY_PATH+'ubuntu.png', MY_PATH+'flash.png', MY_PATH+'skype.png', MY_PATH+'chrome.png' ]
 
 current_check_button = 0
 total_check_button = len(third_party_software)
