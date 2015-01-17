@@ -3,6 +3,7 @@ set -e
 
 case "$1" in
   configure)
+    # link desktop files for ezgo
     ln -sf /usr/share/ezgo/desktop-files/7zip.desktop /usr/share/applications/7zip.desktop
     ln -sf /usr/share/ezgo/desktop-files/impressive-editor.desktop /usr/share/applications/impressive-editor.desktop
     ln -sf /usr/share/ezgo/desktop-files/media_install.desktop /usr/share/applications/media_install.desktop
@@ -10,9 +11,12 @@ case "$1" in
     ln -sf /usr/share/ezgo/desktop-files/my_computer.desktop /usr/share/applications/my_computer.desktop
     ln -sf /usr/share/ezgo/desktop-files/my_ezgo.desktop /usr/share/applications/my_ezgo.desktop
     cd /usr/share/ezgo/ezgo-misc
+    # 7-zip
     tar xf 7zip.tar.gz
     rm -rf /usr/local/7-Zip
     mv /usr/share/ezgo/ezgo-misc/7-Zip /usr/local/
+    # fix tuxpaint
+    sed -i '$ a\sysfonts=yes' /etc/tuxpaint/tuxpaint.conf
     ;;
   remove)
 	rm -f /usr/share/applications/7zip.desktop
