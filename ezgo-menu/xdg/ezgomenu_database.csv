@@ -118,6 +118,7 @@ amarok.desktop,音樂播放_Amarok,Amarok 一套功能強大的音樂播放與�
 rhythmbox.desktop,音樂播放_Rhythmbox,播放及管理音樂庫,音樂播放_Rhythmbox,音乐播放_Rhythmbox,播放及管理音乐库,音乐播放_Rhythmbox,AudioVideo;
 audacity.desktop,音樂編輯_Audacity,Audacity 是一套功能相當完整的音訊編輯軟體，具有剪輯、複製、混音等多項音訊編輯功能,音樂編輯_Audacity,音乐编辑_Audacity,Audacity是一套功能相当完整的音讯编辑软件，具有剪辑、复制、混音等多项音讯编辑功能,音乐编辑_Audacity,AudioVideo;
 tuxguitar.desktop,音樂製作_Tuxguitar,可以輸入 Midi 格式及吉他譜檔，並且還可輸出多種音樂格式，以及 PDF 格式的樂譜,音樂製作_Tuxguitar,音乐制作_Tuxguitar,可以输入Midi格式及吉他谱档，并且还可输出多种音乐格式，以及PDF格式的乐谱,音乐制作_Tuxguitar,AudioVideo;
+lmms.desktop,音樂製作_LMMS,一款新的音樂製作軟體,音樂製作_LMMS,音乐制作_LMMS,一款新的音乐制作软件,音乐制作_LMMS,AudioVideo;
 hydrogen.desktop,節奏編曲_Hydrogen,非常容易上手的爵士電子鼓節奏編曲軟體,節奏編曲_Hydrogen,节奏编曲_Hydrogen,非常容易上手的爵士电子鼓节奏编曲软件,节奏编曲_Hydrogen,AudioVideo;
 mscore.desktop,樂譜編輯_MuseScore,專業的五線譜編輯軟體，可以讓你輕鬆地在軟體內加入音符，並且做即時的結果輸出,樂譜編輯_MuseScore,乐谱编辑_MuseScore,专业的五线谱编辑软件，可以让你轻松地在软件内加入音符，并且做即时的结果输出,乐谱编辑_MuseScore,AudioVideo;
 rosegarden.desktop,音樂製作_Rosegarden,功能非常強大的專業級音樂製作軟體,音樂製作_Rosegarden,音乐制作_Rosegarden,功能非常强大的专业级音乐制作软件,音乐制作_Rosegarden,AudioVideo;
@@ -362,6 +363,7 @@ kinfocenter.desktop,硬體資訊_Kinfocenter,顯示硬體相關資訊,硬體資�
 jockey-kde.desktop,額外驅動程式_jockey-kde,可以檢視及安裝額外的驅動程式,額外驅動程式_jockey-kde,额外驱动程序_jockey-kde,可以查看及安装额外的驱动程序,额外驱动程序_jockey-kde,System;
 nepomukbackup.desktop,備份工具_Nepomuk Backup,系統備份工具,備份工具_Nepomuk Backup,备份工具_NepomukBackup,系统备份工具,备份工具_NepomukBackup,System;
 nepomukcontroller.desktop,備份工具_Nepomuk Controller,系統備份主控台,備份工具_Nepomuk Controller,备份工具_NepomukController,系统备份主控台,备份工具_NepomukController,System;
+grub-customizer.desktop,開機選單_Grub Customizer,可以調整開機選單的順序等等的工具,開機選單_Grub Customizer,开机菜单_Grub Customizer,可以调整 Grub 开机菜单的工具,开机菜单,System;
 #設定,,,,,,,
 systemsettings.desktop,系統設定_System Settings,類似 Windows 下的控制台，可以進行 ezgo 各項系統環境設定,系統設定_System Settings,系统设置_SystemSettings,类似Windows下的控制面板，可以进行ezgo各项系统环境设置,系统设置_SystemSettings,Settings;
 hime-setup.desktop,輸入法設定_hime ,中文輸入法相關設定,輸入法設定_hime ,输入法设置_hime,中文输入法相关设置,输入法设置_hime,Settings;
