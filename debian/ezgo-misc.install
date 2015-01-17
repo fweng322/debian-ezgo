@@ -1,4 +1,5 @@
 ezgo-misc/*.desktop usr/share/ezgo/desktop-files
+ezgo-misc/90-arduino.rules etc/udev.d/rules
 ezgo-misc/mimeapps.list etc/skel/.local/share/applications
 ezgo-misc/media_pak_install/* usr/share/ezgo/media_pak_install
 ezgo-misc/media_pak_install/po/* usr/share/ezgo/media_pak_install/po
