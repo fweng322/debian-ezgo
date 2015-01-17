@@ -170,6 +170,7 @@
 			<Filename>kde4-photolayoutseditor.desktop</Filename>
 			<Filename>kde4-krita.desktop</Filename>			
 			<Filename>freecad.desktop</Filename>
+			<Filename>librecad.desktop</Filename>
 			<Filename>fritzing.desktop</Filename>
 			<Category>Graphics</Category>
 		</Include>
@@ -214,9 +215,10 @@
 			<Filename>hugin.desktop</Filename>
 			<Filename>PTBatcherGUI.desktop</Filename>			
 			<Separator/>
-			<Filename>ktoon.desktop</Filename>
-			<Filename>blender.desktop</Filename>
+			<Filename>librecad.desktop</Filename>
 			<Filename>freecad.desktop</Filename>
+			<Filename>blender.desktop</Filename>
+			<Filename>ktoon.desktop</Filename>
 			<Separator/>
 			<Filename>fritzing.desktop</Filename>
 			<Filename>sweethome3d.desktop</Filename>
@@ -423,8 +425,8 @@
 			<Filename>kde4-rekonq.desktop</Filename>
 			<Filename>pcmanx.desktop</Filename>
 			<Separator/>
-			<Filename>BlueGriffon-program.desktop</Filename>
 			<Filename>exe.desktop</Filename>
+			<Filename>BlueGriffon-program.desktop</Filename>
 			<Separator/>
 			<Filename>nixnote.desktop</Filename>
 			<Separator/>
@@ -438,9 +440,9 @@
 			<Filename>kde4-KMail.desktop</Filename>
 			<Filename>kde4-akregator.desktop</Filename>
 			<Separator/>
-			<Filename>kde4-ktorrent.desktop</Filename>
 			<Filename>filezilla.desktop</Filename>
 			<Filename>gftp.desktop</Filename>
+			<Filename>kde4-ktorrent.desktop</Filename>
 			<Filename>kde4-kftpgrabber.desktop</Filename>
 			<Filename>kde4-kget.desktop</Filename>			
 			<Separator/>			
@@ -494,6 +496,7 @@
 			<Filename>kde4-kpat.desktop</Filename>
 			<Filename>kde4-lskat.desktop</Filename>
 			<Filename>kde4-picmi.desktop</Filename>
+			<Filename>kde4-blinken.desktop</Filename>
 			<Filename>supertux2.desktop</Filename>
 			<Filename>supertuxkart.desktop</Filename>
 			<Filename>tuxmath.desktop</Filename>
@@ -534,8 +537,6 @@
 		<Layout>
 			<Filename>tuxtype.desktop</Filename>
 			<Filename>tuxmath.desktop</Filename>
-			<Filename>kde4-ksudoku.desktop</Filename>
-			<Filename>kde4-picmi.desktop</Filename>
 			<Separator/>
 			<Filename>pingus.desktop</Filename>
 			<Filename>supertux2.desktop</Filename>
@@ -557,6 +558,9 @@
 			<Filename>kde4-knetwalk.desktop</Filename>
 			<Filename>kde4-klines.desktop</Filename>			
 			<Separator/>			
+			<Filename>kde4-ksudoku.desktop</Filename>
+			<Filename>kde4-picmi.desktop</Filename>
+			<Filename>kde4-blinken.desktop</Filename>
 			<Filename>kde4-katomic.desktop</Filename>
 			<Filename>kde4-kblackbox.desktop</Filename>				
 			<Separator/>
@@ -607,6 +611,7 @@
 			<Filename>geogebra.desktop</Filename>
 			<Filename>geometria.desktop</Filename>
 			<Filename>kde4-kalgebra.desktop</Filename>
+			<Filename>kde4-cantor.desktop</Filename>
 			<Filename>kayali.desktop</Filename>
 			<Filename>kde4-kbruch.desktop</Filename>
 			<Filename>kde4-kig.desktop</Filename>
@@ -615,6 +620,7 @@
 			<Filename>avogadro.desktop</Filename>
 			<Filename>bkchem.desktop</Filename>
 			<Filename>gchempaint-0.12.desktop</Filename>
+			<Filename>gchempaint-0.14.desktop</Filename>
 			<Filename>ghemical.desktop</Filename>
 			<Filename>kde4-kalzium.desktop</Filename>
 			<Filename>kde4-kgeography.desktop</Filename>
@@ -688,6 +694,7 @@
 			<Filename>geometria.desktop</Filename>
 			<Filename>wxmaxima.desktop</Filename>
 			<Filename>kde4-kalgebra.desktop</Filename>
+			<Filename>kde4-cantor.desktop</Filename>
 			<Filename>kayali.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-rocs.desktop</Filename>
@@ -701,6 +708,7 @@
 			<Filename>ghemical.desktop</Filename>
 			<Filename>avogadro.desktop</Filename>			
 			<Filename>gchempaint-0.12.desktop</Filename>
+			<Filename>gchempaint-0.14.desktop</Filename>
 			<Separator/>
 			<Filename>pymol.desktop</Filename>
 			<Filename>ballview.desktop</Filename>
