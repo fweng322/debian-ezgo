@@ -10,11 +10,13 @@ case "$1" in
     ln -sf /usr/share/ezgo/desktop-files/media_install_force.desktop /usr/share/applications/media_install_force.desktop
     ln -sf /usr/share/ezgo/desktop-files/my_computer.desktop /usr/share/applications/my_computer.desktop
     ln -sf /usr/share/ezgo/desktop-files/my_ezgo.desktop /usr/share/applications/my_ezgo.desktop
+    ln -sf /usr/share/ezgo/desktop-files/about_ezgo.desktop /usr/share/applications/about_ezgo.desktop
     cd /usr/share/ezgo/ezgo-misc
     # 7-zip
     tar xf 7zip.tar.gz
     rm -rf /usr/local/7-Zip
     mv /usr/share/ezgo/ezgo-misc/7-Zip /usr/local/
+    rm -f 7zip.tar.gz
     # fix tuxpaint
     sed -i '$ a\sysfonts=yes' /etc/tuxpaint/tuxpaint.conf
     ;;
@@ -25,6 +27,8 @@ case "$1" in
 	rm -f /usr/share/applications/media_install_force.desktop
 	rm -f /usr/share/applications/my_computer.desktop
 	rm -f /usr/share/applications/my_ezgo.desktop
+	rm -f /usr/share/applications/about_ezgo.desktop
     rm -f /usr/local/7-Zip
+    sed -i 's/sysfonts=yes//g' /etc/tuxpaint/tuxpaint.conf
     ;;
 esac
