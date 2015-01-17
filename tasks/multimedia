@@ -20,8 +20,6 @@ Depends: audacity
 
 Depends: tuxguitar
 
-Depends: rosegarden
-
 Depends: sound-juicer
 
 Depends: kdenlive
@@ -47,8 +45,6 @@ Depends: kazam
 Depends: guvcview
 
 Depends: ffdiaporama
-
-Depends: dvdisaster
 
 Depends: furiusisomount
 

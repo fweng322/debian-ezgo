@@ -19,7 +19,7 @@ Depends: pingus
 
 Depends: supertuxkart
 
-Depends: atomix
+Depends: katomic
 
 Depends: ksudoku
 

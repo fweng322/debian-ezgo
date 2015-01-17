@@ -9,8 +9,6 @@ Description: debian ezgo Graphics
  .
  This is the selection of image tools.
 
-Depends: gpaint
-
 Depends: kolourpaint4
 
 Depends: tuxpaint
@@ -38,8 +36,6 @@ Depends: ardesia
 Depends: fotowall
 
 Depends: shotwell
-
-Depends: hugin
 
 Depends: krita
 
