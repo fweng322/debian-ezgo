@@ -1086,9 +1086,11 @@
 			<Filename>ezgo_center.desktop</Filename> -->
 			<Filename>media_install_force.desktop</Filename>
 			<Filename>skel.desktop</Filename>
+			<Filename>about_ezgo.desktop</Filename>
 		</Include>
 		<Layout>
 			<Filename>my_ezgo.desktop</Filename>
+			<Filename>about_ezgo.desktop</Filename>
 <!--			<Separator/>
 			<Filename>ezgo_center.desktop</Filename>
 			<Filename>ezinstall.desktop</Filename> -->
