@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=BlueGriffon
+Exec=/usr/share/BlueGriffon/bluegriffon
+Path=/usr/share/BlueGriffon
+desktop=BlueGriffon-program.desktop
+Name[zh_TW]=網頁設計_BlueGriffon
+GenericName[zh_TW]=讓您可以快速編輯簡單的HTML或動態HTML網頁 
+Categories=Network;
+Icon=/usr/share/BlueGriffon/chrome/icons/default/default48.png
+Comment[zh_TW]=網頁設計_BlueGriffon
+
