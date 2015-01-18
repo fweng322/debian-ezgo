@@ -1,0 +1,12 @@
+#! /bin/sh
+
+set -e
+
+case "$1" in
+  remove)
+    /usr/share/ezgo/ezgo-misc/update-ezgo-misc $1
+    ;;
+esac
+
+#DEBHELPER#
+
