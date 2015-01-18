@@ -25,6 +25,8 @@ case "$1" in
     mv /usr/share/ezgo/ezgo-misc/libreoffice /etc/skel/.config
     chown -R root.root /etc/skel/.config/libreoffice
     rm -f libreoffice.tar.gz
+    # fix audacity.mo path from zh to zh_CN
+    mv /usr/share/locale/zh/LC_MESSAGES/audacity.mo /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo
     ;;
   remove)
 	rm -f /usr/share/applications/7zip.desktop
@@ -37,5 +39,6 @@ case "$1" in
     rm -f /usr/local/7-Zip
     sed -i 's/sysfonts=yes//g' /etc/tuxpaint/tuxpaint.conf
     rm -rf /etc/skel/.config/libreoffice
+    mv /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo /usr/share/locale/zh/LC_MESSAGES/audacity.mo
     ;;
 esac
