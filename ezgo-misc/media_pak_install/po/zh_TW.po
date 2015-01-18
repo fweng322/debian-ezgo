@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-10 19:56+0800\n"
+"POT-Creation-Date: 2015-01-18 20:15+0800\n"
 "PO-Revision-Date: 2014-12-10 19:46+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../media_pak_install.py:29
+#: media_pak_install.py:29
 msgid ""
 "Necessary tools for multimedia, like flash and codecs.\n"
 "With this you can watch youtube video or many other video format files."
@@ -24,7 +24,7 @@ msgstr ""
 "一些影音多媒體必要之工具，如 flash 與編解碼器等，\n"
 "讓您可以看 youtube 線上影片及多種影音檔案。"
 
-#: ../media_pak_install.py:29
+#: media_pak_install.py:29
 msgid ""
 "Flash plugin for Google Chrome and Chromium.\n"
 "If you are using Google chrome or Chromium, you need to\n"
@@ -34,62 +34,61 @@ msgstr ""
 "如果您喜歡使用 Google Chrome 做為瀏覽器，\n"
 "則安裝此套件才能使用 Flash。"
 
-#: ../media_pak_install.py:29
+#: media_pak_install.py:29
 msgid "A famous instant messages and voice communication software."
 msgstr "一套知名的即時文字/語音/視訊軟體。"
 
-#: ../media_pak_install.py:29
-msgid ""
-"Oracle Java Runtime environment, necessary for PhET and other Java applets."
-msgstr "Oracle Java 執行環境，PhET 等使用 Java 的套件需要。"
+#: media_pak_install.py:29
+msgid "A famous browser developed by Google."
+msgstr "一套由 Google 開發的知名網頁瀏覽器。"
 
-#: ../media_pak_install.py:88
+#: media_pak_install.py:88
 msgid "Installed"
 msgstr "已安裝"
 
-#: ../media_pak_install.py:173
+#: media_pak_install.py:173
 msgid "Installation failed: Network unreachable."
 msgstr "安裝失敗：無法連上網路。"
 
-#: ../media_pak_install.py:195
+#: media_pak_install.py:196
 msgid ""
 "Please make sure that your network connection is available before start "
 "installation.  Also, please close all the browsers and multimedia windows."
 msgstr "請在安裝前確定連上網路，並關閉瀏覽器及影音相關軟體。"
 
-#: ../media_pak_install.py:198
+#: media_pak_install.py:200 media_pak_install.py:233
 msgid "Updating repository..."
 msgstr "更新套件庫中..."
 
-#: ../media_pak_install.py:198 ../media_pak_install.py:248
+#: media_pak_install.py:200 media_pak_install.py:233 media_pak_install.py:271
 msgid "Install third party software"
 msgstr "安裝第三方軟體"
 
-#: ../media_pak_install.py:204
+#: media_pak_install.py:206 media_pak_install.py:241
 msgid "Installing..."
 msgstr "安裝中..."
 
-#: ../media_pak_install.py:223
+#: media_pak_install.py:225 media_pak_install.py:246
 msgid "Succeeded."
 msgstr "安裝成功。"
 
-#: ../media_pak_install.py:225
+#: media_pak_install.py:227 media_pak_install.py:248
 msgid "Failed."
 msgstr "安裝失敗。"
 
-#: ../media_pak_install.py:239
+#: media_pak_install.py:262
 msgid "Please input your password."
 msgstr "請輸入您的密碼。"
 
-#: ../media_pak_install.py:256
+#: media_pak_install.py:279
 msgid "Welcome to"
 msgstr "歡迎使用"
 
-#: ../media_pak_install.py:257
+#: media_pak_install.py:280
 msgid "Since "
 msgstr "由於"
 
-#: ../media_pak_install.py:257
+#: media_pak_install.py:280
 msgid ""
 " contains only software that we can freely distribute,\n"
 "some freeware can't be preinstalled due to license issue.\n"
@@ -97,20 +96,25 @@ msgstr ""
 "裡只包含了可以合法自由散佈的自由軟體，\n"
 "有些免費軟體因為授權的關係，所以無法預先安裝。\n"
 
-#: ../media_pak_install.py:258
+#: media_pak_install.py:281
 msgid ""
 "We strongly recommend you to install the following third party software so "
 "that you can use in "
 msgstr "我們建議您安裝以下的第三方軟體，讓您可以使用於"
 
-#: ../media_pak_install.py:288
+#: media_pak_install.py:311
 msgid "Don't show it again."
 msgstr "不要再顯示。"
 
-#: ../media_pak_install.py:319
+#: media_pak_install.py:342
 msgid "Notice"
 msgstr "注意"
 
-#: ../media_pak_install.py:356
+#: media_pak_install.py:379
 msgid "If you want to run later, choose it from the \"ezgo tools\" menu."
 msgstr "若您要稍後再執行，可以在選單中的 \"ezgo 工具箱\" 中找到。"
+
+#~ msgid ""
+#~ "Oracle Java Runtime environment, necessary for PhET and other Java "
+#~ "applets."
+#~ msgstr "Oracle Java 執行環境，PhET 等使用 Java 的套件需要。"
