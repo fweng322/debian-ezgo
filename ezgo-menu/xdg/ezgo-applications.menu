@@ -369,6 +369,7 @@
 		<Directory>ezgo-internet.directory</Directory>
 		<Include>
 			<Filename>nixnote.desktop</Filename>
+			<Filename>nixnote2.desktop</Filename>
 			<Filename>mysamba.desktop</Filename>
 			<Filename>kde4-quassel.desktop</Filename>
 			<Filename>exe.desktop</Filename>
@@ -429,6 +430,7 @@
 			<Filename>BlueGriffon-program.desktop</Filename>
 			<Separator/>
 			<Filename>nixnote.desktop</Filename>
+			<Filename>nixnote2.desktop</Filename>
 			<Separator/>
 			<Filename>dropbox.desktop</Filename>
 			<Separator/>			
