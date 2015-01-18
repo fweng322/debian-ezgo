@@ -9,8 +9,12 @@ ezgo-misc/media_pak_install/locales/zh_TW/LC_MESSAGES/* usr/share/ezgo/media_pak
 ezgo-misc/media_install.desktop etc/xdg/autostart
 ezgo-misc/media_install.desktop usr/share/applications
 ezgo-misc/media_install_force.desktop usr/share/applications
-ezgo-misc/about_ezgo.html usr/share/ezgo/ezgo-misc/
+ezgo-misc/about_ezgo/*.html usr/share/ezgo/ezgo-misc/about_ezgo
+ezgo-misc/about_ezgo/css/* usr/share/ezgo/ezgo-misc/about_ezgo/css
+ezgo-misc/about_ezgo/image/* usr/share/ezgo/ezgo-misc/about_ezgo/image
+ezgo-misc/about_ezgo/js/* usr/share/ezgo/ezgo-misc/about_ezgo/js
 ezgo-misc/update-ezgo-misc usr/share/ezgo/ezgo-misc
 ezgo-misc/7zip.tar.gz usr/share/ezgo/ezgo-misc
 ezgo-misc/exception.sites etc/skel/.java/deployment/security
 ezgo-misc/ezgo*.png usr/share/ezgo/ezgo-misc
+ezgo-misc/libreoffice.tar.gz usr/share/ezgo/ezgo-misc
