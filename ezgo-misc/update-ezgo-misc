@@ -19,6 +19,12 @@ case "$1" in
     rm -f 7zip.tar.gz
     # fix tuxpaint
     sed -i '$ a\sysfonts=yes' /etc/tuxpaint/tuxpaint.conf
+    # libreoffice configurations
+    tar xf libreoffice.tar.gz
+    rm -rf /etc/skel/.config/libreoffice
+    mv /usr/share/ezgo/ezgo-misc/libreoffice /etc/skel/.config
+    chown -R root.root /etc/skel/.config/libreoffice
+    rm -f libreoffice.tar.gz
     ;;
   remove)
 	rm -f /usr/share/applications/7zip.desktop
@@ -30,5 +36,6 @@ case "$1" in
 	rm -f /usr/share/applications/about_ezgo.desktop
     rm -f /usr/local/7-Zip
     sed -i 's/sysfonts=yes//g' /etc/tuxpaint/tuxpaint.conf
+    rm -rf /etc/skel/.config/libreoffice
     ;;
 esac
