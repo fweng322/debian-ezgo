@@ -278,7 +278,7 @@ class FlashInstall:
 		#[top]
 		text_show = _("Welcome to")+EZGO_VERSION+"\n"
 		text_show += _("Since ")+EZGO_VERSION+_(" contains only software that we can freely distribute,\nsome freeware can't be preinstalled due to license issue.\n")
-                text_show += _("We strongly recommend you to install the following third party software so that you can use in ")+EZGO_VERSION+":\n"
+                text_show += _("We strongly recommend you to install the following third party software so that you can have better experiences in ")+EZGO_VERSION
 
 		label = gtk.Label('<span size="'+str(WELCOME_SIZE)+'">' +text_show  +'</span>')
 		
