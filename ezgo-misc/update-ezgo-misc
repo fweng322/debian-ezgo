@@ -18,7 +18,9 @@ case "$1" in
     mv /usr/share/ezgo/ezgo-misc/7-Zip /usr/local/
     rm -f 7zip.tar.gz
     # fix tuxpaint
-    sed -i '$ a\sysfonts=yes' /etc/tuxpaint/tuxpaint.conf
+    if [ -e /etc/tuxpaint/tuxpaint.conf ]; then
+	    sed -i '$ a\sysfonts=yes' /etc/tuxpaint/tuxpaint.conf
+    fi
     # libreoffice configurations
     tar xf libreoffice.tar.gz
     rm -rf /etc/skel/.config/libreoffice
@@ -26,7 +28,9 @@ case "$1" in
     chown -R root.root /etc/skel/.config/libreoffice
     rm -f libreoffice.tar.gz
     # fix audacity.mo path from zh to zh_CN
-    mv /usr/share/locale/zh/LC_MESSAGES/audacity.mo /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo
+    if [ -e /usr/share/locale/zh/LC_MESSAGES/audacity.mo ]; then
+	    mv /usr/share/locale/zh/LC_MESSAGES/audacity.mo /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo
+    fi
     ;;
   remove)
 	rm -f /usr/share/applications/7zip.desktop
@@ -37,8 +41,12 @@ case "$1" in
 	rm -f /usr/share/applications/my_ezgo.desktop
 	rm -f /usr/share/applications/about_ezgo.desktop
     rm -f /usr/local/7-Zip
-    sed -i 's/sysfonts=yes//g' /etc/tuxpaint/tuxpaint.conf
+    if [ -e /etc/tuxpaint/tuxpaint.conf ]; then
+    	sed -i 's/sysfonts=yes//g' /etc/tuxpaint/tuxpaint.conf
+    fi
     rm -rf /etc/skel/.config/libreoffice
-    mv /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo /usr/share/locale/zh/LC_MESSAGES/audacity.mo
+    if [ -e /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo ]; then
+	    mv /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo /usr/share/locale/zh/LC_MESSAGES/audacity.mo
+    fi
     ;;
 esac
