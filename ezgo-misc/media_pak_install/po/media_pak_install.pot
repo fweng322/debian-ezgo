@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-18 20:15+0800\n"
+"POT-Creation-Date: 2015-01-19 11:35+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,7 +93,7 @@ msgstr ""
 #: media_pak_install.py:281
 msgid ""
 "We strongly recommend you to install the following third party software so "
-"that you can use in "
+"that you can have better experiences in "
 msgstr ""
 
 #: media_pak_install.py:311
