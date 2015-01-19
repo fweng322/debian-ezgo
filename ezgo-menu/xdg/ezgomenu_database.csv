@@ -169,6 +169,7 @@ transmission.desktop,Bt下載_Transmission,可透過 BitTorrent 協定來下載�
 tsclient.desktop,終端伺服器客戶端,遠端連線程式,終端伺服器客戶端,终端服务器客户端,远程连接程序,终端服务器客户端,Network;
 #,免費軟體_TeamViewer,一個方便好用的遠端電腦連線軟體,免費軟體_TeamViewer,免费软件_TeamViewer,一个方便好用的远程计算机连接软件,免费软件_TeamViewer,Network;
 #遊戲,,,,,,,
+blinken.desktop,記憶遊戲_Blinken,訓練記憶力的小遊戲,記憶遊戲_Blinken,记忆游戏_Blinken,训练记忆力的小游戏,记忆游戏,Game;
 picmi.desktop,邏輯遊戲_Picmi,訓練邏輯能力的小遊戲,邏輯遊戲_Picmi,逻辑游戏_Picmi,训练逻辑能力的小游戏,逻辑游戏_Picmi,Game;
 granatier.desktop,炸彈超人_Granatier,類似炸彈超人的遊戲,炸彈超人_Granatier,炸弹超人_Granatier,类似炸弹超人的游戏,炸弹超人_Granatier,Game;
 tuxtype.desktop,打字遊戲_Tux Typing,適合小朋友及電腦初學者練習打字的遊戲軟體,打字遊戲_Tux Typing,打字游戏_TuxTyping,适合小朋友及计算机初学者练习打字的游戏软件,打字游戏_TuxTyping,Game;
@@ -286,6 +287,8 @@ phet.desktop,動畫模擬教學_PhET,PhET包含了物理生物化學地球科學
 usgs.desktop,地震動畫教學_USGS,這是美國地質調查局USGS所製作的地震動畫教學範例,地震動畫教學_USGS,地震动画教学_USGS,这是美国地质调查局USGS所制作的地震动画教学样例,地震动画教学_USGS,Opencontent;
 npa.desktop,物理動畫教學_Flash Animations for Physics,物理動畫教學適合國高中以上的物理課程，例如向量波力學等教學動畫,物理動畫教學_Flash Animations for Physics,物理动画教学_FlashAnimationsforPhysics,物理动画教学适合国高中以上的物理课程，例如向量波力学等教学动画,物理动画教学_FlashAnimationsforPhysics,Opencontent;
 chemical_struct.desktop,化學構造資料庫_Chemical Structure,化學構造資料庫依照官能基將有機分子分類，適合高中及大學化學生物等課程,化學構造資料庫_Chemical Structure,化学构造数据库_ChemicalStructure,化学构造数据库依照官能基将有机分子分类，适合高中及大学化学生物等课程,化学构造数据库_ChemicalStructure,Opencontent;
+gsyan.desktop,顏國雄老師 Flash 教材,台北市力行國小顏國雄老師開發的 Flash 教材,顏國雄老師 Flash 教材,颜国雄老师 Flash 教材,台北市力行国小颜国雄老师开发的 Flash 教材,颜国雄老师 Flash 教材,Opencontent;
+ezgo-wordtest.desktop,字音字形網體驗版,花蓮線明廉國小陳立輝老師所開發的字音字形網的離線體驗版，由成功大學學生製作,字音字形網體驗版,字音字形网体验版,花莲县明廉国小陈立辉老师所开发的字音字形网的离线体验版，由成功大学学生制作,字音字形网体验版,Opencontent;
 #教師工具,,,,,,,
 Open-Sankore.desktop,電子白板_Open Sankore,一套開放源碼互動式電子白板軟體,電子白板_Open Sankore,电子白板_OpenSankore,一套开放源码交互式电子白板软件,电子白板_OpenSankore,Tutorial;
 jclic.desktop,教學設計_jClic,JClic 是一個電腦教學應用軟體，用於設計不同類型的教育活動，如拼圖，關聯，文字練習，填字遊戲等,教學設計_jClic,教学设计_jClic,JClic是一个计算机教学应用软件，用于设计不同类型的教育活动，如拼图，关联，文字练习，填字游戏等,教学设计_jClic,Tutorial;

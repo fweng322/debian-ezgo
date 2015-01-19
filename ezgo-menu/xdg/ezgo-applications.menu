@@ -748,6 +748,7 @@
 			<Filename>usgs.desktop</Filename>			
 			<Filename>npa.desktop</Filename>			
 			<Filename>chemical_struct.desktop</Filename>
+			<Separator/>
 			<Filename>ezgo-wordtest.desktop</Filename>
 			<Filename>gsyan.desktop</Filename>
 			<Separator/>
