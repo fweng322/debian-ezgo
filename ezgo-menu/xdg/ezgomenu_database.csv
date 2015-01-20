@@ -117,7 +117,7 @@ audacious.desktop,音樂播放_Audacious,類似 Winamp 的音樂播放器,音樂
 amarok.desktop,音樂播放_Amarok,Amarok 一套功能強大的音樂播放與專輯管理軟體,音樂播放_Amarok,音乐播放_Amarok,Amarok一套功能强大的音乐播放与专辑管理软件,音乐播放_Amarok,AudioVideo;
 rhythmbox.desktop,音樂播放_Rhythmbox,播放及管理音樂庫,音樂播放_Rhythmbox,音乐播放_Rhythmbox,播放及管理音乐库,音乐播放_Rhythmbox,AudioVideo;
 audacity.desktop,音樂編輯_Audacity,Audacity 是一套功能相當完整的音訊編輯軟體，具有剪輯、複製、混音等多項音訊編輯功能,音樂編輯_Audacity,音乐编辑_Audacity,Audacity是一套功能相当完整的音讯编辑软件，具有剪辑、复制、混音等多项音讯编辑功能,音乐编辑_Audacity,AudioVideo;
-tuxguitar.desktop,音樂製作_Tuxguitar,可以輸入 Midi 格式及吉他譜檔，並且還可輸出多種音樂格式，以及 PDF 格式的樂譜,音樂製作_Tuxguitar,音乐制作_Tuxguitar,可以输入Midi格式及吉他谱档，并且还可输出多种音乐格式，以及PDF格式的乐谱,音乐制作_Tuxguitar,AudioVideo;
+tuxguitar.desktop,樂譜編輯_Tuxguitar,可以輸入 Midi 格式及吉他譜檔，並且還可輸出多種音樂格式，以及 PDF 格式的樂譜,樂譜編輯_Tuxguitar,乐谱编辑_Tuxguitar,可以输入Midi格式及吉他谱档，并且还可输出多种音乐格式，以及PDF格式的乐谱,乐谱编辑_Tuxguitar,AudioVideo;
 lmms.desktop,音樂製作_LMMS,一款新的音樂製作軟體,音樂製作_LMMS,音乐制作_LMMS,一款新的音乐制作软件,音乐制作_LMMS,AudioVideo;
 hydrogen.desktop,節奏編曲_Hydrogen,非常容易上手的爵士電子鼓節奏編曲軟體,節奏編曲_Hydrogen,节奏编曲_Hydrogen,非常容易上手的爵士电子鼓节奏编曲软件,节奏编曲_Hydrogen,AudioVideo;
 mscore.desktop,樂譜編輯_MuseScore,專業的五線譜編輯軟體，可以讓你輕鬆地在軟體內加入音符，並且做即時的結果輸出,樂譜編輯_MuseScore,乐谱编辑_MuseScore,专业的五线谱编辑软件，可以让你轻松地在软件内加入音符，并且做即时的结果输出,乐谱编辑_MuseScore,AudioVideo;
@@ -338,7 +338,8 @@ xsane.desktop,掃瞄器軟體_XSane,在Linux 下的支援多種掃瞄器驅動�
 my_ezgo.desktop,我的 ezgo,可清楚的看到硬體、網路、可移除裝置及系統等相關資訊,我的 ezgo,我的 ezgo,可清楚的看到硬件、网络、可删除设备及系统等相关信息,我的 ezgo,myezgo;
 ezgo_center.desktop,ezgo 服務中心,ezgo 相關服務連結,ezgo 服務中心,ezgo 服务中心,ezgo相关服务连结,ezgo 服务中心,myezgo;
 ezinstall.desktop,ezgo 軟體中心,可以新增移除 ezgo 特別整理的軟體,ezgo 軟體中心,ezgo 软件中心,可以新增删除ezgo特别整理的软件,ezgo 软件中心,myezgo;
-media_install_force.desktop,安裝多媒體套件,安裝常用的多媒體套件，例如 Adobe Flash Player 等,安裝多媒體套件,安装多媒体组件,安装常用的多媒体组件，例如AdobeFlashPlayer等,安装多媒体组件,myezgo;
+media_install_force.desktop,安裝第三方軟體,安裝常用的第三方軟體，例如 Flash 等,安裝第三方軟體,安装第三方软件,安装常用的第三方软件，例如 Flash 等,安装第三方软件,myezgo;
+media_install.desktop,安裝第三方軟體,安裝常用的第三方軟體，例如 Flash 等,安裝第三方軟體,安装第三方软件,安装常用的第三方软件，例如 Flash 等,安装第三方软件,myezgo;
 update_ezgo.desktop,ezgo 更新程式,將 ezgo 進行程式更新,ezgo 更新程式,ezgo 更新程序,将ezgo进行程序更新,ezgo 更新程序,myezgo;
 recover.desktop,使用者還原設定,還原使用者在 ezgo 下的環境設定,使用者還原設定,用户还原设置,还原用户在ezgo下的环境设置,用户还原初始设置,myezgo;
 skel.desktop,還原 ezgo 初始設定,將您的 ezgo 還原至安裝時的初始設定,還原 ezgo 初始設定,还原 ezgo 初始设置,将您的ezgo还原至安装时的初始设置,还原 ezgo 初始设置,myezgo;
@@ -346,10 +347,10 @@ skel.desktop,還原 ezgo 初始設定,將您的 ezgo 還原至安裝時的初始
 freefilesync.desktop,檔案備份_FreeFileSync,很好用的檔案與資料夾同步備份軟體,檔案備份_FreeFileSync,文件备份_FreeFileSync,很好用的文件与数据夹同步备份软件,文件备份_FreeFileSync,System;
 realtimesync.desktop,即時同步_RealTimeSync,很好用的檔案與資料夾同步備份軟體,即時同步_RealTimeSync,即时同步_RealTimeSync,很好用的文件与数据夹同步备份软件,即时同步_RealTimeSync,System;
 muon-installer.desktop,Muon 軟體中心,用於新增移除軟體的軟體中心,Muon 軟體中心,Muon 软件中心,用于新增或删除软件的软件中心,Muon软件中心,System;
-muon.desktop,Muon 套件管理員,用於新增移除軟體及程式套件的軟體中心,Muon 套件管理員,Muon 组件管理员,用于新增或删除软件及程序组件的软件中心,Muon组件管理员,System;
-usb-creator-gtk.desktop,開機碟製作_usb-creator-gtk,開機碟製作程式,開機碟製作_usb-creator-gtk,开机U盘制作_usb-creator-gtk,开机U盘制作程序,开机U盘制作_usb-creator-gtk,System;
-usb-creator-kde.desktop,開機碟製作_usb-creator,開機碟製作程式,開機碟製作_usb-creator,开机U盘制作_usb-creator,开机U盘制作程序,开机U盘制作_usb-creator,System;
-unetbootin.desktop,開機碟製作_UNetbootin,開機碟製作程式,開機碟製作_UNetbootin,开机U盘制作_UNetbootin,开机U盘制作程序,开机U盘制作_UNetbootin,System;
+muon.desktop,套件管理員_Muon,用於新增移除軟體及程式套件的軟體中心,套件管理員_Muon,组件管理员_Muon,用于新增或删除软件及程序组件的软件中心,组件管理员_Muon,System;
+usb-creator-gtk.desktop,ezgo開機碟製作_usb-creator-gtk,ezgo開機碟製作程式,ezgo開機碟製作_usb-creator-gtk,ezgo开机U盘制作_usb-creator-gtk,ezgo开机U盘制作程序,ezgo开机U盘制作_usb-creator-gtk,System;
+usb-creator-kde.desktop,ezgo開機碟製作_usb-creator,ezgo開機碟製作程式,ezgo開機碟製作_usb-creator,ezgo开机U盘制作_usb-creator,ezgo开机U盘制作程序,ezgo开机U盘制作_usb-creator,System;
+unetbootin.desktop,Linux開機碟製作_UNetbootin,Linux開機碟製作程式,Linux開機碟製作_UNetbootin,Linux开机U盘制作_UNetbootin,Linux开机U盘制作程序,Linux开机U盘制作_UNetbootin,System;
 partitionmanager.desktop,磁碟分割_KDE Partition Manager,可以輕鬆的管理您的磁碟、分割區與檔案系統,磁碟分割_KDE Partition Manager,磁盘分区管理_KDEPartitionManager,可以轻松管理您的磁盘、分区与文件系统,磁盘分区管理_KDEPartitionManager,System;
 # gnome-disks.desktop: 20141107 added by Franklin
 gnome-disks.desktop,磁碟管理_GnomeDisks,Gnome 上的磁碟管理程式,磁碟管理_GnomeDisks,磁碟管理_GnomeDisks,Gnome 上的磁碟管理软件,磁碟管理_GnomeDisks,System;
@@ -363,14 +364,17 @@ krandrtray.desktop,螢幕設定_KrandRTray,可調整螢幕大小及相關設定,
 my-computer.desktop,系統資訊_My Computer,可清楚的看到硬體、網路、可移除裝置及系統等相關資訊,系統資訊_My Computer,系统信息_MyComputer,可以清楚地看到硬件、网络、可删除设备及系统等相关信息,系统信息_MyComputer,System;
 ksystemlog.desktop,系統紀錄_KsystemLog,完整的系統紀錄列表,系統紀錄_KsystemLog,系统纪录_KsystemLog,可以查看完整的系统日志信息,系统纪录_KsystemLog,System;
 ksysguard.desktop,系統監視器_Ksysguard,顯示系統軟體執行現況,系統監視器_Ksysguard,系统监视器_Ksysguard,可以查看系统软件执行实时状况,系统监视器_Ksysguard,System;
-kinfocenter.desktop,硬體資訊_Kinfocenter,顯示硬體相關資訊,硬體資訊_Kinfocenter,硬件信息_Kinfocenter,可以显示电脑硬件相关信息,硬件信息_Kinfocenter,System;
+kinfocenter.desktop,系統資訊_Kinfocenter,顯示系統相關資訊,系統資訊_Kinfocenter,系统信息_Kinfocenter,可以显示电脑系统相关信息,系统信息_Kinfocenter,System;
 jockey-kde.desktop,額外驅動程式_jockey-kde,可以檢視及安裝額外的驅動程式,額外驅動程式_jockey-kde,额外驱动程序_jockey-kde,可以查看及安装额外的驱动程序,额外驱动程序_jockey-kde,System;
 nepomukbackup.desktop,備份工具_Nepomuk Backup,系統備份工具,備份工具_Nepomuk Backup,备份工具_NepomukBackup,系统备份工具,备份工具_NepomukBackup,System;
 nepomukcontroller.desktop,備份工具_Nepomuk Controller,系統備份主控台,備份工具_Nepomuk Controller,备份工具_NepomukController,系统备份主控台,备份工具_NepomukController,System;
-grub-customizer.desktop,開機選單_Grub Customizer,可以調整開機選單的順序等等的工具,開機選單_Grub Customizer,开机菜单_Grub Customizer,可以调整 Grub 开机菜单的工具,开机菜单,System;
+grub-customizer.desktop,開機設定_Grub Customizer,可以調整開機選單的順序等等的工具,開機設定_Grub Customizer,开机設定_Grub Customizer,可以调整 Grub 开机設定的工具,开机設定,System;
+boot-repair.desktop,開機修復_Boot Repair,可以修復開機選單的工具,開機修復_Boot Repair,开机修复_Boot Repair,可以修复开机选单的工具,开机修复_Boot Repair,System;
 #設定,,,,,,,
 systemsettings.desktop,系統設定_System Settings,類似 Windows 下的控制台，可以進行 ezgo 各項系統環境設定,系統設定_System Settings,系统设置_SystemSettings,类似Windows下的控制面板，可以进行ezgo各项系统环境设置,系统设置_SystemSettings,Settings;
-hime-setup.desktop,輸入法設定_hime ,中文輸入法相關設定,輸入法設定_hime ,输入法设置_hime,中文输入法相关设置,输入法设置_hime,Settings;
+hime-setup.desktop,輸入法設定_hime,中文輸入法相關設定,輸入法設定_hime ,输入法设置_hime,中文输入法相关设置,输入法设置_hime,Settings;
+fcitx-configtool.desktop,輸入法設定_Fcitx,Fcitx 輸入法相關設定,輸入法設定_Fcitx,输入法设定_fcitx,Fcitx 输入法相关设定,输入法设定_Fcitx,Settings;
+ibus-setup.desktop,輸入法設定_ibus,ibus 輸入法相關設定,輸入法設定_ibus,输入法设定_ibus,ibus 输入法相关设定,输入法设定_ibus,Settings;
 qtconfig-qt4.desktop,Qt 4 設定_qtconfig-qt4,Qt 4 相關設定,Qt 4 設定_qtconfig-qt4,Qt 4 设置_qtconfig-qt4,Qt4相关设置,Qt4设置_qtconfig-qt4,Settings;
 xinput_calibrator.desktop,觸控螢幕設定_Calibrate Touchscreen,觸控螢幕相關設定,觸控螢幕設定_Calibrate Touchscreen,触控屏幕设置_CalibrateTouchscreen,触控屏幕相关设置,触控屏幕设置_CalibrateTouchscreen,Settings;
 #ezgomenu end,,,,,,,

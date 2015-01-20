@@ -93,9 +93,9 @@
 			<Filename>libreoffice-writer.desktop</Filename>
 			<Filename>libreoffice-calc.desktop</Filename>
 			<Filename>libreoffice-impress.desktop</Filename>
-			<Filename>libreoffice-math.desktop</Filename>
 			<Filename>libreoffice-draw.desktop</Filename>
 			<Filename>libreoffice-base.desktop</Filename>
+			<Filename>libreoffice-math.desktop</Filename>
 			<Separator/>
 			<Filename>scribus.desktop</Filename>
 			<Separator/>			
@@ -284,6 +284,7 @@
 			<Filename>ardour.desktop</Filename>
 			<Filename>audacious.desktop</Filename>
 			<Filename>ffDiaporama.desktop</Filename>
+			<Filename>lmms.desktop</Filename>
 				<Or>
 					<Category>AudioVideo</Category>
 					<Category>Audio</Category>
@@ -344,11 +345,12 @@
 			<Filename>audacious.desktop</Filename>
 			<Filename>rhythmbox.desktop</Filename>
 			<Separator/>
-			<Filename>audacity.desktop</Filename>
-			<Filename>rosegarden.desktop</Filename>
+			<Filename>mscore.desktop</Filename>			
 			<Filename>tuxguitar.desktop</Filename>
 			<Filename>hydrogen.desktop</Filename>
-			<Filename>mscore.desktop</Filename>			
+			<Filename>audacity.desktop</Filename>
+			<Filename>rosegarden.desktop</Filename>
+			<Filename>lmms.desktop</Filename>
 			<Separator/>
 			<Filename>devede.desktop</Filename>
 			<Filename>oggconvert.desktop</Filename>
@@ -448,12 +450,12 @@
 			<Filename>kde4-kftpgrabber.desktop</Filename>
 			<Filename>kde4-kget.desktop</Filename>			
 			<Separator/>			
-			<Filename>kde4-quassel.desktop</Filename>
-			<Filename>emesene.desktop</Filename>
+			<Filename>skype.desktop</Filename>
 			<Filename>pidgin.desktop</Filename>
 			<Filename>kde4-kopete.desktop</Filename>
+			<Filename>kde4-quassel.desktop</Filename>
 			<Filename>kde4-kmess.desktop</Filename>
-			<Filename>skype.desktop</Filename>
+			<Filename>emesene.desktop</Filename>
 			<Filename>ekiga.desktop</Filename>
 			<Filename>miro.desktop</Filename>
 			<Separator/>
@@ -561,8 +563,9 @@
 			<Filename>kde4-klines.desktop</Filename>			
 			<Separator/>			
 			<Filename>kde4-ksudoku.desktop</Filename>
-			<Filename>kde4-picmi.desktop</Filename>
 			<Filename>kde4-blinken.desktop</Filename>
+			<Filename>kde4-picmi.desktop</Filename>
+			<Separator/>
 			<Filename>kde4-katomic.desktop</Filename>
 			<Filename>kde4-kblackbox.desktop</Filename>				
 			<Separator/>
@@ -976,6 +979,13 @@
 			<Filename>realtimesync.desktop</Filename>
 			<Filename>pcmanfm.desktop</Filename>
 			<Filename>gnome-disks.desktop</Filename>
+			<Filename>grub-customizer.desktop</Filename>
+			<Filename>boot-repair.desktop</Filename>
+			<Filename>ubuntu-software-center.desktop</Filename>
+			<Filename>software-properties-drivers.desktop</Filename>
+			<Filename>software-properties-gnome.desktop</Filename>
+			<Filename>software-properties-gtk.desktop</Filename>
+			<Filename>software-properties-kde.desktop</Filename>
 				<Category>System</Category>
 		</Include>
 		<Menu>
@@ -987,6 +997,18 @@
 			</Include>
 		</Menu>
 		<Layout>
+			<Filename>ubuntu-software-center.desktop</Filename>
+			<Filename>software-properties-gnome.desktop</Filename>
+			<Filename>software-properties-gtk.desktop</Filename>
+			<Filename>software-properties-kde.desktop</Filename>
+			<Filename>software-properties-drivers.desktop</Filename>
+			<Separator/>
+			<Filename>kde4-kinfocenter.desktop</Filename>
+			<Filename>kde4-ksystemlog.desktop</Filename>
+			<Filename>kde4-ksysguard.desktop</Filename>
+			<Filename>jockey-kde.desktop</Filename>			
+			<Filename>kde4-my-computer.desktop</Filename>
+			<Separator/>
 			<Filename>kde4-muon-installer.desktop</Filename>
 			<Filename>kde4-muon.desktop</Filename>
 			<Separator/>
@@ -996,6 +1018,9 @@
 			<Filename>kde4-partitionmanager.desktop</Filename>
 			<Filename>gnome-disks.desktop</Filename>
 			<Separator/>
+			<Filename>grub-customizer.desktop</Filename>
+			<Filename>boot-repair.desktop</Filename>
+			<Separator/>
 			<Filename>kde4-konsole.desktop</Filename>
 			<Filename>kde4-dolphin.desktop</Filename>
 			<Filename>pcmanfm.desktop</Filename>
@@ -1003,13 +1028,6 @@
 			<Filename>realtimesync.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-krandrtray.desktop</Filename>
-			<Separator/>
-			<Filename>kde4-my-computer.desktop</Filename>
-			<Filename>kde4-ksystemlog.desktop</Filename>
-			<Filename>kde4-ksysguard.desktop</Filename>
-			<Separator/>
-			<Filename>kde4-kinfocenter.desktop</Filename>
-			<Filename>jockey-kde.desktop</Filename>			
 			<Separator/>
 			<Filename>kde4-nepomukbackup.desktop</Filename>
 			<Filename>kde4-nepomukcontroller.desktop</Filename>			
@@ -1035,6 +1053,8 @@
 			<Filename>kde4-systemsettings.desktop</Filename>
 			<Filename>xinput_calibrator.desktop</Filename>
 			<Filename>hime-setup.desktop</Filename>
+			<Filename>ibus-setup.desktop</Filename>
+			<Filename>fcitx-configtool.desktop</Filename>
 			<Filename>itweb-settings.desktop</Filename>
 			<Filename>openjdk-6-policytool.desktop</Filename>
 			<Filename>JB-controlpanel.desktop</Filename>
@@ -1058,6 +1078,8 @@
 			<Filename>kde4-systemsettings.desktop</Filename>
 			<Separator/>
 			<Filename>hime-setup.desktop</Filename>
+			<Filename>fcitx-configtool.desktop</Filename>
+			<Filename>ibus-setup.desktop</Filename>
 			<Separator/>
 			<Filename>qtconfig-qt4.desktop</Filename>	
 			<Separator/>
@@ -1081,13 +1103,13 @@
 		<Name>ezgo</Name>
 		<Directory>myezgo.directory</Directory>
 		<Include>
-			<Filename>ezgomenu.desktop</Filename>
-			<Filename>update_ezgo.desktop</Filename>
-			<Filename>my_ezgo.desktop</Filename>
-			<Filename>recover.desktop</Filename>
-<!--			<Filename>ezinstall.desktop</Filename>
-			<Filename>ezgo_center.desktop</Filename> -->
+<!--			<Filename>ezgomenu.desktop</Filename> -->
+<!--			<Filename>update_ezgo.desktop</Filename> -->
+<!--			<Filename>my_ezgo.desktop</Filename> -->
+<!--			<Filename>ezinstall.desktop</Filename> -->
+<!--			<Filename>ezgo_center.desktop</Filename> -->
 			<Filename>media_install_force.desktop</Filename>
+			<Filename>recover.desktop</Filename>
 			<Filename>skel.desktop</Filename>
 			<Filename>about_ezgo.desktop</Filename>
 		</Include>
@@ -1100,8 +1122,8 @@
 			<Separator/>
 			<Filename>media_install_force.desktop</Filename>
 			<Separator/>
-			<Filename>update_ezgo.desktop</Filename>
-			<Filename>ezgomenu.desktop</Filename>
+<!--			<Filename>update_ezgo.desktop</Filename>
+			<Filename>ezgomenu.desktop</Filename> -->
 			<Filename>recover.desktop</Filename>
 			<Filename>skel.desktop</Filename>
 			<Merge type="files"/>
