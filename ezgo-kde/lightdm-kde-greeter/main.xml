@@ -7,7 +7,7 @@
 
   <group name="greeter-settings">
     <entry name="Background" type="String">
-      <default>/etc/alternatives/desktop-background</default>
+      <default>/etc/alternatives/ezgo-default-dm.png</default>
     </entry>
   </group>
 </kcfg>
