@@ -4,3 +4,4 @@ ezgo-artwork/grub/*.png usr/share/ezgo/grub
 ezgo-artwork/ldm/* usr/share/ldm/themes/ezgo
 ezgo-artwork/update-artwork usr/share/ezgo/ezgo-artwork
 ezgo-artwork/grub/*.cfg etc/default/grub.d
+ezgo-artwork/default-dm/* usr/share/ezgo/ezgo-artwork/default-dm
