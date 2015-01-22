@@ -20,13 +20,14 @@ change_desktop_background() {
     update-alternatives --install \
         /usr/share/images/desktop-base/desktop-background \
 	desktop-background \
-	/usr/share/images/desktop-base/ezgo12-wallpaper-1920x1080.png 80
+	/usr/share/images/desktop-base/ezgo12-wallpaper-2560x1600.png 80
     update-alternatives --install \
         /usr/share/images/desktop-base/desktop-background.xml \
 	desktop-background.xml \
 	/usr/share/images/desktop-base/ezgo-wallpaper.xml 30
 
     for WALLPAPER in ezgo12-wallpaper-1366x768.png \
+        ezgo12-wallpaper-2560x1600.png \
 		ezgo12-wallpaper-1920x1080.png ; do
 	update-alternatives --install \
 	        /usr/share/images/desktop-base/desktop-background \
@@ -38,12 +39,13 @@ change_desktop_background() {
 restore_desktop_background() {
     update-alternatives --remove \
 	desktop-background \
-	/usr/share/images/desktop-base/ezgo12-wallpaper-1920x1080.png
+	/usr/share/images/desktop-base/ezgo12-wallpaper-2560x1600.png
     update-alternatives --remove \
 	desktop-background.xml \
 	/usr/share/images/desktop-base/ezgo-wallpaper.xml
 
     for WALLPAPER in ezgo12-wallpaper-1366x768.png \
+        ezgo12-wallpaper-2560x1600.png \
 		ezgo12-wallpaper-1920x1080.png ; do
 	update-alternatives --remove desktop-background \
 		/usr/share/images/desktop-base/$WALLPAPER
@@ -73,6 +75,17 @@ restore_grub_background() {
     fi
 }
 
+install_default_dm_background() {
+    update-alternatives --install \
+        /usr/share/images/desktop-base/ezgo-default-dm.png \
+        ezgo-default-dm.png \
+        /usr/share/ezgo/ezgo-artwork/default-dm/ezgo12-dm-background-1920x1080.png 60
+}
+
+remove_default_dm_background() {
+    update-alternatives --remove ezgo-default-dm.png \
+        /usr/share/ezgo/ezgo-artwork/default-dm/ezgo12-dm-background-1920x1080.png
+}
 
 compile_gschemas() {
     glib-compile-schemas /usr/share/glib-2.0/schemas/
@@ -83,12 +96,14 @@ case "$1" in
     change_ldm_background
     change_grub_background
     change_desktop_background
+    install_default_dm_background
     compile_gschemas
     ;;
   remove)
     restore_ldm_background
     restore_grub_background
     restore_desktop_background
+    remove_default_dm_background
     compile_gschemas
     ;;
 esac
