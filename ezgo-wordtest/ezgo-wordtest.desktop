@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[zh_TW]=字音字形體驗版
 Comment=ezgo Wordtest
-Exec=x-www-browser /usr/share/ezgo/ezgo-wordtest/index.html
+Exec=/usr/share/ezgo/ezgo-wordtest/wordtest.sh
 Path=/usr/share/ezgo/ezgo-wordtest/
 GenericName[zh_TW]=花蓮縣字音字形學習網的體驗版
 GenericName=ezgo Wordtest
