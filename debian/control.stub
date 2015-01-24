@@ -139,6 +139,7 @@ Description: Common files in all versions of ezgo
  self-learning.
  .
  This package contains misc files in all versions of ezgo.
+Depends: python
 
 Package: ezgo-tasks
 Architecture: all
