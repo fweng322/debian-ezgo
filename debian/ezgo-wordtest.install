@@ -7,3 +7,4 @@ ezgo-wordtest/ezgo-wordtest/image/* usr/share/ezgo/ezgo-wordtest/image/
 ezgo-wordtest/ezgo-wordtest/js/bootstrap/* usr/share/ezgo/ezgo-wordtest/js/bootstrap/
 ezgo-wordtest/ezgo-wordtest/js/* usr/share/ezgo/ezgo-wordtest/js/
 ezgo-wordtest/ezgo-wordtest.desktop usr/share/applications/
+ezgo-wordtest/wordtest.sh usr/share/ezgo/ezgo-wordtest
