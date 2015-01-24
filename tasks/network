@@ -8,8 +8,6 @@ Description: debian ezgo Network
 
 Depends: firefox
 
-Depends: chromium-browser
-
 Depends: pidgin
 
 Depends: kopete
