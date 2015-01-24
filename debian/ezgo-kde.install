@@ -1,6 +1,5 @@
 ezgo-kde/kdm-theme/ezgo/* usr/share/kde4/apps/kdm/themes/ezgo
 ezgo-kde/kdm-theme/30_ezgo etc/default/kdm.d
-ezgo-kde/ksplash-ezgo-theme/600x400/* usr/share/kde4/apps/ksplash/Themes/ezgo/600x400
 ezgo-kde/ksplash-ezgo-theme/800x600/* usr/share/kde4/apps/ksplash/Themes/ezgo/800x600
 ezgo-kde/ksplash-ezgo-theme/1024x768/* usr/share/kde4/apps/ksplash/Themes/ezgo/1024x768
 ezgo-kde/ksplash-ezgo-theme/1280x1024/* usr/share/kde4/apps/ksplash/Themes/ezgo/1280x1024
