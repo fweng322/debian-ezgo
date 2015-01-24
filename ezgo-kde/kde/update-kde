@@ -50,7 +50,7 @@ case "$1" in
   configure)
     change_lightdm_kde_theme
     change_ksplash
-    change_ezgo_font_config
+#    change_ezgo_font_config
     ;;
   remove)
     restore_lightdm_kde_theme
