@@ -1,5 +1,5 @@
 [Desktop Entry]
-Categories=ezgo;Settings;
+Categories=Settings;
 Comment[zh_TW]=安裝第三方軟體
 Comment=Install third party software
 Exec=/usr/share/ezgo/media_pak_install/media_pak_install.py
@@ -11,7 +11,6 @@ Name[zh_TW]=安裝第三方軟體
 Name=Install third party software
 StartupNotify=true
 Terminal=false
-TerminalOptions=
 Type=Application
 X-DBUS-ServiceName=
 X-DBUS-StartupType=
