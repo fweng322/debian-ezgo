@@ -40,7 +40,7 @@ case "$1" in
 	rm -f /usr/share/applications/my_computer.desktop
 	rm -f /usr/share/applications/my_ezgo.desktop
 	rm -f /usr/share/applications/about_ezgo.desktop
-    rm -f /usr/local/7-Zip
+    rm -rf /usr/local/7-Zip
     if [ -e /etc/tuxpaint/tuxpaint.conf ]; then
     	sed -i 's/sysfonts=yes//g' /etc/tuxpaint/tuxpaint.conf
     fi
