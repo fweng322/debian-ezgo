@@ -1104,7 +1104,7 @@
 		<Directory>myezgo.directory</Directory>
 		<Include>
 <!--			<Filename>ezgomenu.desktop</Filename> -->
-<!--			<Filename>update_ezgo.desktop</Filename> -->
+			<Filename>update_ezgo.desktop</Filename>
 <!--			<Filename>my_ezgo.desktop</Filename> -->
 <!--			<Filename>ezinstall.desktop</Filename> -->
 <!--			<Filename>ezgo_center.desktop</Filename> -->
@@ -1122,8 +1122,8 @@
 			<Separator/>
 			<Filename>media_install_force.desktop</Filename>
 			<Separator/>
-<!--			<Filename>update_ezgo.desktop</Filename>
-			<Filename>ezgomenu.desktop</Filename> -->
+			<Filename>update_ezgo.desktop</Filename>
+<!--			<Filename>ezgomenu.desktop</Filename> -->
 			<Filename>recover.desktop</Filename>
 			<Filename>skel.desktop</Filename>
 			<Merge type="files"/>
