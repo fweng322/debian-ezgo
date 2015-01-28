@@ -9,4 +9,4 @@ image/x-xcf=gimp.desktop;kde4-kolourpaint.desktop;kde4-okularApplication_kimgio.
 text/html=firefox.desktop;
 text/plain=kde4-kate.desktop;gvim.desktop;
 image/svg+xml=inkscape.desktop;shutter.desktop;kde4-kolourpaint.desktop;gimp.desktop;bkchem.desktop;kde4-kate.desktop;gvim.desktop;kde4-rekonq.desktop;libreoffice-writer.desktop;firefox.desktop;chromium-browser.desktop;hydrogen.desktop;kayali.desktop;
-application/x-java-jnlp-file=JB-javaws-jdk8.desktop;icedtea-netx-javaws.desktop;kde4-kate.desktop;gvim.desktop;kde4-kfmclient_html.desktop;libreoffice-writer.desktop;firefox.desktop;chromium-browser.desktop;hydrogen.desktop;kayali.desktop;
+application/x-java-jnlp-file=JB-javaws.desktop;JB-javaws-jdk8.desktop;icedtea-netx-javaws.desktop;kde4-kate.desktop;gvim.desktop;kde4-kfmclient_html.desktop;libreoffice-writer.desktop;firefox.desktop;chromium-browser.desktop;hydrogen.desktop;kayali.desktop;
