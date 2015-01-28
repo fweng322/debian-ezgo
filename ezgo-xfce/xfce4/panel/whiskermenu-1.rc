@@ -1,0 +1,54 @@
+favorites=firefox.desktop,xbmc.desktop,exo-file-manager.desktop,exo-terminal-emulator.desktop
+recent=xfce-keyboard-settings.desktop,xfce-settings-manager.desktop
+button-title=Applications Menu
+button-icon=/usr/share/ezgo/icons/start_menu.png
+show-button-title=false
+show-button-icon=true
+launcher-show-name=true
+launcher-show-description=false
+item-icon-size=1
+hover-switch-category=false
+category-icon-size=0
+load-hierarchy=true
+favorites-in-recent=true
+display-recent-default=false
+position-search-alternate=true
+position-commands-alternate=false
+menu-width=400
+menu-height=500
+command-settings=xfce4-settings-manager
+show-command-settings=true
+command-lockscreen=xflock4
+show-command-lockscreen=true
+command-switchuser=dm-tool switch-to-greeter
+show-command-switchuser=false
+command-logout=xfce4-session-logout
+show-command-logout=true
+command-menueditor=menulibre
+show-command-menueditor=true
+search-actions=4
+
+[action0]
+name=手冊頁
+pattern=#
+command=exo-open --launch TerminalEmulator man %s
+regex=false
+
+[action1]
+name=維基百科
+pattern=!w
+command=exo-open --launch WebBrowser http://en.wikipedia.org/wiki/%u
+regex=false
+
+[action2]
+name=在終端機執行
+pattern=!
+command=exo-open --launch TerminalEmulator %s
+regex=false
+
+[action3]
+name=開啟 URI
+pattern=^(file|http|https):\\/\\/(.*)$
+command=exo-open \\0
+regex=true
+
