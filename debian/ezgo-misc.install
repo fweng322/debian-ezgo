@@ -18,3 +18,5 @@ ezgo-misc/7zip.tar.gz usr/share/ezgo/ezgo-misc
 ezgo-misc/exception.sites etc/skel/.java/deployment/security
 ezgo-misc/ezgo*.png usr/share/ezgo/ezgo-misc
 ezgo-misc/libreoffice.tar.gz usr/share/ezgo/ezgo-misc
+ezgo-misc/ask_for_upgrade.sh usr/share/ezgo/ezgo-misc
+
