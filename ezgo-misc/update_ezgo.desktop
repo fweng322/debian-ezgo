@@ -1,0 +1,21 @@
+[Desktop Entry]
+Comment[zh_TW]=ezgo 更新程式
+Comment=Update your ezgo system
+Exec=/usr/share/ezgo/ask_for_upgrade.sh
+GenericName[zh_TW]=將 ezgo 進行程式更新
+GenericName=Update your ezgo system
+Icon=/usr/share/icons/ezgo/upgrade.png
+Name[zh_TW]=ezgo 更新程式
+Name=ezgo_update
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=update_ezgo.desktop
+Categories;=myezgo;
+Categories=myezgo;
+
