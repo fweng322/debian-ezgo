@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[zh_TW]=顏國雄老師 Flash 教材
 Comment=Flash tutorial accessories made by G. S. Yan
-Exec=x-www-browser /usr/share/ezgo/ezgo-prt/gsyan/main.html
+Exec=/usr/bin/xdg-open /usr/share/ezgo/ezgo-prt/gsyan/main.html
 GenericName[zh_TW]=台北市力行國小顏國雄老師所開發的多個 Flash 教材
 GenericName=Flash tutorial accessories made by G. S. Yan
 Icon=/usr/share/ezgo/icons/good_1.png
