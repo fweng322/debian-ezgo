@@ -1,0 +1,41 @@
+<language code="zh_TW">
+
+    <sound name="ball" file="zh_TW/ball.ogg" />
+    <sound name="bow" file="zh_TW/bow.ogg" />
+    <sound name="coat" file="zh_TW/coat.ogg" />
+    <sound name="ear" file="zh_TW/ear.ogg" />
+    <sound name="earring" file="zh_TW/earring.ogg" />
+    <sound name="eye" file="zh_TW/eye.ogg" />
+    <sound name="eyebrow" file="zh_TW/eyebrow.ogg" />
+    <sound name="flower" file="zh_TW/flower.ogg" />
+    <sound name="hair" file="zh_TW/hair.ogg" />
+    <sound name="hat" file="zh_TW/hat.ogg" />
+    <sound name="moustache" file="zh_TW/moustache.ogg" />
+    <sound name="mouth" file="zh_TW/mouth.ogg" />
+    <sound name="nose" file="zh_TW/nose.ogg" />
+    <sound name="shoe" file="zh_TW/shoe.ogg" />
+    <sound name="shorts" file="zh_TW/shorts.ogg" />
+    <sound name="skirt" file="zh_TW/skirt.ogg" />
+    <sound name="spectacles" file="zh_TW/spectacles.ogg" />
+    <sound name="stick" file="zh_TW/stick.ogg" />
+    <sound name="sunglasses" file="zh_TW/sunglasses.ogg" />
+    <sound name="tie" file="zh_TW/tie.ogg" />
+    <sound name="umbrella" file="zh_TW/umbrella.ogg" />
+    <sound name="bb" file="zh_TW/bb.ogg" />
+    <sound name="black" file="zh_TW/black.ogg" />
+    <sound name="blackk" file="zh_TW/blackk.ogg" />
+    <sound name="g" file="zh_TW/g.ogg" />
+    <sound name="gray" file="zh_TW/gray.ogg" />
+    <sound name="greed" file="zh_TW/greed.ogg" />
+    <sound name="greedr" file="zh_TW/greedr.ogg" />
+    <sound name="i" file="zh_TW/i.ogg" />
+    <sound name="kp" file="zh_TW/kp.ogg" />
+    <sound name="mm" file="zh_TW/mm.ogg" />
+    <sound name="red" file="zh_TW/red.ogg" />
+    <sound name="si" file="zh_TW/si.ogg" />
+    <sound name="str" file="zh_TW/str.ogg" />
+    <sound name="white" file="zh_TW/white.ogg" />
+    <sound name="yellow" file="zh_TW/yellow.ogg" />
+    <sound name="cj8" file="zh_TW/cj8.ogg" />
+
+</language>
