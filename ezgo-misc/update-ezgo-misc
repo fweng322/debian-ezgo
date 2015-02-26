@@ -13,24 +13,147 @@ case "$1" in
     ln -sf /usr/share/ezgo/desktop-files/about_ezgo.desktop /usr/share/applications/about_ezgo.desktop
     cd /usr/share/ezgo/ezgo-misc
     # 7-zip
-    tar xf 7zip.tar.gz
-    rm -rf /usr/local/7-Zip
-    mv /usr/share/ezgo/ezgo-misc/7-Zip /usr/local/
-    rm -f 7zip.tar.gz
+    if [ -f 7zip.tar.gz ]; then
+		tar xf 7zip.tar.gz
+		rm -rf /usr/local/7-Zip
+		mv /usr/share/ezgo/ezgo-misc/7-Zip /usr/local/
+		rm -f 7zip.tar.gz
+	fi
     # fix tuxpaint
     if [ -e /etc/tuxpaint/tuxpaint.conf ]; then
 	    sed -i '$ a\sysfonts=yes' /etc/tuxpaint/tuxpaint.conf
     fi
     # libreoffice configurations
-    tar xf libreoffice.tar.gz
-    rm -rf /etc/skel/.config/libreoffice
-    mv /usr/share/ezgo/ezgo-misc/libreoffice /etc/skel/.config
-    chown -R root.root /etc/skel/.config/libreoffice
-    rm -f libreoffice.tar.gz
+    if [ -f libreoffice.tar.gz ]; then
+	    tar xf libreoffice.tar.gz
+		rm -rf /etc/skel/.config/libreoffice
+		mv /usr/share/ezgo/ezgo-misc/libreoffice /etc/skel/.config
+		chown -R root.root /etc/skel/.config/libreoffice
+		rm -f libreoffice.tar.gz
+	fi
     # fix audacity.mo path from zh to zh_CN
-    if [ -e /usr/share/locale/zh/LC_MESSAGES/audacity.mo ]; then
-	    mv /usr/share/locale/zh/LC_MESSAGES/audacity.mo /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo
-    fi
+	if [ -e /usr/share/locale/zh/LC_MESSAGES/audacity.mo ]; then
+		mv /usr/share/locale/zh/LC_MESSAGES/audacity.mo /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo
+	fi
+    # link winff translations "zh" to "zh_TW"
+    if [ ! -e /usr/share/winff/languages/winff.zh.po.ezgo-bak ]; then
+		if [ -e /usr/share/winff/languages/winff.zh.po ]; then
+			mv /usr/share/winff/languages/winff.zh.po /usr/share/winff/languages/winff.zh.po.ezgo-bak
+		fi
+	else
+		rm -f /usr/share/winff/languages/winff.zh.po
+	fi
+	if [ -e /usr/share/winff/languages/winff.zh_TW.po ]; then
+		ln -s /usr/share/winff/languages/winff.zh_TW.po /usr/share/winff/languages/winff.zh.po
+	fi
+	# link ffDiaporama translations "zh" to "zh_TW"
+	if [ -e /usr/share/ffDiaporama ]; then  # ffDiaporama installed
+		if [ ! -e  /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm.ezgo-bak ]; then
+			if [ -e /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm ]; then
+				mv -f /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm.ezgo-bak
+			fi
+		else
+			rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm
+		fi
+		if [ ! -e  /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts.ezgo-bak ]; then
+			if [ -e /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts ]; then
+				mv -f /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts.ezgo-bak
+			fi
+		else
+				rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts
+		fi
+		cp -f /usr/share/ezgo/ezgo-misc/translations/ffDiaporama* /usr/share/ffDiaporama/locale
+		if [ ! -e /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm.ezgo-bak ]; then
+			if [ -e /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm ]; then
+				mv -f /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm.ezgo-bak
+			fi
+		else
+			rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm
+		fi
+		if [ ! -e /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts.ezgo-bak ]; then
+			if [ -e /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts ]; then
+				mv -f /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts.ezgo-bak
+			fi
+		else
+			rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts
+		fi
+		ln -s /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm
+		ln -s /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts
+	fi
+	# jkiwi translations
+	if [ -e /usr/share/jkiwi ]; then 	# jkiwi installed
+		if [ ! -e /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak ]; then
+			if [ -e /usr/share/jkiwi/locale/locale_zh_TW.properties ]; then
+				cp -f /usr/share/jkiwi/locale/locale_zh_TW.properties /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak
+			fi
+		fi
+		rm -f /usr/share/jkiwi/locale/locale_zh_TW.properties
+		cp -f /usr/share/ezgo/ezgo-misc/translations/jkiwi-locale_zh_TW.properties /usr/share/jkiwi/locale/locale_zh_TW.properties
+	fi
+	# put furiusisomount.mo
+	if [ ! -e  /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo.ezgo-bak ]; then
+		if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo ]; then
+			cp -f  /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo.ezgo-bak
+		fi
+	fi
+	rm -f /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo
+	cp -f /usr/share/ezgo/ezgo-misc/translations/furiusisomount.mo /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo
+    # put kdenlive.mo
+	if [ ! -e /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo.ezgo-bak ]; then
+		if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo ]; then
+			cp -f  /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo.ezgo-bak
+		fi
+	fi
+	rm -f /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo
+	cp -f /usr/share/ezgo/ezgo-misc/translations/kdenlive.mo /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo
+    # put pdfshuffler.mo
+	if [ ! -e /usr/share/locale/zh_TW/LC_MESSAGES/pdfshuffler.mo.ezgo-bak ]; then
+		if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/pdfshuffler.mo ]; then
+			cp -f  /usr/share/locale/zh_TW/LC_MESSAGES/pdfshuffler.mo /usr/share/locale/zh_TW/LC_MESSAGES/pdfshuffler.mo.ezgo-bak
+		fi
+	fi
+	rm -f /usr/share/locale/zh_TW/LC_MESSAGES/pdfshuffler.mo
+	cp -f /usr/share/ezgo/ezgo-misc/translations/pdfshuffler.mo /usr/share/locale/zh_TW/LC_MESSAGES/pdfshuffler.mo
+    # put xournal.mo
+	if [ ! -e /usr/share/locale/zh_TW/LC_MESSAGES/xournal.mo.ezgo-bak ]; then
+		if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/xournal.mo ]; then
+			cp -f  /usr/share/locale/zh_TW/LC_MESSAGES/xournal.mo /usr/share/locale/zh_TW/LC_MESSAGES/xournal.mo.ezgo-bak
+		fi
+	fi
+	rm -f /usr/share/locale/zh_TW/LC_MESSAGES/xournal.mo
+	cp -f /usr/share/ezgo/ezgo-misc/translations/xournal.mo /usr/share/locale/zh_TW/LC_MESSAGES/xournal.mo
+    # put klavaro.mo
+	if [ ! -e /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo.ezgo-bak ]; then
+		if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo ]; then
+			cp -f  /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo.ezgo-bak
+		fi
+	fi
+	rm -f /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo
+	cp -f /usr/share/ezgo/ezgo-misc/translations/klavaro.mo /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo
+	# put qtqr translations
+	if [ -e /usr/share/qt4/translations ]; then
+		if [ ! -e /usr/share/qt4/translations/qtqr_zh_TW.qm.ezgo-bak ]; then
+			if [ -e /usr/share/qt4/translations/qtqr_zh_TW.qm ]; then
+				cp -f /usr/share/qt4/translations/qtqr_zh_TW.qm /usr/share/qt4/translations/qtqr_zh_TW.qm.ezgo-bak
+			fi
+		fi
+		rm -f /usr/share/qt4/translations/qtqr_zh_TW.qm
+		cp -f /usr/share/ezgo/ezgo-misc/translations/qtqr_zh_TW.qm /usr/share/qt4/translations/qtqr_zh_TW.qm
+	fi
+	# fix mime package freedesktop.org.xml for shockwave flash
+	if [ -e /usr/share/mime/packages ]; then
+		if [ -e /usr/share/mime/packages/freedesktop.org.xml.ezgo-bak ]; then
+			mv /usr/share/mime/packages/freedesktop.org.xml.ezgo-bak /usr/share/ezgo/ezgo-misc
+		fi
+		if [ ! -e /usr/share/ezgo/ezgo-misc/freedesktop.org.xml.ezgo-bak ]; then
+			if [ -e /usr/share/mime/packages/freedesktop.org.xml ]; then
+				cp -f /usr/share/mime/packages/freedesktop.org.xml  /usr/share/ezgo/ezgo-misc/freedesktop.org.xml.ezgo-bak
+			fi
+		fi
+		rm -f /usr/share/mime/packages/freedesktop.org.xml
+		cp -f /usr/share/ezgo/ezgo-misc/freedesktop.org.xml /usr/share/mime/packages/freedesktop.org.xml
+		/usr/bin/update-mime-database /usr/share/mime
+	fi
     ;;
   remove)
 	rm -f /usr/share/applications/7zip.desktop
@@ -45,8 +168,69 @@ case "$1" in
     	sed -i 's/sysfonts=yes//g' /etc/tuxpaint/tuxpaint.conf
     fi
     rm -rf /etc/skel/.config/libreoffice
+	# remove audacity
     if [ -e /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo ]; then
 	    mv /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo /usr/share/locale/zh/LC_MESSAGES/audacity.mo
     fi
+	# remove winff
+	rm -f /usr/share/winff/languages/winff.zh.po
+    if [ -e /usr/share/winff/languages/winff.zh.po.ezgo-bak ]; then
+		mv /usr/share/winff/languages/winff.zh.po.ezgo-bak  /usr/share/winff/languages/winff.zh.po
+    fi
+	# remove ffDiaporama
+	rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm
+	rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts
+	rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm
+	rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts
+    if [ -e /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm.ezgo-bak ]; then
+		mv /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm.ezgo-bak /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm
+    fi
+    if [ -e /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts.ezgo-bak ]; then
+		mv /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts.ezgo-bak /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts
+    fi
+	# remove jkiwi
+	rm -f /usr/share/jkiwi/locale/locale_zh_TW.properties
+	if [ -e /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak ]; then
+		mv /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak /usr/share/jkiwi/locale/locale_zh_TW.properties
+    fi
+	# remove furiusisomount
+	rm -f /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo
+	if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo.ezgo-bak ]; then
+		mv /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo.ezgo-bak /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo
+	fi
+	# remove kdenlive
+	rm -f /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo
+	if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo.ezgo-bak ]; then
+		mv /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo.ezgo-bak /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo
+	fi
+	# remove pdfshuffler
+	rm -f /usr/share/locale/zh_TW/LC_MESSAGES/pdfshuffler.mo
+	if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/pdfshuffler.mo.ezgo-bak ]; then
+		mv /usr/share/locale/zh_TW/LC_MESSAGES/pdfshuffler.mo.ezgo-bak /usr/share/locale/zh_TW/LC_MESSAGES/pdfshuffler.mo
+	fi
+	# remove xournal
+	rm -f /usr/share/locale/zh_TW/LC_MESSAGES/xournal.mo
+	if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/xournal.mo.ezgo-bak ]; then
+		mv /usr/share/locale/zh_TW/LC_MESSAGES/xournal.mo.ezgo-bak /usr/share/locale/zh_TW/LC_MESSAGES/xournal.mo
+	fi
+	# remove klavaro
+	rm -f /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo
+	if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo.ezgo-bak ]; then
+		mv /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo.ezgo-bak /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo
+	fi
+	# remove qtqr
+	rm -f /usr/share/qt4/translations/qtqr_zh_TW.qm
+	if [ -e /usr/share/qt4/translations/qtqr_zh_TW.qm.ezgo-bak ]; then
+		mv /usr/share/qt4/translations/qtqr_zh_TW.qm.ezgo-bak  /usr/share/qt4/translations/qtqr_zh_TW.qm
+	fi
+	# remove mime package freedesktop.org.xml
+	rm -f /usr/share/mime/packages/freedesktop.org.xml
+	if [ -e  /usr/share/mime/packages/freedesktop.org.xml.ezgo-bak ]; then
+		mv /usr/share/mime/packages/freedesktop.org.xml.ezgo-bak /usr/share/mime/packages/freedesktop.org.xml
+    	/usr/bin/update-mime-database /usr/share/mime
+	elif [ -e /usr/share/ezgo/ezgo-misc/freedesktop.org.xml.ezgo-bak ]; then
+		mv /usr/share/ezgo/ezgo-misc/freedesktop.org.xml.ezgo-bak /usr/share/mime/packages/freedesktop.org.xml
+    	/usr/bin/update-mime-database /usr/share/mime
+	fi
     ;;
 esac
