@@ -15,8 +15,11 @@ ezgo-misc/about_ezgo/image/* usr/share/ezgo/ezgo-misc/about_ezgo/image
 ezgo-misc/about_ezgo/js/* usr/share/ezgo/ezgo-misc/about_ezgo/js
 ezgo-misc/update-ezgo-misc usr/share/ezgo/ezgo-misc
 ezgo-misc/7zip.tar.gz usr/share/ezgo/ezgo-misc
-ezgo-misc/exception.sites etc/skel/.java/deployment/security
-ezgo-misc/ezgo*.png usr/share/ezgo/ezgo-misc
-ezgo-misc/libreoffice.tar.gz usr/share/ezgo/ezgo-misc
-ezgo-misc/ask_for_upgrade.sh usr/share/ezgo/ezgo-misc
-
+ezgo-misc/exception.sites etc/skel/.java/deployment/security/
+ezgo-misc/ezgo*.png usr/share/ezgo/ezgo-misc/
+ezgo-misc/libreoffice.tar.gz usr/share/ezgo/ezgo-misc/
+ezgo-misc/ask_for_upgrade.sh usr/share/ezgo/ezgo-misc/
+ezgo-misc/freedesktop.org.xml usr/share/ezgo/ezgo-misc/
+ezgo-misc/translations/* usr/share/ezgo/ezgo-misc/translations
+ezgo-misc/ktuberling/zh_TW/* usr/share/kde4/apps/ktuberling/sounds/zh_TW/
+ezgo-misc/ktuberling/* usr/share/kde4/apps/ktuberling/sounds/
