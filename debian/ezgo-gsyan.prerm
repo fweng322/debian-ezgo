@@ -1,0 +1,12 @@
+#! /bin/sh
+
+set -e
+
+case "$1" in
+  remove)
+    rm -rf /usr/share/ezgo/ezgo-prt/gsyan*
+    ;;
+esac
+
+#DEBHELPER#
+
