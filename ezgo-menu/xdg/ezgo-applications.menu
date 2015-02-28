@@ -24,7 +24,7 @@
 		<Separator/>
 		<Menuname>Education</Menuname>
 		<Menuname>Development</Menuname>
-		<Menuname>OpenContent</Menuname>
+		<Menuname>X-OpenContent</Menuname>
 		<Menuname>Tutorial</Menuname>
 		<Menuname>Accessibility</Menuname>
 		<Separator/>		
@@ -724,7 +724,7 @@
 		</Layout>
 	</Menu>
 	<Menu>
-		<Name>OpenContent</Name>
+		<Name>X-OpenContent</Name>
 		<Directory>ezgo-opencontent.directory</Directory>
 		<Include>
 			<Filename>openc.desktop</Filename>
@@ -734,14 +734,14 @@
 			<Filename>chemical_struct.desktop</Filename>
 			<Filename>ezgo-wordtest.desktop</Filename>
 			<Filename>gsyan.desktop</Filename>
-				<Category>OpenContent</Category>
+				<Category>X-OpenContent</Category>
 		</Include>
 		<Menu>
 			<Name>More</Name>
 			<Directory>kde-more.directory</Directory>
 			<OnlyUnallocated/>
 			<Include>
-				<Category>OpenContent</Category>
+				<Category>X-OpenContent</Category>
 			</Include>
 		</Menu>
 		<Layout>
@@ -1112,6 +1112,7 @@
 			<Filename>recover.desktop</Filename>
 			<Filename>skel.desktop</Filename>
 			<Filename>about_ezgo.desktop</Filename>
+			<Filename>ezgo_doc.desktop</Filename>
 		</Include>
 		<Layout>
 			<Filename>my_ezgo.desktop</Filename>
@@ -1119,6 +1120,8 @@
 <!--			<Separator/>
 			<Filename>ezgo_center.desktop</Filename>
 			<Filename>ezinstall.desktop</Filename> -->
+			<Separator/>
+			<Filename>ezgo_doc.desktop</Filename>
 			<Separator/>
 			<Filename>media_install_force.desktop</Filename>
 			<Separator/>
