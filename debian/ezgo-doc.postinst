@@ -1,0 +1,30 @@
+#!/bin/sh -e
+
+DOC_VERSION=ezgo12
+DOC_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-doc/${DOC_VERSION}_doc.tar.gz
+MD5_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-doc/${DOC_VERSION}_doc.md5
+OUTPUT_FILE=/usr/share/ezgo/${DOC_VERSION}_doc.tar.gz
+MD5_FILE=/usr/share/ezgo/${DOC_VERSION}_doc.md5
+
+echo "Downloading ${DOC_VERSION} documents..."
+
+exit_with_error()
+{
+	echo $1
+	exit 1
+}
+
+wget --continue -O $OUTPUT_FILE $DOC_URL || exit_with_error "Download ezgo-doc file failed: $?"
+wget --continue -O $MD5_FILE $MD5_URL || exit_with_error "Download md5 file failed: $?"
+
+cd /usr/share/ezgo/
+md5sum -c $MD5_FILE || exit_with_error "md5 checksum error!"
+
+rm -rf ${DOC_VERSION}
+tar xfz $OUTPUT_FILE
+rm -f $MD5_FILE
+rm -f $OUTPUT_FILE
+
+#DEBHELPER#
+
+exit 0
