@@ -129,6 +129,17 @@ Description: Chemical structures in ezgo
  .
  This package contains the chemical structures files.
 
+Package: ezgo-doc
+Architecture: all
+Description: ezgo manuals (web page)
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains ezgo tutorial web pages
+
 Package: ezgo-misc
 Architecture: all
 Description: Common files in all versions of ezgo
