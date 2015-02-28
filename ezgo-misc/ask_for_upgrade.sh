@@ -1,6 +1,12 @@
 #!/bin/sh
 
-kdialog --yesno "系統將進行更新。注意：此動作一旦開始就無法中止，否則可能造成系統問題。要繼續嗎？"
+if [ -x /usr/bin/kdialog ]; then
+	kdialog --yesno "系統將進行更新。注意：此動作一旦開始就無法中止，否則可能造成系統問題。要繼續嗎？"
+elif [ -x /usr/bin/zenity ]; then
+	zenity --question --text  "系統將進行更新。注意：此動作一旦開始就無法中止，否則可能造成系統問題。要繼續嗎？"
+else
+	exit
+fi
 
 ans=$?
 
