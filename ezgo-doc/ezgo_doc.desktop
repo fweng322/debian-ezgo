@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[zh_TW]=ezgo12操作止難
+Comment=ezgo12 manual
+Exec=/usr/bin/xdg-open /usr/share/ezgo/ezgo12/index.html
+GenericName[zh_TW]=ezgo12操作止難
+GenericName=ezgo12 manual
+Icon=/usr/share/ezgo/icons/knowhow.png
+Name[zh_TW]=ezgo12 操作手冊
+Name[en]=ezgo manual
+Name=ezgo12 操作手冊
+StartupNotify=true
+Terminal=false
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+Categories=myezgo;
