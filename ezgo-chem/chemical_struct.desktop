@@ -2,14 +2,15 @@
 Comment[zh_TW]=化學構造資料庫_Chemical Structure
 Comment[zh_CN]=化学构造资料库_Chemical Structure
 Comment=Chemical Structure
-Exec=/usr/bin/xdg-open /usr/share/ezgo/ezgo-prt/chemical_structures/index.html
+Exec=/usr/bin/x-www-browser /usr/share/ezgo/ezgo-prt/chemical_structures/index.html
 GenericName[zh_TW]=化學構造資料庫依照官能基將有機分子分類，適合高中及大學化學生物等課程
 GenericName[zh_CN]=化学构造资料库，依照官能基将有机分子分类，适合高中及大学化学生物等课程
 GenericName=Chemical Structure
 Icon=/usr/share/ezgo/ezgo-prt/chemical_structures/images/favicon.ico
 Name[zh_TW]=化學構造資料庫_Chemical Structure
 Name[zh_CN]=化学构造资料库_Chemical Structure
-Name=Chemical Structure
+Name[en]=Chemical Structure
+Name=化學構造資料庫_Chemical Structure
 StartupNotify=true
 Terminal=false
 Type=Application
@@ -17,5 +18,5 @@ X-DBUS-ServiceName=
 X-DBUS-StartupType=
 X-KDE-SubstituteUID=false
 X-KDE-Username=
-Categories=Education;X-Opencontent;
+Categories=Education;X-OpenContent;
 
