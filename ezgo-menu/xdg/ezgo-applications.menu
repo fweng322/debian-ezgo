@@ -5,7 +5,7 @@
 	<Directory>ezgo.directory</Directory>
 	<KDELegacyDirs/>
 <!--	<DefaultAppDirs/> -->
-<!--	<DefaultMergeDirs/> -->
+	<DefaultMergeDirs/>
 	<DefaultDirectoryDirs/>
 	<AppDir>/usr/share/ezgo/ezgo-menu/applications</AppDir>
 	<DirectoryDir>/usr/share/ezgo/ezgo-menu/desktop-directories</DirectoryDir>
