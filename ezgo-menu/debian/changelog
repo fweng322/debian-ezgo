@@ -1,4 +1,4 @@
-ezgo-menu (2015022801) UNRELEASED; urgency=low
+ezgo-menu (2015031701) UNRELEASED; urgency=low
 
   * Initial release
   * Split from ezgo-tasks
@@ -7,6 +7,6 @@ ezgo-menu (2015022801) UNRELEASED; urgency=low
   * Add some entries in database and applications menu file
   * Fix simplified Chinese items by bootingmen
   * Fix the Chinese name of skype
-  *
+  * Reopen DefaultMergeDirs
 
  -- Franklin Weng <franklin@teabbs.goodhorse.idv.tw>  Fri, 21 Nov 2014 14:55:39 +0800
