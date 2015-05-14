@@ -1,7 +1,7 @@
 Source: ezgo-menu
 Section: misc
 Priority: extra
-Maintainer: Debain ezgo Packaging Team <debian-ezgo-packaging@lists.alioth.debian.org>
+Maintainer: Debian ezgo Packaging Team <debian-ezgo-packaging@lists.alioth.debian.org>
 Uploaders: Andrew Lee (李健秋) <ajqlee@debian.org>,
  Andreas Tille <tille@debian.org>
 Build-Depends: debhelper (>= 7), blends-dev (>= 0.6.91)
