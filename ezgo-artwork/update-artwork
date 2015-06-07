@@ -32,7 +32,7 @@ change_desktop_background() {
 	update-alternatives --install \
 	        /usr/share/images/desktop-base/desktop-background \
 		desktop-background \
-		/usr/share/images/desktop-base/$WALLPAPER 60
+		/usr/share/images/desktop-base/$WALLPAPER 80
     done
 }
 
