@@ -7,6 +7,7 @@ import os
 import getpass
 import re
 import configparser
+import codecs
 
 username = getpass.getuser()
 
@@ -96,7 +97,7 @@ if __name__ == '__main__':
 	
 	for desktop_dir in desktop_dirs:
 		print("About to update %s.  Please wait..." % desktop_dir)
-		list_reader = csv.reader( open(list_adr, 'r'), delimiter=',', quotechar='"' )
+		list_reader = csv.reader( codecs.open(list_adr, 'r', 'utf8'), delimiter=',', quotechar='"' )
 		attribute_load = False
 		for row in list_reader:
 			if 	attribute_load==False : #一開始先把csv的第一行屬性讀進來
@@ -113,7 +114,7 @@ if __name__ == '__main__':
 					
 					config = configparser.ConfigParser()
 					config.optionxform = str #這樣才能區分大小寫
-					config.read(desktop_adr)
+					config.read(desktop_adr, 'utf8')
 					
 					#將csv的內容填入desktop
 					att_index = 0 #略過'desktop'
@@ -130,5 +131,5 @@ if __name__ == '__main__':
 							if att in config[section].keys():
 								del( config[section][ att ] )
 					
-					with open(desktop_adr, 'w') as configfile:
+					with codecs.open(desktop_adr, 'w', 'utf8') as configfile:
 						config.write(configfile, space_around_delimiters=False)
