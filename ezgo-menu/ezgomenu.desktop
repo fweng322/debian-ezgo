@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name[zh_CN]=ezgo 选单更新程序
+Name[zh_TW]=ezgo 選單更新程式
+Comment[zh_TW]=ezgo 選單更新程式
+Comment=Update your ezgo menu
+Exec=gksudo /usr/share/ezgo/ezgo-menu/update-desktop.sh
+GenericName[zh_TW]=將 ezgo 選單進行更新
+GenericName=Update your ezgo menu
+Icon=/usr/share/ezgo/icons/upgrade.png
+Name=ezgomenu_update
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=ezgomenu.desktop
+Categories=myezgo;
