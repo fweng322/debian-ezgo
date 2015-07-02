@@ -1,4 +1,4 @@
-ezgo-menu (2015060702) UNRELEASED; urgency=low
+ezgo-menu (2015070201) UNRELEASED; urgency=low
 
   * Initial release
   * Split from ezgo-tasks
@@ -10,5 +10,6 @@ ezgo-menu (2015060702) UNRELEASED; urgency=low
   * Reopen DefaultMergeDirs
   * Fix encoding problems
   * Fix XDG_CONFIG_DIRS problem in mint
+  * Add update menu desktop file
 
  -- Franklin Weng <franklin@teabbs.goodhorse.idv.tw>  Fri, 21 Nov 2014 14:55:39 +0800
