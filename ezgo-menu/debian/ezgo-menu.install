@@ -6,3 +6,4 @@ system/update-desktop.sh usr/share/ezgo/ezgo-menu
 xdg/ezgomenu_* etc/xdg/ezgo
 xdg/ezgo-applications.menu etc/xdg/menus
 icons/* usr/share/ezgo/icons
+ezgomenu.desktop usr/share/applications
