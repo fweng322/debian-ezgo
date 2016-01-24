@@ -13,6 +13,13 @@ libreoffice-draw.desktop,繪圖_Draw,利用 Office 軟體的使用思維即可�
 libreoffice-base.desktop,資料庫_Base,類似 Microsoft Access 的資料庫軟體，特別的是可以跨平台使用，並且符合 ODF 國際標準格式,資料庫_Base,数据库_Base,类似MicrosoftAccess的数据库软件，特别的是可以跨平台使用，并且符合ODF国际标准格式,数据库_Base,Office;
 libreoffice-math.desktop,公式編輯_Math,LibreOffice 上可以做數學公式編輯的軟體,公式編輯_Math,公式编辑_Math,LibreOffice 上可以做数学公式编辑的软件,公式编辑_Math,Office;
 libreoffice-startcenter.desktop,整合應用_LibreOffice,LibreOffice 的入口,整合應用_LibreOffice,整合应用_LibreOffice,LibreOffice的入口,整合应用_LibreOffice,Office;
+oxoffice5-writer.desktop,文書處理_Writer,類似 Microsoft Word 的文書處理軟體，特別的是可以跨平台使用，並且符合 ODF 國際標準格式,文書處理_Writer,文书处理_Writer,类似MicrosoftWord的文书处理软件，特别的是可以跨平台使用，并且符合ODF国际标准格式,文书处理_Writer,Office;
+oxoffice5-calc.desktop,試算表_Calc,類似 Microsoft Excel 的試算表軟體，特別的是可以跨平台使用，並且符合 ODF 國際標準格式,試算表_Calc,数字表格_Calc,类似MicrosoftExcel的数字表格软件，特别的是可以跨平台使用，并且符合ODF国际标准格式,数字表格_Calc,Office;
+oxoffice5-impress.desktop,簡報_Impress,類似 Microsoft PowerPoint 的簡報軟體，特別的是可以跨平台使用，並且符合 ODF 國際標準格式,簡報_Impress,演示幻灯片_Impress,类似MicrosoftPowerPoint的演示幻灯片软件，特别的是可以跨平台使用，并且符合ODF国际标准格式,演示幻灯片_Impress,Office;
+oxoffice5-draw.desktop,繪圖_Draw,利用 Office 軟體的使用思維即可輕鬆的繪製向量圖,繪圖_Draw,画图_Draw,利用Office软件的使用思维即可轻松的绘制向量图,画图_Draw,Office;
+oxoffice5-base.desktop,資料庫_Base,類似 Microsoft Access 的資料庫軟體，特別的是可以跨平台使用，並且符合 ODF 國際標準格式,資料庫_Base,数据库_Base,类似MicrosoftAccess的数据库软件，特别的是可以跨平台使用，并且符合ODF国际标准格式,数据库_Base,Office;
+oxoffice5-math.desktop,公式編輯_Math,OxOffice 上可以做數學公式編輯的軟體,公式編輯_Math,公式编辑_Math,OxOffice 上可以做数学公式编辑的软件,公式编辑_Math,Office;
+oxoffice5-startcenter.desktop,整合應用_OxOffice,OxOffice 的入口,整合應用_OxOffice,整合应用_OxOffice,OxOffice的入口,整合应用_OxOffice,Office;
 # abiword.desktop: 20141107 added by Franklin
 abiword.desktop,文書處理_Abiword,簡易的文書處理軟體,文書處理_Abiword,文书处理_Abiword,简易的文书处理软件,文书处理_Abiword,Office;
 scribus.desktop,排版軟體_Scribus,適合用於雜誌，報紙等印刷品編輯設計的出版軟體,排版軟體_Scribus,排版软件_Scribus,适合用于杂志，报纸等印刷品编辑设计的出版软件,排版软件_Scribus,Office;
@@ -59,6 +66,7 @@ gimp.desktop,影像處理_GIMP,具圖層應用功能的影像編輯和點陣繪�
 jkiwi.desktop,髮型彩粧_jKiwi,jKiwi 可以讓你輕鬆的對人像照片進行髮型與彩粧模擬設計,髮型彩粧_jKiwi,发型彩妆_jKiwi,jKiwi可以让你轻松的对人像照片进行发型与彩妆仿真设计,发型彩妆_jKiwi,Graphics;
 digikam.desktop,相片管理_digiKam,專業的數位相片和圖片管理軟體,相片管理_digiKam,相片管理_digiKam,专业的数位相片和图片管理软件,相片管理_digiKam,Graphics;
 gwenview.desktop,相片瀏覽_Gwenview,簡易的數位相片和圖片瀏覽軟體,相片瀏覽_Gwenview,相片浏览_Gwenview,简易的数位相片和图片浏览软件,相片浏览_Gwenview,Graphics;
+org.kde.gwenview.desktop,相片瀏覽_Gwenview,簡易的數位相片和圖片瀏覽軟體,相片瀏覽_Gwenview,相片浏览_Gwenview,简易的数位相片和图片浏览软件,相片浏览_Gwenview,Graphics;
 # gpicview.desktop: 20141107 added by Franklin
 gpicview.desktop,相片瀏覽_Gpicview,簡易的數位相片與圖片瀏覽軟體,相片瀏覽_Gpicview,相片浏览_Gpicview,简易的数位相片和图片浏览软件,相片浏览_Gpicview,Graphics;
 f-spot.desktop,相片管理_F-Spot,F-Spot 可以讓你輕鬆的組織及分享你的相片,相片管理_F-Spot,相片管理_F-Spot,F-Spot可以让你轻松的组织及分享你的相片,相片管理_F-Spot,Graphics;
@@ -95,6 +103,7 @@ umplayer.desktop,影音播放_UMPlayer,以 MPlayer 為基礎的多媒體播放�
 # gnome-mplayer.desktop: 20141107 added by Franklin:
 gnome-mplayer.desktop,影音播放_GnomeMplayer,以 MPlayer 為基礎的多媒體播放器,影音播放_GnomeMplayer,影音播放_GnomeMplayer,以Mplayer为基础的多媒体播放器,影音播放_GnomeMplayer,AudioVideo;
 dragonplayer.desktop,影音播放_DragonPlayer,可以用於網路串流及各種多媒體檔案之播放,影音播放_DragonPlayer,影音播放_DragonPlayer,可以用于网络流及各种多媒体文件之播放,影音播放_DragonPlayer,AudioVideo;
+org.kde.dragonplayer.desktop,影音播放_DragonPlayer,可以用於網路串流及各種多媒體檔案之播放,影音播放_DragonPlayer,影音播放_DragonPlayer,可以用于网络流及各种多媒体文件之播放,影音播放_DragonPlayer,AudioVideo;
 totem.desktop,影音播放_Totem,可以用於網路串流及各種多媒體檔案之播放,影音播放_Totem,影音播放_Totem,可以用于网络流及各种多媒体文件之播放,影音播放_Totem,AudioVideo;
 xine.desktop,影音播放_xine,影音播放軟體,影音播放_xine,影音播放_xine,影音播放软件,影音播放_xine,AudioVideo;
 Kino.desktop,影片編輯_Kino,簡單易用的影片編輯軟體,影片編輯_Kino,影片编辑_Kino,简单易用的影片编辑软件,影片编辑_Kino,AudioVideo;
@@ -147,6 +156,7 @@ BlueGriffon-program.desktop,網頁設計_BlueGriffon,讓您可以快速編輯簡
 kompozer.desktop,網頁設計_KompoZer,讓您可以快速編輯簡單的HTML或動態HTML網頁 ,網頁設計_KompoZer,网页设计_KompoZer,让您可以快速编辑简单的HTML或动态HTML网页,网页设计_KompoZer,Network;
 dropbox.desktop,雲端服務_Dropbox,可以讓你在不同電腦及行動載具間同步檔案進度的雲端軟體,雲端服務_Dropbox,云端服务_Dropbox,可以让你在不同计算机及行动载具间同步文件进度的云端软件,云端服务_Dropbox,Network;
 akregator.desktop,RSS閱讀器_Akregator,方便實用的 RSS 閱讀器,RSS閱讀器_Akregator,RSS阅读器_Akregator,方便实用的RSS阅读器,RSS阅读器_Akregator,Network;
+org.kde.akregator.desktop,RSS閱讀器_Akregator,方便實用的 RSS 閱讀器,RSS閱讀器_Akregator,RSS阅读器_Akregator,方便实用的RSS阅读器,RSS阅读器_Akregator,Network;
 ktorrent.desktop,BT下載_Ktorrent,可透過 BitTorrent 協定來下載和分享檔案 ,BT下載_Ktorrent,BT下载_Ktorrent,可通过BitTorrent协议来下载和分享文件,BT下载_Ktorrent,Network;
 filezilla.desktop,檔案傳輸_FileZilla,Linux 下常用的 FTP 檔案傳輸工具 ,檔案傳輸_FileZilla,文件传输_FileZilla,Linux下常用的FTP文件传输工具,文件传输_FileZilla,Network;
 pidgin.desktop,即時通訊_Pidgin,讓您可以透過即時通訊與好友聊天，支援 AIM、Google Talk、Jabber/XMPP、MSN、Yahoo 等,即時通訊_Pidgin,即时通讯_Pidgin,让您可以通过即时通讯与好友聊天，支持AIM、GoogleTalk、Jabber/XMPP、MSN、Yahoo等,即时通讯_Pidgin,Network;
@@ -309,21 +319,26 @@ italc.desktop,螢幕廣播_iTALC,iTALC 是一個可以用於電腦教室螢幕�
 # file-roller.desktop: 20141107 added by Franklin
 file-roller.desktop,檔案壓縮_ArchiveManager,Gnome上的檔案壓縮管理程式,檔案壓縮_ArchiveManager,档案压缩_ArchiveManager,Gnome上的文档压缩管理程序,档案压缩_ArchiveManager,Utility;
 kate.desktop,文字編輯_Kate,常用文字編輯軟體,文字編輯_Kate,文字编辑_Kate,常用文字编辑软件,文字编辑_Kate,Utility;
+org.kde.kate.desktop,文字編輯_Kate,常用文字編輯軟體,文字編輯_Kate,文字编辑_Kate,常用文字编辑软件,文字编辑_Kate,Utility;
 gvim.desktop,文字編輯_Gvim,vim 文字編輯器,文字編輯_Gvim,文字编辑_Gvim,vim文字编辑器,文字编辑_Gvim,Utility;
 # leafpad.desktop, galculator.desktop: 20141107 added by Franklin
 leafpad.desktop,文字編輯_Leafpad,簡易文字編輯器,文字編輯_Leafpad,文字编辑_Leafpad,简易文字编辑器,文字编辑_Leafpad,Utility;
 galculator.desktop,計算機_Galculator,科學計算機軟體,計算機_Galculator,计算器_Galculator,科学计算器软件,计算器_Galculator,Utility;
 knotes.desktop,螢幕便利貼_KNotes,在螢幕上貼便條,螢幕便利貼_KNotes,屏幕便利贴_KNotes,在屏幕上贴便条,屏幕便利贴_KNotes,Utility;
+org.kde.knotes.desktop,螢幕便利貼_KNotes,在螢幕上貼便條,螢幕便利貼_KNotes,屏幕便利贴_KNotes,在屏幕上贴便条,屏幕便利贴_KNotes,Utility;
 # xpad.desktop: 20141107 added by Franklin
 xpad.desktop,螢幕便利貼_Xpad,在螢幕上貼便條,螢幕便利貼_Xpad,屏幕便利贴_Xpad,在屏幕上贴便条,屏幕便利贴_Xpad,Utility;
 kcalc.desktop,計算機_KCalc,KDE 上的計算機軟體,計算機_KCalc,计算器_KCalc,KDE上的计算器软件,计算器_KCalc,Utility;
+org.kde.kcalc.desktop,計算機_KCalc,KDE 上的計算機軟體,計算機_KCalc,计算器_KCalc,KDE上的计算器软件,计算器_KCalc,Utility;
 kmag.desktop,放大鏡_KMag,放大螢幕的某部份,放大鏡_KMag,放大镜_KMag,放大屏幕的某部份,放大镜_KMag,Utility;
 kvkbd.desktop,虛擬鍵盤_Kvkbd,可以呼叫出系統的虛擬鍵盤來使用,虛擬鍵盤_Kvkbd,虚拟键盘_Kvkbd,可以调用出系统的虚拟键盘来使用,虚拟键盘_Kvkbd,Utility;
 kmousetool.desktop,滑鼠工具_KMousetool,幫您重覆點擊避免手腕傷害,滑鼠工具_KMousetool,鼠标工具_KMousetool,帮您重复点击避免手腕伤害,鼠标工具_KMousetool,Utility;
 synaptiks.desktop,觸控板設定_Synaptiks,筆電觸控版的管理程式,觸控板設定_Synaptiks,触控板设置_Synaptiks,笔电触控版的管理程序,触控板设置_Synaptiks,Utility;
 ark.desktop,壓縮工具_Ark,可以壓縮和解壓縮的軟體,壓縮工具_Ark,压缩工具_Ark,可以压缩和解压缩的软件,压缩工具_Ark,Utility;
+org.kde.ark.desktop,壓縮工具_Ark,可以壓縮和解壓縮的軟體,壓縮工具_Ark,压缩工具_Ark,可以压缩和解压缩的软件,压缩工具_Ark,Utility;
 7zip.desktop,壓縮工具_7zip,跨平台壓縮和解壓縮的軟體，可以避免在解壓縮時，因為不同平台而出現中文檔名亂碼的問題,壓縮工具_7zip,压缩工具_7zip,跨平台压缩和解压缩的软件，可以避免在解压缩时，因为不同平台而出现中文文件名乱码的问题,压缩工具_7zip,Utility;
 klipper.desktop,剪貼簿_Klipper,KDE 上強大的剪貼簿軟體,剪貼簿_Klipper,剪贴板_Klipper,KDE上强大的剪贴板软件,剪贴板_Klipper,Utility;
+org.kde.klipper.desktop,剪貼簿_Klipper,KDE 上強大的剪貼簿軟體,剪貼簿_Klipper,剪贴板_Klipper,KDE上强大的剪贴板软件,剪贴板_Klipper,Utility;
 akonaditray.desktop,系統工具_Akonaditray,系統工具管理程式,系統工具_Akonaditray,系统工具_Akonaditray,系统工具管理程序,系统工具_Akonaditray,Utility;
 tomboy.desktop,筆記_Tomboy,類似便利貼，可用來記事的軟體,筆記_Tomboy,笔记_Tomboy,类似便利贴，可用来记事的软件,笔记_Tomboy,Utility;
 gedit.desktop,文字編輯_gedit,文字檔編輯軟體,文字編輯_gedit,文字编辑_gedit,文本编辑软件,文字编辑_gedit,Utility;
@@ -353,19 +368,24 @@ usb-creator-gtk.desktop,ezgo開機碟製作_usb-creator-gtk,ezgo開機碟製作�
 usb-creator-kde.desktop,ezgo開機碟製作_usb-creator,ezgo開機碟製作程式,ezgo開機碟製作_usb-creator,ezgo开机U盘制作_usb-creator,ezgo开机U盘制作程序,ezgo开机U盘制作_usb-creator,System;
 unetbootin.desktop,Linux開機碟製作_UNetbootin,Linux開機碟製作程式,Linux開機碟製作_UNetbootin,Linux开机U盘制作_UNetbootin,Linux开机U盘制作程序,Linux开机U盘制作_UNetbootin,System;
 partitionmanager.desktop,磁碟分割_KDE Partition Manager,可以輕鬆的管理您的磁碟、分割區與檔案系統,磁碟分割_KDE Partition Manager,磁盘分区管理_KDEPartitionManager,可以轻松管理您的磁盘、分区与文件系统,磁盘分区管理_KDEPartitionManager,System;
+org.kde.PartitionManager.desktop,磁碟分割_KDE Partition Manager,可以輕鬆的管理您的磁碟、分割區與檔案系統,磁碟分割_KDE Partition Manager,磁盘分区管理_KDEPartitionManager,可以轻松管理您的磁盘、分区与文件系统,磁盘分区管理_KDEPartitionManager,System;
 # gnome-disks.desktop: 20141107 added by Franklin
 gnome-disks.desktop,磁碟管理_GnomeDisks,Gnome 上的磁碟管理程式,磁碟管理_GnomeDisks,磁碟管理_GnomeDisks,Gnome 上的磁碟管理软件,磁碟管理_GnomeDisks,System;
 konsole.desktop,終端機_Konsole,KDE 上的終端機模擬程式,終端機_Konsole,终端机_Konsole,KDE上的终端機仿真程序,终端机_Konsole,System;
+org.kde.konsole.desktop,終端機_Konsole,KDE 上的終端機模擬程式,終端機_Konsole,终端机_Konsole,KDE上的终端機仿真程序,终端机_Konsole,System;
 # lxterminal.desktop: 20141107 added by Franklin
 lxterminal.desktop,終端機_Lxterminal,LXDE 上的終端機模擬程式,終端機_Lxterminal,终端机_Lxterminal,LXDE 上的终端机仿真程序,终端机_Lxterminal,System;
 dolphin.desktop,檔案總管_Dolphin,類似 Windows 下的檔案總管，可查看及管理資料夾中的檔案,檔案總管_Dolphin,文件总管_Dolphin,类似Windows下的资源管理器，可以查看及管理数据夹中的文件,文件总管_Dolphin,Utility;Qt;KDE;System;FileTools;FileManager;
+org.kde.dolphin.desktop,檔案總管_Dolphin,類似 Windows 下的檔案總管，可查看及管理資料夾中的檔案,檔案總管_Dolphin,文件总管_Dolphin,类似Windows下的资源管理器，可以查看及管理数据夹中的文件,文件总管_Dolphin,Utility;Qt;KDE;System;FileTools;FileManager;
 # pcmanfm: 20141106 added by Franklin
 pcmanfm.desktop,檔案總管_PCManFM,類似 Windows 下的檔案總管，可查看及管理資料夾中的檔案,檔案總管_PCManFM,文件总管_PCManFM,类似Windows下的资源管理器，可以查看及管理数据夹中的文件,文件总管_PCManFM,FileManager;Utility;System;
 krandrtray.desktop,螢幕設定_KrandRTray,可調整螢幕大小及相關設定,螢幕設定_KrandRTray,屏幕设置_KrandRTray,可以调整屏幕分辨率及相关设置,屏幕设置_KrandRTray,System;
 my-computer.desktop,系統資訊_My Computer,可清楚的看到硬體、網路、可移除裝置及系統等相關資訊,系統資訊_My Computer,系统信息_MyComputer,可以清楚地看到硬件、网络、可删除设备及系统等相关信息,系统信息_MyComputer,System;
 ksystemlog.desktop,系統紀錄_KsystemLog,完整的系統紀錄列表,系統紀錄_KsystemLog,系统纪录_KsystemLog,可以查看完整的系统日志信息,系统纪录_KsystemLog,System;
 ksysguard.desktop,系統監視器_Ksysguard,顯示系統軟體執行現況,系統監視器_Ksysguard,系统监视器_Ksysguard,可以查看系统软件执行实时状况,系统监视器_Ksysguard,System;
+org.kde.ksysguard.desktop,系統監視器_Ksysguard,顯示系統軟體執行現況,系統監視器_Ksysguard,系统监视器_Ksysguard,可以查看系统软件执行实时状况,系统监视器_Ksysguard,System;
 kinfocenter.desktop,系統資訊_Kinfocenter,顯示系統相關資訊,系統資訊_Kinfocenter,系统信息_Kinfocenter,可以显示电脑系统相关信息,系统信息_Kinfocenter,System;
+org.kde.kinfocenter.desktop,系統資訊_Kinfocenter,顯示系統相關資訊,系統資訊_Kinfocenter,系统信息_Kinfocenter,可以显示电脑系统相关信息,系统信息_Kinfocenter,System;
 jockey-kde.desktop,額外驅動程式_jockey-kde,可以檢視及安裝額外的驅動程式,額外驅動程式_jockey-kde,额外驱动程序_jockey-kde,可以查看及安装额外的驱动程序,额外驱动程序_jockey-kde,System;
 nepomukbackup.desktop,備份工具_Nepomuk Backup,系統備份工具,備份工具_Nepomuk Backup,备份工具_NepomukBackup,系统备份工具,备份工具_NepomukBackup,System;
 nepomukcontroller.desktop,備份工具_Nepomuk Controller,系統備份主控台,備份工具_Nepomuk Controller,备份工具_NepomukController,系统备份主控台,备份工具_NepomukController,System;
