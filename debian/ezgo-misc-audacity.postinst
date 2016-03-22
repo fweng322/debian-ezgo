@@ -1,0 +1,10 @@
+#!/bin/sh -e
+
+# fix audacity.mo path from zh to zh_CN
+if [ -e /usr/share/locale/zh/LC_MESSAGES/audacity.mo ]; then
+    mv /usr/share/locale/zh/LC_MESSAGES/audacity.mo /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo
+fi
+
+#DEBHELPER#
+
+exit 0
