@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+    if [ -e /etc/tuxpaint/tuxpaint.conf ]; then
+        sed -i 's/sysfonts=yes//g' /etc/tuxpaint/tuxpaint.conf
+    fi
+
+#DEBHELPER#
+
+exit 0
