@@ -13,52 +13,66 @@ Vcs-git: git://git.debian.org/git/blends/projects/ezgo.git
 
 Package: ezgo-artwork
 Architecture: all
-Description: Common artwork components for ezgo12
+Description: Common artwork components for ezgo
  Debian ezgo is a Debian Pure Blends project which collects a set of free
  and open source software, as well as many public domain tutorials.  ezgo
  aims to introduce the world of free and open source software to those who
  have never heard or touched it.  It is also good for teaching and
  self-learning.
  .
- This package contains common artwork components for ezgo12.
+ This package contains common artwork components for ezgo.
 
 Package: ezgo-kde
 Architecture:all
-Description: KDE components for ezgo12
+Description: KDE 4 components for ezgo
  Debian ezgo is a Debian Pure Blends project which collects a set of free
  and open source software, as well as many public domain tutorials.  ezgo
  aims to introduce the world of free and open source software to those who
  have never heard or touched it.  It is also good for teaching and
  self-learning.
  .
- This package contains KDE components for ezgo12, including desktop 
+ This package contains KDE 4 components for ezgo, including desktop 
+ background, kdm theme, shortcuts, profile settings, ... etc.
+Depends: ezgo-artwork
+Conflicts: kubuntu-settings-desktop, kubuntu-settings-netbook
+
+Package: ezgo-kde5
+Architecture:all
+Description: KDE Plasma 5 components for ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains KDE Plasma 5 components for ezgo, including desktop 
  background, kdm theme, shortcuts, profile settings, ... etc.
 Depends: ezgo-artwork
 Conflicts: kubuntu-settings-desktop, kubuntu-settings-netbook
 
 Package: ezgo-unity
 Architecture:all
-Description: Unity components for ezgo12
+Description: Unity components for ezgo
  Debian ezgo is a Debian Pure Blends project which collects a set of free
  and open source software, as well as many public domain tutorials.  ezgo
  aims to introduce the world of free and open source software to those who
  have never heard or touched it.  It is also good for teaching and
  self-learning.
  .
- This package contains Unity components for ezgo12, including desktop 
+ This package contains Unity components for ezgo, including desktop 
  background shortcuts, profile settings, ... etc.
 Depends: ezgo-artwork
 
 Package: ezgo-xfce
 Architecture:all
-Description: xfce components for ezgo12
+Description: xfce components for ezgo
  Debian ezgo is a Debian Pure Blends project which collects a set of free
  and open source software, as well as many public domain tutorials.  ezgo
  aims to introduce the world of free and open source software to those who
  have never heard or touched it.  It is also good for teaching and
  self-learning.
  .
- This package contains xfce components for ezgo12, including desktop 
+ This package contains xfce components for ezgo, including desktop 
  background, kdm theme, shortcuts, profile settings, ... etc.
 Depends: ezgo-artwork
 
@@ -151,6 +165,53 @@ Description: Common files in all versions of ezgo
  .
  This package contains misc files in all versions of ezgo.
 Depends: python
+
+Package: ezgo-misc-tuxpaint
+Architecture: all
+Description: fix tuxpaint font issue in ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package fix tuxpaint font issue in ezgo.
+Depends: tuxpaint
+
+Package: ezgo-misc-audacity
+Architecture: all
+Description: fix audacity locale issue in ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package fix audacity locale issue in ezgo.
+Depends: audacity
+
+Package: ezgo-misc-ktuberling
+Architecture: all
+Description: add zh_TW sound for ktuberling in ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package adds zh_TW sound for ktuberling in ezgo.
+Depends: ktuberling
+
+Package: ezgo-misc-desktop-files
+Architecture: all
+Description: desktop files for ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains desktop files for ezgo.
 
 Package: ezgo-atayal
 Architecture: all
