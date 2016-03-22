@@ -1,5 +1,18 @@
-ezgo-artwork/wallpaper/*.png usr/share/ezgo/wallpaper
-ezgo-artwork/wallpaper/* usr/share/images/desktop-base
+ezgo-artwork/wallpaper/ezgo/contents/images/*.png usr/share/ezgo/wallpaper/ezgo/contents/images
+ezgo-artwork/wallpaper/ezgo/contents/images/*.png usr/share/wallpaper/ezgo/contents/images
+ezgo-artwork/wallpaper/ezgo/contents/screenshot.png usr/share/ezgo/wallpaper/ezgo/contents
+ezgo-artwork/wallpaper/ezgo/contents/screenshot.png usr/share/wallpaper/ezgo/contents
+ezgo-artwork/wallpaper/ezgo/metadata.desktop usr/share/ezgo/wallpaper/ezgo
+ezgo-artwork/wallpaper/ezgo/metadata.desktop usr/share/wallpaper/ezgo
+ezgo-artwork/wallpaper/ezgo-walter/contents/images/*.png usr/share/ezgo/wallpaper/ezgo-walter/contents/images
+ezgo-artwork/wallpaper/ezgo-walter/contents/images/*.png usr/share/wallpaper/ezgo-walter/contents/images
+ezgo-artwork/wallpaper/ezgo-walter/contents/screenshot.png usr/share/ezgo/wallpaper/ezgo-walter/contents
+ezgo-artwork/wallpaper/ezgo-walter/contents/screenshot.png usr/share/wallpaper/ezgo-walter/contents
+ezgo-artwork/wallpaper/ezgo-walter/metadata.desktop usr/share/ezgo/wallpaper/ezgo-walter
+ezgo-artwork/wallpaper/ezgo-walter/metadata.desktop usr/share/wallpaper/ezgo-walter
+ezgo-artwork/wallpaper/ezgo/contents/images/*.png usr/share/images/desktop-base
+ezgo-artwork/wallpaper/ezgo-wallpaper.* usr/share/images/desktop-base
+
 ezgo-artwork/grub/*.png usr/share/ezgo/grub
 ezgo-artwork/ldm/* usr/share/ldm/themes/ezgo
 ezgo-artwork/update-artwork usr/share/ezgo/ezgo-artwork
