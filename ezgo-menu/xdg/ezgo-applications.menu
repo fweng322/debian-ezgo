@@ -4,7 +4,7 @@
 	<Name>Applications</Name>
 	<Directory>ezgo.directory</Directory>
 	<KDELegacyDirs/>
-<!--	<DefaultAppDirs/> -->
+	<DefaultAppDirs/>
 	<DefaultMergeDirs/>
 	<DefaultDirectoryDirs/>
 	<AppDir>/usr/share/ezgo/ezgo-menu/applications</AppDir>
@@ -55,6 +55,13 @@
 			<Filename>libreoffice-math.desktop</Filename>
 			<Filename>libreoffice-writer.desktop</Filename>
 			<Filename>libreoffice-base.desktop</Filename>
+			<Filename>oxoffice5-startcenter.desktop</Filename>
+			<Filename>oxoffice5-calc.desktop</Filename>
+			<Filename>oxoffice5-draw.desktop</Filename>
+			<Filename>oxoffice5-impress.desktop</Filename>
+			<Filename>oxoffice5-math.desktop</Filename>
+			<Filename>oxoffice5-writer.desktop</Filename>
+			<Filename>oxoffice5-base.desktop</Filename>
 			<Filename>freemind.desktop</Filename>
 			<Filename>xmind.desktop</Filename>
 			<Filename>dia.desktop</Filename>
@@ -96,6 +103,13 @@
 			<Filename>libreoffice-draw.desktop</Filename>
 			<Filename>libreoffice-base.desktop</Filename>
 			<Filename>libreoffice-math.desktop</Filename>
+			<Filename>oxoffice5-startcenter.desktop</Filename>
+			<Filename>oxoffice5-calc.desktop</Filename>
+			<Filename>oxoffice5-draw.desktop</Filename>
+			<Filename>oxoffice5-impress.desktop</Filename>
+			<Filename>oxoffice5-math.desktop</Filename>
+			<Filename>oxoffice5-writer.desktop</Filename>
+			<Filename>oxoffice5-base.desktop</Filename>
 			<Separator/>
 			<Filename>scribus.desktop</Filename>
 			<Separator/>			
