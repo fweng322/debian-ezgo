@@ -1,0 +1,13 @@
+#!/bin/sh -e
+
+rm -f /usr/share/applications/7zip.desktop
+rm -f /usr/share/applications/impressive-editor.desktop
+rm -f /usr/share/applications/media_install.desktop
+rm -f /usr/share/applications/media_install_force.desktop
+rm -f /usr/share/applications/my_computer.desktop
+rm -f /usr/share/applications/my_ezgo.desktop
+rm -f /usr/share/applications/about_ezgo.desktop
+
+#DEBHELPER#
+
+exit 0
