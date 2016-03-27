@@ -18,3 +18,4 @@ ezgo-artwork/ldm/* usr/share/ldm/themes/ezgo
 ezgo-artwork/update-artwork usr/share/ezgo/ezgo-artwork
 ezgo-artwork/grub/*.cfg etc/default/grub.d
 ezgo-artwork/default-dm/* usr/share/ezgo/ezgo-artwork/default-dm
+ezgo-artwork/login-sound/ezgo.ogg usr/share/ezgo/ezgo-artwork/login-sound
