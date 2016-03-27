@@ -2,5 +2,5 @@
 Action=Sound
 Execute=
 Logfile=
-Sound=/usr/share/ezgo/ezgo-artwork/login-sound/ezgo.ogg
+Sound=/usr/share/ezgo/ezgo-artwork/login-sound/ezgo-login.ogg
 TTS=
