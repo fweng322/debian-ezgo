@@ -57,4 +57,4 @@ dolphin.writeConfig("applicationName", "檔案總管_dolphin")
 panel.addWidget("org.kde.plasma.taskmanager")
 panel.addWidget("org.kde.plasma.systemtray")
 panel.addWidget("org.kde.plasma.digitalclock")
-
+panel.addWidget("org.kde.plasma.trash")
