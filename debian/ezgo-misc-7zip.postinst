@@ -1,0 +1,17 @@
+#! /bin/sh
+
+set -e
+
+# 7-zip
+
+cd /usr/share/ezgo/ezgo-misc
+
+if [ -f 7zip.tar.gz ]; then
+    tar xfz 7zip.tar.gz
+    rm -rf /usr/local/7-Zip
+    mv /usr/share/ezgo/ezgo-misc/7-Zip /usr/local/
+fi
+
+
+#DEBHELPER#
+
