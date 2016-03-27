@@ -1,0 +1,6 @@
+[Event/startkde]
+Action=Sound
+Execute=
+Logfile=
+Sound=/usr/share/ezgo/ezgo-artwork/login-sound/ezgo.ogg
+TTS=
