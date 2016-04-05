@@ -1,0 +1,12 @@
+#! /bin/sh
+
+set -e
+
+case "$1" in
+  remove)
+	sed -i 's/menu_prefix=ezgo-/menu_prefix=lxde-/' /etc/xdg/lxsession/Lubuntu/desktop.conf
+    ;;
+esac
+
+#DEBHELPER#
+
