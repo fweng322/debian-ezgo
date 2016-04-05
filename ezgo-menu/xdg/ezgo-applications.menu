@@ -900,7 +900,7 @@
 	</Menu>
 	<Menu>
 		<Name>Development</Name>
-		<Directory>kde-development.directory</Directory>		
+		<Directory>ezgo-development.directory</Directory>		
 		<Include>
 			<Filename>bluej.desktop</Filename>
 			<Filename>kde4-kturtle.desktop</Filename>
@@ -1062,7 +1062,7 @@
 	</Menu>
 	<Menu>
 		<Name>Settings</Name>
-		<Directory>kde-settingsmenu.directory</Directory>
+		<Directory>ezgo-settings.directory</Directory>
 		<Include>
 			<Filename>kde4-systemsettings.desktop</Filename>
 			<Filename>xinput_calibrator.desktop</Filename>

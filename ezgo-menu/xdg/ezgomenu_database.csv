@@ -321,6 +321,7 @@ file-roller.desktop,檔案壓縮_ArchiveManager,Gnome上的檔案壓縮管理程
 kate.desktop,文字編輯_Kate,常用文字編輯軟體,文字編輯_Kate,文字编辑_Kate,常用文字编辑软件,文字编辑_Kate,Utility;
 org.kde.kate.desktop,文字編輯_Kate,常用文字編輯軟體,文字編輯_Kate,文字编辑_Kate,常用文字编辑软件,文字编辑_Kate,Utility;
 gvim.desktop,文字編輯_Gvim,vim 文字編輯器,文字編輯_Gvim,文字编辑_Gvim,vim文字编辑器,文字编辑_Gvim,Utility;
+vim.desktop,文字編輯_vim,vim 文字編輯器,文字編輯_vim,文字编辑_vim,vim文字编辑器,文字编辑_vim,Utility;
 # leafpad.desktop, galculator.desktop: 20141107 added by Franklin
 leafpad.desktop,文字編輯_Leafpad,簡易文字編輯器,文字編輯_Leafpad,文字编辑_Leafpad,简易文字编辑器,文字编辑_Leafpad,Utility;
 galculator.desktop,計算機_Galculator,科學計算機軟體,計算機_Galculator,计算器_Galculator,科学计算器软件,计算器_Galculator,Utility;
