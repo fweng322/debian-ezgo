@@ -1,4 +1,4 @@
-ezgo-menu (2015122402) UNRELEASED; urgency=low
+ezgo-menu (2016040501) UNRELEASED; urgency=low
 
   * Initial release
   * Split from ezgo-tasks
@@ -12,5 +12,6 @@ ezgo-menu (2015122402) UNRELEASED; urgency=low
   * Fix XDG_CONFIG_DIRS problem in mint
   * Add update menu desktop file
   * Add oxoffice5 desktop files
+  * Add directory files for development and settings
 
  -- Franklin Weng <franklin@teabbs.goodhorse.idv.tw>  Fri, 21 Nov 2014 14:55:39 +0800
