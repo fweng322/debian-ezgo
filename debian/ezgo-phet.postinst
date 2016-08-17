@@ -16,8 +16,8 @@ exit_with_error()
 	exit 1
 }
 
-wget --continue -O $OUTPUT_FILE $PHET_URL || exit_with_error "Download phet file failed: $?"
-wget --continue -O $MD5_FILE $MD5_URL || exit_with_error "Download md5 file failed: $?"
+wget --continue -O ${OUTPUT_FILE} ${PHET_URL} || exit_with_error "Download phet file failed: $?"
+wget -O ${MD5_FILE} ${MD5_URL} || exit_with_error "Download md5 file failed: $?"
 
 cd /usr/share/ezgo/ezgo-prt
 md5sum -c $MD5_FILE || exit_with_error "md5 checksum error!"
