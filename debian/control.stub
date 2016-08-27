@@ -248,6 +248,54 @@ Description: 7zip for ezgo
  .
  This package contains 7zip software package for ezgo.
 
+Package: ezgo-misc-winff
+Architecture: all
+Description: fix winff translations for ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains winff translations fix for ezgo.
+Depends: winff
+
+Package: ezgo-misc-kdenlive
+Architecture: all
+Description: fix kdenlive translations for ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains kdenlive translations fix for ezgo.
+Depends: kdenlive
+
+Package: ezgo-misc-jkiwi
+Architecture: all
+Description: fix jkiwi translations for ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains jkiwi translations fix for ezgo.
+Depends: jkiwi
+
+Package: ezgo-misc-qtqr
+Architecture: all
+Description: fix qtqr translations for ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains qtqr translations fix for ezgo.
+Depends: qtqr
+
 Package: ezgo-atayal
 Architecture: all
 Description: Packages for Atayal locale
