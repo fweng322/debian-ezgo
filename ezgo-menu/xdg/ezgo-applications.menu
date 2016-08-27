@@ -62,6 +62,13 @@
 			<Filename>oxoffice5-math.desktop</Filename>
 			<Filename>oxoffice5-writer.desktop</Filename>
 			<Filename>oxoffice5-base.desktop</Filename>
+			<Filename>oxoffice6-startcenter.desktop</Filename>
+			<Filename>oxoffice6-calc.desktop</Filename>
+			<Filename>oxoffice6-draw.desktop</Filename>
+			<Filename>oxoffice6-impress.desktop</Filename>
+			<Filename>oxoffice6-math.desktop</Filename>
+			<Filename>oxoffice6-writer.desktop</Filename>
+			<Filename>oxoffice6-base.desktop</Filename>
 			<Filename>freemind.desktop</Filename>
 			<Filename>xmind.desktop</Filename>
 			<Filename>dia.desktop</Filename>
@@ -110,6 +117,13 @@
 			<Filename>oxoffice5-math.desktop</Filename>
 			<Filename>oxoffice5-writer.desktop</Filename>
 			<Filename>oxoffice5-base.desktop</Filename>
+			<Filename>oxoffice6-startcenter.desktop</Filename>
+			<Filename>oxoffice6-calc.desktop</Filename>
+			<Filename>oxoffice6-draw.desktop</Filename>
+			<Filename>oxoffice6-impress.desktop</Filename>
+			<Filename>oxoffice6-math.desktop</Filename>
+			<Filename>oxoffice6-writer.desktop</Filename>
+			<Filename>oxoffice6-base.desktop</Filename>
 			<Separator/>
 			<Filename>scribus.desktop</Filename>
 			<Separator/>			

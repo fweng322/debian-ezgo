@@ -112,7 +112,7 @@ if __name__ == '__main__':
 				if os.path.exists( desktop_adr ):#確認該路徑是否存在desktop
 					print("Updating %s" % desktop_adr)
 					
-					config = configparser.ConfigParser()
+					config = configparser.ConfigParser(strict=False)
 					config.optionxform = str #這樣才能區分大小寫
 					config.read(desktop_adr, 'utf8')
 					
