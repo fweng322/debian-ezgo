@@ -111,19 +111,19 @@
 			<Filename>libreoffice-base.desktop</Filename>
 			<Filename>libreoffice-math.desktop</Filename>
 			<Filename>oxoffice5-startcenter.desktop</Filename>
-			<Filename>oxoffice5-calc.desktop</Filename>
-			<Filename>oxoffice5-draw.desktop</Filename>
-			<Filename>oxoffice5-impress.desktop</Filename>
-			<Filename>oxoffice5-math.desktop</Filename>
 			<Filename>oxoffice5-writer.desktop</Filename>
+			<Filename>oxoffice5-calc.desktop</Filename>
+			<Filename>oxoffice5-impress.desktop</Filename>
+			<Filename>oxoffice5-draw.desktop</Filename>
 			<Filename>oxoffice5-base.desktop</Filename>
+			<Filename>oxoffice5-math.desktop</Filename>
 			<Filename>oxoffice6-startcenter.desktop</Filename>
-			<Filename>oxoffice6-calc.desktop</Filename>
-			<Filename>oxoffice6-draw.desktop</Filename>
-			<Filename>oxoffice6-impress.desktop</Filename>
-			<Filename>oxoffice6-math.desktop</Filename>
 			<Filename>oxoffice6-writer.desktop</Filename>
+			<Filename>oxoffice6-calc.desktop</Filename>
+			<Filename>oxoffice6-impress.desktop</Filename>
+			<Filename>oxoffice6-draw.desktop</Filename>
 			<Filename>oxoffice6-base.desktop</Filename>
+			<Filename>oxoffice6-math.desktop</Filename>
 			<Separator/>
 			<Filename>scribus.desktop</Filename>
 			<Separator/>			
@@ -174,6 +174,7 @@
 			<Filename>kde4-digikam.desktop</Filename>
 			<Filename>f-spot.desktop</Filename>
 			<Filename>gthumb.desktop</Filename>
+			<Filename>org.kde.gwenview.desktop</Filename>
 			<Filename>kde4-gwenview.desktop</Filename>
 			<Filename>ktoon.desktop</Filename>
 			<Filename>gimp.desktop</Filename>
@@ -185,7 +186,9 @@
 			<Filename>jkiwi.desktop</Filename>
 			<Filename>sweethome3d.desktop</Filename>
 			<Filename>kde4-ksnapshot.desktop</Filename>
+			<Filename>org.kde.spectacle.desktop</Filename>
 			<Filename>kde4-kcolorchooser.desktop</Filename>
+			<Filename>org.kde.kruler.desktop</Filename>
 			<Filename>kde4-kruler.desktop</Filename>
 			<Filename>Sweethome3d.desktop</Filename>
 			<Filename>kde4-panoramagui.desktop</Filename>
@@ -224,11 +227,13 @@
 			<Filename>jkiwi.desktop</Filename>
 			<Filename>display.im6.desktop</Filename>
 			<Separator/>
+			<Filename>org.kde.gwenview.desktop</Filename>
 			<Filename>kde4-gwenview.desktop</Filename>
 			<Filename>kde4-digikam.desktop</Filename>
 			<Filename>gthumb.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-ksnapshot.desktop</Filename>
+			<Filename>org.kde.spectacle.desktop</Filename>
 			<Filename>f-spot.desktop</Filename>
 			<Filename>shutter.desktop</Filename>
 			<Filename>kde4-kamoso.desktop</Filename>
@@ -254,6 +259,7 @@
 			<Filename>kde4-skanlite.desktop</Filename>
 			<Filename>kde4-scangui.desktop</Filename>
 			<Separator/>
+			<Filename>org.kde.kruler.desktop</Filename>
 			<Filename>kde4-kruler.desktop</Filename>
 			<Filename>kde4-kcolorchooser.desktop</Filename>	
 			<Filename>kde4-dngconverter.desktop</Filename>
@@ -274,6 +280,7 @@
 			<Filename>totem.desktop</Filename>
 			<Filename>xine.desktop</Filename>
 			<Filename>kde4-dragonplayer.desktop</Filename>
+			<Filename>org.kde.dragonplayer.desktop</Filename>
 			<Filename>kde4-amarok.desktop</Filename>
 			<Filename>audacious2.desktop</Filename>
 			<Filename>rhythmbox.desktop</Filename>
@@ -281,6 +288,7 @@
 			<Filename>qstopmotion.desktop</Filename>
 			<Filename>imagination.desktop</Filename>
 			<Filename>kde4-kdenlive.desktop</Filename>
+			<Filename>org.kde.kdenlive.desktop</Filename>
 			<Filename>Kino.desktop</Filename>
 			<Filename>avidemux2.6-qt.desktop</Filename>
 			<Filename>avidemux2.6-jobs.desktop</Filename>
@@ -339,6 +347,7 @@
 			<Filename>xine.desktop</Filename>
 			<Filename>smplayer.desktop</Filename>
 			<Filename>kde4-dragonplayer.desktop</Filename>
+			<Filename>org.kde.dragonplayer.desktop</Filename>
 			<Filename>minitube.desktop</Filename>
 			<Separator/>			
 			<Filename>Kino.desktop</Filename>
@@ -347,6 +356,7 @@
 			<Filename>openshot.desktop</Filename>
 			<Filename>pitivi.desktop</Filename>
 			<Filename>kde4-kdenlive.desktop</Filename>
+			<Filename>org.kde.kdenlive.desktop</Filename>
 			<Separator/>
 			<Filename>kazam.desktop</Filename>
 			<Filename>xvidcap.desktop</Filename>
@@ -377,8 +387,8 @@
 			<Filename>tuxguitar.desktop</Filename>
 			<Filename>hydrogen.desktop</Filename>
 			<Filename>audacity.desktop</Filename>
-			<Filename>rosegarden.desktop</Filename>
 			<Filename>lmms.desktop</Filename>
+			<Filename>rosegarden.desktop</Filename>
 			<Separator/>
 			<Filename>devede.desktop</Filename>
 			<Filename>oggconvert.desktop</Filename>
@@ -514,20 +524,25 @@
 			<Filename>kde4-kblocks.desktop</Filename>
 			<Filename>kde4-palapeli.desktop</Filename>
 			<Filename>kde4-kubrick.desktop</Filename>
+			<Filename>org.kde.knetwalk.desktop</Filename>
 			<Filename>kde4-knetwalk.desktop</Filename>
 			<Filename>kde4-kmines.desktop</Filename>
+			<Filename>org.kde.kblackbox.desktop</Filename>
 			<Filename>kde4-kblackbox.desktop</Filename>
 			<Filename>kde4-ksudoku.desktop</Filename>
 			<Filename>kde4-kbreakout.desktop</Filename>
 			<Filename>kde4-kolf.desktop</Filename>
 			<Filename>kde4-kigo.desktop</Filename>
 			<Filename>kde4-kreversi.desktop</Filename>
+			<Filename>org.kde.bovo.desktop</Filename>
 			<Filename>kde4-bovo.desktop</Filename>
 			<Filename>kde4-kmahjongg.desktop</Filename>
 			<Filename>kde4-kshisen.desktop</Filename>
 			<Filename>kde4-kpat.desktop</Filename>
 			<Filename>kde4-lskat.desktop</Filename>
+			<Filename>org.kde.picmi.desktop</Filename>
 			<Filename>kde4-picmi.desktop</Filename>
+			<Filename>org.kde.blinken.desktop</Filename>
 			<Filename>kde4-blinken.desktop</Filename>
 			<Filename>supertux2.desktop</Filename>
 			<Filename>supertuxkart.desktop</Filename>
@@ -538,12 +553,15 @@
 			<Filename>kde4-ksame.desktop</Filename>
 			<Filename>kde4-klickety.desktop</Filename>
 			<Filename>kde4-klines.desktop</Filename>
+			<Filename>org.kde.ksquares.desktop</Filename>
 			<Filename>kde4-ksquares.desktop</Filename>
+			<Filename>org.kde.katomic.desktop</Filename>
 			<Filename>kde4-katomic.desktop</Filename>
 			<Filename>kde4-kbounce.desktop</Filename>
 			<Filename>kde4-kollision.desktop</Filename>
 			<Filename>kde4-kdesnake.desktop</Filename>
 			<Filename>kde4-ktron.desktop</Filename>
+			<Filename>org.kde.kfourinline.desktop</Filename>
 			<Filename>kde4-kfourinline.desktop</Filename>
 			<Filename>kde4-kajongg.desktop</Filename>
 			<Filename>kde4-kiriki.desktop</Filename>
@@ -586,16 +604,22 @@
 			<Filename>kde4-palapeli.desktop</Filename>
 			<Filename>kde4-kubrick.desktop</Filename>			
 			<Separator/>
+			<Filename>org.kde.ksquares.desktop</Filename>
 			<Filename>kde4-ksquares.desktop</Filename>
+			<Filename>org.kde.knetwalk.desktop</Filename>
 			<Filename>kde4-knetwalk.desktop</Filename>
 			<Filename>kde4-klines.desktop</Filename>			
 			<Separator/>			
 			<Filename>kde4-ksudoku.desktop</Filename>
+			<Filename>org.kde.blinken.desktop</Filename>
 			<Filename>kde4-blinken.desktop</Filename>
+			<Filename>org.kde.picmi.desktop</Filename>
 			<Filename>kde4-picmi.desktop</Filename>
 			<Separator/>
+			<Filename>org.kde.katomic.desktop</Filename>
 			<Filename>kde4-katomic.desktop</Filename>
-			<Filename>kde4-kblackbox.desktop</Filename>				
+			<Filename>org.kde.kblackbox.desktop</Filename>
+			<Filename>kde4-kblackbox.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-kmines.desktop</Filename>
 			<Filename>kde4-granatier.desktop</Filename>
@@ -610,7 +634,9 @@
 			<Separator/>
 			<Filename>kde4-kigo.desktop</Filename>
 			<Filename>kde4-kreversi.desktop</Filename>
+			<Filename>org.kde.kfourinline.desktop</Filename>
 			<Filename>kde4-kfourinline.desktop</Filename>
+			<Filename>org.kde.bovo.desktop</Filename>
 			<Filename>kde4-bovo.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-kajongg.desktop</Filename>
@@ -648,6 +674,7 @@
 			<Filename>kayali.desktop</Filename>
 			<Filename>kde4-kbruch.desktop</Filename>
 			<Filename>kde4-kig.desktop</Filename>
+			<Filename>org.kde.kmplot.desktop</Filename>
 			<Filename>kde4-kmplot.desktop</Filename>
 			<Filename>wxmaxima.desktop</Filename>
 			<Filename>avogadro.desktop</Filename>
@@ -657,14 +684,18 @@
 			<Filename>ghemical.desktop</Filename>
 			<Filename>kde4-kalzium.desktop</Filename>
 			<Filename>kde4-kgeography.desktop</Filename>
+			<Filename>org.kde.kgeography.desktop</Filename>
 			<Filename>kde4-marble.desktop</Filename>
+			<Filename>marble.desktop</Filename>
 			<Filename>celestia.desktop</Filename>
 			<Filename>kde4-kstars.desktop</Filename>
 			<Filename>stellarium.desktop</Filename>
 			<Filename>kde4-klettres.desktop</Filename>
 			<Filename>kde4-kwordquiz.desktop</Filename>
+			<Filename>org.kde.parley.desktop</Filename>
 			<Filename>kde4-parley.desktop</Filename>
 			<Filename>kde4-ktuberling.desktop</Filename>
+			<Filename>org.kde.ktuberling.desktop</Filename>
 			<Filename>gcompris.desktop</Filename>
 			<Filename>gcompris-edit.desktop</Filename>
 			<Filename>kde4-step.desktop</Filename>
@@ -672,9 +703,10 @@
 			<Filename>pymol.desktop</Filename>
 			<Filename>ballview.desktop</Filename>
 			<Filename>kde4-ktouch.desktop</Filename>
+			<Filename>org.kde.kanagram.desktop</Filename>
 			<Filename>kde4-kanagram.desktop</Filename>
 			<Filename>kde4-khangman.desktop</Filename>
-			<Filename>kde4-ktuberling.desktop</Filename>
+			<Filename>org.kde.rocs.desktop</Filename>
 			<Filename>kde4-rocs.desktop</Filename>
 			<Filename>anki.desktop</Filename>
 			<Filename>googleearth.desktop</Filename>
@@ -696,32 +728,38 @@
 			<Filename>gcompris.desktop</Filename>
 			<Filename>gcompris-edit.desktop</Filename>
 			<Filename>kde4-ktuberling.desktop</Filename>
+			<Filename>org.kde.ktuberling.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-ktouch.desktop</Filename>
 			<Filename>klavaro.desktop</Filename>
 			<Separator/>
 			<Filename>anki.desktop</Filename>	
 			<Separator/>
+			<Filename>org.kde.parley.desktop</Filename>
 			<Filename>kde4-parley.desktop</Filename>
 			<Filename>kde4-klettres.desktop</Filename>
 			<Filename>kde4-kwordquiz.desktop</Filename>
+			<Filename>org.kde.kanagram.desktop</Filename>
 			<Filename>kde4-kanagram.desktop</Filename>
 			<Filename>kde4-khangman.desktop</Filename>			
 			<Separator/>
 			<Filename>kde4-step.desktop</Filename>
 			<Filename>OpticalRayTracer.desktop</Filename>			
-			<Separator/>
-			<Filename>kde4-marble.desktop</Filename>
-			<Filename>kde4-kgeography.desktop</Filename>
-			<Filename>googleearth.desktop</Filename>
 			<Separator/>			
 			<Filename>kde4-kstars.desktop</Filename>
 			<Filename>stellarium.desktop</Filename>
 			<Filename>celestia.desktop</Filename>
+			<Separator/>
+			<Filename>kde4-kgeography.desktop</Filename>
+			<Filename>org.kde.kgeography.desktop</Filename>
+			<Filename>kde4-marble.desktop</Filename>
+			<Filename>marble.desktop</Filename>
+			<Filename>googleearth.desktop</Filename>
 			<Separator/>			
 			<Filename>kde4-kbruch.desktop</Filename>
 			<Filename>kde4-kig.desktop</Filename>
 			<Filename>drgeo.desktop</Filename>
+			<Filename>org.kde.kmplot.desktop</Filename>
 			<Filename>kde4-kmplot.desktop</Filename>
 			<Filename>geogebra.desktop</Filename>			
 			<Filename>geometria.desktop</Filename>
@@ -730,6 +768,7 @@
 			<Filename>kde4-cantor.desktop</Filename>
 			<Filename>kayali.desktop</Filename>
 			<Separator/>
+			<Filename>org.kde.rocs.desktop</Filename>
 			<Filename>kde4-rocs.desktop</Filename>
 			<Separator/>
 			<Filename>R.desktop</Filename>
@@ -856,11 +895,15 @@
 		<Directory>ezgo-accessibility.directory</Directory>
 		<Include>
 			<Filename>kde4-kate.desktop</Filename>
+			<Filename>org.kde.kate.desktop</Filename>
 			<Filename>gvim.desktop</Filename>
 			<Filename>kde4-ark.desktop</Filename>
+			<Filename>org.kde.ark.desktop</Filename>
 			<Filename>kde4-knotes.desktop</Filename>
+			<Filename>org.kde.kcalc.desktop</Filename>
 			<Filename>kde4-kcalc.desktop</Filename>
 			<Filename>kde4-ktimetracker.desktop</Filename>
+			<Filename>org.kde.klipper.desktop</Filename>
 			<Filename>kde4-klipper.desktop</Filename>
 			<Filename>kde4-akonaditray.desktop</Filename>
 			<Filename>kde4-kmag.desktop</Filename>
@@ -883,6 +926,7 @@
 			</Include>
 		</Menu>
 		<Layout>
+			<Filename>org.kde.kate.desktop</Filename>
 			<Filename>kde4-kate.desktop</Filename>
 			<Filename>gvim.desktop</Filename>
 			<Filename>leafpad.desktop</Filename>
@@ -890,6 +934,7 @@
 			<Filename>kde4-knotes.desktop</Filename>
 			<Filename>xpad.desktop</Filename>
 			<Separator/>
+			<Filename>org.kde.kcalc.desktop</Filename>
 			<Filename>kde4-kcalc.desktop</Filename>
 			<Filename>galculator.desktop</Filename>
 			<Separator/>
@@ -903,6 +948,7 @@
 			<Filename>file-roller.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-ktimetracker.desktop</Filename>
+			<Filename>org.kde.klipper.desktop</Filename>
 			<Filename>kde4-klipper.desktop</Filename>
 			<Filename>kde4-akonaditray.desktop</Filename>
 			<Separator/>
@@ -988,9 +1034,12 @@
 		<Name>System</Name>
 		<Directory>ezgo-system.directory</Directory>
 		<Include>
+			<Filename>org.kde.partitionmanager.desktop</Filename>
 			<Filename>kde4-partitionmanager.desktop</Filename>
+			<Filename>org.kde.kinfocenter.desktop</Filename>
 			<Filename>kde4-kinfocenter.desktop</Filename>
 			<Filename>kde4-krandrtray.desktop</Filename>
+			<Filename>org.kde.ksystemlog.desktop</Filename>
 			<Filename>kde4-ksystemlog.desktop</Filename>
 			<Filename>kde4-muon.desktop</Filename>
 			<Filename>kde4-muon-installer.desktop</Filename>
@@ -999,8 +1048,11 @@
 			<Filename>kde4-my-computer.desktop</Filename>
 			<Filename>unetbootin.desktop</Filename>
 			<Filename>usb-creator-kde.desktop</Filename>
+			<Filename>org.kde.dolphin.desktop</Filename>
 			<Filename>kde4-dolphin.desktop</Filename>
+			<Filename>org.kde.ksysguard.desktop</Filename>
 			<Filename>kde4-ksysguard.desktop</Filename>
+			<Filename>org.kde.konsole.desktop</Filename>
 			<Filename>kde4-konsole.desktop</Filename>
 			<Filename>jockey-kde.desktop</Filename>			
 			<Filename>freefilesync.desktop</Filename>
@@ -1031,8 +1083,11 @@
 			<Filename>software-properties-kde.desktop</Filename>
 			<Filename>software-properties-drivers.desktop</Filename>
 			<Separator/>
+			<Filename>org.kde.kinfocenter.desktop</Filename>
 			<Filename>kde4-kinfocenter.desktop</Filename>
+			<Filename>org.kde.ksystemlog.desktop</Filename>
 			<Filename>kde4-ksystemlog.desktop</Filename>
+			<Filename>org.kde.ksysguard.desktop</Filename>
 			<Filename>kde4-ksysguard.desktop</Filename>
 			<Filename>jockey-kde.desktop</Filename>			
 			<Filename>kde4-my-computer.desktop</Filename>
@@ -1043,13 +1098,16 @@
 			<Filename>usb-creator-kde.desktop</Filename>
 			<Filename>unetbootin.desktop</Filename>
 			<Separator/>
+			<Filename>org.kde.partitionmanager.desktop</Filename>
 			<Filename>kde4-partitionmanager.desktop</Filename>
 			<Filename>gnome-disks.desktop</Filename>
 			<Separator/>
 			<Filename>grub-customizer.desktop</Filename>
 			<Filename>boot-repair.desktop</Filename>
 			<Separator/>
+			<Filename>org.kde.konsole.desktop</Filename>
 			<Filename>kde4-konsole.desktop</Filename>
+			<Filename>org.kde.dolphin.desktop</Filename>
 			<Filename>kde4-dolphin.desktop</Filename>
 			<Filename>pcmanfm.desktop</Filename>
 			<Filename>freefilesync.desktop</Filename>
