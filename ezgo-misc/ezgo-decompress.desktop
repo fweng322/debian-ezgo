@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[zh_TW]=ezgo 解壓縮程式
+Comment=ezgo decompress
+Exec=/usr/share/ezgo/ezgo-decompress/decompress.sh %U
+Path=/usr/share/ezgo/ezgo-misc
+GenericName[zh_TW]=解壓縮工具_ezgo-decompress
+GenericName=Archive_ezgo-decompress
+Icon=ark
+Name[zh_TW]=解壓縮工具_ezgo-decompressor
+Name=Archive_ezgo-decompressor
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=ezgo-decompress.desktop
+Categories=Utility
