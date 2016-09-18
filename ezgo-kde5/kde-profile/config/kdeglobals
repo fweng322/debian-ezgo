@@ -14,12 +14,12 @@ emoticonsTheme=Oxygen
 [General]
 BrowserApplication[$e]=!firefox
 XftHintStyle=hintmedium
-font=Noto Sans Mono CJK TC,12,-1,5,50,0,0,0,0,0
-menuFont=Noto Sans Mono CJK TC,12,-1,5,50,0,0,0,0,0
-desktopFont=Noto Sans Mono CJK TC,12,-1,5,50,0,0,0,0,0
-toolBarFont=Noto Sans Mono CJK TC,11,-1,5,50,0,0,0,0,0
-smallestReadableFont=Noto Sans Mono CJK TC,11,-1,5,50,0,0,0,0,0
-taskbarFont=Noto Sans Mono CJK TC,12,-1,5,50,0,0,0,0,0
+font=文泉驛微米黑,12,-1,5,50,0,0,0,0,0
+menuFont=文泉驛微米黑,12,-1,5,50,0,0,0,0,0
+desktopFont=文泉驛微米黑,12,-1,5,50,0,0,0,0,0
+toolBarFont=文泉驛微米黑,11,-1,5,50,0,0,0,0,0
+smallestReadableFont=文泉驛微米黑,11,-1,5,50,0,0,0,0,0
+taskbarFont=文泉驛微米黑,12,-1,5,50,0,0,0,0,0
 fixed=DejaVu Sans Mono,12,-1,5,50,0,0,0,0,0
 
 [KDE]
