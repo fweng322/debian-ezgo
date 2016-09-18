@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+# remove winff
+rm -f /usr/share/winff/languages/winff.zh.po
+if [ -e /usr/share/winff/languages/winff.zh.po.ezgo-bak ]; then
+    mv /usr/share/winff/languages/winff.zh.po.ezgo-bak /usr/share/winff/languages/winff.zh.po
+fi
+

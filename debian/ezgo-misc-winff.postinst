@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -e 
+
+#DEBHELPER#
+
+# link winff translations "zh" to "zh_TW"
+if [ ! -e /usr/share/winff/languages/winff.zh.po.ezgo-bak ]; then
+    if [ -e /usr/share/winff/languages/winff.zh.po ]; then
+        mv /usr/share/winff/languages/winff.zh.po /usr/share/winff/languages/winff.zh.po.ezgo-bak
+    fi  
+else
+    rm -f /usr/share/winff/languages/winff.zh.po
+fi
+if [ -e /usr/share/winff/languages/winff.zh_TW.po ]; then
+    ln -s /usr/share/winff/languages/winff.zh_TW.po /usr/share/winff/languages/winff.zh.po
+fi
