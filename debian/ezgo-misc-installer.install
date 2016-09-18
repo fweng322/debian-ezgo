@@ -1,0 +1,7 @@
+ezgo-misc/media_install.desktop usr/share/applications
+ezgo-misc/media_install.desktop etc/xdg/autostart
+ezgo-misc/media_install_force.desktop usr/share/applications
+ezgo-misc/media_pak_install/locales/zh_CN/* usr/share/ezgo/media_pak_install/locales/zh_CN
+ezgo-misc/media_pak_install/locales/zh_TW/* usr/share/ezgo/media_pak_install/locales/zh_TW
+ezgo-misc/media_pak_install/po/*.* usr/share/ezgo/media_pak_install/po
+ezgo-misc/media_pak_install/* usr/share/ezgo/media_pak_install
