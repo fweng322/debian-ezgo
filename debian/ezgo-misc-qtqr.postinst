@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+# put qtqr translations
+if [ -e /usr/share/qt4/translations ]; then
+    if [ ! -e /usr/share/qt4/translations/qtqr_zh_TW.qm.ezgo-bak ]; then
+        if [ -e /usr/share/qt4/translations/qtqr_zh_TW.qm ]; then
+            cp -f /usr/share/qt4/translations/qtqr_zh_TW.qm /usr/share/qt4/translations/qtqr_zh_TW.qm.ezgo-bak
+        fi
+    fi
+    rm -f /usr/share/qt4/translations/qtqr_zh_TW.qm
+    cp -f /usr/share/ezgo/ezgo-misc/translations/qtqr_zh_TW.qm /usr/share/qt4/translations/qtqr_zh_TW.qm
+fi
+

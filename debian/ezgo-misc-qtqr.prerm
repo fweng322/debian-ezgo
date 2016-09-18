@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+# remove qtqr
+rm -f /usr/share/qt4/translations/qtqr_zh_TW.qm
+if [ -e /usr/share/qt4/translations/qtqr_zh_TW.qm.ezgo-bak ]; then
+    mv /usr/share/qt4/translations/qtqr_zh_TW.qm.ezgo-bak /usr/share/qt4/translations/qtqr_zh_TW.qm
+fi
+
