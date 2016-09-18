@@ -31,6 +31,8 @@ var kickoff = panel.addWidget("org.kde.plasma.kicker")
 kickoff.currentConfigGroup = ["General"]
 kickoff.writeConfig("useCustomButtonImage", "true")
 kickoff.writeConfig("customButtonImage", "/usr/share/ezgo/icons/start_menu.png")
+kickoff.writeConfig("favoriteApps", "libreoffice-writer.desktop,oxoffice6-writer.desktop,libreoffice-calc.desktop,oxoffice6-calc.desktop,libreoffice-impress.desktop,oxoffice6-impress.desktop,inkscape.desktop,gimp.desktop,org.kde.konsole.desktop,phet.desktop")
+kickoff.writeConfig("hiddenApplications", "display-im6.q16.desktop,display-im6.desktop,org.kde.ksshaskpass.desktop,JB-javaws-jdk8.desktop,org.kde.knetattach.desktop,JB-mission-control-jdk8.desktop,fcitx.desktop,nautilus.desktop,org.kde.kwalletmanager5.desktop,JB-jvisualvm-jdk8.desktop")
 kickoff.currentConfigGroup = ["Shortcuts"]
 kickoff.writeConfig("global", "Alt+F1")
 
@@ -54,6 +56,7 @@ dolphin.writeConfig("iconName", "system-file-manager")
 dolphin.writeConfig("url", "/usr/share/ezgo/ezgo-menu/applications/org.kde.dolphin.desktop")
 dolphin.writeConfig("applicationName", "檔案總管_dolphin")
 
+panel.addWidget("org.kde.plasma.showdesktop")
 panel.addWidget("org.kde.plasma.taskmanager")
 panel.addWidget("org.kde.plasma.systemtray")
 panel.addWidget("org.kde.plasma.digitalclock")
