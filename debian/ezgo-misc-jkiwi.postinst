@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+# jkiwi translations
+if [ -e /usr/share/jkiwi ]; then    # jkiwi installed
+    if [ ! -e /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak ];
+then
+        if [ -e /usr/share/jkiwi/locale/locale_zh_TW.properties ]; then
+            cp -f /usr/share/jkiwi/locale/locale_zh_TW.properties /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak
+        fi
+    fi
+    rm -f /usr/share/jkiwi/locale/locale_zh_TW.properties
+    cp -f /usr/share/ezgo/ezgo-misc/translations/jkiwi-locale_zh_TW.properties /usr/share/jkiwi/locale/locale_zh_TW.properties
+fi
+

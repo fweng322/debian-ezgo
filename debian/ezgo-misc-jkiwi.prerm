@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+# remove jkiwi
+rm -f /usr/share/jkiwi/locale/locale_zh_TW.properties
+if [ -e /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak ]; then
+    mv /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak /usr/share/jkiwi/locale/locale_zh_TW.properties
+fi
+
