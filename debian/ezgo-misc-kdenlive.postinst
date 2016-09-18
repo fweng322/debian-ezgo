@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+# put kdenlive.mo
+if [ ! -e /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo.ezgo-bak ]; then
+    if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo ]; then
+        cp -f  /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo.ezgo-bak
+    fi
+fi
+rm -f /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo
+cp -f /usr/share/ezgo/ezgo-misc/translations/kdenlive.mo /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo
+

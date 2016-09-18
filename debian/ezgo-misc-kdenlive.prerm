@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+# remove kdenlive
+rm -f /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo
+if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo.ezgo-bak ]; then
+    mv /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo.ezgo-bak /usr/share/locale/zh_TW/LC_MESSAGES/kdenlive.mo
+fi
+
