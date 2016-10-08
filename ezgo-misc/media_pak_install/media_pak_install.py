@@ -19,7 +19,7 @@ BG_COLOR = '#7AD9F6'
 #BG_COLOR = '#94EFF4'
 
 MY_PATH = '/usr/share/ezgo/media_pak_install/'
-EZGO_VERSION = 'ezgo12'
+EZGO_VERSION = 'ezgo13'
 
 gettext.textdomain('media_pak_install')
 gettext.bindtextdomain('media_pak_install', MY_PATH+'locales')
