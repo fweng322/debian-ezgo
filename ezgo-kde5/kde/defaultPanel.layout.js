@@ -61,7 +61,7 @@ panel.addWidget("org.kde.plasma.taskmanager")
 
 systemtray = panel.addWidget("org.kde.plasma.systemtray")
 systemtray.currentConfigGroup = ["General"]
-systemtray.writeConfig("hiddenItems=org.kde.plasma.volume")
+systemtray.writeConfig("hiddenItems", "org.kde.plasma.volume")
 
 panel.addWidget("org.kde.plasma.digitalclock")
 panel.addWidget("org.kde.plasma.trash")
