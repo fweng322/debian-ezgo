@@ -1,8 +1,13 @@
 [$Version]
 update_info=ksmserver_shortcuts.upd:kde45,plasma-to-plasmadesktop-shortcuts.upd:4.3plasma-desktop-shortcuts,kwin_window_shortcuts.upd:kde414,kscreenlocker_locksession-shortcut.upd:4.9-locksession-shortcut,ksmserver_shortcuts.upd:kde4.10,ksmserver_shortcuts.upd:kde4.10-remove-group-kscreenlocker
 
+[kded5]
+Show System Activity=Ctrl+Alt+Del,Ctrl+Esc,顯示系統活動
+_k_friendly_name=KDE Daemon
+
 [krunner]
 Show System Activity=Ctrl+Alt+Del,Ctrl+Esc,顯示系統活動
+_k_friendly_name=krunner
 
 [ksmserver]
 Log Out=none,Ctrl+Alt+Del,登出
