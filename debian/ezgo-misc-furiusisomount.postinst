@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+# put furiusisomount.mo
+if [ ! -e  /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo.ezgo-bak ]; then
+    if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo ]; then
+        cp -f  /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo.ezgo-bak
+    fi
+fi
+rm -f /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo
+cp -f /usr/share/ezgo/ezgo-misc/translations/furiusisomount.mo /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo
+

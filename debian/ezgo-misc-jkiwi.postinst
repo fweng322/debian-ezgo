@@ -6,8 +6,7 @@ set -e
 
 # jkiwi translations
 if [ -e /usr/share/jkiwi ]; then    # jkiwi installed
-    if [ ! -e /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak ];
-then
+    if [ ! -e /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak ]; then
         if [ -e /usr/share/jkiwi/locale/locale_zh_TW.properties ]; then
             cp -f /usr/share/jkiwi/locale/locale_zh_TW.properties /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak
         fi

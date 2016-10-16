@@ -25,9 +25,9 @@ gettext.textdomain('media_pak_install')
 gettext.bindtextdomain('media_pak_install', MY_PATH+'locales')
 _ = gettext.gettext
 
-third_party_software = [ 'ubuntu-restricted-extras', 'skype', 'google-chrome-stable' ]
-third_party_sw_desc = [ _('Necessary tools for multimedia, like flash and codecs.\nWith this you can watch youtube video or many other video format files.'), _('A famous instant messages and voice communication software.'), _('A famous browser developed by Google.') ]
-third_party_icon = [ MY_PATH+'ubuntu.png', MY_PATH+'skype.png', MY_PATH+'chrome.png' ]
+third_party_software = [ 'ubuntu-restricted-extras', 'skype', 'google-chrome-stable', 'PlayOnLinux', 'Supertuxkart' ]
+third_party_sw_desc = [ _('Necessary tools for multimedia, like flash and codecs.\nWith this you can watch youtube video or many other video format files.'), _('A famous instant messages and voice communication software.'), _('A famous browser developed by Google.'), _('A good tool to manage wine versions'), _('An very popular car racing game') ]
+third_party_icon = [ MY_PATH+'ubuntu.png', MY_PATH+'skype.png', MY_PATH+'chrome.png', MY_PATH+'playonlinux.png', MY_PATH+'supertuxkart.png' ]
 
 current_check_button = 0
 total_check_button = len(third_party_software)
@@ -197,7 +197,7 @@ class FlashInstall:
 		#[pre_install]
 		bash_to_exe += 'echo "update packages"\n'
                 bash_to_exe += 'if [ -x /usr/bin/kdialog ]; then\n'
-		bash_to_exe += 'dbusRef=`kdialog --progressbar "'+_("Updating repository...")+'" --title "'+_("Install third party software")+'" '+str(select_count) + '`\n'
+		bash_to_exe += 'dbusRef=`kdialog --progressbar "'+_("Updating repository...")+'" --title "'+_("Install recommended software")+'" '+str(select_count) + '`\n'
 		bash_to_exe += 'dpkg --configure -a\n'
 		bash_to_exe += "apt-get update >&2\n"
 		now_bar_pos += 1
@@ -230,7 +230,7 @@ class FlashInstall:
                 bash_to_exe += "echo $install_finish_msg > log\n"
                 bash_to_exe += "show_info_message \"$install_finish_msg\"\n"
                 bash_to_exe += "elif [ -x /usr/bin/zenity ]; then\n"
-                bash_to_exe += 'dpkg --configure -a && apt-get update | tee >(zenity --progress --pulsate --width=420 --text="'+_("Updating repository...")+'" --title "'+_("Install third party software")+'" --auto-close)\n'
+                bash_to_exe += 'dpkg --configure -a && apt-get update | tee >(zenity --progress --pulsate --width=420 --text="'+_("Updating repository...")+'" --title "'+_("Install recommended software")+'" --auto-close)\n'
                 bash_to_exe += '(\n'
                 inum=1
 		for i in range(total_check_button):
@@ -268,7 +268,7 @@ class FlashInstall:
 		self.ed = ed
 		
 		self.window = gtk.Window(gtk.WINDOW_TOPLEVEL)
-		self.window.set_title(_("Install third party software"))
+		self.window.set_title(_("Install recommended software"))
 		self.window.set_border_width(10)
 		color = gtk.gdk.color_parse(BG_COLOR)
 		#self.window.modify_bg(gtk.STATE_NORMAL, color)
@@ -278,7 +278,8 @@ class FlashInstall:
 		#[top]
 		text_show = _("Welcome to")+EZGO_VERSION+"\n"
 		text_show += _("Since ")+EZGO_VERSION+_(" contains only software that we can freely distribute,\nsome freeware can't be preinstalled due to license issue.\n")
-                text_show += _("We strongly recommend you to install the following third party software so that you can have better experiences in ")+EZGO_VERSION
+		text_show += _("Besides, the capability of an iso file is quite limited but there are so many good software we want to introduce.\n")
+                text_show += _("Therefore, we strongly recommend you to install the following software so that you can have better experiences in ")+EZGO_VERSION
 
 		label = gtk.Label('<span size="'+str(WELCOME_SIZE)+'">' +text_show  +'</span>')
 		
