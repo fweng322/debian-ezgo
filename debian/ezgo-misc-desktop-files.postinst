@@ -1,12 +1,9 @@
 #!/bin/sh -e
 
 # link desktop files for ezgo
-ln -sf /usr/share/ezgo/desktop-files/7zip.desktop /usr/share/applications/7zip.desktop
-ln -sf /usr/share/ezgo/desktop-files/impressive-editor.desktop /usr/share/applications/impressive-editor.desktop
-ln -sf /usr/share/ezgo/desktop-files/media_install.desktop /usr/share/applications/media_install.desktop
-ln -sf /usr/share/ezgo/desktop-files/media_install_force.desktop /usr/share/applications/media_install_force.desktop
 ln -sf /usr/share/ezgo/desktop-files/my_computer.desktop /usr/share/applications/my_computer.desktop
 ln -sf /usr/share/ezgo/desktop-files/my_ezgo.desktop /usr/share/applications/my_ezgo.desktop
+ln -sf /usr/share/ezgo/desktop-files/update_ezgo.desktop /usr/share/applications/update_ezgo.desktop
 ln -sf /usr/share/ezgo/desktop-files/about_ezgo.desktop /usr/share/applications/about_ezgo.desktop
 
 
