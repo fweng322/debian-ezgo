@@ -296,6 +296,18 @@ Description: fix qtqr translations for ezgo
  This package contains qtqr translations fix for ezgo.
 Depends: qtqr
 
+Package: ezgo-misc-furiusisomount
+Architecture: all
+Description: fix furiusisomount translations for ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains furiusisomount translations fix for ezgo.
+Depends: furiusisomount
+
 Package: ezgo-misc-installer
 Architecture: all
 Description: some software installer for ezgo
@@ -319,6 +331,17 @@ Description: a simple decompressor using p7zip for ezgo
  .
  This package contains a simple decompressor using p7zip for ezgo.
 Depends: p7zip-full
+
+Package: ezgo-misc-arduino-rules
+Architecture: all
+Description: udev rules for arduino in ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains udev rules for arduino rules in ezgo.
 
 Package: ezgo-atayal
 Architecture: all
