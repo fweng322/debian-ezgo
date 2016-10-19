@@ -1,15 +1,15 @@
 [Desktop Entry]
 Categories=Settings;
-Comment[zh_TW]=安裝第三方軟體
-Comment=Install third party software
+Comment[zh_TW]=安裝推薦軟體
+Comment=Install recommended software
 Exec=/usr/share/ezgo/media_pak_install/media_pak_install.py -f
 Path=/usr/share/ezgo/media_pak_install
-GenericName[zh_TW]=安裝常用的第三方軟體，例如 Skype 或 Flash 外掛程式等
-GenericName=Install third party software
+GenericName[zh_TW]=安裝常用的推薦軟體，例如 Skype 或 Flash 外掛程式等
+GenericName=Install recommended software
 Icon=/usr/share/ezgo/icons/complete.png
-Name[zh_TW]=安裝第三方軟體
-Name[en]=Install third party software
-Name=安裝第三方軟體
+Name[zh_TW]=安裝推薦軟體
+Name[en]=Install recommended software
+Name=安裝推薦軟體
 StartupNotify=true
 Terminal=false
 Type=Application
