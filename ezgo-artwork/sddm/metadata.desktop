@@ -1,0 +1,20 @@
+[SddmGreeterTheme]
+Name=ezgo
+Name[zh_CN]=ezgo
+Name[zh_TW]=ezgo13
+Description=ezgo Theme
+Description[zh_CN]=ezgo13
+Description[zh_TW]=ezgo13
+Author=David Edmundson
+Copyright=(c) 2014, David Edmundson
+License=CC-BY-SA
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/sddm/sddm
+Screenshot=breeze.jpg
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=davidedmundson@kde.org
+Theme-Id=breeze
+Theme-API=2.0
