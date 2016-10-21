@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+update-alternatives --remove default.plymouth /usr/share/plymouth/themes/ezgo13/ezgo13.plymouth
+update-alternatives --remove default.grub /usr/share/plymouth/themes/ezgo13/ezgo13.grub

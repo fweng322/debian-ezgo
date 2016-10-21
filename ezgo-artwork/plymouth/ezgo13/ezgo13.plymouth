@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=ezgo plymouth theme
+Description=A plymouth theme for ezgo
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/ezgo13
+ScriptFile=/usr/share/plymouth/themes/ezgo13/ezgo13.script
