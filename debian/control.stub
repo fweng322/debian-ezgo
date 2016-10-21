@@ -33,6 +33,28 @@ Description: ezgo theme for SDDM
  .
  This package contains ezgo theme for SDDM.
 
+Package: plymouth-theme-ezgo
+Architecture: all
+Description: ezgo 13 theme for plymouth
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains ezgo 13 theme for plymouth
+
+Package: plymouth-theme-ezgo-text
+Architecture: all
+Description: ezgo 13 text theme for plymouth
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains ezgo 13 text theme for plymouth
+
 Package: ezgo-kde
 Architecture:all
 Description: KDE 4 components for ezgo
