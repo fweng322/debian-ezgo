@@ -30,7 +30,7 @@ panel.height = screenGeometry(panel.screen).height > 1024 ? 43 : 35
 var kickoff = panel.addWidget("org.kde.plasma.kicker")
 kickoff.currentConfigGroup = ["General"]
 kickoff.writeConfig("useCustomButtonImage", "true")
-kickoff.writeConfig("customButtonImage", "/usr/share/ezgo/icons/start_menu.png")
+kickoff.writeConfig("customButtonImage", "/usr/share/ezgo/icons/start_menu.svg")
 kickoff.writeConfig("favoriteApps", "libreoffice-writer.desktop,oxoffice6-writer.desktop,libreoffice-calc.desktop,oxoffice6-calc.desktop,libreoffice-impress.desktop,oxoffice6-impress.desktop,inkscape.desktop,gimp.desktop,org.kde.konsole.desktop,phet.desktop")
 kickoff.writeConfig("hiddenApplications", "display-im6.q16.desktop,display-im6.desktop,org.kde.ksshaskpass.desktop,JB-javaws-jdk8.desktop,org.kde.knetattach.desktop,JB-mission-control-jdk8.desktop,fcitx.desktop,nautilus.desktop,org.kde.kwalletmanager5.desktop,JB-jvisualvm-jdk8.desktop")
 kickoff.currentConfigGroup = ["Shortcuts"]
