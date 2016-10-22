@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="switchTabsOnHover" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="showAppsByName" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="icon" type="String">
+      <default>/usr/share/ezgo/icons/start_menu.svg</default>
+    </entry>
+    <entry name="favorites" type="StringList">
+      <default>libreoffice-writer.desktop,oxoffice6-writer.desktop,libreoffice-calc.desktop,oxoffice6-calc.desktop,libreoffice-impress.desktop,oxoffice6-impress.desktop,inkscape.desktop,gimp.desktop,org.kde.konsole.desktop,phet.desktop</default>
+    </entry>
+    <entry name="systemApplications" type="StringList">
+      <default>systemsettings.desktop</default>
+    </entry>
+    <entry name="useExtraRunners" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="runners" type="StringList">
+      <default>shell,bookmarks,recentdocuments,locations,baloosearch</default>
+    </entry>
+
+    <entry name="removeApplicationCommand" type="String">
+      <default>muon-discover --application</default>
+    </entry>
+
+    </group>
+</kcfg>
