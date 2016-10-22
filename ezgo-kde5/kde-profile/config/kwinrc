@@ -10,6 +10,7 @@ GLTextureFilter=2
 GLVSync=true
 GraphicsSystem=raster
 HiddenPreviews=5
+OpenGLIsUnsafe=false
 UnredirectFullscreen=false
 XRenderSmoothScale=false
 
@@ -36,11 +37,15 @@ GlideEffect=0
 [Effect-Zoom]
 EnableFocusTracking=false
 EnableFollowFocus=true
+InitialZoom=1
 MousePointer=1
 MouseTracking=0
 ZoomFactor=1.2
 
 [Plugins]
+blurEnabled=false
+diminactiveEnabled=true
+glideEnabled=true
 kwin4_effect_blurEnabled=true
 kwin4_effect_boxswitchEnabled=true
 kwin4_effect_coverswitchEnabled=true
@@ -86,6 +91,11 @@ kwin4_effect_translucencyEnabled=true
 kwin4_effect_windowgeometryEnabled=false
 kwin4_effect_wobblywindowsEnabled=true
 kwin4_effect_zoomEnabled=true
+magiclampEnabled=true
+minimizeanimationEnabled=false
+slidebackEnabled=true
+wobblywindowsEnabled=true
+
 
 [TabBox]
 ListMode=0
