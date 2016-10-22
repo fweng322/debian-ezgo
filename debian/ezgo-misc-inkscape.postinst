@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+# put inkscape.mo
+if [ ! -e  /usr/share/locale/zh_TW/LC_MESSAGES/inkscape.mo.ezgo-bak ]; then
+    if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/inkscape.mo ]; then
+        cp -f  /usr/share/locale/zh_TW/LC_MESSAGES/inkscape.mo /usr/share/locale/zh_TW/LC_MESSAGES/inkscape.mo.ezgo-bak
+    fi
+fi
+rm -f /usr/share/locale/zh_TW/LC_MESSAGES/inkscape.mo
+cp -f /usr/share/ezgo/ezgo-misc/translations/inkscape.mo /usr/share/locale/zh_TW/LC_MESSAGES/inkscape.mo
+

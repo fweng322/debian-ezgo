@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+# remove inkscape
+rm -f /usr/share/locale/zh_TW/LC_MESSAGES/inkscape.mo
+if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/inkscape.mo.ezgo-bak ]; then
+    mv /usr/share/locale/zh_TW/LC_MESSAGES/inkscape.mo.ezgo-bak /usr/share/locale/zh_TW/LC_MESSAGES/inkscape.mo
+fi
+
