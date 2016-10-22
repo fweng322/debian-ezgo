@@ -63,5 +63,9 @@ systemtray = panel.addWidget("org.kde.plasma.systemtray")
 systemtray.currentConfigGroup = ["General"]
 systemtray.writeConfig("hiddenItems", "org.kde.plasma.volume")
 
-panel.addWidget("org.kde.plasma.digitalclock")
+digitalclock = panel.addWidget("org.kde.plasma.digitalclock")
+digitalclock.currentConfigGroup = ["Appearance"]
+digitalclock.writeConfig("fontFamily", "Lato")
+digitalclock.writeConfig("use24hFormat", "2")
+
 panel.addWidget("org.kde.plasma.trash")
