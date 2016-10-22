@@ -4,5 +4,9 @@ set -e
 
 #DEBHELPER#
 
+update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/ezgo13/ezgo13.plymouth 200 --slave /usr/share/plymouth/themes/default.grub default.plymouth.grub /usr/share/plymouth/themes/ezgo13/ezgo13.grub 
+
 update-alternatives --set default.plymouth /usr/share/plymouth/themes/ezgo13/ezgo13.plymouth
-update-alternatives --set default.grub /usr/share/plymouth/themes/ezgo13/ezgo13.grub
+
+update-initramfs -u
+
