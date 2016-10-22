@@ -1,4 +1,4 @@
-ezgo (13.0~alpha~2016102105) UNRELEASED; urgency=low
+ezgo (13.0~alpha~2016102207) UNRELEASED; urgency=low
 
   [ Andreas Tille ]
   * Versioned Build-Depends blends-dev >= 0.6.91
