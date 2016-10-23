@@ -10,10 +10,10 @@
       <default>start-here-kde</default>
     </entry>
     <entry name="useCustomButtonImage" type="Bool">
-      <default>false</default>
+      <default>true</default>
     </entry>
     <entry name="customButtonImage" type="Url">
-      <default></default>
+      <default>/usr/share/ezgo/icons/start_menu.svg</default>
     </entry>
 
     <entry name="appNameFormat" type="Int">
