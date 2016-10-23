@@ -24,7 +24,7 @@
     </entry>
 
     <entry name="favoriteApps" type="StringList">
-      <default>preferred://browser,kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,ktp-contactlist.desktop,org.kde.kate.desktop,org.kde.discover</default>
+      <default>libreoffice-writer.desktop,oxoffice6-writer.desktop,libreoffice-calc.desktop,oxoffice6-calc.desktop,libreoffice-impress.desktop,oxoffice6-impress.desktop,inkscape.desktop,gimp.desktop,org.kde.konsole.desktop,phet.desktop</default>
     </entry>
     <entry name="favoriteSystemActions" type="StringList">
       <default>logout,reboot,shutdown</default>
