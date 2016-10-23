@@ -381,8 +381,8 @@ xsane.desktop,掃瞄器軟體_XSane,在Linux 下的支援多種掃瞄器驅動�
 my_ezgo.desktop,我的 ezgo,可清楚的看到硬體、網路、可移除裝置及系統等相關資訊,我的 ezgo,我的 ezgo,可清楚的看到硬件、网络、可删除设备及系统等相关信息,我的 ezgo,My ezgo,myezgo;
 ezgo_center.desktop,ezgo 服務中心,ezgo 相關服務連結,ezgo 服務中心,ezgo 服务中心,ezgo相关服务连结,ezgo 服务中心,ezgo Center,myezgo;
 ezinstall.desktop,ezgo 軟體中心,可以新增移除 ezgo 特別整理的軟體,ezgo 軟體中心,ezgo 软件中心,可以新增删除ezgo特别整理的软件,ezgo 软件中心,ezgo Software Center,myezgo;
-media_install_force.desktop,安裝第三方軟體,安裝常用的第三方軟體，例如 Flash 等,安裝第三方軟體,安装第三方软件,安装常用的第三方软件，例如 Flash 等,安装第三方软件,ezgo 3rd party software,myezgo;
-media_install.desktop,安裝第三方軟體,安裝常用的第三方軟體，例如 Flash 等,安裝第三方軟體,安装第三方软件,安装常用的第三方软件，例如 Flash 等,安装第三方软件,ezgo 3rd party software,myezgo;
+media_install_force.desktop,安裝推薦軟體,安裝常用的推薦軟體，例如 Flash 等,安裝推薦軟體,安装推薦软件,安装常用的推薦软件，例如 Flash 等,安装推薦软件,ezgo recommended software,myezgo;
+media_install.desktop,安裝推薦軟體,安裝常用的推薦軟體，例如 Flash 等,安裝推薦軟體,安装推薦软件,安装常用的推薦软件，例如 Flash 等,安装推薦软件,ezgo recommended3rd party software,myezgo;
 update_ezgo.desktop,ezgo 更新程式,將 ezgo 進行程式更新,ezgo 更新程式,ezgo 更新程序,将ezgo进行程序更新,ezgo 更新程序,ezgo update,myezgo;
 recover.desktop,使用者還原設定,還原使用者在 ezgo 下的環境設定,使用者還原設定,用户还原设置,还原用户在ezgo下的环境设置,用户还原初始设置,ezgo user recovery,myezgo;
 skel.desktop,還原 ezgo 初始設定,將您的 ezgo 還原至安裝時的初始設定,還原 ezgo 初始設定,还原 ezgo 初始设置,将您的ezgo还原至安装时的初始设置,还原 ezgo 初始设置,Factory default recovery,myezgo;
