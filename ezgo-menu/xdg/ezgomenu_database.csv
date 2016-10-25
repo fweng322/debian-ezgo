@@ -190,6 +190,7 @@ transmission.desktop,Bt下載_Transmission,可透過 BitTorrent 協定來下載�
 tsclient.desktop,終端伺服器客戶端,遠端連線程式,終端伺服器客戶端,终端服务器客户端,远程连接程序,终端服务器客户端,Terminal Server,Network;
 #,免費軟體_TeamViewer,一個方便好用的遠端電腦連線軟體,免費軟體_TeamViewer,免费软件_TeamViewer,一个方便好用的远程计算机连接软件,免费软件_TeamViewer,RemoteDesktop_TeamViewer,Network;
 #遊戲,,,,,,,,
+PlayOnLinux.desktop,Wine版本管理_PlayOnLinux,管理系統中 Wine 版本的工具,Wine版本管理_PlayOnLinux,Wine版本管理_PlayOnLinux,管理系統中 Wine 版本的工具,Wine版本管理_PlayOnLinux,PlayOnLinux,Game;
 blinken.desktop,記憶遊戲_Blinken,訓練記憶力的小遊戲,記憶遊戲_Blinken,记忆游戏_Blinken,训练记忆力的小游戏,记忆游戏,MemoryGame_Blinken,Game;
 org.kde.blinken.desktop,記憶遊戲_Blinken,訓練記憶力的小遊戲,記憶遊戲_Blinken,记忆游戏_Blinken,训练记忆力的小游戏,记忆游戏,MemoryGame_Blinken,Game;
 picmi.desktop,邏輯遊戲_Picmi,訓練邏輯能力的小遊戲,邏輯遊戲_Picmi,逻辑游戏_Picmi,训练逻辑能力的小游戏,逻辑游戏_Picmi,LogicGame_Picmi,Game;
@@ -313,6 +314,7 @@ scratch.desktop,程式設計_Scratch,一套圖形化程式設計軟體，適合8
 s4a.desktop,程式設計_S4A,结合Scratch與Arduino，讓孩子們學習程式設計的入門軟體,程式設計_S4A,编程_S4A,结合Scratch与Arduino，让孩子们学习编程的入门软件,编程_S4A,Programming_S4A,Development;
 arduino.desktop,程式設計_Arduino,將 Firmware 寫入 Arduino 板子的軟體,程式設計_Arduino,编程_Arduino,可将 Firwmware 写入 Arduino 板子的软件,编程_Arduino,Programming_Arduino,Development;
 arduino-arduinoide.desktop,程式設計_Arduino,將 Firmware 寫入 Arduino 板子的軟體,程式設計_Arduino,编程_Arduino,可将 Firwmware 写入 Arduino 板子的软件,编程_Arduino,Programming_Arduino,Development;
+transformer.desktop,平民機器人_Transformer,將S4A、S2A、Picoboard... 等外部裝置的韌體整合在一個介面上，省去在網路上找尋韌體的時間,平民機器人_Transformer,平民機器人_Transformer,將S4A、S2A、Picoboard... 等外部裝置的韌體整合在一個介面上，省去在網路上找尋韌體的時間,平民機器人_Transformer,Transformer,Development;
 greenfoot.desktop,程式設計_Greenfoot,一套圖形化程式設計軟體，適合學習  JAVA 程式語言設計的入門軟體,程式設計_Greenfoot,编程_Greenfoot,一套图形化编程软件，适合学习JAVA程序语言设计的入门软件,编程_Greenfoot,Programming_Greenfoot,Development;
 alice.desktop,程式設計_Alice,圖形化 3D 動畫程式設計 ,程式設計_Alice,编程_Alice,图形化3D动画编程,编程_Alice,Programming_Alice,Development;
 kturtle.desktop,程式設計_KTurtle,適合用於小朋友學習寫程式的入門軟體,程式設計_KTurtle,编程_KTurtle,适合用于小朋友学习写程序的入门软件,编程_KTurtle,Programming_KTurtle,Development;
@@ -358,6 +360,7 @@ xpad.desktop,螢幕便利貼_Xpad,在螢幕上貼便條,螢幕便利貼_Xpad,屏
 kcalc.desktop,計算機_KCalc,KDE 上的計算機軟體,計算機_KCalc,计算器_KCalc,KDE上的计算器软件,计算器_KCalc,Calculator_KCalc,Utility;
 org.kde.kcalc.desktop,計算機_KCalc,KDE 上的計算機軟體,計算機_KCalc,计算器_KCalc,KDE上的计算器软件,计算器_KCalc,Calculator_KCalc,Utility;
 kmag.desktop,放大鏡_KMag,放大螢幕的某部份,放大鏡_KMag,放大镜_KMag,放大屏幕的某部份,放大镜_KMag,Magnifier_KMag,Utility;
+virtualbox.desktop,虛擬機器_VirtualBox,類似vmware的虛擬機器，並可以在上面安裝其他作業系統,虛擬機器_VirtualBox,虛擬機器_VirtualBox,類似vmware的虛擬機器，並可以在上面安裝其他作業系統,虛擬機器_VirtualBox,VM_VirtualBox,Utility;
 kvkbd.desktop,虛擬鍵盤_Kvkbd,可以呼叫出系統的虛擬鍵盤來使用,虛擬鍵盤_Kvkbd,虚拟键盘_Kvkbd,可以调用出系统的虚拟键盘来使用,虚拟键盘_Kvkbd,VirtualKB_Kvkbd,Utility;
 kmousetool.desktop,滑鼠工具_KMousetool,幫您重覆點擊避免手腕傷害,滑鼠工具_KMousetool,鼠标工具_KMousetool,帮您重复点击避免手腕伤害,鼠标工具_KMousetool,MouseTool_KMousetool,Utility;
 synaptiks.desktop,觸控板設定_Synaptiks,筆電觸控版的管理程式,觸控板設定_Synaptiks,触控板设置_Synaptiks,笔电触控版的管理程序,触控板设置_Synaptiks,Touchpanel_Synaptiks,Utility;

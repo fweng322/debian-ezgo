@@ -894,6 +894,7 @@
 		<Name>Accessibility</Name>
 		<Directory>ezgo-accessibility.directory</Directory>
 		<Include>
+			<Filename>ezgo-decompressor.desktop</Filename>
 			<Filename>kde4-kate.desktop</Filename>
 			<Filename>org.kde.kate.desktop</Filename>
 			<Filename>gvim.desktop</Filename>
@@ -915,6 +916,8 @@
 			<Filename>file-roller.desktop</Filename>
 			<Filename>leafpad.desktop</Filename>
 			<Filename>xpad.desktop</Filename>
+			<Filename>virtualbox.desktop</Filename>
+			<Filename>vim.desktop</Filename>
 				<Category>Utility</Category>
 		</Include>
 		<Menu>
@@ -928,6 +931,7 @@
 		<Layout>
 			<Filename>org.kde.kate.desktop</Filename>
 			<Filename>kde4-kate.desktop</Filename>
+			<Filename>vim.desktop</Filename>
 			<Filename>gvim.desktop</Filename>
 			<Filename>leafpad.desktop</Filename>
 			<Separator/>
@@ -943,10 +947,13 @@
 			<Filename>kde4-kmousetool.desktop</Filename>
 			<Filename>kde4-synaptiks.desktop</Filename>
 			<Separator/>
+			<Filename>ezgo-decompressor.desktop</Filename>
 			<Filename>kde4-ark.desktop</Filename>
+			<Filename>org.kde.ark.desktop</Filename>
 			<Filename>7zip.desktop</Filename>
 			<Filename>file-roller.desktop</Filename>
 			<Separator/>
+			<Filename>virtualbox.desktop</Filename>
 			<Filename>kde4-ktimetracker.desktop</Filename>
 			<Filename>org.kde.klipper.desktop</Filename>
 			<Filename>kde4-klipper.desktop</Filename>
@@ -971,6 +978,8 @@
 			<Filename>alice.desktop</Filename>
 			<Filename>s4a.desktop</Filename>
 			<Filename>arduino.desktop</Filename>
+			<Filename>arduino-arduinoide.desktop</Filename>
+			<Filename>transformer.desktop</Filename>
 				<Category>Development</Category>
 		</Include>
 		<Menu>
@@ -985,6 +994,7 @@
 			<Filename>scratch.desktop</Filename>
 			<Filename>s4a.desktop</Filename>
 			<Filename>arduino.desktop</Filename>
+			<Filename>arduino-arduinoide.desktop</Filename>
 			<Separator/>			
 			<Filename>greenfoot.desktop</Filename>
 			<Filename>bluej.desktop</Filename>
@@ -995,6 +1005,7 @@
 			<Separator/>
 			<Filename>geany.desktop</Filename>
 			<Separator/>
+			<Filename>transformer.desktop</Filename>
 			<Merge type="files"/>
 			<Merge type="menus"/>
 			<Menuname>More</Menuname>
@@ -1034,7 +1045,7 @@
 		<Name>System</Name>
 		<Directory>ezgo-system.directory</Directory>
 		<Include>
-			<Filename>org.kde.partitionmanager.desktop</Filename>
+			<Filename>org.kde.PartitionManager.desktop</Filename>
 			<Filename>kde4-partitionmanager.desktop</Filename>
 			<Filename>org.kde.kinfocenter.desktop</Filename>
 			<Filename>kde4-kinfocenter.desktop</Filename>
@@ -1066,6 +1077,7 @@
 			<Filename>software-properties-gnome.desktop</Filename>
 			<Filename>software-properties-gtk.desktop</Filename>
 			<Filename>software-properties-kde.desktop</Filename>
+			<Filename>org.kde.discover.desktop</Filename>
 				<Category>System</Category>
 		</Include>
 		<Menu>
@@ -1078,27 +1090,16 @@
 		</Menu>
 		<Layout>
 			<Filename>ubuntu-software-center.desktop</Filename>
+			<Filename>org.kde.discover.desktop</Filename>
 			<Filename>software-properties-gnome.desktop</Filename>
 			<Filename>software-properties-gtk.desktop</Filename>
 			<Filename>software-properties-kde.desktop</Filename>
 			<Filename>software-properties-drivers.desktop</Filename>
 			<Separator/>
-			<Filename>org.kde.kinfocenter.desktop</Filename>
-			<Filename>kde4-kinfocenter.desktop</Filename>
-			<Filename>org.kde.ksystemlog.desktop</Filename>
-			<Filename>kde4-ksystemlog.desktop</Filename>
-			<Filename>org.kde.ksysguard.desktop</Filename>
-			<Filename>kde4-ksysguard.desktop</Filename>
-			<Filename>jockey-kde.desktop</Filename>			
-			<Filename>kde4-my-computer.desktop</Filename>
-			<Separator/>
-			<Filename>kde4-muon-installer.desktop</Filename>
-			<Filename>kde4-muon.desktop</Filename>
-			<Separator/>
 			<Filename>usb-creator-kde.desktop</Filename>
 			<Filename>unetbootin.desktop</Filename>
 			<Separator/>
-			<Filename>org.kde.partitionmanager.desktop</Filename>
+			<Filename>org.kde.PartitionManager.desktop</Filename>
 			<Filename>kde4-partitionmanager.desktop</Filename>
 			<Filename>gnome-disks.desktop</Filename>
 			<Separator/>
@@ -1112,6 +1113,18 @@
 			<Filename>pcmanfm.desktop</Filename>
 			<Filename>freefilesync.desktop</Filename>
 			<Filename>realtimesync.desktop</Filename>
+			<Separator/>
+			<Filename>org.kde.kinfocenter.desktop</Filename>
+			<Filename>kde4-kinfocenter.desktop</Filename>
+			<Filename>org.kde.ksystemlog.desktop</Filename>
+			<Filename>kde4-ksystemlog.desktop</Filename>
+			<Filename>org.kde.ksysguard.desktop</Filename>
+			<Filename>kde4-ksysguard.desktop</Filename>
+			<Filename>jockey-kde.desktop</Filename>			
+			<Filename>kde4-my-computer.desktop</Filename>
+			<Separator/>
+			<Filename>kde4-muon-installer.desktop</Filename>
+			<Filename>kde4-muon.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-krandrtray.desktop</Filename>
 			<Separator/>
@@ -1199,6 +1212,9 @@
 			<Filename>skel.desktop</Filename>
 			<Filename>about_ezgo.desktop</Filename>
 			<Filename>ezgo_doc.desktop</Filename>
+			<Include>
+				<Category>ezgo</Category>
+			</Include>
 		</Include>
 		<Layout>
 			<Filename>my_ezgo.desktop</Filename>
