@@ -30,7 +30,7 @@
       <default>logout,reboot,shutdown</default>
     </entry>
     <entry name="hiddenApplications" type="StringList">
-      <default></default>
+      <default>display-im6.q16.desktop,display-im6.desktop,org.kde.ksshaskpass.desktop,JB-javaws-jdk8.desktop,org.kde.knetattach.desktop,JB-mission-control-jdk8.desktop,fcitx.desktop,nautilus.desktop,org.kde.kwalletmanager5.desktop,JB-jvisualvm-jdk8.desktop,JB-controlpanel-jdk8.desktop,JB-jconsole-jdk8.desktop,itweb-settings.desktop,openjdk-8-policytool.desktop,fcitx.desktop,org.kde.kwalletmanager5.desktop</default>
     </entry>
 
     <entry name="showRecentApps" type="Bool">
