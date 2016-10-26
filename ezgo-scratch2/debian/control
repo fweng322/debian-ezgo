@@ -1,0 +1,24 @@
+Source: ezgo-scratch2
+Section: devel
+Priority: extra
+Maintainer: Franklin Weng <franklin@goodhorse.idv.tw>
+Uploaders: Andrew Lee (李健秋) <ajqlee@debian.org>,
+ Andreas Tille <tille@debian.org>
+Build-Depends: debhelper (>= 7), blends-dev (>= 0.6.91)
+Standards-Version: 3.9.3
+Dm-Upload-Allowed: yes
+Homepage: http://ezgo.westart.tw/
+Vcs-git: https://github.com/fweng322/debian-ezgo.git
+
+Package: ezgo-scratch2
+Architecture: all
+Description: ezgo scratch2 installer files
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains installer files of scratch2
+Depends: libxt6:i386,libnspr4-0d:i386,libgtk2.0-0:i386,libstdc++6:i386,libnss3-1d:i386,libnss-mdns:i386,libxml2:i386,libxslt1.1:i386,libcanberra-gtk-module:i386,gtk2-engines-murrine:i386,libgnome-keyring0:i386,libxaw7 
+
