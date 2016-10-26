@@ -1,0 +1,21 @@
+[Desktop Entry]
+Comment[zh_TW]=安裝 Scratch2
+Comment=Install Scratch2
+Exec=/usr/share/ezgo/ezgo-scratch2/install.sh
+GenericName[zh_TW]=安裝 Scratch2
+GenericName=Install Scratch2
+Icon=/usr/share/ezgo/icons/ezinstall.png
+Name[zh_TW]=安裝 Scratch2
+Name[en]=Install Scratch2
+Name=Install Scratch2
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=install_scratch2.desktop
+Categories=ezgo;
+
