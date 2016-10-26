@@ -1,0 +1,17 @@
+Package: ezgo-s4a
+Version: 2016102601
+Architecture: all
+Maintainer: Franklin Weng <franklin@goodhorse.idv.tw>
+Installed-Size: 52054
+Depends: squeak-image3.9, squeak-sources3, squeak-plugins-scratch
+Section: devel
+Priority: extra
+Homepage: http://ezgo.westart.tw/
+Description: s4a on ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains s4a on ezgo

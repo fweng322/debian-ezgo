@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+mv /usr/lib/s4a/Media/Sounds/Music\ Loops /usr/lib/s4a/Media/Sounds/Music_Loops
+mv /usr/lib/s4a/Projects/Interactive\ Art /usr/lib/s4a/Media/Projects/Interactive_Art
+mv /usr/lib/s4a/Projects/Music\ and\ Dance /usr/lib/s4a/Media/Projects/Music_and_Dance
+mv /usr/lib/s4a/Projects/Sensors\ and\ Motors /usr/lib/s4a/Media/Projects/Sensors_and_Motors
+mv /usr/lib/s4a/Projects/Speak\ Up /usr/lib/s4a/Media/Projects/Speak_Up
+
+

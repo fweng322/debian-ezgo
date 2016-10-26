@@ -1,9 +1,0 @@
-Package: ezgo-s4a
-Version: 2016101601
-Maintainer: Franklin Weng <franklin@goodhorse.idv.tw>
-Architecture: amd64
-Description: necessary files for running s4a in ezgo
- This package contains necessary files for running s4a in ezgo
-Depends: squeak-image3.9, squeak-sources3, squeak-plugins-scratch
-Section: devel
-Priority: optional
