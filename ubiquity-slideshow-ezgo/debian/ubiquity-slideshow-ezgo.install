@@ -1,0 +1,8 @@
+slideshow.conf usr/share/ubiquity-slideshow/
+slides/*.html usr/share/ubiquity-slideshow/slides
+slides/directory.jsonp usr/share/ubiquity-slideshow/slides
+slides/icons/* usr/share/ubiquity-slideshow/slides/icons
+slides/l10n/zh_CN/* usr/share/ubiquity-slideshow/slides/l10n/zh_CN
+slides/l10n/zh_TW/* usr/share/ubiquity-slideshow/slides/l10n/zh_TW
+slides/link-core/* usr/share/ubiquity-slideshow/slides/link-core
+slides/link/* usr/share/ubiquity-slideshow/slides/link

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>ubiquity-slideshow-ubuntu</title>
+	
+	<link href="link/base.css" rel="stylesheet" type="text/css" />
+	
+	<base target="_blank" />
+	
+	<script type="text/javascript" src="link-core/jquery.js"></script>
+	<script type="text/javascript" src="link-core/jquery.cycle.all.js"></script>
+	
+	<script type="text/javascript" src="link-core/base.js"></script>
+	
+	<script type="text/javascript">
+	var SLIDESHOW_OPTIONS = {
+		/* Uncomment to debug */
+		// timeout: 4000,
+		/* Make sure our slides fit the window when resized */
+		fit: 1,
+		width: '100%',
+		height: '100%',
+		/* Default slideshow uses the 'scrollHorz' fx, but slides are not
+		resized horizontally with that fx, using 'scrollLeft' workarounds that
+		bug */
+		fx: 'scrollLeft',
+	};
+	</script>
+	<script type="text/javascript" src="link-core/slideshow.js"></script>
+</head>
+
+<body>
+
+<div id="slideshow">
+	<div><a href="welcome.html" class="load"></a></div>
+	<div><a href="linux.html" class="load"></a></div>
+	<div><a href="license.html" class="load"></a></div>
+	<div><a href="menu.html" class="load"></a></div>
+	<div><a href="applications.html" class="load"></a></div>
+	<div><a href="education.html" class="load"></a></div>
+	<div><a href="experience.html" class="load"></a></div>
+	<div><a href="website.html" class="load"></a></div>
+</div>
+
+<div id="debug-controls">
+<input type="button" id="prev-slide" value="&lt;"/>
+<input type="button" id="next-slide" value="&gt;"/>
+</div>
+
+</body>
+
+</html>
