@@ -972,6 +972,7 @@
 			<Filename>bluej.desktop</Filename>
 			<Filename>kde4-kturtle.desktop</Filename>
 			<Filename>scratch.desktop</Filename>
+			<Filename>edu.media.mit.scratch2editor.desktop</Filename>
 			<Filename>squeak.desktop</Filename>
 			<Filename>geany.desktop</Filename>
 			<Filename>greenfoot.desktop</Filename>
@@ -993,6 +994,7 @@
 		<Layout>
 			<Filename>scratch.desktop</Filename>
 			<Filename>s4a.desktop</Filename>
+			<Filename>edu.media.mit.scratch2editor.desktop</Filename>
 			<Filename>arduino.desktop</Filename>
 			<Filename>arduino-arduinoide.desktop</Filename>
 			<Separator/>			
@@ -1212,9 +1214,7 @@
 			<Filename>skel.desktop</Filename>
 			<Filename>about_ezgo.desktop</Filename>
 			<Filename>ezgo_doc.desktop</Filename>
-			<Include>
 				<Category>ezgo</Category>
-			</Include>
 		</Include>
 		<Layout>
 			<Filename>my_ezgo.desktop</Filename>

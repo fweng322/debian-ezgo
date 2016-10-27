@@ -311,10 +311,11 @@ pymol.desktop,生化_Pymol,立體分子繪圖及看圖軟體,生化_Pymol,生化
 ballview.desktop,生化_BALLView,3D分子建模生化軟體,生化_BALLView,生化_BALLView,3D分子建模生化软件,生化_BALLView,Chemistry_BALLView,Education;
 #程式開發,,,,,,,,
 scratch.desktop,程式設計_Scratch,一套圖形化程式設計軟體，適合8歲以上的中小學生作為學習程式設計的入門軟體,程式設計_Scratch,编程_Scratch,一套图形化编程软件，适合8岁以上的中小学生作为学习编程的入门软件,编程_Scratch,Programming_Scratch,Development;
+edu.media.mit.scratch2editor.desktop,程式設計_Scratch2,一套圖形化程式設計軟體，適合8歲以上的中小學生作為學習程式設計的入門軟體,程式設計_Scratch2,编程_Scratch2,一套图形化编程软件，适合8岁以上的中小学生作为学习编程的入门软件,编程_Scratch2,Programming_Scratch2,Development;
 s4a.desktop,程式設計_S4A,结合Scratch與Arduino，讓孩子們學習程式設計的入門軟體,程式設計_S4A,编程_S4A,结合Scratch与Arduino，让孩子们学习编程的入门软件,编程_S4A,Programming_S4A,Development;
 arduino.desktop,程式設計_Arduino,將 Firmware 寫入 Arduino 板子的軟體,程式設計_Arduino,编程_Arduino,可将 Firwmware 写入 Arduino 板子的软件,编程_Arduino,Programming_Arduino,Development;
 arduino-arduinoide.desktop,程式設計_Arduino,將 Firmware 寫入 Arduino 板子的軟體,程式設計_Arduino,编程_Arduino,可将 Firwmware 写入 Arduino 板子的软件,编程_Arduino,Programming_Arduino,Development;
-transformer.desktop,平民機器人_Transformer,將S4A、S2A、Picoboard... 等外部裝置的韌體整合在一個介面上，省去在網路上找尋韌體的時間,平民機器人_Transformer,平民機器人_Transformer,將S4A、S2A、Picoboard... 等外部裝置的韌體整合在一個介面上，省去在網路上找尋韌體的時間,平民機器人_Transformer,Transformer,Development;
+transformer.desktop,平民化機器人_Transformer,將S4A、S2A、Picoboard... 等外部裝置的韌體整合在一個介面上，省去在網路上找尋韌體的時間,平民化機器人_Transformer,平民化機器人_Transformer,將S4A、S2A、Picoboard... 等外部裝置的韌體整合在一個介面上，省去在網路上找尋韌體的時間,平民化機器人_Transformer,Transformer,Development;
 greenfoot.desktop,程式設計_Greenfoot,一套圖形化程式設計軟體，適合學習  JAVA 程式語言設計的入門軟體,程式設計_Greenfoot,编程_Greenfoot,一套图形化编程软件，适合学习JAVA程序语言设计的入门软件,编程_Greenfoot,Programming_Greenfoot,Development;
 alice.desktop,程式設計_Alice,圖形化 3D 動畫程式設計 ,程式設計_Alice,编程_Alice,图形化3D动画编程,编程_Alice,Programming_Alice,Development;
 kturtle.desktop,程式設計_KTurtle,適合用於小朋友學習寫程式的入門軟體,程式設計_KTurtle,编程_KTurtle,适合用于小朋友学习写程序的入门软件,编程_KTurtle,Programming_KTurtle,Development;
