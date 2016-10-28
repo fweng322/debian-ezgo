@@ -1,0 +1,24 @@
+[Desktop Entry]
+Comment[zh_TW]=室內設計_SweetHome3D
+Comment=SweetHome3D
+Exec=/opt/SweetHome3D/SweetHome3D
+Path=/opt/SweetHome3D
+GenericName[zh_TW]=室內設計用的3D 模型軟體，不僅專業設計人員可以使用，對一般人而言也是一個極易上手的室內設計工具
+GenericName=SweetHome3D
+Icon=/usr/share/icons/ezgo/sweethome3d.png
+Name[zh_TW]=室內設計_SweetHome3D
+Name=SweetHome3D
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=sweethome3d.desktop
+Categories=Graphics;
+Name[zh_CN]=室内设计_SweetHome3D
+GenericName[zh_CN]=室内设计用的3D模型软件，不仅专业设计人员可以使用，对一般人而言也是一个极易上手的室内设计工具
+Comment[zh_CN]=室内设计_SweetHome3D
+
