@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+# remove klavaro
+rm -f /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo
+if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo.ezgo-bak ]; then
+    mv /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo.ezgo-bak /usr/share/locale/zh_TW/LC_MESSAGES/klavaro.mo
+fi
+
