@@ -187,6 +187,7 @@ miro.desktop,網路電視_Miro,Miro 是一套內含 Mozilla 瀏覽器及VLC 播�
 iptux.desktop,區域分享_iptux,區域網際網路通訊工具,區域分享_iptux,本地分享_iptux,本地国际互联网通讯工具,本地分享_iptux,Network_iptux,Network;
 wireshark.desktop,分析程式_Wireshark,抓網路封包必備的工具軟體,分析程式_Wireshark,分析程序_Wireshark,抓网络封包必备的工具软件,分析程序_Wireshark,Network_Wireshark,Network;
 transmission.desktop,Bt下載_Transmission,可透過 BitTorrent 協定來下載和分享檔案 ,Bt下載_Transmission,Bt下载_Transmission,可通过BitTorrent协议来下载和分享文件,Bt下载_Transmission,Bittorrent_Transmission,Network;
+transmission-gtk.desktop,Bt下載_Transmission,可透過 BitTorrent 協定來下載和分享檔案 ,Bt下載_Transmission,Bt下载_Transmission,可通过BitTorrent协议来下载和分享文件,Bt下载_Transmission,Bittorrent_Transmission,Network;
 tsclient.desktop,終端伺服器客戶端,遠端連線程式,終端伺服器客戶端,终端服务器客户端,远程连接程序,终端服务器客户端,Terminal Server,Network;
 #,免費軟體_TeamViewer,一個方便好用的遠端電腦連線軟體,免費軟體_TeamViewer,免费软件_TeamViewer,一个方便好用的远程计算机连接软件,免费软件_TeamViewer,RemoteDesktop_TeamViewer,Network;
 #遊戲,,,,,,,,
@@ -399,6 +400,7 @@ usb-creator-gtk.desktop,ezgo開機碟製作_usb-creator-gtk,ezgo開機碟製作�
 usb-creator-kde.desktop,ezgo開機碟製作_usb-creator,ezgo開機碟製作程式,ezgo開機碟製作_usb-creator,ezgo开机U盘制作_usb-creator,ezgo开机U盘制作程序,ezgo开机U盘制作_usb-creator,BootUSBCreator_usb-creator,System;
 unetbootin.desktop,Linux開機碟製作_UNetbootin,Linux開機碟製作程式,Linux開機碟製作_UNetbootin,Linux开机U盘制作_UNetbootin,Linux开机U盘制作程序,Linux开机U盘制作_UNetbootin,BootUSBCreator_UNetbootin,System;
 partitionmanager.desktop,磁碟分割_KDE Partition Manager,可以輕鬆的管理您的磁碟、分割區與檔案系統,磁碟分割_KDE Partition Manager,磁盘分区管理_KDEPartitionManager,可以轻松管理您的磁盘、分区与文件系统,磁盘分区管理_KDEPartitionManager,DiskPartition_KDE Partition Manager,System;
+org.gnome.DiskUtility.desktop,磁碟分割_DiskUtility,可以輕鬆的管理您的磁碟、分割區與檔案系統,磁碟分割_DiskUtility,磁盘分区管理_DiskUtility,可以轻松管理您的磁盘、分区与文件系统,磁盘分区管理_DiskUtility,DiskPartition_DiskUtility,System;
 org.kde.PartitionManager.desktop,磁碟分割_KDE Partition Manager,可以輕鬆的管理您的磁碟、分割區與檔案系統,磁碟分割_KDE Partition Manager,磁盘分区管理_KDEPartitionManager,可以轻松管理您的磁盘、分区与文件系统,磁盘分区管理_KDEPartitionManager,DiskPartition_KDE Partition Manager,System;
 # gnome-disks.desktop: 20141107 added by Franklin,,,,,,,,
 gnome-disks.desktop,磁碟管理_GnomeDisks,Gnome 上的磁碟管理程式,磁碟管理_GnomeDisks,磁碟管理_GnomeDisks,Gnome 上的磁碟管理软件,磁碟管理_GnomeDisks,DiskPartition_GnomeDisks,System;
@@ -407,6 +409,7 @@ org.kde.konsole.desktop,終端機_Konsole,KDE 上的終端機模擬程式,終端
 # lxterminal.desktop: 20141107 added by Franklin,,,,,,,,
 lxterminal.desktop,終端機_Lxterminal,LXDE 上的終端機模擬程式,終端機_Lxterminal,终端机_Lxterminal,LXDE 上的终端机仿真程序,终端机_Lxterminal,Terminal_Lxterminal,System;
 dolphin.desktop,檔案總管_Dolphin,類似 Windows 下的檔案總管，可查看及管理資料夾中的檔案,檔案總管_Dolphin,文件总管_Dolphin,类似Windows下的资源管理器，可以查看及管理数据夹中的文件,文件总管_Dolphin,FileManager_Dolphin,Utility;Qt;KDE;System;FileTools;FileManager;
+nautilus.desktop,檔案總管_nautilus,類似 Windows 下的檔案總管，可查看及管理資料夾中的檔案,檔案總管_nautilus,文件总管_nautilus,类似Windows下的资源管理器，可以查看及管理数据夹中的文件,文件总管_nautilus,FileManager_nautilus,Utility;GTK;Gnome;System;FileTools;FileManager;
 org.kde.dolphin.desktop,檔案總管_Dolphin,類似 Windows 下的檔案總管，可查看及管理資料夾中的檔案,檔案總管_Dolphin,文件总管_Dolphin,类似Windows下的资源管理器，可以查看及管理数据夹中的文件,文件总管_Dolphin,FileManager_Dolphin,Utility;Qt;KDE;System;FileTools;FileManager;
 # pcmanfm: 20141106 added by Franklin,,,,,,,,
 pcmanfm.desktop,檔案總管_PCManFM,類似 Windows 下的檔案總管，可查看及管理資料夾中的檔案,檔案總管_PCManFM,文件总管_PCManFM,类似Windows下的资源管理器，可以查看及管理数据夹中的文件,文件总管_PCManFM,FileManager_PCManFM,FileManager;Utility;System;

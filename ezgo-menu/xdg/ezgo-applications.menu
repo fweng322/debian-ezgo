@@ -77,6 +77,7 @@
 			<Filename>pdfedit.desktop</Filename>
 			<Filename>pdfshuffler.desktop</Filename>
 			<Filename>kde4-okular.desktop</Filename>
+			<Filename>evince.desktop</Filename>
 			<Filename>xournal.desktop</Filename>
 			<Filename>scribus.desktop</Filename>
 			<Filename>gnucash.desktop</Filename>
@@ -143,6 +144,7 @@
 			<Filename>ebook-viewer.desktop</Filename>
 			<Filename>lrfviewer.desktop</Filename>
 			<Separator/>
+			<Filename>evince.desktop</Filename>
 			<Filename>kde4-okular.desktop</Filename>
 			<Filename>AdobeReader.desktop</Filename>
 			<Filename>pdfedit.desktop</Filename>
@@ -163,6 +165,8 @@
 		<Name>Graphics</Name>
 		<Directory>ezgo-graphics.directory</Directory>
 		<Include>
+			<Filename>simple-scan.desktop</Filename>
+			<Filename>mtpaint.desktop</Filename>
 			<Filename>pinta.desktop</Filename>
 			<Filename>shutter.desktop</Filename>
 			<Filename>display.im6.desktop</Filename>
@@ -214,6 +218,7 @@
 			</Include>
 		</Menu>
 		<Layout>
+			<Filename>mtpaint.desktop</Filename>
 			<Filename>kde4-kolourpaint.desktop</Filename>
 			<Filename>tuxpaint.desktop</Filename>
 			<Filename>gpaint.desktop</Filename>
@@ -258,6 +263,7 @@
 			<Separator/>
 			<Filename>kde4-skanlite.desktop</Filename>
 			<Filename>kde4-scangui.desktop</Filename>
+			<Filename>simple-scan.desktop</Filename>
 			<Separator/>
 			<Filename>org.kde.kruler.desktop</Filename>
 			<Filename>kde4-kruler.desktop</Filename>
@@ -408,6 +414,7 @@
 		<Name>Network</Name>
 		<Directory>ezgo-internet.directory</Directory>
 		<Include>
+			<Filename>sylpheed.desktop</Filename>
 			<Filename>nixnote.desktop</Filename>
 			<Filename>nixnote2.desktop</Filename>
 			<Filename>mysamba.desktop</Filename>
@@ -447,6 +454,8 @@
 			<Filename>dropbox.desktop</Filename>
 			<Filename>extras-nitroshare.desktop</Filename>
 			<Filename>BlueGriffon-program.desktop</Filename>
+			<Filename>transmission.desktop</Filename>
+			<Filename>transmission-gtk.desktop</Filename>
 				<Category>Network</Category>
 		</Include>
 		<Menu>
@@ -481,12 +490,14 @@
 			<Filename>thunderbird.desktop</Filename>
 			<Filename>kde4-KMail.desktop</Filename>
 			<Filename>kde4-akregator.desktop</Filename>
+			<Filename>sylpheed.desktop</Filename>
 			<Separator/>
 			<Filename>filezilla.desktop</Filename>
 			<Filename>gftp.desktop</Filename>
 			<Filename>kde4-ktorrent.desktop</Filename>
 			<Filename>kde4-kftpgrabber.desktop</Filename>
 			<Filename>kde4-kget.desktop</Filename>			
+			<Filename>transmission-gtk.desktop</Filename>
 			<Separator/>			
 			<Filename>skype.desktop</Filename>
 			<Filename>pidgin.desktop</Filename>
@@ -894,7 +905,7 @@
 		<Name>Accessibility</Name>
 		<Directory>ezgo-accessibility.directory</Directory>
 		<Include>
-			<Filename>ezgo-decompressor.desktop</Filename>
+			<Filename>ezgo-decompress.desktop</Filename>
 			<Filename>kde4-kate.desktop</Filename>
 			<Filename>org.kde.kate.desktop</Filename>
 			<Filename>gvim.desktop</Filename>
@@ -947,7 +958,7 @@
 			<Filename>kde4-kmousetool.desktop</Filename>
 			<Filename>kde4-synaptiks.desktop</Filename>
 			<Separator/>
-			<Filename>ezgo-decompressor.desktop</Filename>
+			<Filename>ezgo-decompress.desktop</Filename>
 			<Filename>kde4-ark.desktop</Filename>
 			<Filename>org.kde.ark.desktop</Filename>
 			<Filename>7zip.desktop</Filename>
@@ -1047,6 +1058,7 @@
 		<Name>System</Name>
 		<Directory>ezgo-system.directory</Directory>
 		<Include>
+			<Filename>lxterminal.desktop</Filename>
 			<Filename>org.kde.PartitionManager.desktop</Filename>
 			<Filename>kde4-partitionmanager.desktop</Filename>
 			<Filename>org.kde.kinfocenter.desktop</Filename>
@@ -1061,6 +1073,7 @@
 			<Filename>kde4-my-computer.desktop</Filename>
 			<Filename>unetbootin.desktop</Filename>
 			<Filename>usb-creator-kde.desktop</Filename>
+			<Filename>usb-creator-gtk.desktop</Filename>
 			<Filename>org.kde.dolphin.desktop</Filename>
 			<Filename>kde4-dolphin.desktop</Filename>
 			<Filename>org.kde.ksysguard.desktop</Filename>
@@ -1071,9 +1084,11 @@
 			<Filename>freefilesync.desktop</Filename>
 			<Filename>realtimesync.desktop</Filename>
 			<Filename>pcmanfm.desktop</Filename>
+			<Filename>nautilus.desktop</Filename>
 			<Filename>gnome-disks.desktop</Filename>
 			<Filename>grub-customizer.desktop</Filename>
 			<Filename>boot-repair.desktop</Filename>
+			<Filename>lubuntu-software-center.desktop</Filename>
 			<Filename>ubuntu-software-center.desktop</Filename>
 			<Filename>software-properties-drivers.desktop</Filename>
 			<Filename>software-properties-gnome.desktop</Filename>
@@ -1092,6 +1107,7 @@
 		</Menu>
 		<Layout>
 			<Filename>ubuntu-software-center.desktop</Filename>
+			<Filename>lubuntu-software-center.desktop</Filename>
 			<Filename>org.kde.discover.desktop</Filename>
 			<Filename>software-properties-gnome.desktop</Filename>
 			<Filename>software-properties-gtk.desktop</Filename>
@@ -1099,6 +1115,7 @@
 			<Filename>software-properties-drivers.desktop</Filename>
 			<Separator/>
 			<Filename>usb-creator-kde.desktop</Filename>
+			<Filename>usb-creator-gtk.desktop</Filename>
 			<Filename>unetbootin.desktop</Filename>
 			<Separator/>
 			<Filename>org.kde.PartitionManager.desktop</Filename>
@@ -1110,9 +1127,11 @@
 			<Separator/>
 			<Filename>org.kde.konsole.desktop</Filename>
 			<Filename>kde4-konsole.desktop</Filename>
+			<Filename>lxterminal.desktop</Filename>
 			<Filename>org.kde.dolphin.desktop</Filename>
 			<Filename>kde4-dolphin.desktop</Filename>
 			<Filename>pcmanfm.desktop</Filename>
+			<Filename>nautilus.desktop</Filename>
 			<Filename>freefilesync.desktop</Filename>
 			<Filename>realtimesync.desktop</Filename>
 			<Separator/>
@@ -1152,6 +1171,7 @@
 		<Directory>ezgo-settings.directory</Directory>
 		<Include>
 			<Filename>kde4-systemsettings.desktop</Filename>
+			<Filename>systemsettings.desktop</Filename>
 			<Filename>xinput_calibrator.desktop</Filename>
 			<Filename>hime-setup.desktop</Filename>
 			<Filename>ibus-setup.desktop</Filename>
@@ -1177,6 +1197,7 @@
 		<Layout>
 			<Separator/>
 			<Filename>kde4-systemsettings.desktop</Filename>
+			<Filename>systemsettings.desktop</Filename>
 			<Separator/>
 			<Filename>hime-setup.desktop</Filename>
 			<Filename>fcitx-configtool.desktop</Filename>
