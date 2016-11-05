@@ -294,6 +294,30 @@ Description: fix kdenlive translations for ezgo
  This package contains kdenlive translations fix for ezgo.
 Depends: kdenlive
 
+Package: ezgo-misc-klavaro
+Architecture: all
+Description: fix klavaro translations for ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains klavaro translations fix for ezgo.
+Depends: klavaro
+
+Package: ezgo-misc-ksnapshot
+Architecture: all
+Description: fix ksnapshot translations for ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains ksnapshot translations fix for ezgo.
+Depends: ksnapshot
+
 Package: ezgo-misc-jkiwi
 Architecture: all
 Description: fix jkiwi translations for ezgo
