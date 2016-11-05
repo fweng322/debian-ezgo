@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+# remove ksnapshot
+rm -f /usr/share/locale/zh_TW/LC_MESSAGES/ksnapshot.mo
+if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/ksnapshot.mo.ezgo-bak ]; then
+    mv /usr/share/locale/zh_TW/LC_MESSAGES/ksnapshot.mo.ezgo-bak /usr/share/locale/zh_TW/LC_MESSAGES/ksnapshot.mo
+fi
+
