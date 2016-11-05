@@ -2,7 +2,6 @@
 Comment[zh_TW]=ezgo 解壓縮程式
 Comment=ezgo decompress
 Exec=/usr/share/ezgo/ezgo-decompress/decompress.sh %U
-Path=/usr/share/ezgo/ezgo-misc
 GenericName[zh_TW]=解壓縮工具_ezgo-decompress
 GenericName=Archive_ezgo-decompress
 Icon=ark
