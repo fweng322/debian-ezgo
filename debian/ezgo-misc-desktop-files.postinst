@@ -7,7 +7,7 @@ ln -sf /usr/share/ezgo/desktop-files/update_ezgo.desktop /usr/share/applications
 ln -sf /usr/share/ezgo/desktop-files/about_ezgo.desktop /usr/share/applications/about_ezgo.desktop
 ln -sf /usr/share/ezgo/desktop-files/BlueGriffon-program.desktop /usr/share/applications/BlueGriffon-program.desktop
 ln -sf /usr/share/ezgo/desktop-files/install_scratch2.desktop /usr/share/applications/install_scratch2.desktop
-ln -sf /usr/share/ezgo/desktop-files/sweethome3d.desktop /usr/share/applications/sweethome3d.desktop
+#ln -sf /usr/share/ezgo/desktop-files/sweethome3d.desktop /usr/share/applications/sweethome3d.desktop
 
 
 #DEBHELPER#
