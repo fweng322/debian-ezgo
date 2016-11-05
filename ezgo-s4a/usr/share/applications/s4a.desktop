@@ -3,11 +3,10 @@
 Name=S4A
 Name[zh_TW]=開放硬體_S4A
 Comment=Programming system and content development tool based on Scratch (http://scratch.mit.edu)
-Commnet[zh_TW]=程式設計和系統工具基於Scratch(http://scratch.mit.edu)
+Comment[zh_TW]=程式設計和系統工具基於Scratch(http://scratch.mit.edu)
 Exec=s4a
 Terminal=false
 Type=Application
 Icon=s4a
 Categories=Development;
 MimeType=application/x-s4a-project
-Name[es_ES]=S4A

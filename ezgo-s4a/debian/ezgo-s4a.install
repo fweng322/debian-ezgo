@@ -1,4 +1,5 @@
 usr/bin/s4a usr/bin
+usr/share/applications/s4a.desktop usr/share/applications
 usr/lib/s4a/S4A.image usr/lib/s4a
 usr/lib/s4a/License usr/lib/s4a
 usr/lib/s4a/Help/en/images/* usr/lib/s4a/Help/en/images
