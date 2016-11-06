@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[zh_TW]=萌典（離線版）
+Comment=moedict (offline desktop version)
+Exec=/opt/moedict/Moedict-Desktop
+Path=/opt/moedict
+GenericName[zh_TW]=萌典_moedict
+GenericName=Dictionary_moedict
+Icon=/opt/moedict/chrome/icons/default/default128.png
+Name[zh_TW]=萌典_moedict
+Name=Dictionary_moedict
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=moedict.desktop
+Categories=Education;
