@@ -433,6 +433,7 @@
 			<Filename>thunderbird.desktop</Filename>
 			<Filename>kde4-KMail.desktop</Filename>
 			<Filename>kde4-akregator.desktop</Filename>
+			<Filename>quiterss.desktop</Filename>
 			<Filename>filezilla.desktop</Filename>
 			<Filename>gftp.desktop</Filename>
 			<Filename>kde4-kftpgrabber.desktop</Filename>
@@ -491,6 +492,7 @@
 			<Filename>kde4-KMail.desktop</Filename>
 			<Filename>kde4-akregator.desktop</Filename>
 			<Filename>sylpheed.desktop</Filename>
+			<Filename>quiterss.desktop</Filename>
 			<Separator/>
 			<Filename>filezilla.desktop</Filename>
 			<Filename>gftp.desktop</Filename>
@@ -677,6 +679,7 @@
 		<Name>Education</Name>
 		<Directory>ezgo-education.directory</Directory>
 		<Include>
+			<Filename>moedict.desktop</Filename>
 			<Filename>drgeo.desktop</Filename>
 			<Filename>geogebra.desktop</Filename>
 			<Filename>geometria.desktop</Filename>
@@ -744,6 +747,7 @@
 			<Filename>kde4-ktouch.desktop</Filename>
 			<Filename>klavaro.desktop</Filename>
 			<Separator/>
+			<Filename>moedict.desktop</Filename>
 			<Filename>anki.desktop</Filename>	
 			<Separator/>
 			<Filename>org.kde.parley.desktop</Filename>

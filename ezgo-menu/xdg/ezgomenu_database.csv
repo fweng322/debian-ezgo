@@ -167,6 +167,7 @@ BlueGriffon-program.desktop,網頁設計_BlueGriffon,讓您可以快速編輯簡
 kompozer.desktop,網頁設計_KompoZer,讓您可以快速編輯簡單的HTML或動態HTML網頁 ,網頁設計_KompoZer,网页设计_KompoZer,让您可以快速编辑简单的HTML或动态HTML网页,网页设计_KompoZer,WebpageDesign_KompoZer,Network;
 dropbox.desktop,雲端服務_Dropbox,可以讓你在不同電腦及行動載具間同步檔案進度的雲端軟體,雲端服務_Dropbox,云端服务_Dropbox,可以让你在不同计算机及行动载具间同步文件进度的云端软件,云端服务_Dropbox,CloudStorage_Dropbox,Network;
 akregator.desktop,RSS閱讀器_Akregator,方便實用的 RSS 閱讀器,RSS閱讀器_Akregator,RSS阅读器_Akregator,方便实用的RSS阅读器,RSS阅读器_Akregator,RSSReader_Akregator,Network;
+quiterss.desktop,RSS閱讀器_Quiterss,方便實用的 RSS 閱讀器,RSS閱讀器_Quiterss,RSS阅读器_Quiterss,方便实用的RSS阅读器,RSS阅读器_Quiterss,RSSReader_Quiterss,Network;
 org.kde.akregator.desktop,RSS閱讀器_Akregator,方便實用的 RSS 閱讀器,RSS閱讀器_Akregator,RSS阅读器_Akregator,方便实用的RSS阅读器,RSS阅读器_Akregator,RSSReader_Akregator,Network;
 ktorrent.desktop,BT下載_Ktorrent,可透過 BitTorrent 協定來下載和分享檔案 ,BT下載_Ktorrent,BT下载_Ktorrent,可通过BitTorrent协议来下载和分享文件,BT下载_Ktorrent,BitTorrent_Ktorrent,Network;
 filezilla.desktop,檔案傳輸_FileZilla,Linux 下常用的 FTP 檔案傳輸工具 ,檔案傳輸_FileZilla,文件传输_FileZilla,Linux下常用的FTP文件传输工具,文件传输_FileZilla,FileTransfer_FileZilla,Network;
