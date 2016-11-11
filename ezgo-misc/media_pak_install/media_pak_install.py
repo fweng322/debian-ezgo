@@ -25,9 +25,9 @@ gettext.textdomain('media_pak_install')
 gettext.bindtextdomain('media_pak_install', MY_PATH+'locales')
 _ = gettext.gettext
 
-third_party_software = [ 'ubuntu-restricted-extras', 'skype', 'google-chrome-stable', 'playonlinux', 'supertuxkart' ]
-third_party_sw_desc = [ _('Necessary tools for multimedia, like flash and codecs.\nWith this you can watch youtube video or many other video format files.'), _('A famous instant messages and voice communication software.'), _('A famous browser developed by Google.'), _('A good tool to manage wine versions'), _('An very popular car racing game') ]
-third_party_icon = [ MY_PATH+'ubuntu.png', MY_PATH+'skype.png', MY_PATH+'chrome.png', MY_PATH+'playonlinux.png', MY_PATH+'supertuxkart.png' ]
+third_party_software = [ 'ubuntu-restricted-extras', 'skype', 'google-chrome-stable', 'playonlinux', 'ezgo-games' ]
+third_party_sw_desc = [ _('Necessary tools for multimedia, like flash and codecs.\nWith this you can watch youtube video or many other video format files.'), _('A famous instant messages and voice communication software.'), _('A famous browser developed by Google.'), _('A good tool to manage wine versions'), _('Good games recommended by ezgo') ]
+third_party_icon = [ MY_PATH+'ubuntu.png', MY_PATH+'skype.png', MY_PATH+'chrome.png', MY_PATH+'playonlinux.png', MY_PATH+'ezgo-games.png' ]
 
 current_check_button = 0
 total_check_button = len(third_party_software)
