@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[zh_TW]=安裝 Scratch2
 Comment=Install Scratch2
-Exec=/usr/share/ezgo/ezgo-scratch2/install_scratch2.sh
+Exec=gksu /usr/share/ezgo/ezgo-scratch2/install_scratch2.sh
 GenericName[zh_TW]=安裝 Scratch2
 GenericName=Install Scratch2
 Icon=/usr/share/ezgo/icons/ezinstall.png
