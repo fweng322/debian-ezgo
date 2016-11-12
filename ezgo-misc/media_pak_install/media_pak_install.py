@@ -276,10 +276,8 @@ class FlashInstall:
 		box1 = gtk.VBox(False, 0)
 
 		#[top]
-		text_show = _("Welcome to")+EZGO_VERSION+"\n"
-		text_show += _("Since ")+EZGO_VERSION+_(" contains only software that we can freely distribute,\nsome freeware can't be preinstalled due to license issue.\n")
-		text_show += _("Besides, the capability of an iso file is quite limited but there are so many good software we want to introduce.\n")
-                text_show += _("Therefore, we strongly recommend you to install the following software so that you can have better experiences in ")+EZGO_VERSION
+		text_show = _("Welcome to ")+EZGO_VERSION+"!\n"
+		text_show += _("Since ")+EZGO_VERSION+_(" contains only software that we can freely distribute, some freeware can't be preinstalled due to license issue.  Besides, the capability of an iso file is quite limited but there are so many good software we want to introduce.  Therefore, we strongly recommend you to install the following software so that you can have better experiences in ")+EZGO_VERSION
 
 		label = gtk.Label('<span size="'+str(WELCOME_SIZE)+'">' +text_show  +'</span>')
 		

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-10-16 16:26+UTC\n"
+"POT-Creation-Date: 2016-11-12 12:59+CST\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgid "A good tool to manage wine versions"
 msgstr ""
 
 #: media_pak_install.py:29
-msgid "An very popular car racing game"
+msgid "Good games recommended by ezgo"
 msgstr ""
 
 #: media_pak_install.py:29
@@ -74,37 +74,26 @@ msgid "Please input your password."
 msgstr ""
 
 #: media_pak_install.py:279
-msgid "Welcome to"
+msgid "Welcome to "
 msgstr ""
 
 #: media_pak_install.py:280
-msgid ""
-" contains only software that we can freely distribute,\n"
-"some freeware can't be preinstalled due to license issue.\n"
+msgid " contains only software that we can freely distribute, some freeware can't be preinstalled due to license issue.  Besides, the capability of an iso file is quite limited but there are so many good software we want to introduce.  Therefore, we strongly recommend you to install the following software so that you can have better experiences in "
 msgstr ""
 
 #: media_pak_install.py:280
 msgid "Since "
 msgstr ""
 
-#: media_pak_install.py:281
-msgid ""
-"Besides, the capability of an iso file is quite limited but there are so many good software we want to introduce.\n"
-msgstr ""
-
-#: media_pak_install.py:282
-msgid "Therefore, we strongly recommend you to install the following software so that you can have better experiences in "
-msgstr ""
-
-#: media_pak_install.py:312
+#: media_pak_install.py:310
 msgid "Don't show it again."
 msgstr ""
 
-#: media_pak_install.py:343
+#: media_pak_install.py:341
 msgid "Notice"
 msgstr ""
 
-#: media_pak_install.py:380
+#: media_pak_install.py:378
 msgid "If you want to run later, choose it from the \"ezgo tools\" menu."
 msgstr ""
 
