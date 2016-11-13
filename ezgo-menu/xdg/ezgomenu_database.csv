@@ -192,7 +192,6 @@ transmission-gtk.desktop,Bt下載_Transmission,可透過 BitTorrent 協定來下
 tsclient.desktop,終端伺服器客戶端,遠端連線程式,終端伺服器客戶端,终端服务器客户端,远程连接程序,终端服务器客户端,Terminal Server,Network;
 #,免費軟體_TeamViewer,一個方便好用的遠端電腦連線軟體,免費軟體_TeamViewer,免费软件_TeamViewer,一个方便好用的远程计算机连接软件,免费软件_TeamViewer,RemoteDesktop_TeamViewer,Network;
 #遊戲,,,,,,,,
-PlayOnLinux.desktop,Wine版本管理_PlayOnLinux,管理系統中 Wine 版本的工具,Wine版本管理_PlayOnLinux,Wine版本管理_PlayOnLinux,管理系統中 Wine 版本的工具,Wine版本管理_PlayOnLinux,PlayOnLinux,Game;
 blinken.desktop,記憶遊戲_Blinken,訓練記憶力的小遊戲,記憶遊戲_Blinken,记忆游戏_Blinken,训练记忆力的小游戏,记忆游戏,MemoryGame_Blinken,Game;
 org.kde.blinken.desktop,記憶遊戲_Blinken,訓練記憶力的小遊戲,記憶遊戲_Blinken,记忆游戏_Blinken,训练记忆力的小游戏,记忆游戏,MemoryGame_Blinken,Game;
 picmi.desktop,邏輯遊戲_Picmi,訓練邏輯能力的小遊戲,邏輯遊戲_Picmi,逻辑游戏_Picmi,训练逻辑能力的小游戏,逻辑游戏_Picmi,LogicGame_Picmi,Game;
@@ -212,6 +211,7 @@ klickety.desktop,棋盤遊戲_Klickety,棋盤遊戲,棋盤遊戲_Klickety,棋盘
 kdiamond.desktop,寶石方塊_KDiamond ,把三個相同的寶石連成一線即可得分,寶石方塊_KDiamond ,宝石方块_KDiamond,把三个相同的宝石连成一线即可得分,宝石方块_KDiamond,Game_KDiamond ,Game;
 ksame.desktop,棋盤遊戲_SameGame,棋盤遊戲,棋盤遊戲_SameGame,棋盘游戏_SameGame,棋盘游戏,棋盘游戏_SameGame,BoardGame_SameGame,Game;
 kblocks.desktop,俄羅斯方塊_KBlocks,將方塊消除即可得分，是訓練思考及反應力的遊戲,俄羅斯方塊_KBlocks,俄罗斯方块_KBlocks,将方块消除即可得分，是训练思考及反应力的游戏,俄罗斯方块_KBlocks,Tetris_KBlocks,Game;
+org.kde.kblocks.desktop,俄羅斯方塊_KBlocks,將方塊消除即可得分，是訓練思考及反應力的遊戲,俄羅斯方塊_KBlocks,俄罗斯方块_KBlocks,将方块消除即可得分，是训练思考及反应力的游戏,俄罗斯方块_KBlocks,Tetris_KBlocks,Game;
 palapeli.desktop,拼圖遊戲_Palapeli,拼圖遊戲,拼圖遊戲_Palapeli,拼图游戏_Palapeli,拼图游戏,拼图游戏_Palapeli,Puzzle_Palapeli,Game;
 kubrick.desktop,魔術方塊_Kubrick,立體魔術方塊遊戲,魔術方塊_Kubrick,魔术方块_Kubrick,立体魔术方块游戏,魔术方块_Kubrick,RubikCube_Kubrick,Game;
 ksquares.desktop,連線方塊_KSquares,將線連起來組成方塊,連線方塊_KSquares,连接方块_KSquares,将线连起来组成方块,连接方块_KSquares,Game_KSquares,Game;
@@ -394,6 +394,7 @@ recover.desktop,使用者還原設定,還原使用者在 ezgo 下的環境設定
 skel.desktop,還原 ezgo 初始設定,將您的 ezgo 還原至安裝時的初始設定,還原 ezgo 初始設定,还原 ezgo 初始设置,将您的ezgo还原至安装时的初始设置,还原 ezgo 初始设置,Factory default recovery,myezgo;
 #系統,,,,,,,,
 freefilesync.desktop,檔案備份_FreeFileSync,很好用的檔案與資料夾同步備份軟體,檔案備份_FreeFileSync,文件备份_FreeFileSync,很好用的文件与数据夹同步备份软件,文件备份_FreeFileSync,FileSync_FreeFileSync,System;
+PlayOnLinux.desktop,Wine版本管理_PlayOnLinux,管理系統中 Wine 版本的工具,Wine版本管理_PlayOnLinux,Wine版本管理_PlayOnLinux,管理系統中 Wine 版本的工具,Wine版本管理_PlayOnLinux,PlayOnLinux,System;
 realtimesync.desktop,即時同步_RealTimeSync,很好用的檔案與資料夾同步備份軟體,即時同步_RealTimeSync,即时同步_RealTimeSync,很好用的文件与数据夹同步备份软件,即时同步_RealTimeSync,FileSync_RealTimeSync,System;
 muon-installer.desktop,Muon 軟體中心,用於新增移除軟體的軟體中心,Muon 軟體中心,Muon 软件中心,用于新增或删除软件的软件中心,Muon软件中心,Software_Muon 軟體中心,System;
 muon.desktop,套件管理員_Muon,用於新增移除軟體及程式套件的軟體中心,套件管理員_Muon,组件管理员_Muon,用于新增或删除软件及程序组件的软件中心,组件管理员_Muon,Software_套件管理員_Muon,System;

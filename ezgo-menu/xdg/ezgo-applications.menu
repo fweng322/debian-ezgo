@@ -535,6 +535,7 @@
 			<Filename>kde4-KGoldrunner.desktop</Filename>
 			<Filename>kde4-kdiamond.desktop</Filename>
 			<Filename>kde4-kblocks.desktop</Filename>
+			<Filename>org.kde.kblocks.desktop</Filename>
 			<Filename>kde4-palapeli.desktop</Filename>
 			<Filename>kde4-kubrick.desktop</Filename>
 			<Filename>org.kde.knetwalk.desktop</Filename>
