@@ -1063,6 +1063,7 @@
 		<Name>System</Name>
 		<Directory>ezgo-system.directory</Directory>
 		<Include>
+			<Filename>PlayOnLinux.desktop</Filename>
 			<Filename>lxterminal.desktop</Filename>
 			<Filename>org.kde.PartitionManager.desktop</Filename>
 			<Filename>kde4-partitionmanager.desktop</Filename>
@@ -1148,6 +1149,7 @@
 			<Filename>kde4-ksysguard.desktop</Filename>
 			<Filename>jockey-kde.desktop</Filename>			
 			<Filename>kde4-my-computer.desktop</Filename>
+			<Filename>PlayOnLinux.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-muon-installer.desktop</Filename>
 			<Filename>kde4-muon.desktop</Filename>
