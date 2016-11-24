@@ -1,0 +1,6 @@
+ezgo-misc/about_ezgo/*.* usr/share/ezgo/about_ezgo/
+ezgo-misc/about_ezgo/css/* usr/share/ezgo/about_ezgo/css/
+ezgo-misc/about_ezgo/image/* usr/share/ezgo/about_ezgo/image/
+ezgo-misc/about_ezgo/image2/* usr/share/ezgo/about_ezgo/image2/
+ezgo-misc/about_ezgo/js/* usr/share/ezgo/about_ezgo/js/
+
