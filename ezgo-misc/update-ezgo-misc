@@ -4,92 +4,6 @@ set -e
 case "$1" in
   configure)
     # link desktop files for ezgo
-    ln -sf /usr/share/ezgo/desktop-files/7zip.desktop /usr/share/applications/7zip.desktop
-    ln -sf /usr/share/ezgo/desktop-files/impressive-editor.desktop /usr/share/applications/impressive-editor.desktop
-    ln -sf /usr/share/ezgo/desktop-files/media_install.desktop /usr/share/applications/media_install.desktop
-    ln -sf /usr/share/ezgo/desktop-files/media_install_force.desktop /usr/share/applications/media_install_force.desktop
-    ln -sf /usr/share/ezgo/desktop-files/my_computer.desktop /usr/share/applications/my_computer.desktop
-    ln -sf /usr/share/ezgo/desktop-files/my_ezgo.desktop /usr/share/applications/my_ezgo.desktop
-    ln -sf /usr/share/ezgo/desktop-files/about_ezgo.desktop /usr/share/applications/about_ezgo.desktop
-    cd /usr/share/ezgo/ezgo-misc
-    # 7-zip
-    if [ -f 7zip.tar.gz ]; then
-		tar xf 7zip.tar.gz
-		rm -rf /usr/local/7-Zip
-		mv /usr/share/ezgo/ezgo-misc/7-Zip /usr/local/
-		rm -f 7zip.tar.gz
-	fi
-    # fix tuxpaint
-    if [ -e /etc/tuxpaint/tuxpaint.conf ]; then
-	    sed -i '$ a\sysfonts=yes' /etc/tuxpaint/tuxpaint.conf
-    fi
-    # libreoffice configurations
-    if [ -f libreoffice.tar.gz ]; then
-	    tar xf libreoffice.tar.gz
-		rm -rf /etc/skel/.config/libreoffice
-		mv /usr/share/ezgo/ezgo-misc/libreoffice /etc/skel/.config
-		chown -R root.root /etc/skel/.config/libreoffice
-		rm -f libreoffice.tar.gz
-	fi
-    # fix audacity.mo path from zh to zh_CN
-	if [ -e /usr/share/locale/zh/LC_MESSAGES/audacity.mo ]; then
-		mv /usr/share/locale/zh/LC_MESSAGES/audacity.mo /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo
-	fi
-    # link winff translations "zh" to "zh_TW"
-    if [ ! -e /usr/share/winff/languages/winff.zh.po.ezgo-bak ]; then
-		if [ -e /usr/share/winff/languages/winff.zh.po ]; then
-			mv /usr/share/winff/languages/winff.zh.po /usr/share/winff/languages/winff.zh.po.ezgo-bak
-		fi
-	else
-		rm -f /usr/share/winff/languages/winff.zh.po
-	fi
-	if [ -e /usr/share/winff/languages/winff.zh_TW.po ]; then
-		ln -s /usr/share/winff/languages/winff.zh_TW.po /usr/share/winff/languages/winff.zh.po
-	fi
-	# link ffDiaporama translations "zh" to "zh_TW"
-	if [ -e /usr/share/ffDiaporama ]; then  # ffDiaporama installed
-		if [ ! -e  /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm.ezgo-bak ]; then
-			if [ -e /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm ]; then
-				mv -f /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm.ezgo-bak
-			fi
-		else
-			rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm
-		fi
-		if [ ! -e  /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts.ezgo-bak ]; then
-			if [ -e /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts ]; then
-				mv -f /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts.ezgo-bak
-			fi
-		else
-				rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts
-		fi
-		cp -f /usr/share/ezgo/ezgo-misc/translations/ffDiaporama* /usr/share/ffDiaporama/locale
-		if [ ! -e /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm.ezgo-bak ]; then
-			if [ -e /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm ]; then
-				mv -f /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm.ezgo-bak
-			fi
-		else
-			rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm
-		fi
-		if [ ! -e /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts.ezgo-bak ]; then
-			if [ -e /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts ]; then
-				mv -f /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts.ezgo-bak
-			fi
-		else
-			rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts
-		fi
-		ln -s /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm
-		ln -s /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts
-	fi
-	# jkiwi translations
-	if [ -e /usr/share/jkiwi ]; then 	# jkiwi installed
-		if [ ! -e /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak ]; then
-			if [ -e /usr/share/jkiwi/locale/locale_zh_TW.properties ]; then
-				cp -f /usr/share/jkiwi/locale/locale_zh_TW.properties /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak
-			fi
-		fi
-		rm -f /usr/share/jkiwi/locale/locale_zh_TW.properties
-		cp -f /usr/share/ezgo/ezgo-misc/translations/jkiwi-locale_zh_TW.properties /usr/share/jkiwi/locale/locale_zh_TW.properties
-	fi
 	# put furiusisomount.mo
 	if [ ! -e  /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo.ezgo-bak ]; then
 		if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo ]; then
@@ -156,43 +70,6 @@ case "$1" in
 	fi
     ;;
   remove)
-	rm -f /usr/share/applications/7zip.desktop
-	rm -f /usr/share/applications/impressive-editor.desktop
-	rm -f /usr/share/applications/media_install.desktop
-	rm -f /usr/share/applications/media_install_force.desktop
-	rm -f /usr/share/applications/my_computer.desktop
-	rm -f /usr/share/applications/my_ezgo.desktop
-	rm -f /usr/share/applications/about_ezgo.desktop
-    rm -rf /usr/local/7-Zip
-    if [ -e /etc/tuxpaint/tuxpaint.conf ]; then
-    	sed -i 's/sysfonts=yes//g' /etc/tuxpaint/tuxpaint.conf
-    fi
-    rm -rf /etc/skel/.config/libreoffice
-	# remove audacity
-    if [ -e /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo ]; then
-	    mv /usr/share/locale/zh_CN/LC_MESSAGES/audacity.mo /usr/share/locale/zh/LC_MESSAGES/audacity.mo
-    fi
-	# remove winff
-	rm -f /usr/share/winff/languages/winff.zh.po
-    if [ -e /usr/share/winff/languages/winff.zh.po.ezgo-bak ]; then
-		mv /usr/share/winff/languages/winff.zh.po.ezgo-bak  /usr/share/winff/languages/winff.zh.po
-    fi
-	# remove ffDiaporama
-	rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm
-	rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts
-	rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.qm
-	rm -f /usr/share/ffDiaporama/locale/ffDiaporama_zh_tw.ts
-    if [ -e /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm.ezgo-bak ]; then
-		mv /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm.ezgo-bak /usr/share/ffDiaporama/locale/ffDiaporama_zh.qm
-    fi
-    if [ -e /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts.ezgo-bak ]; then
-		mv /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts.ezgo-bak /usr/share/ffDiaporama/locale/ffDiaporama_zh.ts
-    fi
-	# remove jkiwi
-	rm -f /usr/share/jkiwi/locale/locale_zh_TW.properties
-	if [ -e /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak ]; then
-		mv /usr/share/jkiwi/locale/locale_zh_TW.properties.ezgo-bak /usr/share/jkiwi/locale/locale_zh_TW.properties
-    fi
 	# remove furiusisomount
 	rm -f /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo
 	if [ -e /usr/share/locale/zh_TW/LC_MESSAGES/furiusisomount.mo.ezgo-bak ]; then
