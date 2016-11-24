@@ -1,0 +1,82 @@
+/* ::::: http://ezgo.westart.tw/css/base.css ::::: */
+
+body { margin: 0px; padding: 0px 10px 10px; font-family: arial,verdana,helvetica,sans-serif; }
+#header { text-align: left; height: 50px; padding-left: 20px; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+li { list-style-position: inside; }
+@media print {
+  .feedback { display: block; }
+  .feedbackbutton { display: none; }
+  #navcontainer { display: none; }
+  #main { margin-left: 10px; }
+  div.node { page-break-after: always; }
+}
+/* ::::: http://ezgo.westart.tw/css/content.css ::::: */
+
+body { margin: 10px 20px; padding: 0px; color: rgb(77, 77, 77); background: none repeat scroll 0% 0% rgb(224, 223, 216); }
+a { color: rgb(255, 102, 0); }
+a:hover { color: rgb(179, 71, 0); }
+/* ::::: http://ezgo.westart.tw/css/nav_tour.css ::::: */
+
+body { margin: 0px; }
+#header { text-align: left; color: rgb(77, 77, 77); background-color: rgb(224, 223, 216); height: 100px; padding-left: 20px; font-size: 2.2em; font-weight: bold; }
+#navcontainer { z-index: 1000; width: 200px; height: 100%; float: left; margin-top: 0px; padding-top: 10px; padding-left: 20px; text-align: left; position: absolute; background-color: transparent; }
+.ActiveWithoutChild { color: rgb(255, 255, 255); width: 247px; height: 30px; margin-left: 0px; padding: 5px 0pt 0px 0px; background-image: url('arrow3.png'); font-family: Arial,Helvetica,sans-serif; }
+#navcontainer ul { margin-left: 10px; padding-left: 0pt; margin-top: 0pt; list-style-type: none; font-family: Arial,Helvetica,sans-serif; }
+#navcontainer a { display: block; padding: 4px 0pt 4px 18px; background-color: rgb(255, 255, 255); border-bottom: 1px solid rgb(255, 255, 255); width: 210px; border-top: 1px solid rgb(255, 255, 255); }
+#navcontainer a:link, #navlist a:visited { color: rgb(77, 77, 77); background-color: rgb(238, 238, 238); text-decoration: none; }
+#navcontainer a:hover { color: rgb(77, 77, 77); background-color: rgb(255, 255, 255); }
+#container { border-top: 0px solid rgb(204, 204, 204); }
+#main { margin-left: 300px; margin-top: 0px; width: 68%; }
+/* ::::: http://ezgo.westart.tw/css/defaults.css?j ::::: */
+
+hr { height: 1px; border: 1px solid gray; }
+img { border: 0pt none; }
+table { border-collapse: collapse; }
+.clear-block:after { content: "."; display: block; height: 0pt; clear: both; visibility: hidden; }
+.clear-block { display: inline-block; }
+.clear-block { display: block; }
+/* ::::: http://ezgo.westart.tw/css/style.css?j ::::: */
+
+body { margin: 0pt; padding: 0pt; background: none repeat scroll 0% 0% rgb(225, 240, 250); font: 14px/170% "Bitstream Vera Sans",Verdana,sans-serif; color: rgb(73, 73, 73); }
+h1, h2, h3, h4, h5, h6 { margin: 0pt; padding: 0pt; font-weight: normal; font-family: "Bitstream Vera Sans",Helvetica,Arial,sans-serif; }
+h1 { font-size: 170%; }
+ul, quote, code, fieldset { margin: 0.5em 0pt; }
+p { margin: 0.6em 0pt 1.2em; padding: 0pt; }
+a:link, a:visited { color: rgb(2, 122, 198); text-decoration: none; }
+a:hover { color: rgb(0, 98, 160); text-decoration: none; }
+a:active, a.active { color: rgb(88, 149, 190); }
+hr { margin: 0pt; padding: 0pt; border: medium none; height: 1px; background: none repeat scroll 0% 0% rgb(204, 204, 204); }
+ul { margin: 0.5em 0pt 1em; padding: 0pt; }
+ol li, ul li { margin: 0.4em 0pt 0.4em 0.5em; }
+ol li, ul li, ul.menu li, .item-list ul li, li.leaf { margin: 0.15em 0pt 0.15em 0.5em; }
+ul li { padding: 0pt 0pt 0.2em 1.5em; list-style-type: none; list-style-image: none; background: url('menu-leaf.gif') no-repeat scroll 1px 0.35em transparent; }
+img, a img { border: medium none; }
+table { margin: 1em 0pt; width: 100%; }
+td, th { padding: 0.3em 0.5em; }
+#wrapper #container { margin: 0pt auto; padding: 0pt 0pt 20px; max-width: 960px; background: url('wide-trans.png') repeat scroll 0pt 0pt transparent; }
+#wrapper #header { margin: 0pt auto; padding: 0pt; height: 10px; width: 960px; background: url('wide-trans.png') no-repeat scroll 0pt 0pt transparent; }
+#wrapper #overall-footer { margin: 0pt auto; padding: 5px 40px 0pt; height: 450px; width: 900px; vertical-align: bottom; background: url('city.png') repeat scroll 0pt 0pt transparent; }
+#wrapper #overall-footer-top-border { margin: -5px -12px 0pt -32px; border-top: 0px solid rgb(204, 204, 204); }
+#wrapper #header-content { height: 80px; margin-left: 30px; }
+#wrapper #logo-floater { float: left; }
+#wrapper #top-menu { float: right; margin-right: 20px; border-bottom: 1px solid rgb(214, 214, 214); }
+#wrapper #top-menu li { height: 64px; max-height: 20px; float: left; background-image: url('arrow.png'); padding: 0pt 3px 5px 13px; margin-right: 20px; }
+body.sidebar-left, body.sidebar-right { min-width: 780px; }
+#wrapper #container #center { float: left; }
+#wrapper #container .column-wide { width: 950px; }
+#wrapper #container #center #squeeze { position: relative; }
+#wrapper #container .breadcrumb { background: url('bg-bar.png') no-repeat scroll 0pt 0pt transparent; height: 20px; width: 924px; position: absolute; top: 0pt; left: 8px; z-index: 3; padding: 5px 10px; }
+#wrapper #container .breadcrumb { font-size: 0.92em; }
+#wrapper #container .breadcrumb, #wrapper #container .breadcrumb a { color: rgb(73, 73, 73); }
+ul.primary-links { margin: 0pt; padding: 0pt; float: right; position: relative; z-index: 4; }
+ul.primary-links li { margin: 0pt; padding: 0pt; float: left; background-image: none; }
+ul.primary-links li a, ul.primary-links li a:link, ul.primary-links li a:visited { padding: 0.75em 0pt 0pt; }
+ul.primary-links li a:hover, ul.primary-links li a.active { color: rgb(0, 98, 160); }
+ul.links li, ul.inline li { margin-left: 0pt; margin-right: 0pt; padding-left: 0pt; padding-right: 1em; background-image: none; }
+:first-child + html fieldset { padding: 0pt 1em 1em; background-position: 0pt 0.75em; background-color: transparent; }
+:first-child + html fieldset > .description, :first-child + html fieldset .fieldset-wrapper .description { padding-top: 1em; }
+:first-child + html fieldset legend, :first-child + html fieldset.collapsed legend { display: inline; }
+/* ::::: http://ezgo.westart.tw/css/prettyPhoto.css ::::: */
+
