@@ -79,7 +79,6 @@
 			<Filename>kde4-okular.desktop</Filename>
 			<Filename>evince.desktop</Filename>
 			<Filename>xournal.desktop</Filename>
-			<Filename>scribus.desktop</Filename>
 			<Filename>gnucash.desktop</Filename>
 			<Filename>kde4-kaddressbook.desktop</Filename>
 			<Filename>impressive.desktop</Filename>
@@ -126,8 +125,6 @@
 			<Filename>oxoffice6-base.desktop</Filename>
 			<Filename>oxoffice6-math.desktop</Filename>
 			<Separator/>
-			<Filename>scribus.desktop</Filename>
-			<Separator/>			
 			<Filename>xmind.desktop</Filename>
 			<Filename>freeplane.desktop</Filename>
 			<Filename>freemind.desktop</Filename>
@@ -207,6 +204,7 @@
 			<Filename>freecad.desktop</Filename>
 			<Filename>librecad.desktop</Filename>
 			<Filename>fritzing.desktop</Filename>
+			<Filename>scribus.desktop</Filename>
 			<Category>Graphics</Category>
 		</Include>
 		<Menu>
@@ -218,17 +216,18 @@
 			</Include>
 		</Menu>
 		<Layout>
-			<Filename>mtpaint.desktop</Filename>
 			<Filename>kde4-kolourpaint.desktop</Filename>
 			<Filename>tuxpaint.desktop</Filename>
 			<Filename>gpaint.desktop</Filename>
-			<Filename>pinta.desktop</Filename>
-			<Separator/>
 			<Filename>kde4-krita.desktop</Filename>			
-			<Filename>mypaint.desktop</Filename>			
-			<Filename>inkscape.desktop</Filename>
-			<Separator/>
 			<Filename>gimp.desktop</Filename>			
+			<Filename>mtpaint.desktop</Filename>
+			<Filename>pinta.desktop</Filename>
+			<Filename>mypaint.desktop</Filename>			
+			<Separator/>
+			<Filename>inkscape.desktop</Filename>
+			<Filename>scribus.desktop</Filename>
+			<Separator/>
 			<Filename>jkiwi.desktop</Filename>
 			<Filename>display.im6.desktop</Filename>
 			<Separator/>

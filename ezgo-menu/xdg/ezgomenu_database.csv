@@ -29,7 +29,6 @@ oxoffice6-math.desktop,公式編輯_Math,OxOffice 上可以做數學公式編輯
 oxoffice6-startcenter.desktop,整合應用_OxOffice,OxOffice 的入口,整合應用_OxOffice,整合应用_OxOffice,OxOffice的入口,整合应用_OxOffice,Office_OxOffice,Office;
 # abiword.desktop: 20141107 added by Franklin,,,,,,,,
 abiword.desktop,文書處理_Abiword,簡易的文書處理軟體,文書處理_Abiword,文书处理_Abiword,简易的文书处理软件,文书处理_Abiword,WordProcessor_Abiword,Office;
-scribus.desktop,排版軟體_Scribus,適合用於雜誌，報紙等印刷品編輯設計的出版軟體,排版軟體_Scribus,排版软件_Scribus,适合用于杂志，报纸等印刷品编辑设计的出版软件,排版软件_Scribus,Typesetting_Scribus,Office;
 dia-common.desktop,辧公室製圖_Dia,Dia 提供模組化的設計工具來製圖，如流程圖、網路圖、電路圖等，都可以利用 Dia 輕鬆繪製,辧公室製圖_Dia,办公室制图_Dia,Dia提供模块化的设计工具来制图，如流程图、网络图、电路图等，都可以利用Dia轻松绘制,办公室制图_Dia,Diagram_Dia,Office;
 dia.desktop,圖表繪製_Dia,Dia 提供模組化的設計工具來製圖，如流程圖、網路圖、電路圖等，都可以利用 Dia 輕鬆繪製,圖表繪製_Dia,图表绘制_Dia,Dia提供模块化的设计工具来制图，如流程图、网络图、电路图等，都可以利用Dia轻松绘制,图表绘制_Dia,Diagram_Dia,Office;
 pencil.desktop,圖表繪製_Pencil,圖表繪製軟體,圖表繪製_Pencil,图表绘制_Pencil,图表绘制软件,图表绘制_Pencil,Diagram_Pencil,Office;
@@ -59,6 +58,7 @@ sigil.desktop,電子書編輯_Sigil,一套可見即所得的電子書編輯軟�
 qtqr.desktop,QR Code產生器_QtQR,QR Code 的產生器,QR Code產生器_QtQR,QRCode产生器_QtQR,QRCode的产生器,QRCode产生器_QtQR,QRCodeGenerator_QtQR,Office;
 #美工,,,,,,,,
 krita.desktop,筆刷繪圖_Krita,類似 OpenOffice Draw，功能強大的繪圖軟體,筆刷繪圖_Krita,笔刷绘图_Krita,类似OpenOfficeDraw，功能强大的绘图软件,笔刷绘图_Krita,RazorGraphics_Krita,Graphics;
+scribus.desktop,排版軟體_Scribus,適合用於雜誌，報紙等印刷品編輯設計的出版軟體,排版軟體_Scribus,排版软件_Scribus,适合用于杂志，报纸等印刷品编辑设计的出版软件,排版软件_Scribus,Typesetting_Scribus,Graphics;
 kamoso.desktop,影像擷取_Kamoso,從您的網路攝影機中擷取圖片,影像擷取_Kamoso,影像撷取_Kamoso,从您的网络摄影机中捕获图片,影像撷取_Kamoso,ScreenShot_Kamoso,Graphics;
 display.im6.desktop,影像編輯_ImageMagick,影像編輯軟體,影像編輯_ImageMagick,影像编辑_ImageMagick,影像编辑软件,影像编辑_ImageMagick,ImageProcessor_ImageMagick,Graphics;
 skanlite.desktop,影像掃描_Skanlite,KDE 上的影像掃描軟體,影像掃描_Skanlite,影像扫描_Skanlite,KDE上的影像扫描软件,影像扫描_Skanlite,ImageScan_Skanlite,Graphics;
