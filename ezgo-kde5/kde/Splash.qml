@@ -87,14 +87,14 @@ Image {
                 }
             }
         }
-        Rectangle {
+        /* Rectangle {
             id: separator
             height: 1
             color: "#fdfdfd"
             width: parent.width
             opacity: 0.4
             y: parent.height - units.gridUnit * 4
-        }
+        } */
     }
 
     XAnimator {
