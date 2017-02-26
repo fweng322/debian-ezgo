@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=myezgo;
+Comment[zh_TW]=還原 ezgo 初始設定
+Comment=Restore default settings
+Exec=gksudo /usr/share/ezgo/recover/skel.sh
+Path=/usr/share/ezgo/recover
+GenericName[zh_TW]=將您的 ezgo 還原至安裝時的初始設定
+GenericName=Restore default settings
+Icon=/usr/share/ezgo/icons/b2ezgo.png
+Name[zh_TW]=還原 ezgo 初始設定
+Name=Restore default settings
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=skel.desktop

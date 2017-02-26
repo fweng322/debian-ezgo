@@ -1,0 +1,21 @@
+[Desktop Entry]
+Categories=myezgo;
+Comment[zh_TW]=使用者還原設定
+Comment=User recover program
+Exec=gksudo /usr/share/ezgo/recover/back.sh
+Path=/usr/share/ezgo/recover
+GenericName[zh_TW]=還原使用者在 ezgo 下的環境設定
+GenericName=Recover user settings
+Icon=/usr/share/ezgo/icons/b2home.png
+Name[zh_TW]=使用者還原設定
+Name=Recover user settings
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=recover.desktop
+
