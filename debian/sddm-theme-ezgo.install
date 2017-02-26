@@ -1,4 +1,4 @@
-ezgo-artwork/sddm/sddm.conf etc
+ezgo-artwork/sddm/ezgo.png usr/share/sddm/themes/ezgo
 ezgo-artwork/sddm/Main.qml usr/share/sddm/themes/ezgo
 ezgo-artwork/sddm/metadata.desktop usr/share/sddm/themes/ezgo
 ezgo-artwork/sddm/theme.conf usr/share/sddm/themes/ezgo
