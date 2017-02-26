@@ -1,0 +1,96 @@
+#! /bin/sh
+set -e
+
+ 
+## Wallpaper
+change_desktop_background() {
+    update-alternatives --install \
+        /usr/share/images/desktop-base/desktop-background \
+	desktop-background \
+	/usr/share/images/desktop-base/1600x900.png 100
+#    update-alternatives --install \
+#        /usr/share/images/desktop-base/desktop-background.xml \
+#	desktop-background.xml \
+#	/usr/share/images/desktop-base/ezgo-ecare-wallpaper.xml 50
+
+    for WALLPAPER in 800x600.png \
+        1024x768.png \
+		1600x900.png ; do
+	update-alternatives --install \
+	        /usr/share/images/desktop-base/desktop-background \
+		desktop-background \
+		/usr/share/images/desktop-base/$WALLPAPER 100
+    done
+}
+
+restore_desktop_background() {
+    update-alternatives --remove \
+	desktop-background \
+	/usr/share/images/desktop-base/1600x900.png
+#    update-alternatives --remove \
+#	desktop-background.xml \
+#	/usr/share/images/desktop-base/ezgo-ecare-wallpaper.xml
+
+    for WALLPAPER in 800x600.png \
+        1024x768.png \
+		1600x900.png ; do
+	update-alternatives --remove desktop-background \
+		/usr/share/images/desktop-base/$WALLPAPER
+    done
+}
+
+## GRUB
+change_grub_background() {
+    priority=80 # value higher than 50 used for debian-edu-splash-grub.png in desktop-base
+    update-alternatives --install \
+        /usr/share/images/desktop-base/ezgo-splash-grub.png \
+        ezgo-splash-grub.png \
+        /usr/share/ezgo/ezgo-ecare/grub/ezgo-splash-grub.png $priority
+
+    if which update-grub2 > /dev/null ; then
+        sync
+        update-grub2 || true
+    fi
+}
+ 
+restore_grub_background() {
+    update-alternatives --remove ezgo-splash-grub.png \
+	/usr/share/ezgo/ezgo-ecare/grub/ezgo-splash-grub.png
+
+    if which update-grub2 > /dev/null ; then
+        update-grub2 || true
+    fi
+}
+
+install_default_dm_background() {
+    update-alternatives --install \
+        /usr/share/images/desktop-base/ezgo-default-dm.png \
+        ezgo-default-dm.png \
+        /usr/share/ezgo/ezgo-ecare/default-dm/1600x900.png 80
+}
+
+remove_default_dm_background() {
+    update-alternatives --remove ezgo-default-dm.png \
+        /usr/share/ezgo/ezgo-ecare/default-dm/1600x900.png
+}
+
+compile_gschemas() {
+    glib-compile-schemas /usr/share/glib-2.0/schemas/
+}
+
+case "$1" in
+  configure)
+#    change_ldm_background
+    change_grub_background
+    change_desktop_background
+    install_default_dm_background
+    compile_gschemas
+    ;;
+  remove)
+#    restore_ldm_background
+    restore_grub_background
+    restore_desktop_background
+    remove_default_dm_background
+    compile_gschemas
+    ;;
+esac

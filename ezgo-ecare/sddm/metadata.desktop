@@ -1,0 +1,20 @@
+[SddmGreeterTheme]
+Name=ezgo-ecare
+Name[zh_CN]=ezgo-ecare
+Name[zh_TW]=ezgo-ecare
+Description=ezgo Theme
+Description[zh_CN]=ezgo-ecare
+Description[zh_TW]=ezgo-ecare
+Author=
+Copyright=
+License=CC-BY-SA
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/sddm/sddm
+Screenshot=ezgo-ecare.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=davidedmundson@kde.org
+Theme-Id=ezgo-ecare
+Theme-API=2.0

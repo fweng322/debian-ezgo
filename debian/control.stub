@@ -33,6 +33,17 @@ Description: ezgo theme for SDDM
  .
  This package contains ezgo theme for SDDM.
 
+Package: sddm-theme-ezgo-ecare
+Architecture: all
+Description: ezgo-ecare theme for SDDM
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains ezgo-ecare theme for SDDM.
+
 Package: plymouth-theme-ezgo
 Architecture: all
 Description: ezgo 13 theme for plymouth
@@ -412,6 +423,29 @@ Description: udev rules for arduino in ezgo
  .
  This package contains udev rules for arduino rules in ezgo.
 
+Package: ezgo-misc-fcitx-dayi3
+Architecture: all
+Description: dayi3 table for fcitx in ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains dayi3 table for fcitx in ezgo.
+Depends: fcitx
+
+Package: ezgo-misc-recover
+Architecture: all
+Description: recover features in ezgo13
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains recover shell scripts and desktop files in ezgo13
+
 Package: ezgo-atayal
 Architecture: all
 Description: Packages for Atayal locale
@@ -422,6 +456,17 @@ Description: Packages for Atayal locale
  self-learning.
  .
  This package contains files for Atayal locale.
+ 
+Package: ezgo-ecare
+Architecture: all
+Description: Packages for ecare customization
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains files for ecare customization
  
 Package: ezgo-tasks
 Architecture: all
