@@ -8,6 +8,7 @@ case "$1" in
   configure)
 	ln -sf /usr/lib/x86_64-linux-gnu/libgnome-keyring.so.0 /usr/lib/libgnome-keyring.so.0
 	ln -sf /usr/lib/x86_64-linux-gnu/libgnome-keyring.so.0.2.0 /usr/lib/libgnome-keyring.so.0.2.0
+	/usr/share/ezgo/ezgo-scratch2/install_scratch2.sh
     ;;
 esac
 
