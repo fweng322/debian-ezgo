@@ -3,5 +3,6 @@ Encoding=UTF-8
 Icon=/usr/share/ezgo/icons/tutorial.png
 Name=Tutorial
 Name[zh_TW]=教師工具
+Name[zh_HK]=教師工具
 Name[zh_CN]=教師工具
 Type=Directory
