@@ -1,0 +1,25 @@
+ezgo-ecare/ezgo-ecare3/contents/images/*.png usr/share/ezgo/wallpaper/ezgo-ecare3/contents/images
+ezgo-ecare/ezgo-ecare3/contents/images/*.png usr/share/wallpapers/ezgo-ecare3/contents/images
+ezgo-ecare/ezgo-ecare3/contents/images/*.png usr/share/images/desktop-base
+ezgo-ecare/ezgo-ecare3/contents/screenshot.png usr/share/ezgo/wallpaper/ezgo-ecare3/contents
+ezgo-ecare/ezgo-ecare3/contents/screenshot.png usr/share/wallpapers/ezgo-ecare3/contents
+ezgo-ecare/ezgo-ecare3/metadata.desktop usr/share/ezgo/wallpaper/ezgo-ecare3
+ezgo-ecare/ezgo-ecare3/metadata.desktop usr/share/wallpapers/ezgo-ecare3
+
+ezgo-ecare/ezgo-ecare2/contents/images/*.png usr/share/ezgo/wallpaper/ezgo-ecare2/contents/images
+ezgo-ecare/ezgo-ecare2/contents/images/*.png usr/share/wallpapers/ezgo-ecare2/contents/images
+ezgo-ecare/ezgo-ecare2/contents/screenshot.png usr/share/ezgo/wallpaper/ezgo-ecare2/contents
+ezgo-ecare/ezgo-ecare2/contents/screenshot.png usr/share/wallpapers/ezgo-ecare2/contents
+ezgo-ecare/ezgo-ecare2/metadata.desktop usr/share/ezgo/wallpaper/ezgo-ecare2
+ezgo-ecare/ezgo-ecare2/metadata.desktop usr/share/wallpapers/ezgo-ecare2
+
+ezgo-ecare/ezgo-ecare1/contents/images/*.png usr/share/ezgo/wallpaper/ezgo-ecare1/contents/images
+ezgo-ecare/ezgo-ecare1/contents/images/*.png usr/share/wallpapers/ezgo-ecare1/contents/images
+ezgo-ecare/ezgo-ecare1/contents/screenshot.png usr/share/ezgo/wallpaper/ezgo-ecare1/contents
+ezgo-ecare/ezgo-ecare1/contents/screenshot.png usr/share/wallpapers/ezgo-ecare1/contents
+ezgo-ecare/ezgo-ecare1/metadata.desktop usr/share/ezgo/wallpaper/ezgo-ecare1
+ezgo-ecare/ezgo-ecare1/metadata.desktop usr/share/wallpapers/ezgo-ecare1
+
+ezgo-ecare/grub/* usr/share/ezgo/ezgo-ecare/grub
+ezgo-ecare/update-ecare usr/share/ezgo/ezgo-ecare
+ezgo-ecare/default-dm/* usr/share/ezgo/ezgo-ecare/default-dm

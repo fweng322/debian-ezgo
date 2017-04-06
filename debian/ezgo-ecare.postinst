@@ -1,0 +1,13 @@
+#! /bin/sh
+
+set -e
+
+#DEBHELPER#
+
+case "$1" in
+  configure)
+    chmod +x /usr/share/ezgo/ezgo-ecare/update-ecare
+    /usr/share/ezgo/ezgo-ecare/update-ecare configure
+    ;;
+esac
+
