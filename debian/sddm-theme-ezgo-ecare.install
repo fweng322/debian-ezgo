@@ -1,0 +1,7 @@
+ezgo-ecare/sddm/ezgo-ecare.png usr/share/sddm/themes/ezgo-ecare
+ezgo-ecare/sddm/Main.qml usr/share/sddm/themes/ezgo-ecare
+ezgo-ecare/sddm/metadata.desktop usr/share/sddm/themes/ezgo-ecare
+ezgo-ecare/sddm/theme.conf usr/share/sddm/themes/ezgo-ecare
+ezgo-ecare/sddm/dummydata/* usr/share/sddm/themes/ezgo-ecare/dummydata
+ezgo-ecare/sddm/components/* usr/share/sddm/themes/ezgo-ecare/components
+ezgo-ecare/sddm/components/artwork/* usr/share/sddm/themes/ezgo-ecare/components/artwork

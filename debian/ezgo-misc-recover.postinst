@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cp -f /usr/share/ezgo/recover/*.desktop /usr/share/applications
+
+#DEBHELPER#

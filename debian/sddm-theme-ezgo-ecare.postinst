@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#DEBHELPER#
+
+cat > /etc/sddm.conf << EOL
+[Theme]
+Current=ezgo-ecare
+CursorTheme=breeze_cursors
+EOL
+
+exit 0
