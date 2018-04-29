@@ -92,7 +92,6 @@ Description: KDE Plasma 5 components for ezgo
  This package contains KDE Plasma 5 components for ezgo, including desktop 
  background, kdm theme, shortcuts, profile settings, ... etc.
 Depends: ezgo-artwork
-Conflicts: kubuntu-settings-desktop, kubuntu-settings-netbook
 
 Package: ezgo-unity
 Architecture:all

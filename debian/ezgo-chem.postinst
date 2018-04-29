@@ -1,8 +1,8 @@
 #!/bin/sh -e
 
 CHEM_VERSION=ezgo12
-CHEM_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-chem/chemstru_${CHEM_VERSION}.tar.gz
-MD5_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-chem/chem.md5
+CHEM_URL=ftp://freenas.slat.org/ezgo/debian-ezgo/ezgo-chem/chemstru_${CHEM_VERSION}.tar.gz
+MD5_URL=ftp://freenas.slat.org/ezgo/debian-ezgo/ezgo-chem/chem.md5
 OUTPUT_FILE=/usr/share/ezgo/ezgo-prt/chemstru_${CHEM_VERSION}.tar.gz
 MD5_FILE=/usr/share/ezgo/ezgo-prt/chem.md5
 

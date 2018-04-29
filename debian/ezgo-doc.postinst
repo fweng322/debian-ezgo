@@ -1,8 +1,8 @@
 #!/bin/sh -e
 
 DOC_VERSION=ezgo12
-DOC_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-doc/${DOC_VERSION}_doc.tar.gz
-MD5_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-doc/${DOC_VERSION}_doc.md5
+DOC_URL=ftp://freenas.slat.org/ezgo/debian-ezgo/ezgo-doc/${DOC_VERSION}_doc.tar.gz
+MD5_URL=ftp://freenas.slat.org/ezgo/debian-ezgo/ezgo-doc/${DOC_VERSION}_doc.md5
 OUTPUT_FILE=/usr/share/ezgo/${DOC_VERSION}_doc.tar.gz
 MD5_FILE=/usr/share/ezgo/${DOC_VERSION}_doc.md5
 

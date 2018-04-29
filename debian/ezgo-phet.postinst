@@ -1,8 +1,8 @@
 #!/bin/sh -e
 
-PHET_VERSION=2016
-PHET_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-phet/PhET${PHET_VERSION}.tar.gz
-MD5_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-phet/phet${PHET_VERSION}.md5
+PHET_VERSION=201704
+PHET_URL=ftp://freenas.slat.org/ezgo/debian-ezgo/ezgo-phet/PhET${PHET_VERSION}.tar.gz
+MD5_URL=ftp://freenas.slat.org/ezgo/debian-ezgo/ezgo-phet/phet${PHET_VERSION}.md5
 OUTPUT_FILE=/usr/share/ezgo/ezgo-prt/PhET${PHET_VERSION}.tar.gz
 MD5_FILE=/usr/share/ezgo/ezgo-prt/phet${PHET_VERSION}.md5
 

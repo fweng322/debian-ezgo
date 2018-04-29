@@ -1,8 +1,8 @@
 #!/bin/sh -e
 
 GSYAN_VERSION=ezgo12
-GSYAN_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-gsyan/gsyan_${GSYAN_VERSION}.tar.gz
-MD5_URL=ftp://goodhorse.idv.tw/debian-ezgo/ezgo-gsyan/gsyan.md5
+GSYAN_URL=ftp://freenas.slat.org/ezgo/debian-ezgo/ezgo-gsyan/gsyan_${GSYAN_VERSION}.tar.gz
+MD5_URL=ftp://freenas.slat.org/ezgo/debian-ezgo/ezgo-gsyan/gsyan.md5
 OUTPUT_FILE=/usr/share/ezgo/ezgo-prt/gsyan_${GSYAN_VERSION}.tar.gz
 MD5_FILE=/usr/share/ezgo/ezgo-prt/gsyan.md5
 
