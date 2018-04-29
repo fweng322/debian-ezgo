@@ -24,6 +24,7 @@ fixed=DejaVu Sans Mono,12,-1,5,50,0,0,0,0,0
 
 [KDE]
 SingleClick=false
+LookAndFeelPackage=org.kde.ezgo.desktop
 
 [Locale]
 Country=tw

@@ -1,0 +1,17 @@
+[kcminputrc][Mouse]
+cursorTheme=breeze_cursors
+
+[kcminputrc][Mouse][WindowSwitcher]
+LayoutName=org.kde.breeze.desktop
+
+[kcminputrc][Mouse][WindowSwitcher][DesktopSwitcher]
+LayoutName=org.kde.breeze.desktop
+
+[kdeglobals][General]
+ColorScheme=Breeze
+
+[kdeglobals][KDE]
+widgetStyle=Breeze
+
+[plasmarc][Theme]
+name=ezgo

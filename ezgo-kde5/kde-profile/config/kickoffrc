@@ -1,5 +1,0 @@
-[Favorites]
-FavoriteURLs=/usr/share/ezgo/ezgo-menu/applications/org.kde.konsole.desktop,/usr/share/ezgo/ezgo-menu/applications/firefox.desktop,/usr/share/ezgo/ezgo-menu/applications/org.kde.kate.desktop,/usr/share/ezgo/ezgo-menu/applications/kde4/amarok.desktop
-
-[SystemApplications]
-DesktopFiles=/usr/share/applications/kde4/systemsettings.desktop,/usr/share/applications/kde4/muon-installer.desktop
