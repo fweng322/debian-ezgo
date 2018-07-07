@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#DEBHELPER#
+
+if [ -f /etc/skel/.config/kwinrc ]; then
+	mv /etc/skel/.config/kwinrc /etc/skel/.config/kwinrc.orig
+fi
+
+cp -af /usr/share/ezgo/ezgo-kde5/config/* /etc/skel/.config
+
+exit 0

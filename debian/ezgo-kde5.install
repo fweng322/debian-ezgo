@@ -26,4 +26,4 @@ ezgo-kde5/kim4/README usr/share/kde4/apps/kim/
 ezgo-kde5/kim4/src/slideshow/* usr/share/kde4/apps/kim/slideshow/
 ezgo-kde5/kim4/src/gallery/* usr/share/kde4/apps/kim/gallery/
 ezgo-kde5/kim4/manual/* usr/share/kde4/apps/kim/manual
-ezgo-kde5/kde-profile/config/* etc/skel/.config
+ezgo-kde5/kde-profile/config/* usr/share/ezgo/ezgo-kde5/config
