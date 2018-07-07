@@ -1,2 +1,3 @@
 ezgo-npa/npa.desktop usr/share/applications
 ezgo-npa/physics.png usr/share/ezgo/icons
+ezgo-npa/npa*.tar.gz usr/share/ezgo/ezgo-prt

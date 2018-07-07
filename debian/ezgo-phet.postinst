@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-PHET_VERSION=201704
+PHET_VERSION=201806
 PHET_URL=ftp://freenas.slat.org/ezgo/debian-ezgo/ezgo-phet/PhET${PHET_VERSION}.tar.gz
 MD5_URL=ftp://freenas.slat.org/ezgo/debian-ezgo/ezgo-phet/phet${PHET_VERSION}.md5
 OUTPUT_FILE=/usr/share/ezgo/ezgo-prt/PhET${PHET_VERSION}.tar.gz
@@ -8,7 +8,7 @@ MD5_FILE=/usr/share/ezgo/ezgo-prt/phet${PHET_VERSION}.md5
 
 mkdir -p /usr/share/ezgo/ezgo-prt/
 
-echo "Downloading PhET${PHET_VERSION}"
+#echo "Downloading PhET${PHET_VERSION}"
 
 exit_with_error()
 {
@@ -16,16 +16,16 @@ exit_with_error()
 	exit 1
 }
 
-wget --continue -O ${OUTPUT_FILE} ${PHET_URL} || exit_with_error "Download phet file failed: $?"
-wget -O ${MD5_FILE} ${MD5_URL} || exit_with_error "Download md5 file failed: $?"
+#wget --continue -O ${OUTPUT_FILE} ${PHET_URL} || exit_with_error "Download phet file failed: $?"
+#wget -O ${MD5_FILE} ${MD5_URL} || exit_with_error "Download md5 file failed: $?"
 
 cd /usr/share/ezgo/ezgo-prt
-md5sum -c $MD5_FILE || exit_with_error "md5 checksum error!"
+#md5sum -c $MD5_FILE || exit_with_error "md5 checksum error!"
 
 tar xfz $OUTPUT_FILE
 rm -f PhET
 ln -s PhET${PHET_VERSION} PhET
-rm -f $MD5_FILE
+#rm -f $MD5_FILE
 rm -f $OUTPUT_FILE
 
 #DEBHELPER#
