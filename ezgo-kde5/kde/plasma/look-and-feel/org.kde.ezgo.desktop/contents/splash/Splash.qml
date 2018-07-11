@@ -51,7 +51,7 @@ Image {
                 anchors.horizontalCenter: parent.horizontalCenter
 		/* Franklin.20161021 */
                 /* source: "images/ezgo13_logo_word.png" */
-		source: "images/ezgo13_splash.svg"
+		source: "images/ezgo14_splash.svg"
                 sourceSize.height: units.gridUnit * 8
                 sourceSize.width: sourceSize.height
             }

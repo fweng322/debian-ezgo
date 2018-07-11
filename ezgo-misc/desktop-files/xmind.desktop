@@ -1,0 +1,22 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Mindmap_XMind
+Comment=Launch XMind 8 Update 7
+Icon=XMind
+Exec=/usr/local/xmind/XMind
+Path=/usr/local/xmind
+Terminal=false
+StartupNotify=true
+Categories=Office;
+MimeType=application/xmind;x-scheme-handler/xmind;
+Name[zh_TW]=心智圖_XMind
+GenericName[zh_TW]=可輕鬆繪製心智圖、組織圖、魚骨圖的工具軟體
+Comment[zh_TW]=心智圖_XMind
+Name[zh_CN]=思维导图_XMind
+GenericName[zh_CN]=可轻松绘制思维导图、组织图、鱼骨图的工具软件
+Comment[zh_CN]=思维导图_XMind
+Name[zh_HK]=心智圖_XMind
+GenericName[zh_HK]=可輕鬆繪製心智圖、組織圖、魚骨圖的工具軟體
+Comment[zh_HK]=心智圖_XMind
+

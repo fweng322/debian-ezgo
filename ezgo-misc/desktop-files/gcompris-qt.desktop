@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment[zh_TW]=幼教_GCompris
+Comment=GCompris
+Exec=/usr/local/gcompris/bin/gcompris-qt.sh
+Path=/usr/local/gcompris
+GenericName[zh_TW]=GCompris
+GenericName=GCompris
+Icon=/usr/share/ezgo/icons/gcompris.png
+Name[zh_TW]=幼教_GCompris
+Name=GCompris
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=gcompris-qt.desktop
+Categories=Education;

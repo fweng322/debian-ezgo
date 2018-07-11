@@ -4,4 +4,4 @@ set -e
 
 #DEBHELPER#
 
-update-alternatives --remove text.plymouth /usr/share/plymouth/themes/ezgo13-text/ezgo13-text.plymouth
+update-alternatives --remove text.plymouth /usr/share/plymouth/themes/ezgo14-text/ezgo14-text.plymouth

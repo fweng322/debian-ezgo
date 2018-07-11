@@ -1,12 +1,22 @@
 [Desktop Entry]
 Type=Application
-Name=Arduino IDE
+Name=Programming_Arduino
 GenericName=Arduino IDE
 Comment=Open-source electronics prototyping platform
 Exec=/opt/arduino/arduino
 Icon=arduino-arduinoide
 Terminal=false
-Categories=Development;IDE;Electronics;
+Categories=Development;
 MimeType=text/x-arduino;
 Keywords=embedded electronics;electronics;avr;microcontroller;
 StartupWMClass=processing-app-Base
+Name[zh_TW]=程式設計_Arduino
+GenericName[zh_TW]=將 Firmware 寫入 Arduino 板子的軟體
+Comment[zh_TW]=程式設計_Arduino
+Name[zh_CN]=编程_Arduino
+GenericName[zh_CN]=可将 Firwmware 写入 Arduino 板子的软件
+Comment[zh_CN]=编程_Arduino
+Name[zh_HK]=程式設計_Arduino
+GenericName[zh_HK]=將 Firmware 寫入 Arduino 板子的軟體
+Comment[zh_HK]=程式設計_Arduino
+

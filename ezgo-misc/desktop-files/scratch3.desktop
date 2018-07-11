@@ -1,0 +1,23 @@
+[Desktop Entry]
+Comment[zh_TW]=程式設計_Scratch3
+Comment[zh_CN]=编程设计_Scratch3
+Comment=Scratch3
+Exec=firefox https://preview.scratch.mit.edu/
+GenericName[zh_TW]=程式設計_Scratch3
+GenericName[zh_CN]=编程设计_Scratch3
+GenericName=Scratch3
+Icon=scratch
+Name[zh_TW]=程式設計_Scratch3
+Name[zh_CN]=编程设计_Scratch3
+Name[en]=Scratch3
+Name=Scratch3
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+desktop=scratch3.desktop
+Categories=Development;

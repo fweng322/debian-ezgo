@@ -17,7 +17,7 @@ var layout = {
                     "DialogWidth": "800"
                 },
                 "/Wallpaper/org.kde.image/General": {
-		    "Image": "file:///usr/share/ezgo/wallpaper/ezgo13/contents/images/1366x768.png",
+		    "Image": "file:///usr/share/ezgo/wallpaper/ezgo14/contents/images/1366x768.png",
                     "height": "768",
                     "width": "1366"
                 }
@@ -35,7 +35,7 @@ var layout = {
                     "wallpaperplugin": "org.kde.image"
                 },
                 "/Wallpaper/org.kde.image/General": {
-		    "Image": "file:///usr/share/ezgo/wallpaper/ezgo13/contents/images/1366x768.png",
+		    "Image": "file:///usr/share/ezgo/wallpaper/ezgo14/contents/images/1366x768.png",
                     "height": "768",
                     "width": "1366"
                 }
@@ -53,7 +53,7 @@ var layout = {
                     "wallpaperplugin": "org.kde.image"
                 },
                 "/Wallpaper/org.kde.image/General": {
-		    "Image": "file:///usr/share/ezgo/wallpaper/ezgo13/contents/images/1366x768.png",
+		    "Image": "file:///usr/share/ezgo/wallpaper/ezgo14/contents/images/1366x768.png",
                     "height": "768",
                     "width": "1366"
                 }

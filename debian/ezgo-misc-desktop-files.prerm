@@ -5,6 +5,9 @@ rm -f /usr/share/applications/my_ezgo.desktop
 rm -f /usr/share/applications/about_ezgo.desktop
 rm -f /usr/share/applications/update_ezgo.desktop
 rm -f /usr/share/applications/BlueGriffon-program.desktop
+rm -f /usr/share/applications/gcompris-qt.desktop
+rm -f /usr/share/applications/moedict.desktop
+rm -f /usr/share/applications/xmind.desktop
 
 #DEBHELPER#
 
