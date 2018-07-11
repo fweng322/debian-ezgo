@@ -1276,6 +1276,7 @@
 			<Filename>skel.desktop</Filename>
 			<Filename>about_ezgo.desktop</Filename>
 			<Filename>ezgo_doc.desktop</Filename>
+			<Filename>ezgo-gallery.desktop</Filename>
 				<Category>ezgo</Category>
 		</Include>
 		<Layout>
@@ -1285,6 +1286,7 @@
 			<Filename>ezgo_center.desktop</Filename>
 			<Filename>ezinstall.desktop</Filename> -->
 			<Separator/>
+			<Filename>ezgo-gallery.desktop</Filename>
 			<Filename>ezgo_doc.desktop</Filename>
 			<Separator/>
 			<Filename>media_install_force.desktop</Filename>

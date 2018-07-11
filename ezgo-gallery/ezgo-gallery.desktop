@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[zh_TW]=ezgo 藝廊
+Comment=ezgo Gallery
+Exec=dolphin /usr/share/ezgo/ezgo-gallery
+GenericName[zh_TW]=ezgo 藝廊
+GenericName=ezgo Gallery
+Icon=/usr/share/ezgo/icons/robot7_small.png
+Name[zh_TW]=ezgo 藝廊
+Name[en]=ezgo Gallery
+Name=ezgo 藝廊
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -6,7 +6,6 @@ Uploaders: Andrew Lee (李健秋) <ajqlee@debian.org>,
  Andreas Tille <tille@debian.org>
 Build-Depends: debhelper (>= 7), blends-dev (>= 0.6.91)
 Standards-Version: 3.9.3
-Dm-Upload-Allowed: yes
 Homepage: http://ezgo.westart.tw/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=blends/projects/ezgo.git
 Vcs-git: git://git.debian.org/git/blends/projects/ezgo.git
@@ -21,6 +20,17 @@ Description: Common artwork components for ezgo
  self-learning.
  .
  This package contains common artwork components for ezgo.
+
+Package: ezgo-gallery
+Architecture: all
+Description: Common artwork gallery for ezgo
+ Debian ezgo is a Debian Pure Blends project which collects a set of free
+ and open source software, as well as many public domain tutorials.  ezgo
+ aims to introduce the world of free and open source software to those who
+ have never heard or touched it.  It is also good for teaching and
+ self-learning.
+ .
+ This package contains common artwork gallery for ezgo.
 
 Package: sddm-theme-ezgo
 Architecture: all
