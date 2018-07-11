@@ -1,4 +1,11 @@
+Task: ezgo
+Relevance: 7
+Section: ezgo
+Description: Debian Ezgo Pure Blend
+ .
+
 Task: ezgo-accessories
+Parent: ezgo
 Section: ezgo
 Description: debian ezgo Accessories
  ezgo is a Debian Pure Blends project which collects a set of free
@@ -6,18 +13,11 @@ Description: debian ezgo Accessories
  self-learning.
  .
  This is the selection of Accessories.
-Relevance: 10
 Key: 
  ezgo-accessories
-Packages: list
- convertall
- kate
- vim-gtk
- kcalc
- kmag
- kvkbd
 
 Task: ezgo-common
+Parent: ezgo
 Section: ezgo
 Description: debian ezgo common
  ezgo is a Debian Pure Blends project which collects a set of free
@@ -27,18 +27,11 @@ Description: debian ezgo common
  self-learning.
  .
  This is the common set of packages needed by ezgo.
-Relevance: 10
 Key: 
  ezgo-common
-Packages: list
- xserver-xorg-video-all
- xserver-xorg-input-all
- libgl1-mesa-dri
- bash-completion
- openssh-client
- openssh-server
 
 Task: ezgo-education
+Parent: ezgo
 Section: ezgo
 Description: debian ezgo Education
  ezgo is a Debian Pure Blends project which collects a set of free
@@ -49,29 +42,11 @@ Description: debian ezgo Education
  free software on teaching and self-learning.
  .
  This is the selection of education tools.
-Relevance: 10
 Key: 
  ezgo-education
-Packages: list
- kdeedu
- drgeo
- wxmaxima
- ghemical
- avogadro
- gchempaint
- bkchem
- pymol
- stellarium
- celestia
- gcompris
- scratch
- ktuberling
- klavaro
- anki
- gnumeric
- ballview
 
 Task: ezgo-games
+Parent: ezgo
 Section: ezgo
 Description: debian ezgo Games
  ezgo is a Debian Pure Blends project which collects a set of free
@@ -82,30 +57,11 @@ Description: debian ezgo Games
  free software on teaching and self-learning.
  .
  This is the selection of games.
-Relevance: 10
 Key: 
  ezgo-games
-Packages: list
- tuxmath
- tuxtype
- supertux
- pingus
- supertuxkart
- atomix
- ksudoku
- picmi
- kblocks
- palapeli
- kubrick
- ksquares
- knetwalk
- kblackbox
- kigo
- kreversi
- kfourinline
- bovo
 
 Task: ezgo-graphics
+Parent: ezgo
 Section: ezgo
 Description: debian ezgo Graphics
  ezgo is a Debian Pure Blends project which collects a set of free
@@ -116,48 +72,11 @@ Description: debian ezgo Graphics
  free software on teaching and self-learning.
  .
  This is the selection of image tools.
-Relevance: 10
 Key: 
  ezgo-graphics
-Packages: list
- gpaint
- kolourpaint4
- tuxpaint
- inkscape
- gimp
- scribus
- digikam
- gwenview
- cheese
- blender
- ballview
- ardesia
- fotowall
- shotwell
- hugin
- krita
- mypaint
- shutter
- freecad
- fritzing
- sweethome3d
- kruler
- kcolorchooser
- kamoso
- librecad
-
-Task: ezgo-lang-zh_TW-desktop
-Section: ezgo
-Description: Traditional Chinese support for Debian ezgo Desktop
- This metapackage depends on various office and desktop applications
- that are useful for teachers and their students.
-Relevance: 10
-Packages: list
- ttf-wqy-zenhei
- ttf-wqy-microhei
- kde-l10n-zhtw
 
 Task: ezgo-multimedia
+Parent: ezgo
 Section: ezgo
 Description: debian ezgo Multimedia
  ezgo is a Debian Pure Blends project which collects a set of free
@@ -165,38 +84,11 @@ Description: debian ezgo Multimedia
  self-learning.
  .
  This is the selection of multimedia packages.
-Relevance: 10
 Key: 
  ezgo-multimedia
-Packages: list
- audacious
- amarok
- vlc
- totem
- audacity
- tuxguitar
- rosegarden
- sound-juicer
- kdenlive
- oggconvert
- k3b
- brasero
- mscore
- imagination
- xbmc
- openshot
- lmms
- kazam
- guvcview
- ffdiaporama
- dvdisaster
- furiusisomount
- hydrogen
- winff
- ardour
- timidity
 
 Task: ezgo-network
+Parent: ezgo
 Section: ezgo
 Description: debian ezgo Network
  ezgo is a Debian Pure Blends project which collects a set of free
@@ -204,18 +96,11 @@ Description: debian ezgo Network
  self-learning.
  .
  This is the selection of networking related packages.
-Relevance: 10
 Key: 
  ezgo-network
-Packages: list
- pidgin
- kopete
- pcmanx-gtk2
- gftp
- filezilla
- krdc
 
 Task: ezgo-office
+Parent: ezgo
 Section: ezgo
 Description: debian ezgo Office
  ezgo is a Debian Pure Blends project which collects a set of free
@@ -223,18 +108,6 @@ Description: debian ezgo Office
  self-learning.
  .
  This is the selection of office tools.
-Relevance: 10
 Key: 
  ezgo-office
-Packages: list
- openclipart
- dia
- okular
- planner
- pdfshuffler
- scribus
- impressive
- qtqr
- gnucash
- calibre
 
