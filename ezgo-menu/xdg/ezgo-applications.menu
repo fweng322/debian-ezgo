@@ -748,6 +748,7 @@
 			<Filename>pymol.desktop</Filename>
 			<Filename>ballview.desktop</Filename>
 			<Filename>kde4-ktouch.desktop</Filename>
+			<Filename>org.kde.ktouch.desktop</Filename>
 			<Filename>org.kde.kanagram.desktop</Filename>
 			<Filename>kde4-kanagram.desktop</Filename>
 			<Filename>kde4-khangman.desktop</Filename>
@@ -777,6 +778,7 @@
 			<Filename>org.kde.ktuberling.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-ktouch.desktop</Filename>
+			<Filename>org.kde.ktouch.desktop</Filename>
 			<Filename>klavaro.desktop</Filename>
 			<Separator/>
 			<Filename>moedict.desktop</Filename>

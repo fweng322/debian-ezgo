@@ -45,6 +45,7 @@ ebook-viewer.desktop,電子書_E-book Viewer,提供電子書閱讀的功能,電�
 calibre-lrfviewer.desktop,電子書_LRF Viewer,提供電子書閱讀的功能,電子書_LRF Viewer,电子书_LRFViewer,提供电子书阅读的功能,电子书_LRFViewer,eBook_LRF Viewer,電子書_LRF Viewer,提供電子書閱讀的功能,電子書_LRF Viewer,Office;
 lrfviewer.desktop,電子書_LRF Viewer,提供電子書閱讀的功能,電子書_LRF Viewer,电子书_LRFViewer,提供电子书阅读的功能,电子书_LRFViewer,eBook_LRF Viewer,電子書_LRF Viewer,提供電子書閱讀的功能,電子書_LRF Viewer,Office;
 okular.desktop,PDF瀏覽_Okular,多功能文件檢視器,PDF瀏覽_Okular,PDF浏览_Okular,多功能文件查看器,PDF浏览_Okular,PDFViewer_Okular,PDF瀏覽_Okular,多功能文件檢視器,PDF瀏覽_Okular,Office;
+org.kde.okular.desktop,文件檢視_Okular,多功能文件檢視器,文件檢視_Okular,文件檢視_Okular,多功能文件查看器,文件檢視_Okular,DocViewer_Okular,文件檢視_Okular,多功能文件檢視器,文件檢視_Okular,Office;
 # evince.desktop: 20141107 added by Franklin,,,,,,,,,,,
 evince.desktop,文件檢視_DocumentViewer,文件檢視器,文件檢視_DocumentViewer,文件检视_DocumentViewer,文件检视器,文件检视_DocumentViewer,Viewer_DocumentViewer,文件檢視_DocumentViewer,文件檢視器,文件檢視_DocumentViewer,Office;
 AdobeReader.desktop,PDF瀏覽_AdobeReader,Adobe 原廠的 PDF 瀏覽器,PDF瀏覽_AdobeReader,PDF浏览_AdobeReader,Adobe原厂的PDF瀏覽器,PDF浏览_AdobeReader,PDFViewer_AdobeReader,PDF瀏覽_AdobeReader,Adobe 原廠的 PDF 瀏覽器,PDF瀏覽_AdobeReader,Office;
@@ -284,6 +285,7 @@ gnumeric.desktop,統計_Gnumeric,統計軟體,統計_Gnumeric,统计_Gnumeric,�
 gcompris.desktop,幼教_GCompris,一套適合二到十歲的教育遊戲，內含電腦、數學、語言等類別,幼教_GCompris,幼教_GCompris,一套适合二到十岁的教育游戏，内含计算机、数学、语言等类型,幼教_GCompris,Toddler_GCompris,幼教_GCompris,一套適合二到十歲的教育遊戲，內含電腦、數學、語言等類別,幼教_GCompris,Education;
 gcompris-edit.desktop,幼教_GCompris Edit,Gcompris 管理器,幼教_GCompris Edit,幼教_GComprisEdit,Gcompris管理器,幼教_GComprisEdit,Toddler_GCompris Edit,幼教_GCompris Edit,Gcompris 管理器,幼教_GCompris Edit,Education;
 ktouch.desktop,打字練習_KTouch,適合小朋友及電腦初學者練習打字的軟體,打字練習_KTouch,打字练习_KTouch,适合小朋友及计算机初学者练习打字的软件,打字练习_KTouch,Typing_KTouch,打字練習_KTouch,適合小朋友及電腦初學者練習打字的軟體,打字練習_KTouch,Education;
+org.kde.ktouch.desktop,打字練習_KTouch,適合小朋友及電腦初學者練習打字的軟體,打字練習_KTouch,打字练习_KTouch,适合小朋友及计算机初学者练习打字的软件,打字练习_KTouch,Typing_KTouch,打字練習_KTouch,適合小朋友及電腦初學者練習打字的軟體,打字練習_KTouch,Education;
 klavaro.desktop,打字練習_Klavaro,適合小朋友及電腦初學者練習打字的軟體,打字練習_Klavaro,打字练习_Klavaro,适合小朋友及计算机初学者练习打字的软件,打字练习_Klavaro,Typing_Klavaro,打字練習_Klavaro,適合小朋友及電腦初學者練習打字的軟體,打字練習_Klavaro,Education;
 ktuberling.desktop,馬鈴薯小子_Ktuberling,一款為小朋友設計的語言學習遊戲,馬鈴薯小子_Ktuberling,马铃薯小子_Ktuberling,一款为小朋友设计的语言学习游戏,马铃薯小子_Ktuberling,Language_Ktuberling,馬鈴薯小子_Ktuberling,一款為小朋友設計的語言學習遊戲,馬鈴薯小子_Ktuberling,Education;
 org.kde.ktuberling.desktop,馬鈴薯小子_Ktuberling,一款為小朋友設計的語言學習遊戲,馬鈴薯小子_Ktuberling,马铃薯小子_Ktuberling,一款为小朋友设计的语言学习游戏,马铃薯小子_Ktuberling,Language_Ktuberling,馬鈴薯小子_Ktuberling,一款為小朋友設計的語言學習遊戲,馬鈴薯小子_Ktuberling,Education;
