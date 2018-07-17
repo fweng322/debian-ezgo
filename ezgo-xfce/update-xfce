@@ -6,12 +6,12 @@ change_wallpaper() {
     update-alternatives --install \
 	/usr/share/xfce4/backdrops/xubuntu-wallpaper.png \
 	xubuntu-wallpaper.png \
-	/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png 80
+	/usr/share/ezgo/wallpaper/ezgo14/contents/images/1920x1080.png 80
 }
 
 restore_wallpaper() {
     update-alternatives --remove xubuntu-wallpaper.png \
-	/usr/share/ezgo/wallpaper/ezgo12-wallpaper-1366x768.png
+	/usr/share/ezgo/wallpaper/ezgo14/contents/images/1920x1080.png
 }
 
 case "$1" in

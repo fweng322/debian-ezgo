@@ -102,7 +102,6 @@ org.kde.kcolorchooser.desktop,顏色選擇_KColorChooser,用來點選螢幕上�
 dngconverter.desktop,RAW批次轉檔_dngconverter,批次將 RAW 檔案轉成 DNG 檔案的軟體,RAW批次轉檔_dngconverter,RAW批次转档_dngconverter,批次将RAW文件转成DNG文件的软件,RAW批次转档_dngconverter,DNGConverter_dngconverter,RAW批次轉檔_dngconverter,批次將 RAW 檔案轉成 DNG 檔案的軟體,RAW批次轉檔_dngconverter,Graphics;
 freecad.desktop,3D製圖_FreeCAD,電腦輔助設計軟體,3D製圖_FreeCAD,3D制图_FreeCAD,计算机辅助设计软件,3D制图_FreeCAD,3DCAD_FreeCAD,3D製圖_FreeCAD,電腦輔助設計軟體,3D製圖_FreeCAD,Graphics;
 librecad.desktop,2D製圖_LibreCAD,電腦輔助設計軟體,2D製圖_LibreCAD,2D制图_LibreCAD,计算机辅助设计软件,2D制图_LibreCAD,2DCAD_LibreCAD,2D製圖_LibreCAD,電腦輔助設計軟體,2D製圖_LibreCAD,Graphics;
-fritzing.desktop,電路設計_Fritzing,是一套設計PCB (Printed Circuit Board) 印刷電路板的軟體，是特別給設計師、藝術家、研究者以及業餘玩家使用的工具,電路設計_Fritzing,电路设计_Fritzing,是一套设计PCB(PrintedCircuitBoard)印刷电路板的软件，是特别给设计师、艺术家、研究者以及业余玩家使用的工具,电路设计_Fritzing,CircuitDesign_Fritzing,電路設計_Fritzing,是一套設計PCB (Printed Circuit Board) 印刷電路板的軟體，是特別給設計師、藝術家、研究者以及業餘玩家使用的工具,電路設計_Fritzing,Graphics;
 shutter.desktop,影像擷取_Shutter,可截取網頁和編輯截取圖片的軟體,影像擷取_Shutter,影像撷取_Shutter,可截取网页和编辑截取图片的软件,影像撷取_Shutter,Screenshot_Shutter,影像擷取_Shutter,可截取網頁和編輯截取圖片的軟體,影像擷取_Shutter,Graphics;
 fontforge.desktop,字型設計_Fontforge,可以編輯與設計字型的軟體,字型設計_Fontforge,字型設計_Fontforge,可以編輯與設計字型的軟體,字型設計_Fontforge,FontEditor_Fontforge,字型設計_Fontforge,可以編輯與設計字型的軟體,字型設計_Fontforge,Graphics;
 #影音,,,,,,,,,,,
@@ -328,6 +327,7 @@ gchempaint-0.14.desktop,化學_GchemPaint,化學結構編輯軟體,化學_GchemP
 pymol.desktop,生化_Pymol,立體分子繪圖及看圖軟體,生化_Pymol,生化_Pymol,立体分子绘图及看图软件,生化_Pymol,Chemistry_Pymol,生化_Pymol,立體分子繪圖及看圖軟體,生化_Pymol,Education;
 ballview.desktop,生化_BALLView,3D分子建模生化軟體,生化_BALLView,生化_BALLView,3D分子建模生化软件,生化_BALLView,Chemistry_BALLView,生化_BALLView,3D分子建模生化軟體,生化_BALLView,Education;
 #程式開發,,,,,,,,,,,
+fritzing.desktop,電路設計_Fritzing,是一套設計PCB (Printed Circuit Board) 印刷電路板的軟體，是特別給設計師、藝術家、研究者以及業餘玩家使用的工具,電路設計_Fritzing,电路设计_Fritzing,是一套设计PCB(PrintedCircuitBoard)印刷电路板的软件，是特别给设计师、艺术家、研究者以及业余玩家使用的工具,电路设计_Fritzing,CircuitDesign_Fritzing,電路設計_Fritzing,是一套設計PCB (Printed Circuit Board) 印刷電路板的軟體，是特別給設計師、藝術家、研究者以及業餘玩家使用的工具,電路設計_Fritzing,Development;
 scratch.desktop,程式設計_Scratch,一套圖形化程式設計軟體，適合8歲以上的中小學生作為學習程式設計的入門軟體,程式設計_Scratch,编程_Scratch,一套图形化编程软件，适合8岁以上的中小学生作为学习编程的入门软件,编程_Scratch,Programming_Scratch,程式設計_Scratch,一套圖形化程式設計軟體，適合8歲以上的中小學生作為學習程式設計的入門軟體,程式設計_Scratch,Development;
 edu.media.mit.scratch2editor.desktop,程式設計_Scratch2,一套圖形化程式設計軟體，適合8歲以上的中小學生作為學習程式設計的入門軟體,程式設計_Scratch2,编程_Scratch2,一套图形化编程软件，适合8岁以上的中小学生作为学习编程的入门软件,编程_Scratch2,Programming_Scratch2,程式設計_Scratch2,一套圖形化程式設計軟體，適合8歲以上的中小學生作為學習程式設計的入門軟體,程式設計_Scratch2,Development;
 s4a.desktop,程式設計_S4A,结合Scratch與Arduino，讓孩子們學習程式設計的入門軟體,程式設計_S4A,编程_S4A,结合Scratch与Arduino，让孩子们学习编程的入门软件,编程_S4A,Programming_S4A,程式設計_S4A,结合Scratch與Arduino，讓孩子們學習程式設計的入門軟體,程式設計_S4A,Development;
