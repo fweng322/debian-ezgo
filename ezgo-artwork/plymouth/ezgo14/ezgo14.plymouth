@@ -4,5 +4,5 @@ Description=A plymouth theme for ezgo
 ModuleName=script
 
 [script]
-ImageDir=/usr/share/plymouth/themes/ezgo13
-ScriptFile=/usr/share/plymouth/themes/ezgo13/ezgo13.script
+ImageDir=/usr/share/plymouth/themes/ezgo14
+ScriptFile=/usr/share/plymouth/themes/ezgo14/ezgo14.script

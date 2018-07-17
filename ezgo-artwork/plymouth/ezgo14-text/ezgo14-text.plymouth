@@ -1,10 +1,10 @@
 [Plymouth Theme]
-Name=ezgo13 Text
-Description=Text mode theme based on ezgo13
+Name=ezgo14 Text
+Description=Text mode theme based on ezgo14
 ModuleName=ubuntu-text
 
 [ubuntu-text]
-title=ezgo 13
+title=ezgo 14
 # Background
 black=0x000000
 # Title Text + Additional messages such as key interrupt

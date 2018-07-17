@@ -51,12 +51,12 @@ ezgo-artwork/wallpaper/ezgo14/contents/screenshot.png usr/share/ezgo/wallpaper/e
 ezgo-artwork/wallpaper/ezgo14/contents/screenshot.png usr/share/wallpapers/ezgo/contents
 ezgo-artwork/wallpaper/ezgo14/metadata.desktop usr/share/ezgo/wallpaper/ezgo14
 ezgo-artwork/wallpaper/ezgo14/metadata.desktop usr/share/wallpapers/ezgo
-ezgo-artwork/wallpaper/ezgo14-forEVER/contents/images/*.png usr/share/ezgo/wallpaper/ezgo14-forEVER/contents/images
-ezgo-artwork/wallpaper/ezgo14-forEVER/contents/images/*.png usr/share/wallpapers/ezgo14-forEVER/contents/images
-ezgo-artwork/wallpaper/ezgo14-forEVER/contents/screenshot.png usr/share/ezgo/wallpaper/ezgo14-forEVER/contents
-ezgo-artwork/wallpaper/ezgo14-forEVER/contents/screenshot.png usr/share/wallpapers/ezgo14-forEVER/contents
-ezgo-artwork/wallpaper/ezgo14-forEVER/metadata.desktop usr/share/ezgo/wallpaper/ezgo14-forEVER
-ezgo-artwork/wallpaper/ezgo14-forEVER/metadata.desktop usr/share/wallpapers/ezgo14-forEVER
+ezgo-artwork/wallpaper/ezgo-moegiant/contents/images/*.png usr/share/ezgo/wallpaper/ezgo-moegiant/contents/images
+ezgo-artwork/wallpaper/ezgo-moegiant/contents/images/*.png usr/share/wallpapers/ezgo-moegiant/contents/images
+ezgo-artwork/wallpaper/ezgo-moegiant/contents/screenshot.png usr/share/ezgo/wallpaper/ezgo-moegiant/contents
+ezgo-artwork/wallpaper/ezgo-moegiant/contents/screenshot.png usr/share/wallpapers/ezgo-moegiant/contents
+ezgo-artwork/wallpaper/ezgo-moegiant/metadata.desktop usr/share/ezgo/wallpaper/ezgo-moegiant
+ezgo-artwork/wallpaper/ezgo-moegiant/metadata.desktop usr/share/wallpapers/ezgo-moegiant
 
 
 ezgo-artwork/grub/*.png usr/share/ezgo/grub

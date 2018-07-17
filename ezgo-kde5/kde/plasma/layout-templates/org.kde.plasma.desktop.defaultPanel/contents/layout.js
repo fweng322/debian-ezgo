@@ -26,6 +26,7 @@ if (freeEdges["bottom"] == true) {
 }
 
 panel.height = gridUnit * 2
+panel.length = panelScreen.width
 
 var kickoff = panel.addWidget("org.kde.plasma.kickoff")
 kickoff.currentConfigGroup = ["Shortcuts"]

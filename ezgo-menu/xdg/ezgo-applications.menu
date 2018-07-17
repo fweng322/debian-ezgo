@@ -209,7 +209,6 @@
 			<Filename>kde4-krita.desktop</Filename>			
 			<Filename>freecad.desktop</Filename>
 			<Filename>librecad.desktop</Filename>
-			<Filename>fritzing.desktop</Filename>
 			<Filename>scribus.desktop</Filename>
 			<Category>Graphics</Category>
 		</Include>
@@ -266,7 +265,6 @@
 			<Filename>blender.desktop</Filename>
 			<Filename>ktoon.desktop</Filename>
 			<Separator/>
-			<Filename>fritzing.desktop</Filename>
 			<Filename>sweethome3d.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-skanlite.desktop</Filename>
@@ -1284,14 +1282,13 @@
 		<Layout>
 			<Filename>my_ezgo.desktop</Filename>
 			<Filename>about_ezgo.desktop</Filename>
+			<Filename>media_install_force.desktop</Filename>
 <!--			<Separator/>
 			<Filename>ezgo_center.desktop</Filename>
 			<Filename>ezinstall.desktop</Filename> -->
 			<Separator/>
 			<Filename>ezgo-gallery.desktop</Filename>
 			<Filename>ezgo_doc.desktop</Filename>
-			<Separator/>
-			<Filename>media_install_force.desktop</Filename>
 			<Separator/>
 			<Filename>update_ezgo.desktop</Filename>
 			<Filename>ezgomenu.desktop</Filename>

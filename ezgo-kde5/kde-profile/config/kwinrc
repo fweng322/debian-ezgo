@@ -96,6 +96,15 @@ minimizeanimationEnabled=false
 slidebackEnabled=true
 wobblywindowsEnabled=true
 
+[ElectricBorders]
+Bottom=None
+BottomLeft=None
+BottomRight=None
+Left=None
+Right=None
+Top=None
+TopLeft=None
+TopRight=None
 
 [TabBox]
 ListMode=0

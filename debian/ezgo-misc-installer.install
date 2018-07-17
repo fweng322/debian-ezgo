@@ -1,5 +1,4 @@
 ezgo-misc/desktop-files/media_install.desktop usr/share/applications
-ezgo-misc/desktop-files/media_install.desktop etc/xdg/autostart
 ezgo-misc/desktop-files/media_install_force.desktop usr/share/applications
 ezgo-misc/media_pak_install/locales/zh_CN/* usr/share/ezgo/media_pak_install/locales/zh_CN
 ezgo-misc/media_pak_install/locales/zh_TW/* usr/share/ezgo/media_pak_install/locales/zh_TW

@@ -1,22 +1,241 @@
 [$Version]
 update_info=ksmserver_shortcuts.upd:kde45,plasma-to-plasmadesktop-shortcuts.upd:4.3plasma-desktop-shortcuts,kwin_window_shortcuts.upd:kde414,kscreenlocker_locksession-shortcut.upd:4.9-locksession-shortcut,ksmserver_shortcuts.upd:kde4.10,ksmserver_shortcuts.upd:kde4.10-remove-group-kscreenlocker
 
+[KDE Keyboard Layout Switcher]
+Switch to Next Keyboard Layout=Ctrl+Alt+K,none,切換到下一個鍵盤佈局
+_k_friendly_name=KDE Daemon
+
+[kaccess]
+Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,切換螢幕閱讀器開關
+_k_friendly_name=無障礙輔助
+
+[kcm_touchpad]
+Disable Touchpad=Touchpad Off,Touchpad Off,關閉觸控板
+Enable Touchpad=Touchpad On,Touchpad On,開啟觸控板
+Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,切換觸控板
+_k_friendly_name=KDE Daemon
+
 [kded5]
 Show System Activity=Ctrl+Alt+Del,Ctrl+Esc,顯示系統活動
 _k_friendly_name=KDE Daemon
-
-[krunner]
-Show System Activity=Ctrl+Alt+Del,Ctrl+Esc,顯示系統活動
-_k_friendly_name=krunner
-
-[ksmserver]
-Log Out=none,Ctrl+Alt+Del,登出
+display=Display\tMeta+P,Display\tMeta+P,切換顯示
 
 [khotkeys]
+_k_friendly_name=KDE Daemon
+{3898b272-2772-4ce6-9efa-08027617a8da}=Print,none,啟動螢幕快照工具
 {868e16e2-d059-4d1b-9f07-90cfdc70d6c4}=Ctrl+Print,none,擷取視窗
-{a6df46d5-c987-43ad-ad26-4249ddb2a44e}=Print,none,擷取螢幕
-{b6180017-d525-4ac0-9989-4514f499d304}=Ctrl+Alt+T,none,叫出終端機Konsole
-{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=Search,none,搜尋
+{94998b74-1c9c-43a4-b4f3-711dc7fb1d06}=Shift+Print,none,取得目前視窗快照
+{a6df46d5-c987-43ad-ad26-4249ddb2a44e}=Meta+Print,none,擷取螢幕
+{b6180017-d525-4ac0-9989-4514f499d304}=Ctrl+Alt+T,none,叫出終端機
+{c18d991b-1210-4c47-abec-b70fc3e2f95f}=,none,取得全螢幕快照
+{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=Search,none,呼叫 Google 搜尋
+{d3339506-f562-4c3e-82ec-041317a85a4a}=Meta+Shift+Print,none,取得矩形區域快照
+
+[kmix]
+_k_friendly_name=音效音量
+decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,遞減麥克風音量
+decrease_volume=Volume Down,Volume Down,遞減音量
+increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,增加麥克風音量
+increase_volume=Volume Up,Volume Up,遞增音量
+mic_mute=Microphone Mute,Microphone Mute,麥克風靜音
+mute=Volume Mute,Volume Mute,靜音
+
+[krunner]
+Show System Activity=none,Ctrl+Esc,顯示系統活動
+_k_friendly_name=krunner
+run command=Alt+Space\tAlt+F2\t,Alt+Space,執行指令
+run command on clipboard contents=Alt+Shift+F2,Alt+Shift+F2,執行剪貼簿的內容
+
+[ksmserver]
+Halt Without Confirmation=Ctrl+Alt+Shift+PgDown,none,不顯示關閉電腦的詢問訊息
+Lock Session=Ctrl+Alt+L\tScreensaver,Ctrl+Alt+L\tScreensaver,鎖定工作階段
+Log Out=none,Ctrl+Alt+Del,登出
+Log Out Without Confirmation=Ctrl+Alt+Shift+Del,none,不需確認直接登出
+Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,不顯示重新啟動的詢問訊息
+_k_friendly_name=ksmserver
 
 [kwin]
+Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,依請求注意作用視窗
+Decrease Opacity=none,none,減少作用中的視窗的不透明度 5 %
+Expose=Ctrl+F9,Ctrl+F9,切換展示視窗（對目前桌面）
+ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),切換展示視窗（對所有桌面）
+ExposeClass=Ctrl+F7,Ctrl+F7,切換展示視窗（視窗類別）
+Increase Opacity=none,none,增加作用中的視窗的不透明度 5 %
+Invert Screen Colors=none,none,反轉螢幕顏色
+Kill Window=Ctrl+Alt+Esc,Ctrl+Alt+Esc,砍掉程式
+MoveMouseToCenter=Meta+F6,Meta+F6,移動滑鼠到中央
+MoveMouseToFocus=Meta+F5,Meta+F5,移動滑鼠到焦點
+MoveZoomDown=Meta+Ctrl+Down,Meta+Ctrl+Down,將縮放區域移到下方
+MoveZoomLeft=Meta+Ctrl+Left,Meta+Ctrl+Left,將縮放區域移到左邊
+MoveZoomRight=Meta+Ctrl+Right,Meta+Ctrl+Right,將縮放區域移到右邊
+MoveZoomUp=Meta+Ctrl+Up,Meta+Ctrl+Up,將縮放區域移到上方
+Remove Window From Group=none,none,將視窗從群組中移除
+Setup Window Shortcut=none,none,設定視窗的捷徑鍵
 Show Desktop=Meta+D,none,顯示桌面
+ShowDesktopGrid=Ctrl+F8,Ctrl+F8,顯示桌面格線
+Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,暫停混合
+Switch One Desktop Down=none,none,切換到下面的桌面
+Switch One Desktop Up=none,none,切換到上面的桌面
+Switch One Desktop to the Left=none,none,往左移動一個桌面
+Switch One Desktop to the Right=none,none,往右移動一個桌面
+Switch Window Down=Meta+Alt+Down,Meta+Alt+Down,切換到下方視窗
+Switch Window Left=Meta+Alt+Left,Meta+Alt+Left,切換到左方視窗
+Switch Window Right=Meta+Alt+Right,Meta+Alt+Right,切換到右方視窗
+Switch Window Up=Meta+Alt+Up,Meta+Alt+Up,切換到上方視窗
+Switch to Desktop 1=Ctrl+F1,Ctrl+F1,切換到桌面 1
+Switch to Desktop 10=none,none,切換到桌面 10
+Switch to Desktop 11=none,none,切換到桌面 11
+Switch to Desktop 12=none,none,切換到桌面 12
+Switch to Desktop 13=none,none,切換到桌面 13
+Switch to Desktop 14=none,none,切換到桌面 14
+Switch to Desktop 15=none,none,切換到桌面 15
+Switch to Desktop 16=none,none,切換到桌面 16
+Switch to Desktop 17=none,none,切換到桌面 17
+Switch to Desktop 18=none,none,切換到桌面 18
+Switch to Desktop 19=none,none,切換到桌面 19
+Switch to Desktop 2=Ctrl+F2,Ctrl+F2,切換到桌面 2
+Switch to Desktop 20=none,none,切換到桌面 20
+Switch to Desktop 3=Ctrl+F3,Ctrl+F3,切換到桌面 3
+Switch to Desktop 4=Ctrl+F4,Ctrl+F4,切換到桌面 4
+Switch to Desktop 5=none,none,切換到桌面 5
+Switch to Desktop 6=none,none,切換到桌面 6
+Switch to Desktop 7=none,none,切換到桌面 7
+Switch to Desktop 8=none,none,切換到桌面 8
+Switch to Desktop 9=none,none,切換到桌面 9
+Switch to Next Desktop=none,none,切換到下一個桌面
+Switch to Next Screen=none,none,切換到下一個螢幕
+Switch to Previous Desktop=none,none,切換到上一個桌面
+Switch to Previous Screen=none,none,切換到上一個螢幕
+Switch to Screen 0=none,none,切換到螢幕 0
+Switch to Screen 1=none,none,切換到螢幕 1
+Switch to Screen 2=none,none,切換到螢幕 2
+Switch to Screen 3=none,none,切換到螢幕 3
+Switch to Screen 4=none,none,切換到螢幕 4
+Switch to Screen 5=none,none,切換到螢幕 5
+Switch to Screen 6=none,none,切換到螢幕 6
+Switch to Screen 7=none,none,切換到螢幕 7
+Toggle Window Raise/Lower=none,none,視窗置前或置後
+Walk Through Desktop List=none,none,瀏覽桌面清單項目
+Walk Through Desktop List (Reverse)=none,none,瀏覽桌面清單項目（反向）
+Walk Through Desktops=none,none,瀏覽所有桌面
+Walk Through Desktops (Reverse)=none,none,瀏覽所有桌面 (反向)
+Walk Through Window Tabs=none,none,瀏覽已開啟視窗分頁
+Walk Through Window Tabs (Reverse)=none,none,瀏覽已開啟視窗分頁 (反向)
+Walk Through Windows=Alt+Tab,none,瀏覽已開啟視窗
+Walk Through Windows (Reverse)=Alt+Shift+Backtab,none,瀏覽已開啟視窗 (反向)
+Walk Through Windows Alternative=none,none,瀏覽已開啟視窗（替代按鍵）
+Walk Through Windows Alternative (Reverse)=none,none,瀏覽已開啟視窗（替代按鍵/反向）
+Walk Through Windows of Current Application=Alt+`,none,瀏覽目前應用程式的視窗
+Walk Through Windows of Current Application (Reverse)=Alt+~,none,瀏覽目前應用程式的視窗（反向）
+Walk Through Windows of Current Application Alternative=none,none,瀏覽目前應用程式視窗（替代按鍵）
+Walk Through Windows of Current Application Alternative (Reverse)=none,none,瀏覽目前應用程式視窗（替代按鍵/反向）
+Window Above Other Windows=none,none,將視窗置於最上層
+Window Below Other Windows=none,none,將視窗置於最下層
+Window Close=Alt+F4,Alt+F4,關閉視窗
+Window Fullscreen=none,none,全螢幕
+Window Grow Horizontal=none,none,水平擴展視窗
+Window Grow Vertical=none,none,垂直擴展視窗
+Window Lower=none,none,降下視窗
+Window Maximize=Meta+PgUp,Meta+PgUp,最大化視窗
+Window Maximize Horizontal=none,none,水平最大化視窗
+Window Maximize Vertical=none,none,垂直最大化視窗
+Window Minimize=Meta+PgDown,Meta+PgDown,最小化視窗
+Window Move=none,none,移動視窗
+Window No Border=none,none,隱藏視窗邊框
+Window On All Desktops=none,none,將視窗顯示在桌面
+Window One Desktop Down=none,none,視窗下移一個桌面
+Window One Desktop Up=none,none,視窗上移一個桌面
+Window One Desktop to the Left=none,none,視窗左移一個桌面
+Window One Desktop to the Right=none,none,視窗右移一個桌面
+Window Operations Menu=Alt+F3,Alt+F3,視窗操作選單
+Window Pack Down=none,none,視窗推至下方
+Window Pack Left=none,none,視窗推至左方
+Window Pack Right=none,none,視窗推至右方
+Window Pack Up=none,none,視窗推至上方
+Window Quick Tile Bottom=Meta+Down,Meta+Down,視窗鋪排在下方
+Window Quick Tile Bottom Left=none,none,視窗鋪排在左下方
+Window Quick Tile Bottom Right=none,none,視窗鋪排在右下方
+Window Quick Tile Left=Meta+Left,Meta+Left,視窗鋪排在左方
+Window Quick Tile Right=Meta+Right,Meta+Right,視窗鋪排在右方
+Window Quick Tile Top=Meta+Up,Meta+Up,視窗鋪排在上方
+Window Quick Tile Top Left=none,none,視窗鋪排在左上方
+Window Quick Tile Top Right=none,none,視窗鋪排在右上方
+Window Raise=none,none,抬升視窗
+Window Resize=none,none,重新調整視窗大小
+Window Shade=none,none,遮蔽視窗
+Window Shrink Horizontal=none,none,水平收縮視窗
+Window Shrink Vertical=none,none,垂直收縮視窗
+Window to Desktop 1=none,none,視窗移至桌面 1
+Window to Desktop 10=none,none,視窗移至桌面 10
+Window to Desktop 11=none,none,視窗移至桌面 11
+Window to Desktop 12=none,none,視窗移至桌面 12
+Window to Desktop 13=none,none,視窗移至桌面 13
+Window to Desktop 14=none,none,視窗移至桌面 14
+Window to Desktop 15=none,none,視窗移至桌面 15
+Window to Desktop 16=none,none,視窗移至桌面 16
+Window to Desktop 17=none,none,視窗移至桌面 17
+Window to Desktop 18=none,none,視窗移至桌面 18
+Window to Desktop 19=none,none,視窗移至桌面 19
+Window to Desktop 2=none,none,視窗移至桌面 2
+Window to Desktop 20=none,none,視窗移至桌面 20
+Window to Desktop 3=none,none,視窗移至桌面 3
+Window to Desktop 4=none,none,視窗移至桌面 4
+Window to Desktop 5=none,none,視窗移至桌面 5
+Window to Desktop 6=none,none,視窗移至桌面 6
+Window to Desktop 7=none,none,視窗移至桌面 7
+Window to Desktop 8=none,none,視窗移至桌面 8
+Window to Desktop 9=none,none,視窗移至桌面 9
+Window to Next Desktop=none,none,視窗移到下一個桌面
+Window to Next Screen=none,none,視窗移至下一個螢幕
+Window to Previous Desktop=none,none,視窗移到上一個桌面
+Window to Previous Screen=none,none,視窗移到上一個螢幕
+Window to Screen 0=none,none,視窗移至螢幕 0
+Window to Screen 1=none,none,視窗移至螢幕 1
+Window to Screen 2=none,none,視窗移至螢幕 2
+Window to Screen 3=none,none,視窗移至螢幕 3
+Window to Screen 4=none,none,視窗移至螢幕 4
+Window to Screen 5=none,none,視窗移至螢幕 5
+Window to Screen 6=none,none,視窗移至螢幕 6
+Window to Screen 7=none,none,視窗移至螢幕 7
+_k_friendly_name=KWin
+view_actual_size=,Meta+0,實際大小(A)
+view_zoom_in=Meta+=,Meta+=,放大(I)
+view_zoom_out=Meta+-,Meta+-,縮小(O)
+
+[org_kde_powerdevil]
+Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,遞減鍵盤亮度
+Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,遞減螢幕亮度
+Hibernate=Hibernate,Hibernate,休眠
+Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,遞增鍵盤亮度
+Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,遞增螢幕亮度
+PowerOff=Power Off,Power Off,關閉電源
+Sleep=Sleep,Sleep,暫停
+Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,切換鍵盤背光
+_k_friendly_name=電源管理
+
+[plasmashell]
+_k_friendly_name=Plasma
+activate task manager entry 1=Meta+1,Meta+1,啟用工作管理員項目 1
+activate task manager entry 10=Meta+0,Meta+0,啟用工作管理員項目 10
+activate task manager entry 2=Meta+2,Meta+2,啟用工作管理員項目 2
+activate task manager entry 3=Meta+3,Meta+3,啟用工作管理員項目 3
+activate task manager entry 4=Meta+4,Meta+4,啟用工作管理員項目 4
+activate task manager entry 5=Meta+5,Meta+5,啟用工作管理員項目 5
+activate task manager entry 6=Meta+6,Meta+6,啟用工作管理員項目 6
+activate task manager entry 7=Meta+7,Meta+7,啟用工作管理員項目 7
+activate task manager entry 8=Meta+8,Meta+8,啟用工作管理員項目 8
+activate task manager entry 9=Meta+9,Meta+9,啟用工作管理員項目 9
+activate widget 3=Alt+F1,none,啟動 應用程式選單 元件
+clear-history=none,none,清除剪貼簿歷史紀錄(L)
+clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,開啟剪貼簿動作
+cycleNextAction=none,none,下一個歷史紀錄項目
+cyclePrevAction=none,none,前一個歷史紀錄項目
+edit_clipboard=none,none,編輯內容 (E) ...
+manage activities=Meta+Q,Meta+Q,活動...
+next activity=Meta+Tab,none,瀏覽活動
+previous activity=Meta+Shift+Tab,none,瀏覽活動（反向）
+repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,手動啟動在現在剪貼簿裡的行為
+show dashboard=Ctrl+F12,Ctrl+F12,顯示桌面
+show-barcode=none,none,顯示條碼(S)...
+show-on-mouse-pos=none,none,在滑鼠游標位置開啟 Klipper
+stop current activity=Meta+S,Meta+S,停止目前的活動

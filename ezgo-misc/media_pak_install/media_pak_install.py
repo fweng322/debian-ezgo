@@ -19,15 +19,15 @@ BG_COLOR = '#7AD9F6'
 #BG_COLOR = '#94EFF4'
 
 MY_PATH = '/usr/share/ezgo/media_pak_install/'
-EZGO_VERSION = 'ezgo14'
+EZGO_VERSION = 'ezgo'
 
 gettext.textdomain('media_pak_install')
 gettext.bindtextdomain('media_pak_install', MY_PATH+'locales')
 _ = gettext.gettext
 
-third_party_software = [ 'ubuntu-restricted-extras', 'skype', 'google-chrome-stable', 'playonlinux', 'ezgo-games' ]
-third_party_sw_desc = [ _('Necessary tools for multimedia, like flash and codecs.\nWith this you can watch youtube video or many other video format files.'), _('A famous instant messages and voice communication software.'), _('A famous browser developed by Google.'), _('A good tool to manage wine versions'), _('Good games recommended by ezgo') ]
-third_party_icon = [ MY_PATH+'ubuntu.png', MY_PATH+'skype.png', MY_PATH+'chrome.png', MY_PATH+'playonlinux.png', MY_PATH+'ezgo-games.png' ]
+third_party_software = [ 'ubuntu-restricted-extras', 'chromium-browser', 'google-chrome-stable', 'playonlinux', 'ezgo-games' ]
+third_party_sw_desc = [ _('Necessary tools for multimedia, like flash and codecs.\nWith this you can watch youtube video or many other video format files.'), _('FOSS version of Google-chrome.'), _('A famous browser developed by Google.'), _('A good tool to manage wine versions'), _('Good games recommended by ezgo') ]
+third_party_icon = [ MY_PATH+'ubuntu.png', MY_PATH+'chromium-browser.png', MY_PATH+'chrome.png', MY_PATH+'playonlinux.png', MY_PATH+'ezgo-games.png' ]
 
 current_check_button = 0
 total_check_button = len(third_party_software)
@@ -276,7 +276,7 @@ class FlashInstall:
 		box1 = gtk.VBox(False, 0)
 
 		#[top]
-		text_show = _("Welcome to ")+EZGO_VERSION+"!\n"
+		text_show = _("Welcome to ")+EZGO_VERSION+"\n"
 		text_show += _("Since ")+EZGO_VERSION+_(" contains only software that we can freely distribute, some freeware can't be preinstalled due to license issue.  Besides, the capability of an iso file is quite limited but there are so many good software we want to introduce.  Therefore, we strongly recommend you to install the following software so that you can have better experiences in ")+EZGO_VERSION
 
 		label = gtk.Label('<span size="'+str(WELCOME_SIZE)+'">' +text_show  +'</span>')

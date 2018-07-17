@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-12 12:59+CST\n"
+"POT-Creation-Date: 2018-07-16 12:57+0800\n"
 "PO-Revision-Date: 2014-10-17 00:30+0800\n"
 "Last-Translator: Franklin Weng <franklin@goodhorse.idv.tw>\n"
 "Language-Team: Traditional Chinese <zh-l10n@linux.org.tw>\n"
@@ -16,71 +16,76 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: media_pak_install.py:29
-msgid "A famous browser developed by Google."
-msgstr "Google Chrome 網頁瀏覽器"
-
-#: media_pak_install.py:29
-msgid "A famous instant messages and voice communication software."
-msgstr "通訊應用軟體"
-
-#: media_pak_install.py:29
-msgid "A good tool to manage wine versions"
-msgstr "Wine 安裝管理軟體"
-
-#: media_pak_install.py:29
-msgid "Good games recommended by ezgo"
-msgstr "ezgo 推薦的各種好玩遊戲"
-
-#: media_pak_install.py:29
+#: ../media_pak_install.py:29
 msgid ""
 "Necessary tools for multimedia, like flash and codecs.\n"
 "With this you can watch youtube video or many other video format files."
 msgstr "影音多媒體編解碼器"
 
-#: media_pak_install.py:88
+#: ../media_pak_install.py:29
+msgid "FOSS version of Google-chrome."
+msgstr "Google Chrome 網頁瀏覽器的開源版本"
+
+#: ../media_pak_install.py:29
+msgid "A famous browser developed by Google."
+msgstr "Google Chrome 網頁瀏覽器"
+
+#: ../media_pak_install.py:29
+msgid "A good tool to manage wine versions"
+msgstr "Wine 安裝管理軟體"
+
+#: ../media_pak_install.py:29
+msgid "Good games recommended by ezgo"
+msgstr "ezgo 推薦的各種好玩遊戲"
+
+#: ../media_pak_install.py:88
 msgid "Installed"
 msgstr "已安裝"
 
-#: media_pak_install.py:173
+#: ../media_pak_install.py:173
 msgid "Installation failed: Network unreachable."
 msgstr "安裝失敗：無法連上網路。"
 
-#: media_pak_install.py:196
+#: ../media_pak_install.py:196
 msgid ""
 "Please make sure that your network connection is available before start "
 "installation.  Also, please close all the browsers and multimedia windows."
 msgstr "請在安裝前確定連上網路，並關閉瀏覽器及影音相關軟體。"
 
-#: media_pak_install.py:200 media_pak_install.py:233
+#: ../media_pak_install.py:200 ../media_pak_install.py:233
 msgid "Updating repository..."
 msgstr "更新套件庫中..."
 
-#: media_pak_install.py:200 media_pak_install.py:233 media_pak_install.py:271
+#: ../media_pak_install.py:200 ../media_pak_install.py:233
+#: ../media_pak_install.py:271
 msgid "Install recommended software"
 msgstr "安裝推薦軟體"
 
-#: media_pak_install.py:206 media_pak_install.py:241
+#: ../media_pak_install.py:206 ../media_pak_install.py:241
 msgid "Installing..."
 msgstr "安裝中..."
 
-#: media_pak_install.py:225 media_pak_install.py:246
+#: ../media_pak_install.py:225 ../media_pak_install.py:246
 msgid "Succeeded."
 msgstr "安裝成功。"
 
-#: media_pak_install.py:227 media_pak_install.py:248
+#: ../media_pak_install.py:227 ../media_pak_install.py:248
 msgid "Failed."
 msgstr "安裝失敗。"
 
-#: media_pak_install.py:262
+#: ../media_pak_install.py:262
 msgid "Please input your password."
 msgstr "請輸入您的密碼。"
 
-#: media_pak_install.py:279
+#: ../media_pak_install.py:279
 msgid "Welcome to "
 msgstr "歡迎使用 "
 
-#: media_pak_install.py:280
+#: ../media_pak_install.py:280
+msgid "Since "
+msgstr "由於 "
+
+#: ../media_pak_install.py:280
 msgid ""
 " contains only software that we can freely distribute, some freeware can't "
 "be preinstalled due to license issue.  Besides, the capability of an iso "
@@ -89,24 +94,24 @@ msgid ""
 "software so that you can have better experiences in "
 msgstr ""
 " 所收錄的軟體皆為可以合法自由散佈的自由軟體，有些免費軟體因為授權的關係\n"
-"而無法預先安裝，還有一些很棒的自由軟體因為檔案容量的限制而未能預裝在此版"
-"本內。\n因此，建議您透過網路安裝以下軟體，讓您可以更豐富更自在地體驗 "
+"而無法預先安裝，還有一些很棒的自由軟體因為檔案容量的限制而未能預裝在此版本"
+"內。\n"
+"因此，建議您透過網路安裝以下軟體，讓您可以更豐富更自在地體驗 "
 
-#: media_pak_install.py:280
-msgid "Since "
-msgstr "由於 "
-
-#: media_pak_install.py:310
+#: ../media_pak_install.py:310
 msgid "Don't show it again."
 msgstr "不要再顯示。"
 
-#: media_pak_install.py:341
+#: ../media_pak_install.py:341
 msgid "Notice"
 msgstr "注意"
 
-#: media_pak_install.py:378
+#: ../media_pak_install.py:378
 msgid "If you want to run later, choose it from the \"ezgo tools\" menu."
 msgstr "若您要稍後再執行，可以在選單中的 \"ezgo 工具箱\" 中找到。"
+
+#~ msgid "A famous instant messages and voice communication software."
+#~ msgstr "通訊應用軟體"
 
 #~ msgid ""
 #~ " contains only software that we can freely distribute,\n"

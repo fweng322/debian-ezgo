@@ -2,6 +2,6 @@
 WallpaperPlugin=org.kde.image
 
 [Greeter][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/ezgo14-forEVER/contents/images/1920x1080.png
-height=768
-width=1366
+Image=file:///etc/alternatives/ezgo-default-dm.png
+height=1080
+width=1920
