@@ -1,4 +1,4 @@
-desktop-directories/* usr/share/ezgo/ezgo-menu/desktop-directories
+desktop-directories/* usr/share/desktop-directories
 ezgomenu/* usr/share/ezgo/ezgo-menu/ezgomenu
 system/33ezgo-menu etc/X11/Xsession.d
 system/80update-ezgomenu etc/apt/apt.conf.d

@@ -1,17 +1,6 @@
-ezgo-menu (2018071801) UNRELEASED; urgency=low
+ezgo-menu (2018122001) UNRELEASED; urgency=low
 
   * Initial release
-  * Split from ezgo-tasks
-  * Remove USGS.png and physics.png since they will be put in different
-    ezgo packages
-  * Add some entries in database and applications menu file
-  * Fix simplified Chinese items by bootingmen
-  * Fix the Chinese name of skype
-  * Reopen DefaultMergeDirs
-  * Fix encoding problems
-  * Fix XDG_CONFIG_DIRS problem in mint
-  * Add update menu desktop file
-  * Add oxoffice5 desktop files
-  * Add directory files for development and settings
+  * fix for debian stretch
 
  -- Franklin Weng <franklin@teabbs.goodhorse.idv.tw>  Fri, 21 Nov 2014 14:55:39 +0800

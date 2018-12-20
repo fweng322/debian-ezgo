@@ -1,6 +1,6 @@
 
 XDG_MENU_PREFIX=ezgo-
 XDG_CONFIG_DIRS=/etc/xdg/ezgo:/etc/xdg:$XDG_CONFIG_DIRS
-XDG_DATA_DIRS=/usr/share/ezgo/ezgo-menu:$XDG_DATA_DIRS
+#XDG_DATA_DIRS=/usr/share/ezgo/ezgo-menu:$XDG_DATA_DIRS
 
-export XDG_MENU_PREFIX XDG_CONFIG_DIRS XDG_DATA_DIRS
+export XDG_MENU_PREFIX XDG_CONFIG_DIRS #XDG_DATA_DIRS
