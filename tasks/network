@@ -6,7 +6,9 @@ Description: debian ezgo Network
  .
  This is the selection of networking related packages.
 
-Depends: firefox
+Depends: firefox-esr
+
+Depends: chromium
 
 Depends: pidgin
 

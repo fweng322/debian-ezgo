@@ -13,7 +13,3 @@ Depends: kate
 Depends: vim-gtk
 
 Depends: kcalc
-
-Depends: kmag
-
-Depends: kvkbd

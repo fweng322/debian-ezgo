@@ -21,25 +21,13 @@ Depends: scribus
 
 Depends: digikam
 
-Depends: f-spot
-
 Depends: gwenview
 
 Depends: cheese
 
 Depends: blender
 
-Depends: ballview
-
-Depends: ardesia
-
-Depends: fotowall
-
-Depends: shotwell
-
 Depends: krita
-
-Depends: mypaint
 
 Depends: shutter
 
@@ -56,3 +44,5 @@ Depends: kcolorchooser
 Depends: kamoso
 
 Depends: librecad
+
+Depends: skanlite

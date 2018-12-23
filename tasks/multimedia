@@ -6,37 +6,21 @@ Description: debian ezgo Multimedia
  .
  This is the selection of multimedia packages.
 
-Depends: audacious
-
-Depends: amarok
-
 Depends: vlc
-
-Depends: totem
-
-Depends: mplayer
 
 Depends: audacity
 
 Depends: tuxguitar
 
-Depends: sound-juicer
-
 Depends: kdenlive
-
-Depends: oggconvert
 
 Depends: k3b
 
-Depends: brasero
-
-Depends: mscore
+Depends: musescore
 
 Depends: imagination
 
-Depends: xbmc
-
-Depends: openshot
+Depends: openshot-qt
 
 Depends: lmms
 
@@ -44,14 +28,6 @@ Depends: kazam
 
 Depends: guvcview
 
-Depends: ffdiaporama
-
-Depends: furiusisomount
-
 Depends: hydrogen
-
-Depends: winff
-
-Depends: ardour
 
 Depends: timidity

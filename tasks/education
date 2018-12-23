@@ -21,35 +21,15 @@ Depends: blinken
 
 Depends: cantor
 
-Depends: celestia
-
-Depends: drgeo
-
-Depends: gchempaint
-
-Depends: gcompris
+Depends: gcompris-qt
 
 Depends: geogebra
 
-Depends: ghemical
-
 Depends: gnumeric
-
-Depends: kalgebra
 
 Depends: kalzium
 
 Depends: kanagram
-
-Depends: kayali
-Homepage: http://kayali.sourceforge.net/
-License: free
-Responsible: Andrew Lee <ajqlee@debian.org>
-Pkg-Description: a Computer Algebra System (CAS)
- Kayali is a Qt based Computer Algebra System (CAS) that can also be
- used as an advanced replacement for KDE KCalc.
- It is essentially a front end GUI for Maxima (and is easily extended
- to other CAS back-ends) and Gnuplot.
 
 Depends: kbruch
 
@@ -69,8 +49,6 @@ Depends: ktouch
 
 Depends: ktuberling
 
-Depends: kturtle
-
 Depends: marble
 
 Depends: parley
@@ -79,21 +57,8 @@ Depends: pymol
 
 Depends: rocs
 
-Depends: scratch
-WNPP: #471927
-Homepage: http://scratch.mit.edu/pages/source
-License: MIT
-Pkg-Description: easy programming environment designed for kids
- Scratch is a new programming language that makes it easy to create your
- own interactive stories, animations, games, music, and art -- and share
- your creations on the web.
- .
- Scratch is designed to help young people (ages 8 and up) develop 21st
- century learning skills. As they create Scratch projects, young people
- learn important mathematical and computational ideas, while also gaining
- a deeper understanding of the process of design.
-
 Depends: stellarium
 
-Depends: wxmaxima
+Depends: r-base
 
+Depends: rkward

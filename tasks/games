@@ -44,3 +44,5 @@ Depends: kreversi
 Depends: kfourinline
 
 Depends: bovo
+
+Depends: gnugo
