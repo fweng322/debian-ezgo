@@ -712,6 +712,7 @@
 			<Filename>geometria.desktop</Filename>
 			<Filename>kde4-kalgebra.desktop</Filename>
 			<Filename>kde4-cantor.desktop</Filename>
+			<Filename>org.kde.cantor.desktop</Filename>
 			<Filename>kayali.desktop</Filename>
 			<Filename>kde4-kbruch.desktop</Filename>
 			<Filename>kde4-kig.desktop</Filename>
@@ -725,6 +726,7 @@
 			<Filename>ghemical.desktop</Filename>
 			<Filename>kde4-kalzium.desktop</Filename>
 			<Filename>org.kde.kalzium.desktop</Filename>
+			<Filename>kde4-org.kde.kalzium.desktop</Filename>
 			<Filename>kde4-kgeography.desktop</Filename>
 			<Filename>org.kde.kgeography.desktop</Filename>
 			<Filename>kde4-marble.desktop</Filename>
@@ -733,6 +735,8 @@
 			<Filename>kde4-kstars.desktop</Filename>
 			<Filename>stellarium.desktop</Filename>
 			<Filename>kde4-klettres.desktop</Filename>
+			<Filename>org.kde.klettres.desktop</Filename>
+			<Filename>org.kde.kiten.desktop</Filename>
 			<Filename>kde4-kwordquiz.desktop</Filename>
 			<Filename>org.kde.parley.desktop</Filename>
 			<Filename>kde4-parley.desktop</Filename>
@@ -777,6 +781,7 @@
 			<Separator/>
 			<Filename>kde4-ktouch.desktop</Filename>
 			<Filename>org.kde.ktouch.desktop</Filename>
+			<Filename>kde4-org.kde.ktouch.desktop</Filename>
 			<Filename>klavaro.desktop</Filename>
 			<Separator/>
 			<Filename>moedict.desktop</Filename>
@@ -785,6 +790,8 @@
 			<Filename>org.kde.parley.desktop</Filename>
 			<Filename>kde4-parley.desktop</Filename>
 			<Filename>kde4-klettres.desktop</Filename>
+			<Filename>org.kde.klettres.desktop</Filename>
+			<Filename>org.kde.kiten.desktop</Filename>
 			<Filename>kde4-kwordquiz.desktop</Filename>
 			<Filename>org.kde.kanagram.desktop</Filename>
 			<Filename>kde4-kanagram.desktop</Filename>
@@ -804,7 +811,9 @@
 			<Filename>googleearth.desktop</Filename>
 			<Separator/>			
 			<Filename>kde4-kbruch.desktop</Filename>
+			<Filename>org.kde.kbruch.desktop</Filename>
 			<Filename>kde4-kig.desktop</Filename>
+			<Filename>org.kde.kig.desktop</Filename>
 			<Filename>drgeo.desktop</Filename>
 			<Filename>org.kde.kmplot.desktop</Filename>
 			<Filename>kde4-kmplot.desktop</Filename>
@@ -813,6 +822,7 @@
 			<Filename>wxmaxima.desktop</Filename>
 			<Filename>kde4-kalgebra.desktop</Filename>
 			<Filename>kde4-cantor.desktop</Filename>
+			<Filename>org.kde.cantor.desktop</Filename>
 			<Filename>kayali.desktop</Filename>
 			<Separator/>
 			<Filename>org.kde.rocs.desktop</Filename>
@@ -824,6 +834,7 @@
 			<Separator/>
 			<Filename>kde4-kalzium.desktop</Filename>
 			<Filename>org.kde.kalzium.desktop</Filename>
+			<Filename>kde4-org.kde.kalzium.desktop</Filename>
 			<Filename>bkchem.desktop</Filename>
 			<Filename>ghemical.desktop</Filename>
 			<Filename>avogadro.desktop</Filename>			
@@ -1135,6 +1146,7 @@
 			<Filename>software-properties-gtk.desktop</Filename>
 			<Filename>software-properties-kde.desktop</Filename>
 			<Filename>org.kde.discover.desktop</Filename>
+			<Filename>org.kde.apper.desktop</Filename>
 				<Category>System</Category>
 		</Include>
 		<Menu>
@@ -1149,6 +1161,7 @@
 			<Filename>ubuntu-software-center.desktop</Filename>
 			<Filename>lubuntu-software-center.desktop</Filename>
 			<Filename>org.kde.discover.desktop</Filename>
+			<Filename>org.kde.apper.desktop</Filename>
 			<Filename>software-properties-gnome.desktop</Filename>
 			<Filename>software-properties-gtk.desktop</Filename>
 			<Filename>software-properties-kde.desktop</Filename>
