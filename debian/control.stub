@@ -454,6 +454,7 @@ Description: recover features in ezgo13
  self-learning.
  .
  This package contains recover shell scripts and desktop files in ezgo13
+Depends: gawk
 
 Package: ezgo-atayal
 Architecture: all
