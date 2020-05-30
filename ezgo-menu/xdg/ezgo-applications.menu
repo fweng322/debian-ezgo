@@ -55,13 +55,6 @@
 			<Filename>libreoffice-math.desktop</Filename>
 			<Filename>libreoffice-writer.desktop</Filename>
 			<Filename>libreoffice-base.desktop</Filename>
-			<Filename>oxoffice5-startcenter.desktop</Filename>
-			<Filename>oxoffice5-calc.desktop</Filename>
-			<Filename>oxoffice5-draw.desktop</Filename>
-			<Filename>oxoffice5-impress.desktop</Filename>
-			<Filename>oxoffice5-math.desktop</Filename>
-			<Filename>oxoffice5-writer.desktop</Filename>
-			<Filename>oxoffice5-base.desktop</Filename>
 			<Filename>oxoffice6-startcenter.desktop</Filename>
 			<Filename>oxoffice6-calc.desktop</Filename>
 			<Filename>oxoffice6-draw.desktop</Filename>
@@ -69,6 +62,13 @@
 			<Filename>oxoffice6-math.desktop</Filename>
 			<Filename>oxoffice6-writer.desktop</Filename>
 			<Filename>oxoffice6-base.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-startcenter.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-calc.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-draw.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-impress.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-math.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-writer.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-base.desktop</Filename>
 			<Filename>freemind.desktop</Filename>
 			<Filename>xmind.desktop</Filename>
 			<Filename>dia.desktop</Filename>
@@ -95,8 +95,16 @@
 			<Filename>sigil.desktop</Filename>
 			<Filename>freeplane.desktop</Filename>
 			<Filename>qtqr.desktop</Filename>
-			<!--<Category>Office</Category>-->
+			<!--	<Category>Office</Category> -->
 		</Include>
+		<Menu>
+			<Name>More</Name>
+			<Directory>kde-more.directory</Directory>
+			<OnlyUnallocated/>
+			<Include>
+				<Category>Office</Category>
+			</Include>
+		</Menu>
 		<Layout>
 			<Filename>libreoffice-startcenter.desktop</Filename>
 			<Filename>libreoffice-writer.desktop</Filename>
@@ -105,13 +113,6 @@
 			<Filename>libreoffice-draw.desktop</Filename>
 			<Filename>libreoffice-base.desktop</Filename>
 			<Filename>libreoffice-math.desktop</Filename>
-			<Filename>oxoffice5-startcenter.desktop</Filename>
-			<Filename>oxoffice5-writer.desktop</Filename>
-			<Filename>oxoffice5-calc.desktop</Filename>
-			<Filename>oxoffice5-impress.desktop</Filename>
-			<Filename>oxoffice5-draw.desktop</Filename>
-			<Filename>oxoffice5-base.desktop</Filename>
-			<Filename>oxoffice5-math.desktop</Filename>
 			<Filename>oxoffice6-startcenter.desktop</Filename>
 			<Filename>oxoffice6-writer.desktop</Filename>
 			<Filename>oxoffice6-calc.desktop</Filename>
@@ -119,6 +120,13 @@
 			<Filename>oxoffice6-draw.desktop</Filename>
 			<Filename>oxoffice6-base.desktop</Filename>
 			<Filename>oxoffice6-math.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-startcenter.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-writer.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-calc.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-impress.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-draw.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-base.desktop</Filename>
+			<Filename>ndcodfapplicationtools6-math.desktop</Filename>
 			<Separator/>
 			<Filename>xmind.desktop</Filename>
 			<Filename>freeplane.desktop</Filename>
@@ -152,14 +160,6 @@
 			<Merge type="menus"/>
 			<Menuname>More</Menuname>
 		</Layout>
-		<Menu>
-			<Name>More</Name>
-			<Directory>kde-more.directory</Directory>
-			<OnlyUnallocated/>
-			<Include>
-				<Category>Office</Category>
-			</Include>
-		</Menu>
 	</Menu>
 	<Menu>
 		<Name>Graphics</Name>
@@ -175,8 +175,8 @@
 			<Filename>org.kde.skanlite.desktop</Filename>
 			<Filename>tuxpaint.desktop</Filename>
 			<Filename>gpaint.desktop</Filename>
-			<Filename>org.kde.kolourpaint.desktop</Filename>
 			<Filename>kde4-kolourpaint.desktop</Filename>
+			<Filename>org.kde.kolourpaint.desktop</Filename>
 			<Filename>kde4-digikam.desktop</Filename>
 			<Filename>org.kde.digikam.desktop</Filename>
 			<Filename>f-spot.desktop</Filename>
@@ -184,8 +184,10 @@
 			<Filename>org.kde.gwenview.desktop</Filename>
 			<Filename>kde4-gwenview.desktop</Filename>
 			<Filename>ktoon.desktop</Filename>
+			<Filename>darktable.desktop</Filename>
 			<Filename>gimp.desktop</Filename>
 			<Filename>inkscape.desktop</Filename>
+			<Filename>org.inkscape.Inkscape.desktop</Filename>
 			<Filename>fotowall.desktop</Filename>
 			<Filename>posterazor.desktop</Filename>
 			<Filename>hugin.desktop</Filename>
@@ -207,13 +209,21 @@
 			<Filename>kde4-scangui.desktop</Filename>
 			<Filename>kde4-expoblending.desktop</Filename>
 			<Filename>kde4-photolayoutseditor.desktop</Filename>
-			<Filename>org.kde.krita.desktop</Filename>
 			<Filename>kde4-krita.desktop</Filename>			
+			<Filename>org.kde.krita.desktop</Filename>			
 			<Filename>freecad.desktop</Filename>
 			<Filename>librecad.desktop</Filename>
 			<Filename>scribus.desktop</Filename>
-			<!--<Category>Graphics</Category>-->
+			<!--	<Category>Graphics</Category> -->
 		</Include>
+		<Menu>
+			<Name>More</Name>
+			<Directory>kde-more.directory</Directory>
+			<OnlyUnallocated/>
+			<Include>
+				<Category>Graphics</Category>
+			</Include>
+		</Menu>
 		<Layout>
 			<Filename>org.kde.kolourpaint.desktop</Filename>
 			<Filename>kde4-kolourpaint.desktop</Filename>
@@ -222,11 +232,13 @@
 			<Filename>org.kde.krita.desktop</Filename>			
 			<Filename>kde4-krita.desktop</Filename>			
 			<Filename>gimp.desktop</Filename>			
+			<Filename>darktable.desktop</Filename>
 			<Filename>mtpaint.desktop</Filename>
 			<Filename>pinta.desktop</Filename>
 			<Filename>mypaint.desktop</Filename>			
 			<Separator/>
 			<Filename>inkscape.desktop</Filename>
+			<Filename>org.inkscape.Inkscape.desktop</Filename>
 			<Filename>scribus.desktop</Filename>
 			<Separator/>
 			<Filename>jkiwi.desktop</Filename>
@@ -276,14 +288,6 @@
 			<Merge type="menus"/>
 			<Menuname>More</Menuname>
 		</Layout>
-		<Menu>
-			<Name>More</Name>
-			<Directory>kde-more.directory</Directory>
-			<OnlyUnallocated/>
-			<Include>
-				<Category>Graphics</Category>
-			</Include>
-		</Menu>
 	</Menu>
 	<Menu>
 		<Name>AudioVideo</Name>
@@ -293,6 +297,8 @@
 			<Filename>smplayer.desktop</Filename>
 			<Filename>xbmc.desktop</Filename>
 			<Filename>vlc.desktop</Filename>
+			<Filename>kde4-org.kde.juk.desktop</Filename>
+			<Filename>org.kde.juk.desktop</Filename>
 			<Filename>totem.desktop</Filename>
 			<Filename>xine.desktop</Filename>
 			<Filename>kde4-dragonplayer.desktop</Filename>
@@ -323,6 +329,7 @@
 			<Filename>sound-juicer.desktop</Filename>
 			<Filename>guvcview.desktop</Filename>
 			<Filename>cheese.desktop</Filename>
+			<Filename>org.gnome.Cheese.desktop</Filename>
 			<Filename>kde4-k3b.desktop</Filename>
 			<Filename>org.kde.k3b.desktop</Filename>
 			<Filename>dvdisaster.desktop</Filename>
@@ -340,16 +347,30 @@
 			<Filename>audacious.desktop</Filename>
 			<Filename>ffDiaporama.desktop</Filename>
 			<Filename>lmms.desktop</Filename>
-			<!--	<Or>
+			<!--		<Or>
 					<Category>AudioVideo</Category>
 					<Category>Audio</Category>
 					<Category>Video</Category>
 				</Or> -->
 		</Include>
+		<Menu>
+			<Name>More</Name>
+			<Directory>kde-more.directory</Directory>
+			<OnlyUnallocated/>
+			<Include>
+				<Or>
+					<Category>AudioVideo</Category>
+					<Category>Audio</Category>
+					<Category>Video</Category>
+				</Or>
+			</Include>
+		</Menu>
 		<Layout>
 			<Filename>xbmc.desktop</Filename>
 			<Separator/>			
 			<Filename>vlc.desktop</Filename>
+			<Filename>kde4-org.kde.juk.desktop</Filename>
+			<Filename>org.kde.juk.desktop</Filename>
 			<Filename>totem.desktop</Filename>
 			<Filename>xine.desktop</Filename>
 			<Filename>smplayer.desktop</Filename>
@@ -370,6 +391,7 @@
 			<Filename>xvidcap.desktop</Filename>
 			<Filename>sound-juicer.desktop</Filename>
 			<Filename>cheese.desktop</Filename>
+			<Filename>org.gnome.Cheese.desktop</Filename>
 			<Filename>guvcview.desktop</Filename>
 			<Filename>gnome-sound-recorder.desktop</Filename>
 			<Separator/>
@@ -412,18 +434,6 @@
 			<Merge type="menus"/>
 			<Menuname>More</Menuname>
 		</Layout>
-		<Menu>
-			<Name>More</Name>
-			<Directory>kde-more.directory</Directory>
-			<OnlyUnallocated/>
-			<Include>
-				<Or>
-					<Category>AudioVideo</Category>
-					<Category>Audio</Category>
-					<Category>Video</Category>
-				</Or>
-			</Include>
-		</Menu>
 	</Menu>
 	
 	<Menu>
@@ -444,8 +454,10 @@
 			<Filename>chromium.desktop</Filename>
 			<Filename>google-chrome.desktop</Filename>
 			<Filename>firefox.desktop</Filename>
-			<Filename>kde4-konqbrowser.desktop</Filename>
+			<Filename>konqbrowser.desktop</Filename>
 			<Filename>kde4-rekonq.desktop</Filename>
+			<Filename>torbrowser.desktop</Filename>
+			<Filename>brave-browser.desktop</Filename>
 			<Filename>thunderbird.desktop</Filename>
 			<Filename>kde4-KMail.desktop</Filename>
 			<Filename>kde4-akregator.desktop</Filename>
@@ -476,13 +488,21 @@
 			<Filename>transmission-gtk.desktop</Filename>
 			<!--	<Category>Network</Category> -->
 		</Include>
+		<Menu>
+			<Name>More</Name>
+			<Directory>kde-more.directory</Directory>
+			<OnlyUnallocated/>
+			<Include>
+				<Category>Network</Category>
+			</Include>
+		</Menu>
 		<Layout>
 			<Filename>firefox.desktop</Filename>
 			<Filename>chromium-browser.desktop</Filename>
 			<Filename>chromium.desktop</Filename>
 			<Filename>google-chrome.desktop</Filename>
-			<Filename>kde4-konqbrowser.desktop</Filename>
-			<Filename>kde4-rekonq.desktop</Filename>
+			<Filename>torbrowser.desktop</Filename>
+			<Filename>brave-browser.desktop</Filename>
 			<Filename>pcmanx.desktop</Filename>
 			<Separator/>
 			<Filename>exe.desktop</Filename>
@@ -535,14 +555,6 @@
 			<Merge type="menus"/>
 			<Menuname>More</Menuname>
 		</Layout>
-		<Menu>
-			<Name>More</Name>
-			<Directory>kde-more.directory</Directory>
-			<OnlyUnallocated/>
-			<Include>
-				<Category>Network</Category>
-			</Include>
-		</Menu>
 	</Menu>
 
 	<Menu>
@@ -564,6 +576,7 @@
 			<Filename>org.kde.kblackbox.desktop</Filename>
 			<Filename>kde4-kblackbox.desktop</Filename>
 			<Filename>kde4-ksudoku.desktop</Filename>
+			<Filename>kde4-org.kde.ksudoku.desktop</Filename>
 			<Filename>org.kde.ksudoku.desktop</Filename>
 			<Filename>kde4-kbreakout.desktop</Filename>
 			<Filename>kde4-kolf.desktop</Filename>
@@ -575,7 +588,7 @@
 			<Filename>kde4-bovo.desktop</Filename>
 			<Filename>kde4-kmahjongg.desktop</Filename>
 			<Filename>kde4-kshisen.desktop</Filename>
-			<Filename>kde4-kpat.desktop</Filename>
+			<Filename>org.kde.kpat.desktop</Filename>
 			<Filename>kde4-lskat.desktop</Filename>
 			<Filename>org.kde.picmi.desktop</Filename>
 			<Filename>kde4-picmi.desktop</Filename>
@@ -611,8 +624,16 @@
 			<Filename>kde4-ksirk.desktop</Filename>
 			<Filename>kde4-ksirkskineditor.desktop</Filename>
 			<Filename>kde4-granatier.desktop</Filename>
-			<!--	<Category>Game</Category> -->
+			<!-- 	<Category>Game</Category> -->
 		</Include>
+		<Menu>
+			<Name>More</Name>
+			<Directory>kde-more.directory</Directory>
+			<OnlyUnallocated/>
+			<Include>
+				<Category>Game</Category>
+			</Include>
+		</Menu>
 		<Layout>
 			<Filename>tuxtype.desktop</Filename>
 			<Filename>tuxmath.desktop</Filename>
@@ -642,6 +663,7 @@
 			<Filename>kde4-klines.desktop</Filename>			
 			<Separator/>			
 			<Filename>kde4-ksudoku.desktop</Filename>
+			<Filename>kde4-org.kde.ksudoku.desktop</Filename>
 			<Filename>org.kde.ksudoku.desktop</Filename>
 			<Filename>org.kde.blinken.desktop</Filename>
 			<Filename>kde4-blinken.desktop</Filename>
@@ -665,7 +687,6 @@
 			<Filename>kde4-ktron.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-kigo.desktop</Filename>
-			<Filename>kde4-kigo.desktop</Filename>
 			<Filename>org.kde.kigo.desktop</Filename>
 			<Filename>kde4-kreversi.desktop</Filename>
 			<Filename>org.kde.kreversi.desktop</Filename>
@@ -678,32 +699,12 @@
 			<Filename>kde4-kmahjongg.desktop</Filename>
 			<Filename>kde4-kshisen.desktop</Filename>
 			<Separator/>
-			<Filename>kde4-kiriki.desktop</Filename>
-			<Filename>kde4-kjumpingcube.desktop</Filename>
+			<Filename>org.kde.kpat.desktop</Filename>
 			<Separator/>
-			<Filename>kde4-lskat.desktop</Filename>
-			<Filename>kde4-kpat.desktop</Filename>
-			<Separator/>
-			<Filename>kde4-bomber.desktop</Filename>
-			<Filename>kde4-konquest.desktop</Filename>
-			<Filename>kde4-kbattleship.desktop</Filename>
-			<Filename>kde4-kspaceduel.desktop</Filename>			
-			<Filename>kde4-killbots.desktop</Filename>
-			<Filename>kde4-ksirk.desktop</Filename>
-			<Filename>kde4-ksirkskineditor.desktop</Filename>
-			<Separator/>			
 			<Merge type="files"/>
 			<Merge type="menus"/>
 			<Menuname>More</Menuname>
 		</Layout>
-		<Menu>
-			<Name>More</Name>
-			<Directory>kde-more.directory</Directory>
-			<OnlyUnallocated/>
-			<Include>
-				<Category>Game</Category>
-			</Include>
-		</Menu>
 	</Menu>
 	<Menu>
 		<Name>Education</Name>
@@ -718,7 +719,9 @@
 			<Filename>org.kde.cantor.desktop</Filename>
 			<Filename>kayali.desktop</Filename>
 			<Filename>kde4-kbruch.desktop</Filename>
+			<Filename>org.kde.kbruch.desktop</Filename>
 			<Filename>kde4-kig.desktop</Filename>
+			<Filename>org.kde.kig.desktop</Filename>
 			<Filename>org.kde.kmplot.desktop</Filename>
 			<Filename>kde4-kmplot.desktop</Filename>
 			<Filename>wxmaxima.desktop</Filename>
@@ -753,6 +756,7 @@
 			<Filename>pymol.desktop</Filename>
 			<Filename>ballview.desktop</Filename>
 			<Filename>kde4-ktouch.desktop</Filename>
+			<Filename>kde4-org.kde.ktouch.desktop</Filename>
 			<Filename>org.kde.ktouch.desktop</Filename>
 			<Filename>org.kde.kanagram.desktop</Filename>
 			<Filename>kde4-kanagram.desktop</Filename>
@@ -765,8 +769,16 @@
 			<Filename>R.desktop</Filename>
 			<Filename>kde4-rkward.desktop</Filename>
 			<Filename>gnumeric.desktop</Filename>
-			<!--	<Category>Education</Category> -->
+			<!-- 	<Category>Education</Category> -->
 		</Include>
+		<Menu>
+			<Name>More</Name>
+			<Directory>kde-more.directory</Directory>
+			<OnlyUnallocated/>
+			<Include>
+				<Category>Education</Category>
+			</Include>
+		</Menu>
 		<Layout>
 			<Filename>gcompris.desktop</Filename>
 			<Filename>gcompris-edit.desktop</Filename>
@@ -775,6 +787,7 @@
 			<Filename>org.kde.ktuberling.desktop</Filename>
 			<Separator/>
 			<Filename>kde4-ktouch.desktop</Filename>
+			<Filename>kde4-org.kde.ktouch.desktop</Filename>
 			<Filename>org.kde.ktouch.desktop</Filename>
 			<Filename>kde4-org.kde.ktouch.desktop</Filename>
 			<Filename>klavaro.desktop</Filename>
@@ -843,14 +856,6 @@
 			<Merge type="menus"/>
 			<Menuname>More</Menuname>
 		</Layout>
-		<Menu>
-			<Name>More</Name>
-			<Directory>kde-more.directory</Directory>
-			<OnlyUnallocated/>
-			<Include>
-				<Category>Education</Category>
-			</Include>
-		</Menu>
 	</Menu>
 	<Menu>
 		<Name>X-OpenContent</Name>
@@ -917,7 +922,7 @@
 			<Directory>kde-more.directory</Directory>
 			<OnlyUnallocated/>
 			<Include>
-				<Category>Tutorial</Category>
+				<!--	<Category>Tutorial</Category> -->
 			</Include>
 		</Menu>
 		<Layout>
@@ -982,6 +987,14 @@
 			<Filename>vim.desktop</Filename>
 			<!--	<Category>Utility</Category> -->
 		</Include>
+		<Menu>
+			<Name>More</Name>
+			<Directory>kde-more.directory</Directory>
+			<OnlyUnallocated/>
+			<Include>
+				<Category>Utility</Category>
+			</Include>
+		</Menu>
 		<Layout>
 			<Filename>org.kde.kate.desktop</Filename>
 			<Filename>kde4-kate.desktop</Filename>
@@ -1018,20 +1031,11 @@
 			<Separator/>
 			<Menuname>More</Menuname>
 		</Layout>
-		<Menu>
-			<Name>More</Name>
-			<Directory>kde-more.directory</Directory>
-			<OnlyUnallocated/>
-			<Include>
-				<Category>Utility</Category>
-			</Include>
-		</Menu>
 	</Menu>
 	<Menu>
 		<Name>Development</Name>
 		<Directory>ezgo-development.directory</Directory>		
 		<Include>
-			<Filename>fritzing.desktop</Filename>
 			<Filename>bluej.desktop</Filename>
 			<Filename>kde4-kturtle.desktop</Filename>
 			<Filename>scratch.desktop</Filename>
@@ -1045,8 +1049,17 @@
 			<Filename>arduino.desktop</Filename>
 			<Filename>arduino-arduinoide.desktop</Filename>
 			<Filename>transformer.desktop</Filename>
+			<Filename>fritzing.desktop</Filename>
 			<!--	<Category>Development</Category> -->
 		</Include>
+		<Menu>
+			<Name>More</Name>
+			<Directory>kde-more.directory</Directory>
+			<OnlyUnallocated/>
+			<Include>
+				<Category>Development</Category>
+			</Include>
+		</Menu>			
 		<Layout>
 			<Filename>scratch.desktop</Filename>
 			<Filename>s4a.desktop</Filename>
@@ -1070,14 +1083,6 @@
 			<Merge type="menus"/>
 			<Menuname>More</Menuname>
 		</Layout>		
-		<Menu>
-			<Name>More</Name>
-			<Directory>kde-more.directory</Directory>
-			<OnlyUnallocated/>
-			<Include>
-				<Category>Development</Category>
-			</Include>
-		</Menu>			
 <!--	
 		<Menu>
 			<Name>Translation</Name>
@@ -1115,6 +1120,7 @@
 		<Include>
 			<Filename>PlayOnLinux.desktop</Filename>
 			<Filename>lxterminal.desktop</Filename>
+			<Filename>org.kde.PartitionManager.desktop</Filename>
 			<Filename>org.kde.partitionmanager.desktop</Filename>
 			<Filename>kde4-partitionmanager.desktop</Filename>
 			<Filename>org.kde.kinfocenter.desktop</Filename>
@@ -1152,8 +1158,16 @@
 			<Filename>software-properties-kde.desktop</Filename>
 			<Filename>org.kde.discover.desktop</Filename>
 			<Filename>org.kde.apper.desktop</Filename>
-			<!--	<Category>System</Category> -->
+				<Category>System</Category>
 		</Include>
+		<Menu>
+			<Name>More</Name>
+			<Directory>kde-more.directory</Directory>
+			<OnlyUnallocated/>
+			<Include>
+				<Category>System</Category>
+			</Include>
+		</Menu>
 		<Layout>
 			<Filename>ubuntu-software-center.desktop</Filename>
 			<Filename>lubuntu-software-center.desktop</Filename>
@@ -1168,6 +1182,7 @@
 			<Filename>usb-creator-gtk.desktop</Filename>
 			<Filename>unetbootin.desktop</Filename>
 			<Separator/>
+			<Filename>org.kde.PartitionManager.desktop</Filename>
 			<Filename>org.kde.partitionmanager.desktop</Filename>
 			<Filename>kde4-partitionmanager.desktop</Filename>
 			<Filename>gnome-disks.desktop</Filename>
@@ -1207,14 +1222,6 @@
 			<Merge type="menus"/>
 			<Menuname>More</Menuname>
 		</Layout>
-		<Menu>
-			<Name>More</Name>
-			<Directory>kde-more.directory</Directory>
-			<OnlyUnallocated/>
-			<Include>
-				<Category>System</Category>
-			</Include>
-		</Menu>
 		
 		<Menu>
 			<Name>ScreenSavers</Name>
@@ -1243,8 +1250,16 @@
 			<Filename>JB-jconsole.desktop</Filename>
 			<Filename>JB-jvisualvm.desktop</Filename>				
 			<Filename>JB-javaws.desktop</Filename>
-			<!--	<Category>Settings</Category> -->
+				<Category>Settings</Category>
 		</Include>
+		<Menu>
+			<Name>More</Name>
+			<Directory>kde-more.directory</Directory>
+			<OnlyUnallocated/>
+			<Include>
+				<Category>Settings</Category>
+			</Include>
+		</Menu>			
 		<Layout>
 			<Separator/>
 			<Filename>kde4-systemsettings.desktop</Filename>
@@ -1271,21 +1286,13 @@
 			<Separator/>
 			<Menuname>More</Menuname>
 		</Layout>
-		<Menu>
-			<Name>More</Name>
-			<Directory>kde-more.directory</Directory>
-			<OnlyUnallocated/>
-			<Include>
-				<Category>Settings</Category>
-			</Include>
-		</Menu>			
 	</Menu>
 	<Menu>
 		<Name>ezgo</Name>
 		<Directory>myezgo.directory</Directory>
 		<Include>
 			<Filename>ezgomenu.desktop</Filename>
-			<Filename>update_ezgo.desktop</Filename>
+<!--			<Filename>update_ezgo.desktop</Filename> -->
 <!--			<Filename>my_ezgo.desktop</Filename> -->
 <!--			<Filename>ezinstall.desktop</Filename> -->
 <!--			<Filename>ezgo_center.desktop</Filename> -->
@@ -1308,7 +1315,7 @@
 			<Filename>ezgo-gallery.desktop</Filename>
 			<Filename>ezgo_doc.desktop</Filename>
 			<Separator/>
-			<Filename>update_ezgo.desktop</Filename>
+<!--			<Filename>update_ezgo.desktop</Filename> -->
 			<Filename>ezgomenu.desktop</Filename>
 			<Filename>recover.desktop</Filename>
 			<Filename>skel.desktop</Filename>

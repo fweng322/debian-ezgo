@@ -1,4 +1,4 @@
-ezgo-menu (2018122301) UNRELEASED; urgency=low
+ezgo-menu (2020053001) UNRELEASED; urgency=low
 
   * Initial release
   * fix for debian stretch
